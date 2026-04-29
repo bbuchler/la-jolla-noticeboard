@@ -1,0 +1,468 @@
+{
+  "school": {
+    "name": "Altus Schools Audeo",
+    "campus": "La Jolla",
+    "address": "7456 Girard Ave, La Jolla, CA 92037",
+    "tagline": {
+      "en": "Ride the Wave of Excellence",
+      "es": "Surfea la Ola de la Excelencia"
+    },
+    "logo": "school-logos/Altus Schools header LOGO.png",
+    "logoLarge": "school-logos/altusaudeolarge.png",
+    "logoWhite": "school-logos/Audeo_WhiteText.png.png",
+    "parentSquareUrl": "https://www.parentsquare.com",
+    "websiteUrl": "https://www.altusaudeo.com/"
+  },
+  "currentMonth": "May 2026",
+  "heroMessage": {
+    "en": "Welcome to the La Jolla Noticeboard",
+    "es": "Bienvenidos al Tablero de La Jolla"
+  },
+  "heroSubtitle": {
+    "en": "Your monthly guide to events, programs, and opportunities",
+    "es": "Tu guia mensual de eventos, programas y oportunidades"
+  },
+  "calendarImages": [
+    {
+      "month": { "en": "May 2026", "es": "Mayo 2026" },
+      "image": "monthly-calendars/May-Calendar-2026.png",
+      "pdf": "monthly-calendars/LJ Calendar - May 26.pdf"
+    }
+  ],
+  "learningPeriods": {
+    "heading": { "en": "Learning Periods", "es": "Periodos de Aprendizaje" },
+    "note": {
+      "en": "Stay on track by completing one course credit every 4-week learning period!",
+      "es": "Mantente al dia completando un credito de curso cada periodo de aprendizaje de 4 semanas!"
+    },
+    "periods": [
+      {
+        "name": "LP11",
+        "dates": { "en": "April 6 - May 1", "es": "6 de abril - 1 de mayo" }
+      },
+      {
+        "name": "LP12",
+        "dates": { "en": "May 4 - May 29", "es": "4 de mayo - 29 de mayo" }
+      }
+    ]
+  },
+  "importantDates": [
+    {
+      "date": "2026-05-01",
+      "title": { "en": "End of LP11: Credits Due!", "es": "Fin de LP11: Creditos Vencen!" },
+      "type": "deadline",
+      "badge": null
+    },
+    {
+      "date": "2026-05-01",
+      "title": { "en": "CA Science Test (Grades 8, 10-12)", "es": "Examen de Ciencias de CA (Grados 8, 10-12)" },
+      "type": "testing",
+      "badge": null
+    },
+    {
+      "date": "2026-05-04",
+      "title": { "en": "Start of LP12: Aim to finish one course!", "es": "Inicio de LP12: Intenta terminar un curso!" },
+      "type": "milestone",
+      "badge": null
+    },
+    {
+      "date": "2026-05-08",
+      "title": { "en": "Graduation Deadline: All work due for June 3rd ceremony", "es": "Fecha Limite de Graduacion: Todo el trabajo debe entregarse para la ceremonia del 3 de junio" },
+      "type": "deadline",
+      "badge": "mandatory"
+    },
+    {
+      "date": "2026-05-15",
+      "title": { "en": "Instructional Meeting (No regular hours)", "es": "Reunion de Instruccion (Sin horario regular)" },
+      "type": "closed",
+      "badge": null
+    },
+    {
+      "date": "2026-05-25",
+      "title": { "en": "Memorial Day: SCHOOL CLOSED", "es": "Dia de los Caidos: ESCUELA CERRADA" },
+      "type": "closed",
+      "badge": null
+    },
+    {
+      "date": "2026-05-28",
+      "title": { "en": "Art + Academics on Zoom, 1 PM - 2 PM", "es": "Arte + Academicos en Zoom, 1 PM - 2 PM" },
+      "type": "activity",
+      "badge": null
+    },
+    {
+      "date": "2026-05-29",
+      "title": { "en": "End of LP12: Credits Due!", "es": "Fin de LP12: Creditos Vencen!" },
+      "type": "deadline",
+      "badge": null
+    }
+  ],
+  "caaspp": {
+    "heading": { "en": "CAASPP Assessments", "es": "Evaluaciones CAASPP" },
+    "dates": { "en": "April 21 - May 29", "es": "21 de abril - 29 de mayo" },
+    "details": [
+      { "en": "Grades 6-8, 11: ELA & Math", "es": "Grados 6-8, 11: ELA y Matematicas" },
+      { "en": "Grades 8, select 10-12: CAST", "es": "Grados 8, seleccion 10-12: CAST" }
+    ],
+    "note": { "en": "Assessment schedules have been emailed!", "es": "Los horarios de evaluacion han sido enviados por correo!" }
+  },
+  "recurringEvents": [
+    {
+      "day": { "en": "Monday", "es": "Lunes" },
+      "events": [
+        {
+          "name": { "en": "Ed Ladder Tutoring", "es": "Tutoria Ed Ladder" },
+          "time": "9 AM - 3 PM",
+          "location": { "en": "La Jolla Resource Center", "es": "Centro de Recursos La Jolla" },
+          "type": "tutoring"
+        }
+      ]
+    },
+    {
+      "day": { "en": "Tuesday", "es": "Martes" },
+      "events": [
+        {
+          "name": { "en": "CLD @ Pacific Beach Resource Center", "es": "CLD @ Centro de Recursos Pacific Beach" },
+          "time": "10 AM - 11:30 AM",
+          "location": { "en": "959 Hornblend St, Pacific Beach", "es": "959 Hornblend St, Pacific Beach" },
+          "type": "program"
+        },
+        {
+          "name": { "en": "Personal Finance & Entrepreneurship", "es": "Finanzas Personales y Emprendimiento" },
+          "time": "11 AM - 12 PM",
+          "location": { "en": "La Jolla Resource Center", "es": "Centro de Recursos La Jolla" },
+          "type": "program"
+        }
+      ]
+    },
+    {
+      "day": { "en": "Wednesday", "es": "Miercoles" },
+      "events": [
+        {
+          "name": { "en": "HS ELD (Zoom)", "es": "ELD Preparatoria (Zoom)" },
+          "time": "11 AM - 12 PM",
+          "location": { "en": "Zoom", "es": "Zoom" },
+          "type": "class"
+        },
+        {
+          "name": { "en": "Middle School ELA + Math", "es": "ELA + Matematicas de Secundaria" },
+          "time": "12 PM - 1 PM",
+          "location": { "en": "Zoom", "es": "Zoom" },
+          "type": "class"
+        }
+      ]
+    },
+    {
+      "day": { "en": "Thursday", "es": "Jueves" },
+      "events": []
+    },
+    {
+      "day": { "en": "Friday", "es": "Viernes" },
+      "events": [],
+      "note": { "en": "Non-student day. Resource Center closed to students. Students still responsible for completing work from home.", "es": "Dia sin estudiantes. Centro de Recursos cerrado para estudiantes. Los estudiantes siguen siendo responsables de completar su trabajo desde casa." }
+    },
+    {
+      "day": { "en": "Weekends & Holidays", "es": "Fines de Semana y Dias Festivos" },
+      "events": [],
+      "note": { "en": "Coursework is available 24/7. Teachers respond on the next scheduled school day.", "es": "El trabajo escolar esta disponible las 24 horas. Los maestros responden el siguiente dia escolar programado." }
+    }
+  ],
+  "seasonalNote": {
+    "en": "The CAASPP testing window is now open and summer break is approaching. In-person tutoring sessions, field trips, and enrichment programs have concluded for the spring semester. These programs will resume in the fall. Check back for updated times and details!",
+    "es": "La ventana de evaluaciones CAASPP esta abierta y las vacaciones de verano se acercan. Las sesiones de tutoria presencial, excursiones y programas de enriquecimiento han concluido para el semestre de primavera. Estos programas se reanudarán en el otono. Vuelve a consultar para horarios y detalles actualizados!"
+  },
+  "fieldTrips": [],
+  "fieldTripRecap": {
+    "en": "We had an awesome 2025-26 school year full of incredible field trips! Students explored college campuses, SeaWorld, the Birch Aquarium, Cabrillo National Monument, the San Diego Courthouse, the Museum of Contemporary Art, Mesa College, In-N-Out Burger, and many more.",
+    "es": "Tuvimos un increible ano escolar 2025-26 lleno de excursiones increibles! Los estudiantes exploraron campus universitarios, SeaWorld, el Acuario Birch, el Monumento Nacional Cabrillo, el Tribunal de San Diego, el Museo de Arte Contemporaneo, Mesa College, In-N-Out Burger, y mucho mas."
+  },
+  "fieldTripLookAhead": {
+    "en": "We're looking forward to an even more robust field trip schedule next year. Stay tuned for details in the fall!",
+    "es": "Esperamos tener un programa de excursiones aun mas completo el proximo ano. Mantente atento para detalles en el otono!"
+  },
+  "programs": [
+    {
+      "id": "marine-science",
+      "title": { "en": "Marine Science Explorers Series", "es": "Serie Exploradores de Ciencias Marinas" },
+      "subtitle": { "en": "Audeo Explorers: Marine Science Series", "es": "Exploradores Audeo: Serie de Ciencias Marinas" },
+      "schedule": {
+        "en": "Contact your teacher for upcoming sessions",
+        "es": "Contacta a tu maestro para proximas sesiones"
+      },
+      "location": {
+        "en": "Pacific Beach Resource Center, 959 Hornblend St, Pacific Beach, CA 92109",
+        "es": "Centro de Recursos Pacific Beach, 959 Hornblend St, Pacific Beach, CA 92109"
+      },
+      "description": {
+        "en": "Hands-on marine science experiments, field trips to local marine ecosystems, tide pool exploration, marine life observation and study, and interactive learning experiences.",
+        "es": "Experimentos practicos de ciencias marinas, excursiones a ecosistemas marinos locales, exploracion de pozas de marea, observacion y estudio de vida marina, y experiencias de aprendizaje interactivas."
+      },
+      "eligibility": { "en": "All students grades 6-12. No prior science experience needed, just bring your curiosity!", "es": "Todos los estudiantes de grados 6-12. No se necesita experiencia previa en ciencias, solo trae tu curiosidad!" },
+      "signup": { "en": "Email or text your teacher, or stop by the resource center to register.", "es": "Envia un correo o mensaje a tu maestro, o pasa por el centro de recursos para registrarte." },
+      "icon": "🌊"
+    },
+    {
+      "id": "personal-finance",
+      "title": { "en": "Personal Finance & Entrepreneurship", "es": "Finanzas Personales y Emprendimiento" },
+      "subtitle": { "en": "20-Week Comprehensive Course", "es": "Curso Completo de 20 Semanas" },
+      "schedule": { "en": "Tuesdays, 11 AM - 12 PM", "es": "Martes, 11 AM - 12 PM" },
+      "location": {
+        "en": "La Jolla Resource Center, 7456 Girard Ave, La Jolla, CA 92037",
+        "es": "Centro de Recursos La Jolla, 7456 Girard Ave, La Jolla, CA 92037"
+      },
+      "description": {
+        "en": "Money management, investing basics, budgeting, credit and debt management, entrepreneurship concepts, and essential math concepts. Earn a course credit upon completion!",
+        "es": "Gestion del dinero, conceptos basicos de inversion, presupuestos, manejo de credito y deuda, conceptos de emprendimiento y conceptos esenciales de matematicas. Obtiene un credito de curso al completar!"
+      },
+      "eligibility": { "en": "All students in grades 6-12", "es": "Todos los estudiantes de grados 6-12" },
+      "signup": { "en": "Contact Mr. Buchler (bbuchler@altusschools.net) to reserve your spot!", "es": "Contacta al Sr. Buchler (bbuchler@altusschools.net) para reservar tu lugar!" },
+      "icon": "💰"
+    },
+    {
+      "id": "ed-ladder",
+      "title": { "en": "Ed Ladder Tutoring", "es": "Tutoria Ed Ladder" },
+      "subtitle": { "en": "Free Weekly Tutoring", "es": "Tutoria Semanal Gratuita" },
+      "schedule": { "en": "Every Monday, 9 AM - 3 PM", "es": "Cada lunes, 9 AM - 3 PM" },
+      "location": {
+        "en": "La Jolla Resource Center, 7456 Girard Ave, La Jolla, CA 92037",
+        "es": "Centro de Recursos La Jolla, 7456 Girard Ave, La Jolla, CA 92037"
+      },
+      "description": {
+        "en": "Free tutoring support available all day on Mondays. Get help with any subject!",
+        "es": "Apoyo de tutoria gratuito disponible todo el dia los lunes. Obtiene ayuda con cualquier materia!"
+      },
+      "eligibility": { "en": "All students", "es": "Todos los estudiantes" },
+      "signup": { "en": "Just show up! No appointment needed.", "es": "Solo presentate! No se necesita cita." },
+      "icon": "📚"
+    }
+  ],
+  "educationalOpportunities": [
+    {
+      "id": "cld",
+      "title": { "en": "Character & Leadership Development (CLD)", "es": "Desarrollo de Caracter y Liderazgo (CLD)" },
+      "content": {
+        "en": "A transformative experience designed to empower students to reach their full potential. It's more than just a class: an opportunity to make a real impact in your community, build strong character, and enjoy physical activities that promote teamwork and fitness for all abilities.",
+        "es": "Una experiencia transformadora disenada para empoderar a los estudiantes a alcanzar su maximo potencial. Es mas que una clase: una oportunidad para hacer un impacto real en tu comunidad, construir un caracter fuerte y disfrutar actividades fisicas que promueven el trabajo en equipo y la aptitud fisica para todas las habilidades."
+      },
+      "schedule": { "en": "Every Tuesday, 10:00 AM - 11:30 AM", "es": "Cada martes, 10:00 AM - 11:30 AM" },
+      "location": { "en": "Pacific Beach Resource Center, 959 Hornblend St", "es": "Centro de Recursos Pacific Beach, 959 Hornblend St" },
+      "highlights": [
+        { "en": "Develop leadership skills and confidence", "es": "Desarrolla habilidades de liderazgo y confianza" },
+        { "en": "Engage in meaningful community projects", "es": "Participa en proyectos comunitarios significativos" },
+        { "en": "Earn 2 lessons per session. Fulfill PE or elective credits.", "es": "Gana 2 lecciones por sesion. Cumple creditos de PE o electivos." },
+        { "en": "After a year, eligible to join the California Cadet Corps Leadership Group", "es": "Despues de un ano, elegible para unirse al Grupo de Liderazgo del Cuerpo de Cadetes de California" }
+      ]
+    },
+    {
+      "id": "vr",
+      "title": { "en": "Virtual Reality: Career Exploration & Math", "es": "Realidad Virtual: Exploracion de Carreras y Matematicas" },
+      "content": {
+        "en": "State-of-the-art VR headsets at La Jolla allow students to explore careers and earn certificates in a variety of career paths. PRISMS Math in VR brings lessons to life, letting students explore difficult science and math concepts in a whole new way with hands-on problem-solving activities.",
+        "es": "Visores de realidad virtual de ultima generacion en La Jolla permiten a los estudiantes explorar carreras y obtener certificaciones en una variedad de trayectorias profesionales. PRISMS Matematicas en VR da vida a las lecciones, permitiendo a los estudiantes explorar conceptos dificiles de ciencias y matematicas de una manera completamente nueva con actividades practicas de resolucion de problemas."
+      },
+      "schedule": { "en": "Ask your teacher for available times", "es": "Pregunta a tu maestro por los horarios disponibles" },
+      "location": { "en": "La Jolla Resource Center", "es": "Centro de Recursos La Jolla" },
+      "highlights": [
+        { "en": "Explore careers through immersive VR experiences", "es": "Explora carreras a traves de experiencias inmersivas de VR" },
+        { "en": "Earn CTE elective credit", "es": "Obtiene credito electivo de CTE" },
+        { "en": "PRISMS platform for interactive math and science", "es": "Plataforma PRISMS para matematicas y ciencias interactivas" }
+      ]
+    },
+    {
+      "id": "cte",
+      "title": { "en": "CTE Career Pathways", "es": "Trayectorias Profesionales CTE" },
+      "content": {
+        "en": "11 diverse Career Pathways to prepare students for future careers:",
+        "es": "11 trayectorias profesionales diversas para preparar a los estudiantes para futuras carreras:"
+      },
+      "pathways": [
+        { "en": "Animal Science", "es": "Ciencia Animal" },
+        { "en": "Business Management", "es": "Gestion Empresarial" },
+        { "en": "Child Development", "es": "Desarrollo Infantil" },
+        { "en": "Design, Visual, and Media Arts", "es": "Diseno, Artes Visuales y de Medios" },
+        { "en": "Environmental Resources", "es": "Recursos Ambientales" },
+        { "en": "Hospitality, Tourism, and Recreation", "es": "Hospitalidad, Turismo y Recreacion" },
+        { "en": "Patient Care", "es": "Cuidado del Paciente" },
+        { "en": "Public Safety", "es": "Seguridad Publica" },
+        { "en": "Retail Sales and Marketing", "es": "Ventas Minoristas y Mercadeo" },
+        { "en": "Software and Systems Development", "es": "Desarrollo de Software y Sistemas" },
+        { "en": "Teacher Education", "es": "Educacion para Maestros" }
+      ],
+      "schedule": null,
+      "location": null,
+      "highlights": []
+    },
+    {
+      "id": "avid",
+      "title": { "en": "AVID", "es": "AVID" },
+      "content": {
+        "en": "AVID (Advancement Via Individual Determination) helps students develop critical thinking, literacy, and math skills across all content areas. See your teacher to sign up!",
+        "es": "AVID (Avance a Traves de la Determinacion Individual) ayuda a los estudiantes a desarrollar habilidades de pensamiento critico, lectura y matematicas en todas las areas de contenido. Habla con tu maestro para inscribirte!"
+      },
+      "links": [
+        { "label": { "en": "What is AVID?", "es": "Que es AVID?" }, "url": "https://www.avid.org/what-avid-is" },
+        { "label": { "en": "AVID at Audeo", "es": "AVID en Audeo" }, "url": "https://sway.office.com/P2PdghahpH2PEGUi?ref=Link&loc=play" }
+      ],
+      "schedule": null,
+      "location": null,
+      "highlights": []
+    },
+    {
+      "id": "dual-enrollment",
+      "title": { "en": "Dual Enrollment", "es": "Inscripcion Doble" },
+      "content": {
+        "en": "With dual enrollment, students take real college courses taught by college professors at a community college while still enrolled at Altus. Most courses are fully online and asynchronous, so students can work at their own pace. These classes count as two semesters of high school credit and are weighted on a 5-point GPA scale. Best of all, they're FREE and transferable to UC and CSU.",
+        "es": "Con la inscripcion doble, los estudiantes toman cursos universitarios reales impartidos por profesores universitarios en una universidad comunitaria mientras siguen inscritos en Altus. La mayoria de los cursos son completamente en linea y asincronos, para que los estudiantes puedan trabajar a su propio ritmo. Estas clases cuentan como dos semestres de credito de preparatoria y se ponderan en una escala GPA de 5 puntos. Lo mejor de todo: son GRATUITOS y transferibles a UC y CSU."
+      },
+      "courses": [
+        {
+          "name": { "en": "Personal Growth 130: Career and Life Planning (3 units)", "es": "Crecimiento Personal 130: Planificacion de Carrera y Vida (3 unidades)" },
+          "dates": "Feb 3 - Mar 29, 2026",
+          "satisfies": { "en": "Pathway Exhibition + 1 elective/CTE", "es": "Exhibicion de Trayectoria + 1 electivo/CTE" },
+          "format": { "en": "Fully Online and Asynchronous", "es": "Completamente en Linea y Asincrono" },
+          "grades": "10-12"
+        },
+        {
+          "name": { "en": "POLI 102: Introduction to American Government (3 units)", "es": "POLI 102: Introduccion al Gobierno Americano (3 unidades)" },
+          "dates": "Feb 3 - May 3, 2026",
+          "satisfies": { "en": "Government + 1 elective", "es": "Gobierno + 1 electivo" },
+          "format": { "en": "Fully Online and Asynchronous", "es": "Completamente en Linea y Asincrono" },
+          "grades": "11-12"
+        },
+        {
+          "name": { "en": "ENGL 101: Reading and Composition (3 units)", "es": "ENGL 101: Lectura y Composicion (3 unidades)" },
+          "dates": "Feb 3 - May 3, 2026",
+          "satisfies": { "en": "Full year of high school English", "es": "Ano completo de ingles de preparatoria" },
+          "format": { "en": "Fully Online and Asynchronous", "es": "Completamente en Linea y Asincrono" },
+          "grades": "11-12"
+        }
+      ],
+      "coursesNote": {
+        "en": "These are some of our recommended courses for spring, but students can take any course available through dual enrollment.",
+        "es": "Estos son algunos de nuestros cursos recomendados para la primavera, pero los estudiantes pueden tomar cualquier curso disponible a traves de la inscripcion doble."
+      },
+      "registrationSteps": [
+        { "en": "Create a CCCApply Account at www.sdccd.edu/apply/", "es": "Crea una cuenta CCCApply en www.sdccd.edu/apply/" },
+        { "en": "Complete San Diego City College application", "es": "Completa la solicitud de San Diego City College" },
+        { "en": "Receive confirmation email (24-48 hours)", "es": "Recibe correo de confirmacion (24-48 horas)" },
+        { "en": "Complete supplemental application for HS students", "es": "Completa la solicitud suplementaria para estudiantes de preparatoria" },
+        { "en": "Register for your course", "es": "Registrate en tu curso" }
+      ],
+      "counselorContact": {
+        "name": "Steven Sutherland",
+        "email": "ssutherland@altusschools.net",
+        "role": { "en": "High School Counselor", "es": "Consejero de Preparatoria" }
+      },
+      "schedule": null,
+      "location": null,
+      "highlights": []
+    },
+    {
+      "id": "articulation",
+      "title": { "en": "Course Articulation", "es": "Articulacion de Cursos" },
+      "content": {
+        "en": "With articulation, students take courses with their Altus teacher as part of their regular coursework. If they earn an A or B, they can apply for college credit through partner colleges like MiraCosta or Southwestern. It's a great way to earn college credit without leaving the Altus classroom.",
+        "es": "Con la articulacion, los estudiantes toman cursos con su maestro de Altus como parte de su trabajo regular. Si obtienen una A o B, pueden solicitar credito universitario a traves de universidades asociadas como MiraCosta o Southwestern. Es una excelente manera de obtener credito universitario sin salir del aula de Altus."
+      },
+      "articulatedCourses": [
+        "Design Careers 1, 2",
+        "Hospitality, Tourism & Recreation 3, 4",
+        "Information & Communication Technology 1, 2",
+        "Environmental Sustainability 1, 2",
+        "Health Science Concepts 1, 2",
+        "Child Development 1, 2",
+        "Entrepreneurship 1, 2",
+        "Retail, Sales & Management 1, 2",
+        "Teacher Education",
+        "Photography 1, 2"
+      ],
+      "articulatedNote": {
+        "en": "Courses eligible for articulation credit (A or B grade required):",
+        "es": "Cursos elegibles para credito de articulacion (se requiere calificacion A o B):"
+      },
+      "articulationNote2": {
+        "en": "Detailed step-by-step guides for each course articulation process coming soon. Ask your teacher for help getting started!",
+        "es": "Guias detalladas paso a paso para el proceso de articulacion de cada curso proximamente. Pregunta a tu maestro para comenzar!"
+      },
+      "schedule": null,
+      "location": null,
+      "highlights": []
+    },
+    {
+      "id": "mental-health",
+      "title": { "en": "Mental Health & Wellness Hub", "es": "Centro de Salud Mental y Bienestar" },
+      "content": {
+        "en": "A collection of resources to support mental health and wellness needs. A safe space to find out more about concerns or situations you might be experiencing.",
+        "es": "Una coleccion de recursos para apoyar las necesidades de salud mental y bienestar. Un espacio seguro para aprender mas sobre preocupaciones o situaciones que puedas estar experimentando."
+      },
+      "link": "http://altusgo.com/hub/",
+      "schedule": null,
+      "location": null,
+      "highlights": []
+    }
+  ],
+  "weeklyMotivation": {
+    "sectionTitle": { "en": "Weekly Motivation", "es": "Motivacion Semanal" },
+    "intro": {
+      "en": "Each week I share a thought, a quote, and a question to help us tackle the week with a positive and productive mindset.",
+      "es": "Cada semana comparto un pensamiento, una cita y una pregunta para ayudarnos a enfrentar la semana con una mentalidad positiva y productiva."
+    },
+    "attribution": { "en": "Inspired by the James Clear 3-2-1 newsletter", "es": "Inspirado en el boletin 3-2-1 de James Clear" },
+    "thought": {
+      "label": { "en": "A Thought", "es": "Un Pensamiento" },
+      "text": {
+        "en": "Challenge yourself when life is easy, so you'll be ready when life is hard.",
+        "es": "Desafiate cuando la vida sea facil, para que estes listo cuando la vida sea dificil."
+      }
+    },
+    "quote": {
+      "label": { "en": "A Quote", "es": "Una Cita" },
+      "text": {
+        "en": "Be content with what you have; rejoice in the way things are. When you realize there is nothing lacking, the whole world belongs to you.",
+        "es": "Contetate con lo que tienes; alegrate de como son las cosas. Cuando te das cuenta de que no falta nada, el mundo entero te pertenece."
+      },
+      "author": "Lao Tzu",
+      "source": "Tao Te Ching"
+    },
+    "question": {
+      "label": { "en": "A Question", "es": "Una Pregunta" },
+      "text": {
+        "en": "Which of your strengths have you been under-deploying?",
+        "es": "Cuales de tus fortalezas no has estado aprovechando lo suficiente?"
+      }
+    }
+  },
+  "contacts": [
+    {
+      "name": "Mrs. Kasey Mullane",
+      "email": "kmullane@altusschools.net",
+      "phone": "858.214.2521",
+      "hours": { "en": "Mon-Thurs 10 AM - 1 PM", "es": "Lun-Jue 10 AM - 1 PM" }
+    },
+    {
+      "name": "Mr. Baptiste Buchler",
+      "email": "bbuchler@altusschools.net",
+      "phone": "858.214.2517",
+      "hours": { "en": "Mon-Thurs 11 AM - 2 PM", "es": "Lun-Jue 11 AM - 2 PM" }
+    }
+  ],
+  "sectionHeadings": {
+    "calendar": { "en": "Monthly Calendar", "es": "Calendario Mensual" },
+    "importantDates": { "en": "Important Dates & Upcoming Events", "es": "Fechas Importantes y Proximos Eventos" },
+    "recurringEvents": { "en": "Weekly Schedule", "es": "Horario Semanal" },
+    "fieldTrips": { "en": "Field Trips", "es": "Excursiones" },
+    "programs": { "en": "Tutoring Sessions & Special Programs", "es": "Sesiones de Tutoria y Programas Especiales" },
+    "educationalOpportunities": { "en": "Educational Opportunities", "es": "Oportunidades Educativas" },
+    "motivation": { "en": "Weekly Motivation", "es": "Motivacion Semanal" },
+    "contact": { "en": "Contact Us", "es": "Contactanos" }
+  },
+  "navLabels": {
+    "calendar": { "en": "Calendar", "es": "Calendario" },
+    "dates": { "en": "Dates", "es": "Fechas" },
+    "weekly": { "en": "Weekly", "es": "Semanal" },
+    "trips": { "en": "Trips", "es": "Excursiones" },
+    "programs": { "en": "Tutoring Sessions", "es": "Sesiones de Tutoria" },
+    "opportunities": { "en": "Opportunities", "es": "Oportunidades" },
+    "motivation": { "en": "Motivation", "es": "Motivacion" },
+    "contact": { "en": "Contact", "es": "Contacto" }
+  }
+}

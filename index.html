@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Jolla Noticeboard</title>
+    <meta name="description" content="Monthly noticeboard for La Jolla campus. Events, programs, and resources for students and families.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="site-header" id="top">
+        <div class="header-inner">
+            <img src="" alt="" class="header-logo" id="headerLogo">
+            <h1 class="header-title">La Jolla Noticeboard</h1>
+            <div class="header-controls">
+                <button class="lang-toggle" id="langToggle" aria-label="Toggle language">
+                    <span class="lang-label">ES</span>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        <nav class="main-nav" id="mainNav">
+            <ul class="nav-list" id="navList">
+                <!-- Populated by JS -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <img src="" alt="" class="hero-logo" id="heroLogo">
+            <h2 class="hero-title" id="heroTitle"></h2>
+            <p class="hero-day" id="heroDay"></p>
+            <p class="hero-date" id="heroDate"></p>
+            <p class="hero-tagline" id="heroTagline"></p>
+        </div>
+    </section>
+
+    <!-- Monthly Calendar -->
+    <section class="section section-alt" id="calendar">
+        <div class="container">
+            <h2 class="section-heading" data-heading="calendar"></h2>
+            <div id="calendarContent" class="calendar-grid">
+                <!-- Populated by JS -->
+            </div>
+            <div id="learningPeriods">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Important Dates -->
+    <section class="section" id="dates">
+        <div class="container">
+            <h2 class="section-heading" data-heading="importantDates"></h2>
+            <div id="caasppBanner" class="caaspp-banner">
+                <!-- Populated by JS -->
+            </div>
+            <div id="importantDatesList" class="dates-timeline">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Recurring Weekly Events -->
+    <section class="section section-alt" id="weekly">
+        <div class="container">
+            <h2 class="section-heading" data-heading="recurringEvents"></h2>
+            <div id="weeklySchedule" class="weekly-grid">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Field Trips -->
+    <section class="section" id="trips">
+        <div class="container">
+            <h2 class="section-heading" data-heading="fieldTrips"></h2>
+            <div id="fieldTripsList" class="field-trips">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Tutoring & Programs -->
+    <section class="section section-alt" id="programs">
+        <div class="container">
+            <h2 class="section-heading" data-heading="programs"></h2>
+            <div id="programsList" class="programs-grid">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Educational Opportunities -->
+    <section class="section" id="opportunities">
+        <div class="container">
+            <h2 class="section-heading" data-heading="educationalOpportunities"></h2>
+            <div id="opportunitiesList" class="accordion">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Weekly Motivation -->
+    <section class="section section-alt" id="motivation">
+        <div class="container">
+            <h2 class="section-heading" data-heading="motivation"></h2>
+            <div id="motivationContent" class="motivation-card">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <footer class="site-footer" id="contact">
+        <div class="container">
+            <h2 class="section-heading section-heading-light" data-heading="contact"></h2>
+            <div id="contactList" class="contacts-grid">
+                <!-- Populated by JS -->
+            </div>
+            <div class="footer-info">
+                <p id="footerAddress" class="footer-address"></p>
+                <a href="" id="parentSquareLink" class="btn btn-gold" target="_blank" rel="noopener">ParentSquare</a>
+            </div>
+            <div class="footer-bottom">
+                <img src="" alt="" class="footer-logo" id="footerLogo">
+                <p class="footer-copy">&copy; <span id="footerYear"></span> <span id="footerSchoolName"></span>. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Calendar Modal -->
+    <div id="calendarModal" class="modal-overlay" onclick="this.style.display='none'">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="document.getElementById('calendarModal').style.display='none'">&times;</button>
+            <img id="calendarModalImg" src="" alt="Calendar" class="modal-img">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
