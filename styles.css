@@ -301,7 +301,7 @@ h1, h2, h3, h4 {
    ============================================ */
 .hero {
     position: relative;
-    background: url('images/Altus 30 background 5.png') right center / cover no-repeat;
+    background: url('images/bluegradient.PNG') center center / cover no-repeat;
     padding: 40px 20px 40px;
     text-align: center;
     overflow: hidden;
