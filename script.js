@@ -63,6 +63,7 @@
         renderHeader();
         renderNav();
         renderHero();
+        renderBulletin();
         renderCalendar();
         renderImportantDates();
         renderWeeklySchedule();
@@ -118,6 +119,34 @@
         document.getElementById('heroDate').textContent = now.toLocaleDateString(locale, { month: 'long', day: 'numeric', year: 'numeric' });
 
         document.getElementById('heroTagline').textContent = t(siteData.school.tagline);
+    }
+
+    // --- Bulletin ---
+
+    function renderBulletin() {
+        var card = document.getElementById('bulletinCard');
+        var b = siteData.bulletin;
+        if (!b || !b.message) {
+            card.hidden = true;
+            card.innerHTML = '';
+            return;
+        }
+        if (b.expires) {
+            var today = new Date();
+            today.setHours(0, 0, 0, 0);
+            var expiry = new Date(b.expires + 'T00:00:00');
+            if (today >= expiry) {
+                card.hidden = true;
+                card.innerHTML = '';
+                return;
+            }
+        }
+        card.hidden = false;
+        var titleHtml = b.title ? '<h3 class="bulletin-title">' + t(b.title) + '</h3>' : '';
+        card.innerHTML =
+            '<span class="bulletin-icon" aria-hidden="true">&#128226;</span>' +
+            '<div class="bulletin-body">' + titleHtml +
+            '<p class="bulletin-message">' + t(b.message) + '</p></div>';
     }
 
     // --- Calendar ---

@@ -22,11 +22,19 @@
     "en": "Your monthly guide to events, programs, and opportunities",
     "es": "Tu guia mensual de eventos, programas y oportunidades"
   },
+  "bulletin": {
+    "title": { "en": "Heads-Up: Monday, May 4", "es": "Aviso: Lunes 4 de Mayo" },
+    "message": {
+      "en": "Monday is an extra testing and make-up day. ONLY scheduled testers should come to the Resource Center. State testers and all other students should work from home that day.",
+      "es": "El lunes es un dia adicional de evaluaciones y recuperacion. SOLO los estudiantes programados para examen deben venir al Centro de Recursos. Los demas estudiantes deben trabajar desde casa ese dia."
+    },
+    "expires": "2026-05-05"
+  },
   "calendarImages": [
     {
       "month": { "en": "May 2026", "es": "Mayo 2026" },
       "image": "monthly-calendars/May-Calendar-2026.png",
-      "pdf": "monthly-calendars/LJ Calendar - May 26.pdf"
+      "pdf": "monthly-calendars/May-Calendar-2026.pdf"
     }
   ],
   "learningPeriods": {
@@ -58,6 +66,12 @@
       "title": { "en": "CA Science Test (Grades 8, 10-12)", "es": "Examen de Ciencias de CA (Grados 8, 10-12)" },
       "type": "testing",
       "badge": null
+    },
+    {
+      "date": "2026-05-04",
+      "title": { "en": "Extra Testing & Make-Up Day (testers only on-site)", "es": "Dia Extra de Evaluaciones y Recuperacion (solo evaluados en el sitio)" },
+      "type": "testing",
+      "badge": "new"
     },
     {
       "date": "2026-05-04",
