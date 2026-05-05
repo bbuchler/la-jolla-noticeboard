@@ -124,9 +124,11 @@
     // --- Bulletin ---
 
     function renderBulletin() {
+        var section = document.getElementById('bulletin');
         var card = document.getElementById('bulletinCard');
         var b = siteData.bulletin;
         if (!b || !b.message) {
+            section.hidden = true;
             card.hidden = true;
             card.innerHTML = '';
             return;
@@ -136,11 +138,13 @@
             today.setHours(0, 0, 0, 0);
             var expiry = new Date(b.expires + 'T00:00:00');
             if (today >= expiry) {
+                section.hidden = true;
                 card.hidden = true;
                 card.innerHTML = '';
                 return;
             }
         }
+        section.hidden = false;
         card.hidden = false;
         var titleHtml = b.title ? '<h3 class="bulletin-title">' + t(b.title) + '</h3>' : '';
         card.innerHTML =
