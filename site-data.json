@@ -13,7 +13,7 @@
     "parentSquareUrl": "https://www.parentsquare.com",
     "websiteUrl": "https://www.altusaudeo.com/"
   },
-  "currentMonth": "May 2026",
+  "currentMonth": "June 2026",
   "heroMessage": {
     "en": "Welcome to the La Jolla Noticeboard",
     "es": "Bienvenidos al Tablero de La Jolla"
@@ -23,14 +23,19 @@
     "es": "Tu guia mensual de eventos, programas y oportunidades"
   },
   "bulletin": {
-    "title": { "en": "Heads-Up: Monday, May 4", "es": "Aviso: Lunes 4 de Mayo" },
+    "title": { "en": "Heads-Up: Graduation Week, June 2-3", "es": "Aviso: Semana de Graduacion, 2-3 de Junio" },
     "message": {
-      "en": "Monday is an extra testing and make-up day. ONLY scheduled testers should come to the Resource Center. State testers and all other students should work from home that day.",
-      "es": "El lunes es un dia adicional de evaluaciones y recuperacion. SOLO los estudiantes programados para examen deben venir al Centro de Recursos. Los demas estudiantes deben trabajar desde casa ese dia."
+      "en": "Tuesday and Wednesday, June 2 and 3, are graduation rehearsals and the ceremony. Please complete your work from home those two days.",
+      "es": "El martes y miercoles, 2 y 3 de junio, son los ensayos de graduacion y la ceremonia. Por favor completa tu trabajo desde casa esos dos dias."
     },
-    "expires": "2026-05-05"
+    "expires": "2026-06-04"
   },
   "calendarImages": [
+    {
+      "month": { "en": "June 2026", "es": "Junio 2026" },
+      "image": "monthly-calendars/June-Calendar-2026.png",
+      "pdf": "monthly-calendars/June-Calendar-2026.pdf"
+    },
     {
       "month": { "en": "May 2026", "es": "Mayo 2026" },
       "image": "monthly-calendars/May-Calendar-2026.png",
@@ -45,80 +50,66 @@
     },
     "periods": [
       {
-        "name": "LP11",
-        "dates": { "en": "April 6 - May 1", "es": "6 de abril - 1 de mayo" }
-      },
-      {
         "name": "LP12",
         "dates": { "en": "May 4 - May 29", "es": "4 de mayo - 29 de mayo" }
+      },
+      {
+        "name": "LP13",
+        "dates": { "en": "June 1 - June 26", "es": "1 de junio - 26 de junio" }
       }
     ]
   },
   "importantDates": [
     {
-      "date": "2026-05-01",
-      "title": { "en": "End of LP11: Credits Due!", "es": "Fin de LP11: Creditos Vencen!" },
-      "type": "deadline",
-      "badge": null
-    },
-    {
-      "date": "2026-05-01",
-      "title": { "en": "CA Science Test (Grades 8, 10-12)", "es": "Examen de Ciencias de CA (Grados 8, 10-12)" },
-      "type": "testing",
-      "badge": null
-    },
-    {
-      "date": "2026-05-04",
-      "title": { "en": "Extra Testing & Make-Up Day (testers only on-site)", "es": "Dia Extra de Evaluaciones y Recuperacion (solo evaluados en el sitio)" },
-      "type": "testing",
-      "badge": "new"
-    },
-    {
-      "date": "2026-05-04",
-      "title": { "en": "Start of LP12: Aim to finish one course!", "es": "Inicio de LP12: Intenta terminar un curso!" },
+      "date": "2026-06-01",
+      "title": { "en": "Start of LP13: Aim to finish one course!", "es": "Inicio de LP13: Intenta terminar un curso!" },
       "type": "milestone",
       "badge": null
     },
     {
-      "date": "2026-05-08",
-      "title": { "en": "Graduation Deadline: All work due for June 3rd ceremony", "es": "Fecha Limite de Graduacion: Todo el trabajo debe entregarse para la ceremonia del 3 de junio" },
-      "type": "deadline",
-      "badge": "mandatory"
+      "date": "2026-06-02",
+      "title": { "en": "Graduation Rehearsals & Ceremony (work from home June 2-3)", "es": "Ensayos y Ceremonia de Graduacion (trabaja desde casa el 2-3 de junio)" },
+      "type": "milestone",
+      "badge": null
     },
     {
-      "date": "2026-05-15",
-      "title": { "en": "Instructional Meeting (No regular hours)", "es": "Reunion de Instruccion (Sin horario regular)" },
+      "date": "2026-06-12",
+      "title": { "en": "All Staff Meeting (open by appointment only)", "es": "Reunion de Personal (solo con cita previa)" },
       "type": "closed",
       "badge": null
     },
     {
-      "date": "2026-05-25",
-      "title": { "en": "Memorial Day: SCHOOL CLOSED", "es": "Dia de los Caidos: ESCUELA CERRADA" },
+      "date": "2026-06-19",
+      "title": { "en": "Juneteenth: SCHOOL CLOSED", "es": "Juneteenth: ESCUELA CERRADA" },
       "type": "closed",
       "badge": null
     },
     {
-      "date": "2026-05-28",
-      "title": { "en": "Art + Academics on Zoom, 1 PM - 2 PM", "es": "Arte + Academicos en Zoom, 1 PM - 2 PM" },
-      "type": "activity",
+      "date": "2026-06-26",
+      "title": { "en": "End of LP13: Credits Due!", "es": "Fin de LP13: Creditos Vencen!" },
+      "type": "deadline",
       "badge": null
     },
     {
-      "date": "2026-05-29",
-      "title": { "en": "End of LP12: Credits Due!", "es": "Fin de LP12: Creditos Vencen!" },
-      "type": "deadline",
+      "date": "2026-06-26",
+      "title": { "en": "Last Day of the 2025-2026 School Year!", "es": "Ultimo Dia del Ano Escolar 2025-2026!" },
+      "type": "milestone",
+      "badge": null
+    },
+    {
+      "date": "2026-06-29",
+      "title": { "en": "School Closed (June 29-30)", "es": "Escuela Cerrada (29-30 de junio)" },
+      "type": "closed",
+      "badge": null
+    },
+    {
+      "date": "2026-07-01",
+      "title": { "en": "2026-2027 School Year Begins (complete re-enrollment first!)", "es": "Comienza el Ano Escolar 2026-2027 (completa la re-inscripcion antes!)" },
+      "type": "milestone",
       "badge": null
     }
   ],
-  "caaspp": {
-    "heading": { "en": "CAASPP Assessments", "es": "Evaluaciones CAASPP" },
-    "dates": { "en": "April 21 - May 29", "es": "21 de abril - 29 de mayo" },
-    "details": [
-      { "en": "Grades 6-8, 11: ELA & Math", "es": "Grados 6-8, 11: ELA y Matematicas" },
-      { "en": "Grades 8, select 10-12: CAST", "es": "Grados 8, seleccion 10-12: CAST" }
-    ],
-    "note": { "en": "Assessment schedules have been emailed!", "es": "Los horarios de evaluacion han sido enviados por correo!" }
-  },
+  "caaspp": null,
   "recurringEvents": [
     {
       "day": { "en": "Monday", "es": "Lunes" },
@@ -133,20 +124,7 @@
     },
     {
       "day": { "en": "Tuesday", "es": "Martes" },
-      "events": [
-        {
-          "name": { "en": "CLD @ Pacific Beach Resource Center", "es": "CLD @ Centro de Recursos Pacific Beach" },
-          "time": "10 AM - 11:30 AM",
-          "location": { "en": "959 Hornblend St, Pacific Beach", "es": "959 Hornblend St, Pacific Beach" },
-          "type": "program"
-        },
-        {
-          "name": { "en": "Personal Finance & Entrepreneurship", "es": "Finanzas Personales y Emprendimiento" },
-          "time": "11 AM - 12 PM",
-          "location": { "en": "La Jolla Resource Center", "es": "Centro de Recursos La Jolla" },
-          "type": "program"
-        }
-      ]
+      "events": []
     },
     {
       "day": { "en": "Wednesday", "es": "Miercoles" },
@@ -154,12 +132,6 @@
         {
           "name": { "en": "HS ELD (Zoom)", "es": "ELD Preparatoria (Zoom)" },
           "time": "11 AM - 12 PM",
-          "location": { "en": "Zoom", "es": "Zoom" },
-          "type": "class"
-        },
-        {
-          "name": { "en": "Middle School ELA + Math", "es": "ELA + Matematicas de Secundaria" },
-          "time": "12 PM - 1 PM",
           "location": { "en": "Zoom", "es": "Zoom" },
           "type": "class"
         }
@@ -181,8 +153,8 @@
     }
   ],
   "seasonalNote": {
-    "en": "The CAASPP testing window is now open and summer break is approaching. In-person tutoring sessions, field trips, and enrichment programs have concluded for the spring semester. These programs will resume in the fall. Check back for updated times and details!",
-    "es": "La ventana de evaluaciones CAASPP esta abierta y las vacaciones de verano se acercan. Las sesiones de tutoria presencial, excursiones y programas de enriquecimiento han concluido para el semestre de primavera. Estos programas se reanudarán en el otono. Vuelve a consultar para horarios y detalles actualizados!"
+    "en": "The 2025-2026 school year wraps up on June 26. Ed Ladder tutoring (Mondays) and HS ELD on Zoom (Wednesdays) continue through June, but field trips and special programs have finished for the year and will return in the fall. Be sure to complete your re-enrollment paperwork with your teacher before July 1!",
+    "es": "El ano escolar 2025-2026 termina el 26 de junio. La tutoria Ed Ladder (lunes) y el ELD de preparatoria por Zoom (miercoles) continuan durante junio, pero las excursiones y los programas especiales han terminado por este ano y regresaran en el otono. Asegurate de completar tu papeleo de re-inscripcion con tu maestro antes del 1 de julio!"
   },
   "fieldTrips": [],
   "fieldTripRecap": {

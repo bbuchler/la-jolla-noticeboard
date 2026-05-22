@@ -188,12 +188,18 @@
     // --- Important Dates ---
 
     function renderImportantDates() {
-        // CAASPP banner
+        // CAASPP banner (hidden when there is no active testing window)
         var caaspp = siteData.caaspp;
         var banner = document.getElementById('caasppBanner');
-        banner.innerHTML = '<h3>' + t(caaspp.heading) + ' — ' + t(caaspp.dates) + '</h3>' +
-            caaspp.details.map(function (d) { return '<p>' + t(d) + '</p>'; }).join('') +
-            '<p style="margin-top:8px;font-weight:600;">' + t(caaspp.note) + '</p>';
+        if (!caaspp) {
+            banner.hidden = true;
+            banner.innerHTML = '';
+        } else {
+            banner.hidden = false;
+            banner.innerHTML = '<h3>' + t(caaspp.heading) + ' — ' + t(caaspp.dates) + '</h3>' +
+                caaspp.details.map(function (d) { return '<p>' + t(d) + '</p>'; }).join('') +
+                '<p style="margin-top:8px;font-weight:600;">' + t(caaspp.note) + '</p>';
+        }
 
         // Type labels
         var typeLabels = {
