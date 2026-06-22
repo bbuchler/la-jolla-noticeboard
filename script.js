@@ -270,12 +270,6 @@
 
     // --- Field Trips ---
 
-    /** Seasonal note banner HTML */
-    function seasonalBannerHtml() {
-        if (!siteData.seasonalNote) return '';
-        return '<div class="seasonal-banner">' + t(siteData.seasonalNote) + '</div>';
-    }
-
     function renderFieldTrips() {
         var container = document.getElementById('fieldTripsList');
 
@@ -316,9 +310,8 @@
 
     function renderPrograms() {
         var container = document.getElementById('programsList');
-        var aboveHtml = seasonalBannerHtml() +
-            '<p class="programs-returning-note">' +
-            (currentLang === 'es' ? 'Estos son los programas que ofrecimos este ano. Esperamos horarios similares en el otono:' : 'These are the programs we offered this year. Expect similar schedules in the fall:') +
+        var aboveHtml = '<p class="programs-returning-note">' +
+            (currentLang === 'es' ? 'Estos son programas que ofrecimos el ano pasado y esperamos volver a ofrecer en el otono:' : 'These are programs we offered last year and expect to bring back in the fall:') +
             '</p>';
 
         // Put banners above the grid, cards inside the grid
@@ -459,6 +452,7 @@
             '<div class="motivation-thought">' + t(m.thought.text) + '</div></div>' +
             '<div class="motivation-section">' +
             '<div class="motivation-label">' + t(m.quote.label) + '</div>' +
+            (m.quote.context ? '<div class="motivation-context">' + t(m.quote.context) + '</div>' : '') +
             '<div class="motivation-quote-text">"' + t(m.quote.text) + '"</div>' +
             '<div class="motivation-quote-author">' + m.quote.author + (m.quote.source ? ', <em>' + m.quote.source + '</em>' : '') + '</div></div>' +
             '<div class="motivation-section">' +

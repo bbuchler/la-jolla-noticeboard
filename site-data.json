@@ -13,7 +13,7 @@
     "parentSquareUrl": "https://www.parentsquare.com",
     "websiteUrl": "https://www.altusaudeo.com/"
   },
-  "currentMonth": "June 2026",
+  "currentMonth": "July 2026",
   "heroMessage": {
     "en": "Welcome to the La Jolla Noticeboard",
     "es": "Bienvenidos al Tablero de La Jolla"
@@ -23,12 +23,12 @@
     "es": "Tu guia mensual de eventos, programas y oportunidades"
   },
   "bulletin": {
-    "title": { "en": "Heads-Up: Graduation Week, June 2-3", "es": "Aviso: Semana de Graduacion, 2-3 de Junio" },
+    "title": { "en": "School Year Transition: Closed June 29-30 and July 3", "es": "Transicion del Ano Escolar: Cerrado 29-30 de junio y 3 de julio" },
     "message": {
-      "en": "Tuesday and Wednesday, June 2 and 3, are graduation rehearsals and the ceremony. Please complete your work from home those two days.",
-      "es": "El martes y miercoles, 2 y 3 de junio, son los ensayos de graduacion y la ceremonia. Por favor completa tu trabajo desde casa esos dos dias."
+      "en": "The 2025-2026 school year ends Friday, June 26. The Resource Center is closed June 29-30, the new school year begins Wednesday, July 1, and school is closed Friday, July 3 in observance of Independence Day.",
+      "es": "El ano escolar 2025-2026 termina el viernes, 26 de junio. El Centro de Recursos estara cerrado el 29-30 de junio, el nuevo ano escolar comienza el miercoles, 1 de julio, y la escuela estara cerrada el viernes, 3 de julio en observancia del Dia de la Independencia."
     },
-    "expires": "2026-06-04"
+    "expires": "2026-07-04"
   },
   "calendarImages": [
     {
@@ -37,9 +37,9 @@
       "pdf": "monthly-calendars/June-Calendar-2026.pdf"
     },
     {
-      "month": { "en": "May 2026", "es": "Mayo 2026" },
-      "image": "monthly-calendars/May-Calendar-2026.png",
-      "pdf": "monthly-calendars/May-Calendar-2026.pdf"
+      "month": { "en": "July 2026", "es": "Julio 2026" },
+      "image": "monthly-calendars/July-Calendar-2026.png",
+      "pdf": "monthly-calendars/LJ July 26.pdf"
     }
   ],
   "learningPeriods": {
@@ -50,40 +50,12 @@
     },
     "periods": [
       {
-        "name": "LP12",
-        "dates": { "en": "May 4 - May 29", "es": "4 de mayo - 29 de mayo" }
-      },
-      {
-        "name": "LP13",
-        "dates": { "en": "June 1 - June 26", "es": "1 de junio - 26 de junio" }
+        "name": "LP1",
+        "dates": { "en": "July 1 - July 24", "es": "1 de julio - 24 de julio" }
       }
     ]
   },
   "importantDates": [
-    {
-      "date": "2026-06-01",
-      "title": { "en": "Start of LP13: Aim to finish one course!", "es": "Inicio de LP13: Intenta terminar un curso!" },
-      "type": "milestone",
-      "badge": null
-    },
-    {
-      "date": "2026-06-02",
-      "title": { "en": "Graduation Rehearsals & Ceremony (work from home June 2-3)", "es": "Ensayos y Ceremonia de Graduacion (trabaja desde casa el 2-3 de junio)" },
-      "type": "milestone",
-      "badge": null
-    },
-    {
-      "date": "2026-06-12",
-      "title": { "en": "All Staff Meeting (open by appointment only)", "es": "Reunion de Personal (solo con cita previa)" },
-      "type": "closed",
-      "badge": null
-    },
-    {
-      "date": "2026-06-19",
-      "title": { "en": "Juneteenth: SCHOOL CLOSED", "es": "Juneteenth: ESCUELA CERRADA" },
-      "type": "closed",
-      "badge": null
-    },
     {
       "date": "2026-06-26",
       "title": { "en": "End of LP13: Credits Due!", "es": "Fin de LP13: Creditos Vencen!" },
@@ -98,7 +70,7 @@
     },
     {
       "date": "2026-06-29",
-      "title": { "en": "School Closed (June 29-30)", "es": "Escuela Cerrada (29-30 de junio)" },
+      "title": { "en": "School Closed: Between School Years (June 29-30)", "es": "Escuela Cerrada: Entre Anos Escolares (29-30 de junio)" },
       "type": "closed",
       "badge": null
     },
@@ -107,20 +79,31 @@
       "title": { "en": "2026-2027 School Year Begins (complete re-enrollment first!)", "es": "Comienza el Ano Escolar 2026-2027 (completa la re-inscripcion antes!)" },
       "type": "milestone",
       "badge": null
+    },
+    {
+      "date": "2026-07-03",
+      "title": { "en": "School Closed in Observance of Independence Day", "es": "Escuela Cerrada en Observancia del Dia de la Independencia" },
+      "type": "closed",
+      "badge": null
+    },
+    {
+      "date": "2026-07-14",
+      "title": { "en": "8th Grade Promotion: 4:00 PM, Altus Showcase: 5:30 PM at Pacific Beach", "es": "Promocion de 8o Grado: 4:00 PM, Exhibicion Altus: 5:30 PM en Pacific Beach" },
+      "type": "activity",
+      "badge": null
+    },
+    {
+      "date": "2026-07-24",
+      "title": { "en": "End of LP1: Credits Due!", "es": "Fin de LP1: Creditos Vencen!" },
+      "type": "deadline",
+      "badge": null
     }
   ],
   "caaspp": null,
   "recurringEvents": [
     {
       "day": { "en": "Monday", "es": "Lunes" },
-      "events": [
-        {
-          "name": { "en": "Ed Ladder Tutoring", "es": "Tutoria Ed Ladder" },
-          "time": "9 AM - 3 PM",
-          "location": { "en": "La Jolla Resource Center", "es": "Centro de Recursos La Jolla" },
-          "type": "tutoring"
-        }
-      ]
+      "events": []
     },
     {
       "day": { "en": "Tuesday", "es": "Martes" },
@@ -153,8 +136,8 @@
     }
   ],
   "seasonalNote": {
-    "en": "The 2025-2026 school year wraps up on June 26. Ed Ladder tutoring (Mondays) and HS ELD on Zoom (Wednesdays) continue through June, but field trips and special programs have finished for the year and will return in the fall. Be sure to complete your re-enrollment paperwork with your teacher before July 1!",
-    "es": "El ano escolar 2025-2026 termina el 26 de junio. La tutoria Ed Ladder (lunes) y el ELD de preparatoria por Zoom (miercoles) continuan durante junio, pero las excursiones y los programas especiales han terminado por este ano y regresaran en el otono. Asegurate de completar tu papeleo de re-inscripcion con tu maestro antes del 1 de julio!"
+    "en": "The 2026-2027 school year begins Wednesday, July 1. The Resource Center is closed June 29-30 and Friday, July 3, so please plan teacher check-ins around those dates. HS ELD continues on Wednesdays from 11 AM - 12 PM on Zoom.",
+    "es": "El ano escolar 2026-2027 comienza el miercoles, 1 de julio. El Centro de Recursos estara cerrado el 29-30 de junio y el viernes, 3 de julio, asi que planifica tus citas con maestros alrededor de esas fechas. ELD de preparatoria continua los miercoles de 11 AM - 12 PM por Zoom."
   },
   "fieldTrips": [],
   "fieldTripRecap": {
@@ -171,8 +154,8 @@
       "title": { "en": "Marine Science Explorers Series", "es": "Serie Exploradores de Ciencias Marinas" },
       "subtitle": { "en": "Audeo Explorers: Marine Science Series", "es": "Exploradores Audeo: Serie de Ciencias Marinas" },
       "schedule": {
-        "en": "Contact your teacher for upcoming sessions",
-        "es": "Contacta a tu maestro para proximas sesiones"
+        "en": "Returning in the fall",
+        "es": "Regresa en el otono"
       },
       "location": {
         "en": "Pacific Beach Resource Center, 959 Hornblend St, Pacific Beach, CA 92109",
@@ -190,7 +173,7 @@
       "id": "personal-finance",
       "title": { "en": "Personal Finance & Entrepreneurship", "es": "Finanzas Personales y Emprendimiento" },
       "subtitle": { "en": "20-Week Comprehensive Course", "es": "Curso Completo de 20 Semanas" },
-      "schedule": { "en": "Tuesdays, 11 AM - 12 PM", "es": "Martes, 11 AM - 12 PM" },
+      "schedule": { "en": "Returning in the fall", "es": "Regresa en el otono" },
       "location": {
         "en": "La Jolla Resource Center, 7456 Girard Ave, La Jolla, CA 92037",
         "es": "Centro de Recursos La Jolla, 7456 Girard Ave, La Jolla, CA 92037"
@@ -202,23 +185,6 @@
       "eligibility": { "en": "All students in grades 6-12", "es": "Todos los estudiantes de grados 6-12" },
       "signup": { "en": "Contact Mr. Buchler (bbuchler@altusschools.net) to reserve your spot!", "es": "Contacta al Sr. Buchler (bbuchler@altusschools.net) para reservar tu lugar!" },
       "icon": "💰"
-    },
-    {
-      "id": "ed-ladder",
-      "title": { "en": "Ed Ladder Tutoring", "es": "Tutoria Ed Ladder" },
-      "subtitle": { "en": "Free Weekly Tutoring", "es": "Tutoria Semanal Gratuita" },
-      "schedule": { "en": "Every Monday, 9 AM - 3 PM", "es": "Cada lunes, 9 AM - 3 PM" },
-      "location": {
-        "en": "La Jolla Resource Center, 7456 Girard Ave, La Jolla, CA 92037",
-        "es": "Centro de Recursos La Jolla, 7456 Girard Ave, La Jolla, CA 92037"
-      },
-      "description": {
-        "en": "Free tutoring support available all day on Mondays. Get help with any subject!",
-        "es": "Apoyo de tutoria gratuito disponible todo el dia los lunes. Obtiene ayuda con cualquier materia!"
-      },
-      "eligibility": { "en": "All students", "es": "Todos los estudiantes" },
-      "signup": { "en": "Just show up! No appointment needed.", "es": "Solo presentate! No se necesita cita." },
-      "icon": "📚"
     }
   ],
   "educationalOpportunities": [
@@ -396,24 +362,28 @@
     "thought": {
       "label": { "en": "A Thought", "es": "Un Pensamiento" },
       "text": {
-        "en": "Challenge yourself when life is easy, so you'll be ready when life is hard.",
-        "es": "Desafiate cuando la vida sea facil, para que estes listo cuando la vida sea dificil."
+        "en": "Be forgiving with your past self. What's done is done. No sense in beating yourself up about it. Be strict with your present self. Win the moment in front of you right now. Be flexible with your future self. There are many paths to success. You don't need life to be a certain way to live well.",
+        "es": "Perdona a tu yo del pasado. Lo hecho, hecho esta. No tiene sentido castigarte por eso. Se estricto con tu yo del presente. Gana el momento que tienes enfrente ahora mismo. Se flexible con tu yo del futuro. Hay muchos caminos hacia el exito. No necesitas que la vida sea de una sola manera para vivir bien."
       }
     },
     "quote": {
       "label": { "en": "A Quote", "es": "Una Cita" },
-      "text": {
-        "en": "Be content with what you have; rejoice in the way things are. When you realize there is nothing lacking, the whole world belongs to you.",
-        "es": "Contetate con lo que tienes; alegrate de como son las cosas. Cuando te das cuenta de que no falta nada, el mundo entero te pertenece."
+      "context": {
+        "en": "Confucius reminds us that every comparison can become a mirror for growth.",
+        "es": "Confucio nos recuerda que cada comparacion puede convertirse en un espejo para crecer."
       },
-      "author": "Lao Tzu",
-      "source": "Tao Te Ching"
+      "text": {
+        "en": "When you meet someone better than yourself, turn your thoughts to becoming his equal. When you meet someone not as good as you are, look within and examine your own self.",
+        "es": "Cuando encuentres a alguien mejor que tu, dirige tus pensamientos a llegar a ser su igual. Cuando encuentres a alguien que no sea tan bueno como tu, mira dentro de ti y examinate a ti mismo."
+      },
+      "author": "Confucius",
+      "source": "Ancient Chinese philosophy"
     },
     "question": {
       "label": { "en": "A Question", "es": "Una Pregunta" },
       "text": {
-        "en": "Which of your strengths have you been under-deploying?",
-        "es": "Cuales de tus fortalezas no has estado aprovechando lo suficiente?"
+        "en": "Did you win the day?",
+        "es": "Ganaste el dia?"
       }
     }
   },
@@ -436,7 +406,7 @@
     "importantDates": { "en": "Important Dates & Upcoming Events", "es": "Fechas Importantes y Proximos Eventos" },
     "recurringEvents": { "en": "Weekly Schedule", "es": "Horario Semanal" },
     "fieldTrips": { "en": "Field Trips", "es": "Excursiones" },
-    "programs": { "en": "Tutoring Sessions & Special Programs", "es": "Sesiones de Tutoria y Programas Especiales" },
+    "programs": { "en": "Special Programs", "es": "Programas Especiales" },
     "educationalOpportunities": { "en": "Educational Opportunities", "es": "Oportunidades Educativas" },
     "motivation": { "en": "Weekly Motivation", "es": "Motivacion Semanal" },
     "contact": { "en": "Contact Us", "es": "Contactanos" }
@@ -446,7 +416,7 @@
     "dates": { "en": "Dates", "es": "Fechas" },
     "weekly": { "en": "Weekly", "es": "Semanal" },
     "trips": { "en": "Field Trips", "es": "Excursiones" },
-    "programs": { "en": "Tutoring Sessions", "es": "Sesiones de Tutoria" },
+    "programs": { "en": "Programs", "es": "Programas" },
     "opportunities": { "en": "Opportunities", "es": "Oportunidades" },
     "motivation": { "en": "Motivation", "es": "Motivacion" },
     "contact": { "en": "Contact", "es": "Contacto" }

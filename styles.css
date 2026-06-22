@@ -364,7 +364,7 @@ h1, h2, h3, h4 {
    BULLETIN / ANNOUNCEMENT
    ============================================ */
 .bulletin-section {
-    padding: 18px 0 0;
+    padding: 18px 0 36px;
 }
 
 .bulletin-card {
@@ -772,19 +772,6 @@ h1, h2, h3, h4 {
     font-style: italic;
 }
 
-/* Seasonal Banner */
-.seasonal-banner {
-    background: linear-gradient(135deg, #fff3cd, #ffeaa7);
-    border: 1px solid #f0d060;
-    border-radius: var(--radius);
-    padding: 16px 20px;
-    font-size: 0.9rem;
-    line-height: 1.5;
-    color: #665200;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
 /* Field Trip Recap */
 .field-trip-recap {
     background: var(--white);
@@ -915,6 +902,10 @@ h1, h2, h3, h4 {
 .programs-cards {
     display: grid;
     gap: 20px;
+    grid-template-columns: minmax(0, min(100%, 360px));
+    width: min(100%, 360px);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .program-card {
@@ -1215,36 +1206,36 @@ h1, h2, h3, h4 {
     margin-bottom: 10px;
 }
 
-.motivation-thought {
-    font-size: 1.1rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    color: var(--dark-blue);
-    line-height: 1.5;
-    white-space: pre-line;
-}
-
-.motivation-quote-text {
-    font-size: 1.3rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    color: var(--dark-blue);
-    font-style: italic;
-    line-height: 1.4;
-    margin-bottom: 8px;
-}
-
-.motivation-quote-author {
-    font-size: 0.85rem;
-    color: var(--gray-medium);
-}
-
+.motivation-thought,
+.motivation-quote-text,
 .motivation-question-text {
     font-size: 1.1rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     color: var(--dark-blue);
     line-height: 1.5;
+}
+
+.motivation-context {
+    font-size: 0.95rem;
+    color: var(--gray-medium);
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.motivation-thought {
+    white-space: pre-line;
+}
+
+.motivation-quote-text {
+    font-size: 1.05rem;
+    font-style: normal;
+    margin-bottom: 8px;
+}
+
+.motivation-quote-author {
+    font-size: 0.85rem;
+    color: var(--gray-medium);
 }
 
 /* ============================================
@@ -1361,7 +1352,8 @@ h1, h2, h3, h4 {
     }
 
     .programs-cards {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, minmax(0, 360px));
+        width: min(100%, 740px);
     }
 
     .contacts-grid {
@@ -1451,7 +1443,8 @@ h1, h2, h3, h4 {
     }
 
     .programs-cards {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, minmax(0, 360px));
+        width: min(100%, 740px);
     }
 
     .weekly-grid {
