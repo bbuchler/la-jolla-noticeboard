@@ -38,8 +38,8 @@
     },
     {
       "month": { "en": "July 2026", "es": "Julio 2026" },
-      "image": "monthly-calendars/July-Calendar-2026.png",
-      "pdf": "monthly-calendars/LJ July 26.pdf"
+      "image": "monthly-calendars/July-Calendar-2026.png?v=20260624-1",
+      "pdf": "monthly-calendars/LJ July 26 Updated.pdf"
     }
   ],
   "learningPeriods": {
@@ -88,7 +88,7 @@
     },
     {
       "date": "2026-07-14",
-      "title": { "en": "8th Grade Promotion: 4:00 PM, Altus Showcase: 5:30 PM at Pacific Beach", "es": "Promocion de 8o Grado: 4:00 PM, Exhibicion Altus: 5:30 PM en Pacific Beach" },
+      "title": { "en": "8th Grade Promotion: 4:00 PM, Altus Showcase: 4:30 PM at Pacific Beach", "es": "Promocion de 8o Grado: 4:00 PM, Exhibicion Altus: 4:30 PM en Pacific Beach" },
       "type": "activity",
       "badge": null
     },
