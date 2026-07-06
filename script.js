@@ -47,7 +47,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20260624-1');
+            const response = await fetch('site-data.json?v=20260706-1');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -95,6 +95,7 @@
             { href: '#trips', key: 'trips' },
             { href: '#programs', key: 'programs' },
             { href: '#opportunities', key: 'opportunities' },
+            { href: 'dual-enrollment.html', key: 'dualEnrollment' },
             { href: '#motivation', key: 'motivation' },
             { href: '#contact', key: 'contact' }
         ];

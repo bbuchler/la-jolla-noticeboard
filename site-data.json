@@ -1,6 +1,6 @@
 {
   "school": {
-    "name": "Altus Schools Audeo",
+    "name": "Altus Schools Charter School of San Diego",
     "campus": "La Jolla",
     "address": "7456 Girard Ave, La Jolla, CA 92037",
     "tagline": {
@@ -9,9 +9,9 @@
     },
     "logo": "school-logos/Altus Schools header LOGO.png",
     "logoLarge": "school-logos/altusaudeolarge.png",
-    "logoWhite": "school-logos/Audeo_WhiteText.png.png",
+    "logoWhite": "school-logos/Altus Schools header LOGO.png",
     "parentSquareUrl": "https://www.parentsquare.com",
-    "websiteUrl": "https://www.altusaudeo.com/"
+    "websiteUrl": "https://www.altuscssd.com/"
   },
   "currentMonth": "July 2026",
   "heroMessage": {
@@ -152,7 +152,7 @@
     {
       "id": "marine-science",
       "title": { "en": "Marine Science Explorers Series", "es": "Serie Exploradores de Ciencias Marinas" },
-      "subtitle": { "en": "Audeo Explorers: Marine Science Series", "es": "Exploradores Audeo: Serie de Ciencias Marinas" },
+      "subtitle": { "en": "CSSD Explorers: Marine Science Series", "es": "Exploradores CSSD: Serie de Ciencias Marinas" },
       "schedule": {
         "en": "Returning in the fall",
         "es": "Regresa en el otono"
@@ -252,7 +252,7 @@
       },
       "links": [
         { "label": { "en": "What is AVID?", "es": "Que es AVID?" }, "url": "https://www.avid.org/what-avid-is" },
-        { "label": { "en": "AVID at Audeo", "es": "AVID en Audeo" }, "url": "https://sway.office.com/P2PdghahpH2PEGUi?ref=Link&loc=play" }
+        { "label": { "en": "AVID at Charter School of San Diego", "es": "AVID en Charter School of San Diego" }, "url": "https://sway.office.com/P2PdghahpH2PEGUi?ref=Link&loc=play" }
       ],
       "schedule": null,
       "location": null,
@@ -262,51 +262,19 @@
       "id": "dual-enrollment",
       "title": { "en": "Dual Enrollment", "es": "Inscripcion Doble" },
       "content": {
-        "en": "With dual enrollment, students take real college courses taught by college professors at a community college while still enrolled at Altus. Most courses are fully online and asynchronous, so students can work at their own pace. These classes count as two semesters of high school credit and are weighted on a 5-point GPA scale. Best of all, they're FREE and transferable to UC and CSU.",
-        "es": "Con la inscripcion doble, los estudiantes toman cursos universitarios reales impartidos por profesores universitarios en una universidad comunitaria mientras siguen inscritos en Altus. La mayoria de los cursos son completamente en linea y asincronos, para que los estudiantes puedan trabajar a su propio ritmo. Estas clases cuentan como dos semestres de credito de preparatoria y se ponderan en una escala GPA de 5 puntos. Lo mejor de todo: son GRATUITOS y transferibles a UC y CSU."
+        "en": "Dual enrollment lets students take real college classes while still enrolled at Charter School of San Diego. Courses are free, earn college credit when passed, are weighted on a 5-point GPA scale, and can sometimes count double for high school credit. Start with the full guide below: it lists recommended courses, college links, application steps, videos, and downloadable PDFs.",
+        "es": "La inscripcion doble permite que los estudiantes tomen clases universitarias reales mientras siguen inscritos en Charter School of San Diego. Los cursos son gratuitos, dan credito universitario al aprobar, se ponderan en una escala GPA de 5 puntos y a veces pueden contar doble para credito de preparatoria. Comienza con la guia completa abajo: incluye cursos recomendados, enlaces universitarios, pasos de solicitud, videos y PDFs descargables."
       },
-      "courses": [
-        {
-          "name": { "en": "Personal Growth 130: Career and Life Planning (3 units)", "es": "Crecimiento Personal 130: Planificacion de Carrera y Vida (3 unidades)" },
-          "dates": "Feb 3 - Mar 29, 2026",
-          "satisfies": { "en": "Pathway Exhibition + 1 elective/CTE", "es": "Exhibicion de Trayectoria + 1 electivo/CTE" },
-          "format": { "en": "Fully Online and Asynchronous", "es": "Completamente en Linea y Asincrono" },
-          "grades": "10-12"
-        },
-        {
-          "name": { "en": "POLI 102: Introduction to American Government (3 units)", "es": "POLI 102: Introduccion al Gobierno Americano (3 unidades)" },
-          "dates": "Feb 3 - May 3, 2026",
-          "satisfies": { "en": "Government + 1 elective", "es": "Gobierno + 1 electivo" },
-          "format": { "en": "Fully Online and Asynchronous", "es": "Completamente en Linea y Asincrono" },
-          "grades": "11-12"
-        },
-        {
-          "name": { "en": "ENGL 101: Reading and Composition (3 units)", "es": "ENGL 101: Lectura y Composicion (3 unidades)" },
-          "dates": "Feb 3 - May 3, 2026",
-          "satisfies": { "en": "Full year of high school English", "es": "Ano completo de ingles de preparatoria" },
-          "format": { "en": "Fully Online and Asynchronous", "es": "Completamente en Linea y Asincrono" },
-          "grades": "11-12"
-        }
+      "links": [
+        { "label": { "en": "Open Dual Enrollment Guide", "es": "Abrir Guia de Inscripcion Doble" }, "url": "dual-enrollment.html" }
       ],
-      "coursesNote": {
-        "en": "These are some of our recommended courses for spring, but students can take any course available through dual enrollment.",
-        "es": "Estos son algunos de nuestros cursos recomendados para la primavera, pero los estudiantes pueden tomar cualquier curso disponible a traves de la inscripcion doble."
-      },
-      "registrationSteps": [
-        { "en": "Create a CCCApply Account at www.sdccd.edu/apply/", "es": "Crea una cuenta CCCApply en www.sdccd.edu/apply/" },
-        { "en": "Complete San Diego City College application", "es": "Completa la solicitud de San Diego City College" },
-        { "en": "Receive confirmation email (24-48 hours)", "es": "Recibe correo de confirmacion (24-48 horas)" },
-        { "en": "Complete supplemental application for HS students", "es": "Completa la solicitud suplementaria para estudiantes de preparatoria" },
-        { "en": "Register for your course", "es": "Registrate en tu curso" }
-      ],
-      "counselorContact": {
-        "name": "Steven Sutherland",
-        "email": "ssutherland@altusschools.net",
-        "role": { "en": "High School Counselor", "es": "Consejero de Preparatoria" }
-      },
       "schedule": null,
       "location": null,
-      "highlights": []
+      "highlights": [
+        { "en": "Recommended first course: Personal Growth at City College or Miramar", "es": "Primer curso recomendado: Crecimiento Personal en City College o Miramar" },
+        { "en": "Courses fill quickly, so start the signup process ASAP", "es": "Los cursos se llenan rapido, asi que empieza el proceso lo antes posible" },
+        { "en": "Plan for one college class per semester unless special approval is given", "es": "Planea tomar una clase universitaria por semestre a menos que haya aprobacion especial" }
+      ]
     },
     {
       "id": "articulation",
@@ -418,6 +386,7 @@
     "trips": { "en": "Field Trips", "es": "Excursiones" },
     "programs": { "en": "Programs", "es": "Programas" },
     "opportunities": { "en": "Opportunities", "es": "Oportunidades" },
+    "dualEnrollment": { "en": "Dual Enrollment", "es": "Inscripcion Doble" },
     "motivation": { "en": "Motivation", "es": "Motivacion" },
     "contact": { "en": "Contact", "es": "Contacto" }
   }
