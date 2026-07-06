@@ -2085,3 +2085,61 @@ h1, h2, h3, h4 {
         grid-template-columns: 1fr;
     }
 }
+
+/* Main noticeboard logo sizing */
+.site-header .header-logo {
+    width: 92px;
+}
+
+@media (min-width: 1024px) {
+    .site-header .header-logo {
+        width: 120px;
+    }
+}
+
+/* Keep dual enrollment header logo larger than the main noticeboard default */
+.dual-page .dual-header-logo {
+    width: 110px;
+}
+
+@media (min-width: 768px) {
+    .dual-page .dual-header-logo {
+        width: 150px;
+    }
+}
+
+/* Mobile header cleanup for translated dual enrollment title */
+@media (max-width: 600px) {
+    .dual-page .header-inner {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-areas:
+            "logo controls"
+            "title title";
+        row-gap: 6px;
+        align-items: center;
+    }
+
+    .dual-page .dual-header-logo {
+        grid-area: logo;
+        width: 96px;
+    }
+
+    .dual-page .dual-header-title {
+        grid-area: title;
+        font-size: 0.98rem;
+        line-height: 1.15;
+        text-align: center;
+    }
+
+    .dual-page .header-controls {
+        grid-area: controls;
+        justify-self: end;
+        gap: 8px;
+    }
+
+    .dual-page .header-link,
+    .dual-page .lang-toggle {
+        padding: 6px 10px;
+    }
+}

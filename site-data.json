@@ -32,11 +32,6 @@
   },
   "calendarImages": [
     {
-      "month": { "en": "June 2026", "es": "Junio 2026" },
-      "image": "monthly-calendars/June-Calendar-2026.png",
-      "pdf": "monthly-calendars/June-Calendar-2026.pdf"
-    },
-    {
       "month": { "en": "July 2026", "es": "Julio 2026" },
       "image": "monthly-calendars/July-Calendar-2026.png?v=20260624-1",
       "pdf": "monthly-calendars/LJ July 26 Updated.pdf"
@@ -56,24 +51,6 @@
     ]
   },
   "importantDates": [
-    {
-      "date": "2026-06-26",
-      "title": { "en": "End of LP13: Credits Due!", "es": "Fin de LP13: Creditos Vencen!" },
-      "type": "deadline",
-      "badge": null
-    },
-    {
-      "date": "2026-06-26",
-      "title": { "en": "Last Day of the 2025-2026 School Year!", "es": "Ultimo Dia del Ano Escolar 2025-2026!" },
-      "type": "milestone",
-      "badge": null
-    },
-    {
-      "date": "2026-06-29",
-      "title": { "en": "School Closed: Between School Years (June 29-30)", "es": "Escuela Cerrada: Entre Anos Escolares (29-30 de junio)" },
-      "type": "closed",
-      "badge": null
-    },
     {
       "date": "2026-07-01",
       "title": { "en": "2026-2027 School Year Begins (complete re-enrollment first!)", "es": "Comienza el Ano Escolar 2026-2027 (completa la re-inscripcion antes!)" },
