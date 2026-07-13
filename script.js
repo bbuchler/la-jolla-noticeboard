@@ -47,7 +47,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20260713-1');
+            const response = await fetch('site-data.json?v=20260713-2');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -127,31 +127,37 @@
     function renderBulletin() {
         var section = document.getElementById('bulletin');
         var card = document.getElementById('bulletinCard');
-        var b = siteData.bulletin;
-        if (!b || !b.message) {
+        var bulletins = Array.isArray(siteData.bulletins) ? siteData.bulletins : (siteData.bulletin ? [siteData.bulletin] : []);
+        var today = new Date();
+        today.setHours(0, 0, 0, 0);
+        var activeBulletins = bulletins.filter(function (b) {
+            if (!b || !b.message) {
+                return false;
+            }
+            if (!b.expires) {
+                return true;
+            }
+            var expiry = new Date(b.expires + 'T00:00:00');
+            return today < expiry;
+        });
+
+        if (!activeBulletins.length) {
             section.hidden = true;
             card.hidden = true;
             card.innerHTML = '';
             return;
         }
-        if (b.expires) {
-            var today = new Date();
-            today.setHours(0, 0, 0, 0);
-            var expiry = new Date(b.expires + 'T00:00:00');
-            if (today >= expiry) {
-                section.hidden = true;
-                card.hidden = true;
-                card.innerHTML = '';
-                return;
-            }
-        }
+
         section.hidden = false;
         card.hidden = false;
-        var titleHtml = b.title ? '<h3 class="bulletin-title">' + t(b.title) + '</h3>' : '';
-        card.innerHTML =
-            '<span class="bulletin-icon" aria-hidden="true">&#128226;</span>' +
-            '<div class="bulletin-body">' + titleHtml +
-            '<p class="bulletin-message">' + t(b.message) + '</p></div>';
+        card.innerHTML = activeBulletins.map(function (b) {
+            var titleHtml = b.title ? '<h3 class="bulletin-title">' + t(b.title) + '</h3>' : '';
+            return '<article class="bulletin-card">' +
+                '<span class="bulletin-icon" aria-hidden="true">&#128226;</span>' +
+                '<div class="bulletin-body">' + titleHtml +
+                '<p class="bulletin-message">' + t(b.message) + '</p></div>' +
+                '</article>';
+        }).join('');
     }
 
     // --- Calendar ---

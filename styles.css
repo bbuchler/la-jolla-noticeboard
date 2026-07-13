@@ -108,7 +108,7 @@ h1, h2, h3, h4 {
     padding: 10px 24px;
     border-radius: 50px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 0.9rem;
     text-decoration: none;
     transition: all var(--transition);
@@ -281,7 +281,7 @@ h1, h2, h3, h4 {
     display: block;
     padding: 10px 0;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 0.9rem;
     color: var(--dark-blue);
     border-bottom: 1px solid var(--gray-border);
@@ -365,6 +365,11 @@ h1, h2, h3, h4 {
    ============================================ */
 .bulletin-section {
     padding: 18px 0 36px;
+}
+
+.bulletin-list {
+    display: grid;
+    gap: 14px;
 }
 
 .bulletin-card {
@@ -1807,8 +1812,17 @@ h1, h2, h3, h4 {
     margin-top: 7px;
     color: #b42318;
     font-size: 0.92rem;
-    font-style: italic;
-    font-weight: 700;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.counselor-warning strong {
+    font-weight: 800;
+}
+
+.counselor-warning a {
+    color: #8f1b13;
+    text-decoration: underline;
 }
 
 .college-course-box {
@@ -1838,12 +1852,16 @@ h1, h2, h3, h4 {
 
 .copy-counselor-warning {
     color: #b42318;
-    font-style: italic;
-    font-weight: 700;
+    font-style: normal;
+    font-weight: 600;
 }
 
 .copy-counselor-warning a {
     color: #8f1b13;
+}
+
+.copy-counselor-warning strong {
+    font-weight: 800;
 }
 
 .college-links {

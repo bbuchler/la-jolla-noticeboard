@@ -22,14 +22,24 @@
     "en": "Your monthly guide to events, programs, and opportunities",
     "es": "Tu guia mensual de eventos, programas y oportunidades"
   },
-  "bulletin": {
-    "title": { "en": "July 14: Promotion + Showcase Reminder", "es": "14 de julio: Recordatorio de Promocion + Exhibicion" },
-    "message": {
-      "en": "At the Pacific Beach Resource Center, 959 Hornblend Street: 4:00-4:30 PM is for 8th graders moving up to high school and their families. From 4:30-5:30 PM, all students are welcome at the Altus Showcase, including students here only for June and July. Food, beverages, and snacks will be provided.",
-      "es": "En el Centro de Recursos de Pacific Beach, 959 Hornblend Street: 4:00-4:30 PM es para estudiantes de 8o grado que pasan a preparatoria y sus familias. De 4:30-5:30 PM, todos los estudiantes estan invitados a la Exhibicion Altus, incluyendo estudiantes que estan aqui solo en junio y julio. Habra comida, bebidas y bocadillos."
+  "bulletins": [
+    {
+      "title": { "en": "8th Grade Promotion: July 14, 4:00-4:30 PM", "es": "Promocion de 8o Grado: 14 de julio, 4:00-4:30 PM" },
+      "message": {
+        "en": "For 8th graders moving up to high school and their families only. Join us at the Pacific Beach Resource Center, 959 Hornblend Street. Food, beverages, and snacks will be provided.",
+        "es": "Solo para estudiantes de 8o grado que pasan a preparatoria y sus familias. Acompananos en el Centro de Recursos de Pacific Beach, 959 Hornblend Street. Habra comida, bebidas y bocadillos."
+      },
+      "expires": "2026-07-15"
     },
-    "expires": "2026-07-15"
-  },
+    {
+      "title": { "en": "Altus Showcase: July 14, 4:30-5:30 PM", "es": "Exhibicion Altus: 14 de julio, 4:30-5:30 PM" },
+      "message": {
+        "en": "All students are welcome, including students here only for June and July. Stop by the stations, try the VR headsets and 3D printer, and pick up resources for the year ahead. Family and friends are welcome. Food, beverages, and snacks will be provided.",
+        "es": "Todos los estudiantes estan invitados, incluyendo estudiantes que estan aqui solo en junio y julio. Visita las estaciones, prueba los visores de VR y la impresora 3D, y recoge recursos para el ano escolar. Familiares y amigos son bienvenidos. Habra comida, bebidas y bocadillos."
+      },
+      "expires": "2026-07-15"
+    }
+  ],
   "calendarImages": [
     {
       "month": { "en": "July 2026", "es": "Julio 2026" },
@@ -65,7 +75,13 @@
     },
     {
       "date": "2026-07-14",
-      "title": { "en": "8th Grade Promotion: 4:00 PM, Altus Showcase: 4:30 PM at Pacific Beach", "es": "Promocion de 8o Grado: 4:00 PM, Exhibicion Altus: 4:30 PM en Pacific Beach" },
+      "title": { "en": "8th Grade Promotion: 4:00-4:30 PM at Pacific Beach", "es": "Promocion de 8o Grado: 4:00-4:30 PM en Pacific Beach" },
+      "type": "activity",
+      "badge": null
+    },
+    {
+      "date": "2026-07-14",
+      "title": { "en": "Altus Showcase: 4:30-5:30 PM at Pacific Beach", "es": "Exhibicion Altus: 4:30-5:30 PM en Pacific Beach" },
       "type": "activity",
       "badge": null
     },
