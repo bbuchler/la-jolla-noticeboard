@@ -7,9 +7,9 @@
       "en": "Ride the Wave of Excellence",
       "es": "Surfea la Ola de la Excelencia"
     },
-    "logo": "school-logos/Altus Schools header LOGO.png",
-    "logoLarge": "school-logos/altusaudeolarge.png",
-    "logoWhite": "school-logos/Altus Schools header LOGO.png",
+    "logo": "school-logos/Altus Schools CSSD Logo.png",
+    "logoLarge": "school-logos/Altus Schools CSSD Logo.png",
+    "logoWhite": "school-logos/Altus Schools CSSD Logo - White.png",
     "parentSquareUrl": "https://www.parentsquare.com",
     "websiteUrl": "https://www.altuscssd.com/"
   },
@@ -23,12 +23,12 @@
     "es": "Tu guia mensual de eventos, programas y oportunidades"
   },
   "bulletin": {
-    "title": { "en": "School Year Transition: Closed June 29-30 and July 3", "es": "Transicion del Ano Escolar: Cerrado 29-30 de junio y 3 de julio" },
+    "title": { "en": "July 14: Promotion + Showcase Reminder", "es": "14 de julio: Recordatorio de Promocion + Exhibicion" },
     "message": {
-      "en": "The 2025-2026 school year ends Friday, June 26. The Resource Center is closed June 29-30, the new school year begins Wednesday, July 1, and school is closed Friday, July 3 in observance of Independence Day.",
-      "es": "El ano escolar 2025-2026 termina el viernes, 26 de junio. El Centro de Recursos estara cerrado el 29-30 de junio, el nuevo ano escolar comienza el miercoles, 1 de julio, y la escuela estara cerrada el viernes, 3 de julio en observancia del Dia de la Independencia."
+      "en": "At the Pacific Beach Resource Center, 959 Hornblend Street: 4:00-4:30 PM is for 8th graders moving up to high school and their families. From 4:30-5:30 PM, all students are welcome at the Altus Showcase, including students here only for June and July. Food, beverages, and snacks will be provided.",
+      "es": "En el Centro de Recursos de Pacific Beach, 959 Hornblend Street: 4:00-4:30 PM es para estudiantes de 8o grado que pasan a preparatoria y sus familias. De 4:30-5:30 PM, todos los estudiantes estan invitados a la Exhibicion Altus, incluyendo estudiantes que estan aqui solo en junio y julio. Habra comida, bebidas y bocadillos."
     },
-    "expires": "2026-07-04"
+    "expires": "2026-07-15"
   },
   "calendarImages": [
     {
