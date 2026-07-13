@@ -1810,10 +1810,10 @@ h1, h2, h3, h4 {
 .counselor-warning {
     display: block;
     margin-top: 7px;
-    color: #b42318;
+    color: #8f1b13;
     font-size: 0.92rem;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .counselor-warning strong {
@@ -1821,7 +1821,7 @@ h1, h2, h3, h4 {
 }
 
 .counselor-warning a {
-    color: #8f1b13;
+    color: var(--primary-blue);
     text-decoration: underline;
 }
 
@@ -1851,13 +1851,14 @@ h1, h2, h3, h4 {
 }
 
 .copy-counselor-warning {
-    color: #b42318;
+    color: #8f1b13;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .copy-counselor-warning a {
-    color: #8f1b13;
+    color: var(--primary-blue);
+    text-decoration: underline;
 }
 
 .copy-counselor-warning strong {
