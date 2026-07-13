@@ -1816,11 +1816,20 @@ h1, h2, h3, h4 {
     font-weight: 400;
 }
 
+.college-main .counselor-warning,
+.college-course-box .copy-counselor-warning {
+    color: #8f1b13;
+}
+
 .counselor-warning strong {
+    display: inline;
+    color: inherit;
     font-weight: 800;
+    margin: 0;
 }
 
 .counselor-warning a {
+    display: inline;
     color: var(--primary-blue);
     text-decoration: underline;
 }
@@ -1857,12 +1866,16 @@ h1, h2, h3, h4 {
 }
 
 .copy-counselor-warning a {
+    display: inline;
     color: var(--primary-blue);
     text-decoration: underline;
 }
 
 .copy-counselor-warning strong {
+    display: inline;
+    color: inherit;
     font-weight: 800;
+    margin: 0;
 }
 
 .college-links {
