@@ -43,11 +43,20 @@
         return d < today;
     }
 
+    /** Check whether time-limited content should still be shown */
+    function isCurrentlyVisible(item) {
+        if (!item || !item.visibleUntil) return true;
+        var today = new Date();
+        today.setHours(0, 0, 0, 0);
+        var cutoff = new Date(item.visibleUntil + 'T00:00:00');
+        return today < cutoff;
+    }
+
     // --- Data Loading ---
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20260713-2');
+            const response = await fetch('site-data.json?v=20260720-1');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -164,7 +173,7 @@
 
     function renderCalendar() {
         var container = document.getElementById('calendarContent');
-        container.innerHTML = siteData.calendarImages.map(function (cal) {
+        container.innerHTML = siteData.calendarImages.filter(isCurrentlyVisible).map(function (cal) {
             var imageHtml = cal.image
                 ? '<img src="' + cal.image + '" alt="' + t(cal.month) + '" class="calendar-preview" onclick="document.getElementById(\'calendarModal\').style.display=\'flex\'; document.getElementById(\'calendarModalImg\').src=\'' + cal.image + '\';">'
                 : '<div class="calendar-icon">&#128197;</div>';
@@ -187,7 +196,7 @@
         var lp = siteData.learningPeriods;
         var lpContainer = document.getElementById('learningPeriods');
         lpContainer.innerHTML = '<div class="lp-pills">' +
-            lp.periods.map(function (p) {
+            lp.periods.filter(isCurrentlyVisible).map(function (p) {
                 return '<span class="lp-pill"><span class="lp-pill-label">' + p.name + '</span> ' + t(p.dates) + '</span>';
             }).join('') + '</div>';
     }
@@ -219,7 +228,7 @@
 
         // Date cards
         var container = document.getElementById('importantDatesList');
-        container.innerHTML = siteData.importantDates.map(function (evt) {
+        container.innerHTML = siteData.importantDates.filter(isCurrentlyVisible).map(function (evt) {
             var parts = parseDateParts(evt.date);
             var past = isPast(evt.date);
             var badgeHtml = '';

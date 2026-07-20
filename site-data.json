@@ -44,7 +44,13 @@
     {
       "month": { "en": "July 2026", "es": "Julio 2026" },
       "image": "monthly-calendars/July-Calendar-2026.png?v=20260624-1",
-      "pdf": "monthly-calendars/LJ July 26 Updated.pdf"
+      "pdf": "monthly-calendars/LJ July 26 Updated.pdf",
+      "visibleUntil": "2026-08-01"
+    },
+    {
+      "month": { "en": "August 2026", "es": "Agosto 2026" },
+      "image": "monthly-calendars/August-Calendar-2026.png?v=20260720-1",
+      "pdf": "monthly-calendars/August-Calendar-2026.pdf"
     }
   ],
   "learningPeriods": {
@@ -56,7 +62,12 @@
     "periods": [
       {
         "name": "LP1",
-        "dates": { "en": "July 1 - July 24", "es": "1 de julio - 24 de julio" }
+        "dates": { "en": "July 1 - July 24", "es": "1 de julio - 24 de julio" },
+        "visibleUntil": "2026-08-01"
+      },
+      {
+        "name": "LP2",
+        "dates": { "en": "July 27 - August 21", "es": "27 de julio - 21 de agosto" }
       }
     ]
   },
@@ -65,30 +76,59 @@
       "date": "2026-07-01",
       "title": { "en": "2026-2027 School Year Begins (complete re-enrollment first!)", "es": "Comienza el Ano Escolar 2026-2027 (completa la re-inscripcion antes!)" },
       "type": "milestone",
-      "badge": null
+      "badge": null,
+      "visibleUntil": "2026-08-01"
     },
     {
       "date": "2026-07-03",
       "title": { "en": "School Closed in Observance of Independence Day", "es": "Escuela Cerrada en Observancia del Dia de la Independencia" },
       "type": "closed",
-      "badge": null
+      "badge": null,
+      "visibleUntil": "2026-08-01"
     },
     {
       "date": "2026-07-14",
       "title": { "en": "8th Grade Promotion: 4:00-4:30 PM at Pacific Beach", "es": "Promocion de 8o Grado: 4:00-4:30 PM en Pacific Beach" },
       "type": "activity",
-      "badge": null
+      "badge": null,
+      "visibleUntil": "2026-08-01"
     },
     {
       "date": "2026-07-14",
       "title": { "en": "Altus Showcase: 4:30-5:30 PM at Pacific Beach", "es": "Exhibicion Altus: 4:30-5:30 PM en Pacific Beach" },
       "type": "activity",
-      "badge": null
+      "badge": null,
+      "visibleUntil": "2026-08-01"
     },
     {
       "date": "2026-07-24",
       "title": { "en": "End of LP1: Credits Due!", "es": "Fin de LP1: Creditos Vencen!" },
       "type": "deadline",
+      "badge": null,
+      "visibleUntil": "2026-08-01"
+    },
+    {
+      "date": "2026-08-04",
+      "title": { "en": "12th Grade Academic Planning with Mr. Sutherland: 10 AM - 2 PM (contact your teacher to schedule)", "es": "Planificacion Academica de 12o Grado con el Sr. Sutherland: 10 AM - 2 PM (contacta a tu maestro para programar una cita)" },
+      "type": "activity",
+      "badge": null
+    },
+    {
+      "date": "2026-08-07",
+      "title": { "en": "Last Day for Summer Course Completion", "es": "Ultimo Dia para Completar Cursos de Verano" },
+      "type": "deadline",
+      "badge": null
+    },
+    {
+      "date": "2026-08-21",
+      "title": { "en": "End of LP2: Credits Due!", "es": "Fin de LP2: Creditos Vencen!" },
+      "type": "deadline",
+      "badge": null
+    },
+    {
+      "date": "2026-08-27",
+      "title": { "en": "Altus Symposium: August 27-28, Resource Center Open by Appointment Only", "es": "Simposio Altus: 27-28 de agosto, Centro de Recursos Abierto Solo con Cita" },
+      "type": "milestone",
       "badge": null
     }
   ],
