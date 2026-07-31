@@ -1630,6 +1630,64 @@ h1, h2, h3, h4 {
     color: #435060;
 }
 
+.ecc-support-panel {
+    display: grid;
+    gap: 18px;
+    background: var(--light-blue);
+    border: 1px solid var(--gray-border);
+    border-top: 6px solid var(--gold);
+    border-radius: var(--radius-sm);
+    padding: 18px;
+    box-shadow: var(--shadow);
+}
+
+.ecc-support-services h3,
+.ecc-support-option h3 {
+    color: var(--dark-blue);
+    margin-bottom: 10px;
+}
+
+.ecc-support-list {
+    display: grid;
+    gap: 8px;
+    margin: 0 0 18px 20px;
+    color: #435060;
+}
+
+.ecc-support-options {
+    display: grid;
+    gap: 14px;
+}
+
+.ecc-support-option {
+    background: var(--white);
+    border: 1px solid var(--gray-border);
+    border-left: 5px solid var(--primary-blue);
+    border-radius: var(--radius-sm);
+    padding: 16px;
+}
+
+.ecc-support-option p {
+    color: #435060;
+    margin-bottom: 14px;
+}
+
+.ecc-support-label {
+    display: inline-block;
+    color: var(--primary-blue);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+
+.ecc-support-option .ecc-support-time {
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+
 .dual-alert {
     background: var(--white);
     border: 2px solid #ffd46b;
@@ -1937,6 +1995,10 @@ h1, h2, h3, h4 {
     .form-checklist {
         grid-template-columns: 1fr 1fr;
     }
+
+    .ecc-support-options {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
 
 @media (min-width: 1024px) {
@@ -1972,6 +2034,11 @@ h1, h2, h3, h4 {
 
     .download-grid {
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .ecc-support-panel {
+        grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.6fr);
+        padding: 24px;
     }
 }
 

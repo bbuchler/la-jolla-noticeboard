@@ -13,7 +13,7 @@
     "parentSquareUrl": "https://www.parentsquare.com",
     "websiteUrl": "https://www.altuscssd.com/"
   },
-  "currentMonth": "July 2026",
+  "currentMonth": "August 2026",
   "heroMessage": {
     "en": "Welcome to the La Jolla Noticeboard",
     "es": "Bienvenidos al Tablero de La Jolla"
@@ -22,34 +22,11 @@
     "en": "Your monthly guide to events, programs, and opportunities",
     "es": "Tu guia mensual de eventos, programas y oportunidades"
   },
-  "bulletins": [
-    {
-      "title": { "en": "8th Grade Promotion: July 14, 4:00-4:30 PM", "es": "Promocion de 8o Grado: 14 de julio, 4:00-4:30 PM" },
-      "message": {
-        "en": "For 8th graders moving up to high school and their families only. Join us at the Pacific Beach Resource Center, 959 Hornblend Street. Food, beverages, and snacks will be provided.",
-        "es": "Solo para estudiantes de 8o grado que pasan a preparatoria y sus familias. Acompananos en el Centro de Recursos de Pacific Beach, 959 Hornblend Street. Habra comida, bebidas y bocadillos."
-      },
-      "expires": "2026-07-15"
-    },
-    {
-      "title": { "en": "Altus Showcase: July 14, 4:30-5:30 PM", "es": "Exhibicion Altus: 14 de julio, 4:30-5:30 PM" },
-      "message": {
-        "en": "All students are welcome, including students here only for June and July. Stop by the stations, try the VR headsets and 3D printer, and pick up resources for the year ahead. Family and friends are welcome. Food, beverages, and snacks will be provided.",
-        "es": "Todos los estudiantes estan invitados, incluyendo estudiantes que estan aqui solo en junio y julio. Visita las estaciones, prueba los visores de VR y la impresora 3D, y recoge recursos para el ano escolar. Familiares y amigos son bienvenidos. Habra comida, bebidas y bocadillos."
-      },
-      "expires": "2026-07-15"
-    }
-  ],
+  "bulletins": [],
   "calendarImages": [
     {
-      "month": { "en": "July 2026", "es": "Julio 2026" },
-      "image": "monthly-calendars/July-Calendar-2026.png?v=20260624-1",
-      "pdf": "monthly-calendars/LJ July 26 Updated.pdf",
-      "visibleUntil": "2026-08-01"
-    },
-    {
       "month": { "en": "August 2026", "es": "Agosto 2026" },
-      "image": "monthly-calendars/August-Calendar-2026.png?v=20260720-1",
+      "image": "monthly-calendars/August-Calendar-2026.png?v=20260731-1",
       "pdf": "monthly-calendars/August-Calendar-2026.pdf"
     }
   ],
@@ -61,11 +38,6 @@
     },
     "periods": [
       {
-        "name": "LP1",
-        "dates": { "en": "July 1 - July 24", "es": "1 de julio - 24 de julio" },
-        "visibleUntil": "2026-08-01"
-      },
-      {
         "name": "LP2",
         "dates": { "en": "July 27 - August 21", "es": "27 de julio - 21 de agosto" }
       }
@@ -73,39 +45,10 @@
   },
   "importantDates": [
     {
-      "date": "2026-07-01",
-      "title": { "en": "2026-2027 School Year Begins (complete re-enrollment first!)", "es": "Comienza el Ano Escolar 2026-2027 (completa la re-inscripcion antes!)" },
+      "date": "2026-08-03",
+      "title": { "en": "Mr. Buchler Out Today", "es": "El Sr. Buchler No Esta Hoy" },
       "type": "milestone",
-      "badge": null,
-      "visibleUntil": "2026-08-01"
-    },
-    {
-      "date": "2026-07-03",
-      "title": { "en": "School Closed in Observance of Independence Day", "es": "Escuela Cerrada en Observancia del Dia de la Independencia" },
-      "type": "closed",
-      "badge": null,
-      "visibleUntil": "2026-08-01"
-    },
-    {
-      "date": "2026-07-14",
-      "title": { "en": "8th Grade Promotion: 4:00-4:30 PM at Pacific Beach", "es": "Promocion de 8o Grado: 4:00-4:30 PM en Pacific Beach" },
-      "type": "activity",
-      "badge": null,
-      "visibleUntil": "2026-08-01"
-    },
-    {
-      "date": "2026-07-14",
-      "title": { "en": "Altus Showcase: 4:30-5:30 PM at Pacific Beach", "es": "Exhibicion Altus: 4:30-5:30 PM en Pacific Beach" },
-      "type": "activity",
-      "badge": null,
-      "visibleUntil": "2026-08-01"
-    },
-    {
-      "date": "2026-07-24",
-      "title": { "en": "End of LP1: Credits Due!", "es": "Fin de LP1: Creditos Vencen!" },
-      "type": "deadline",
-      "badge": null,
-      "visibleUntil": "2026-08-01"
+      "badge": null
     },
     {
       "date": "2026-08-04",
@@ -115,8 +58,8 @@
     },
     {
       "date": "2026-08-07",
-      "title": { "en": "Last Day for Summer Course Completion", "es": "Ultimo Dia para Completar Cursos de Verano" },
-      "type": "deadline",
+      "title": { "en": "Mr. Buchler Out Today", "es": "El Sr. Buchler No Esta Hoy" },
+      "type": "milestone",
       "badge": null
     },
     {
@@ -127,7 +70,7 @@
     },
     {
       "date": "2026-08-27",
-      "title": { "en": "Altus Symposium: August 27-28, Resource Center Open by Appointment Only", "es": "Simposio Altus: 27-28 de agosto, Centro de Recursos Abierto Solo con Cita" },
+      "title": { "en": "Altus Symposium: Resource Center Open by Appointment Only, Complete Schoolwork from Home", "es": "Simposio Altus: Centro de Recursos Abierto Solo con Cita, Completa el Trabajo Escolar desde Casa" },
       "type": "milestone",
       "badge": null
     }
@@ -169,8 +112,8 @@
     }
   ],
   "seasonalNote": {
-    "en": "The 2026-2027 school year begins Wednesday, July 1. The Resource Center is closed June 29-30 and Friday, July 3, so please plan teacher check-ins around those dates. HS ELD continues on Wednesdays from 11 AM - 12 PM on Zoom.",
-    "es": "El ano escolar 2026-2027 comienza el miercoles, 1 de julio. El Centro de Recursos estara cerrado el 29-30 de junio y el viernes, 3 de julio, asi que planifica tus citas con maestros alrededor de esas fechas. ELD de preparatoria continua los miercoles de 11 AM - 12 PM por Zoom."
+    "en": "Learning Period 2 ends August 21, so make sure your course credit is complete. HS ELD continues Wednesdays from 11 AM - 12 PM on Zoom. On August 27, complete schoolwork from home while the Resource Center is open by appointment only for the Altus Symposium.",
+    "es": "El Periodo de Aprendizaje 2 termina el 21 de agosto, asi que asegurate de completar tu credito del curso. ELD de preparatoria continua los miercoles de 11 AM - 12 PM por Zoom. El 27 de agosto, completa el trabajo escolar desde casa mientras el Centro de Recursos esta abierto solo con cita por el Simposio Altus."
   },
   "fieldTrips": [],
   "fieldTripRecap": {
@@ -295,8 +238,8 @@
       "id": "dual-enrollment",
       "title": { "en": "Dual Enrollment", "es": "Inscripcion Doble" },
       "content": {
-        "en": "Dual enrollment lets students take real college classes while still enrolled at Charter School of San Diego. Courses are free, earn college credit when passed, are weighted on a 5-point GPA scale, and can sometimes count double for high school credit. Start with the full guide below: it lists recommended courses, college links, application steps, videos, and downloadable PDFs.",
-        "es": "La inscripcion doble permite que los estudiantes tomen clases universitarias reales mientras siguen inscritos en Charter School of San Diego. Los cursos son gratuitos, dan credito universitario al aprobar, se ponderan en una escala GPA de 5 puntos y a veces pueden contar doble para credito de preparatoria. Comienza con la guia completa abajo: incluye cursos recomendados, enlaces universitarios, pasos de solicitud, videos y PDFs descargables."
+        "en": "Dual enrollment lets students take real college classes while still enrolled at Charter School of San Diego. Courses are free, earn college credit when passed, are weighted on a 5-point GPA scale, and can sometimes count double for high school credit. The full guide includes recommended courses, application steps, one-on-one signup help, weekly office hours, videos, and downloadable PDFs.",
+        "es": "La inscripcion doble permite que los estudiantes tomen clases universitarias reales mientras siguen inscritos en Charter School of San Diego. Los cursos son gratuitos, dan credito universitario al aprobar, se ponderan en una escala GPA de 5 puntos y a veces pueden contar doble para credito de preparatoria. La guia completa incluye cursos recomendados, pasos de solicitud, ayuda individual para inscribirse, horas de oficina semanales, videos y PDFs descargables."
       },
       "links": [
         { "label": { "en": "Open Dual Enrollment Guide", "es": "Abrir Guia de Inscripcion Doble" }, "url": "dual-enrollment.html" }
