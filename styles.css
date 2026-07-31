@@ -1630,15 +1630,54 @@ h1, h2, h3, h4 {
     color: #435060;
 }
 
+.ecc-support-section {
+    background: linear-gradient(135deg, #fff7cc 0%, #eef8ff 62%, #dff2ff 100%);
+    border-top: 1px solid #ead171;
+    border-bottom: 1px solid #b9dff5;
+    scroll-margin-top: 130px;
+}
+
+.ecc-support-section .section-heading {
+    color: var(--dark-blue);
+}
+
 .ecc-support-panel {
     display: grid;
     gap: 18px;
-    background: var(--light-blue);
-    border: 1px solid var(--gray-border);
+    background: rgba(255, 255, 255, 0.92);
+    border: 1px solid #b9dff5;
     border-top: 6px solid var(--gold);
     border-radius: var(--radius-sm);
     padding: 18px;
-    box-shadow: var(--shadow);
+    box-shadow: 0 8px 24px rgba(0, 74, 140, 0.14);
+}
+
+.ecc-support-person {
+    display: grid;
+    gap: 2px;
+    background: var(--dark-blue);
+    color: var(--white);
+    border-radius: var(--radius-sm);
+    padding: 14px 16px;
+    margin-bottom: 18px;
+}
+
+.ecc-support-person span {
+    color: var(--gold);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.ecc-support-person strong {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+.ecc-support-person small {
+    color: #d8ecff;
 }
 
 .ecc-support-services h3,
@@ -1652,6 +1691,29 @@ h1, h2, h3, h4 {
     gap: 8px;
     margin: 0 0 18px 20px;
     color: #435060;
+}
+
+.ecc-support-boundaries {
+    background: #fff8dc;
+    border: 1px solid #e4ca66;
+    border-radius: var(--radius-sm);
+    margin-bottom: 16px;
+    padding: 11px 13px;
+}
+
+.ecc-support-boundaries summary {
+    color: var(--dark-blue);
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.86rem;
+    font-weight: 700;
+}
+
+.ecc-support-boundaries p {
+    color: #435060;
+    font-size: 0.9rem;
+    line-height: 1.55;
+    margin: 10px 0 0;
 }
 
 .ecc-support-options {
