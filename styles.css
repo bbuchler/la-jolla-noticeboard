@@ -1256,6 +1256,10 @@ h1, h2, h3, h4 {
     white-space: pre-line;
 }
 
+.motivation-question-text {
+    white-space: pre-line;
+}
+
 .motivation-quote-text {
     font-size: 1.05rem;
     font-style: normal;
@@ -2319,6 +2323,336 @@ h1, h2, h3, h4 {
 
     .lang-toggle {
         padding: 5px 10px;
+    }
+}
+
+/* ============================================
+   GET TO KNOW MR. BUCHLER PAGE
+   ============================================ */
+.profile-page .main-nav {
+    max-height: none;
+    overflow: visible;
+}
+
+.profile-page .nav-list {
+    flex-direction: row;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 8px 16px;
+}
+
+.profile-page .nav-list li {
+    flex: 0 0 auto;
+}
+
+.profile-page .nav-list li a {
+    border-bottom: none;
+    padding: 8px 10px;
+    white-space: nowrap;
+}
+
+.profile-hero {
+    background: linear-gradient(135deg, var(--dark-blue), var(--primary-blue) 68%, #1388d8);
+    color: var(--white);
+    padding: 42px 0;
+}
+
+.profile-hero-inner {
+    display: grid;
+    gap: 24px;
+    align-items: center;
+}
+
+.profile-kicker {
+    color: var(--gold);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.profile-hero h2 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
+
+.profile-hero-lede {
+    font-size: 1.04rem;
+    line-height: 1.6;
+    max-width: 700px;
+}
+
+.profile-hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 22px;
+}
+
+.profile-hero-note {
+    background: var(--white);
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    border-top: 6px solid var(--gold);
+    border-radius: var(--radius);
+    box-shadow: 0 12px 28px rgba(0, 40, 80, 0.25);
+    color: var(--dark-blue);
+    overflow: hidden;
+}
+
+.profile-portrait {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    object-position: center 24%;
+    width: 100%;
+}
+
+.profile-hero-note p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    padding: 16px 18px 18px;
+}
+
+.profile-narrow {
+    max-width: 900px;
+}
+
+.profile-story {
+    background: var(--white);
+    border-left: 6px solid var(--gold);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    display: grid;
+    gap: 14px;
+    padding: 22px;
+}
+
+.profile-story p,
+.profile-card p,
+.profile-photo-card p {
+    color: #435060;
+    line-height: 1.65;
+}
+
+.profile-section-intro {
+    color: #435060;
+    margin: -8px auto 24px;
+    max-width: 760px;
+    text-align: center;
+}
+
+.profile-photo-grid,
+.profile-card-grid,
+.profile-expectations,
+.profile-start-grid {
+    display: grid;
+    gap: 16px;
+}
+
+.profile-photo-card,
+.profile-card,
+.profile-expectation,
+.profile-start-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.profile-photo-card {
+    overflow: hidden;
+}
+
+.profile-photo-card img {
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    width: 100%;
+}
+
+.profile-photo-card:first-child img {
+    object-position: center 58%;
+}
+
+.profile-photo-card > div {
+    padding: 18px;
+}
+
+.profile-photo-card h3,
+.profile-card h3,
+.profile-expectation h3 {
+    color: var(--dark-blue);
+    margin-bottom: 8px;
+}
+
+.profile-card {
+    border-top: 6px solid var(--primary-blue);
+    padding: 20px;
+}
+
+.profile-card:nth-child(2) {
+    border-top-color: var(--gold);
+}
+
+.profile-card:nth-child(3) {
+    border-top-color: #45a768;
+}
+
+.profile-card-icon {
+    display: block;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.profile-expectation {
+    border-left: 6px solid var(--primary-blue);
+    padding: 22px;
+}
+
+.profile-expectation-teacher {
+    border-left-color: var(--gold);
+}
+
+.profile-expectation ul {
+    display: grid;
+    gap: 10px;
+    padding-left: 22px;
+}
+
+.profile-expectation li {
+    color: #435060;
+    line-height: 1.55;
+}
+
+.profile-start-card {
+    align-items: center;
+    border: 1px solid var(--gray-border);
+    display: flex;
+    gap: 14px;
+    padding: 18px;
+}
+
+.profile-start-card:hover {
+    border-color: var(--primary-blue);
+    box-shadow: var(--shadow-hover);
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
+.profile-start-card > span {
+    font-size: 1.8rem;
+    flex: 0 0 auto;
+}
+
+.profile-start-card strong,
+.profile-start-card small {
+    display: block;
+}
+
+.profile-start-card strong {
+    color: var(--dark-blue);
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 3px;
+}
+
+.profile-start-card small {
+    color: #435060;
+    line-height: 1.45;
+}
+
+.profile-footer {
+    align-items: center;
+    display: grid;
+    gap: 20px;
+    text-align: center;
+}
+
+.profile-footer-logo {
+    justify-self: center;
+    width: 180px;
+}
+
+.profile-footer h2 {
+    color: var(--gold);
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+}
+
+.profile-footer p {
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+}
+
+.profile-footer a:not(.btn) {
+    color: var(--cyan);
+}
+
+@media (min-width: 768px) {
+    .profile-hero-inner {
+        grid-template-columns: minmax(0, 1.5fr) minmax(240px, 0.6fr);
+    }
+
+    .profile-hero h2 {
+        font-size: 2.6rem;
+    }
+
+    .profile-photo-grid,
+    .profile-card-grid,
+    .profile-start-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .profile-expectations {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .profile-footer {
+        grid-template-columns: auto 1fr auto;
+        text-align: left;
+    }
+
+    .profile-footer-logo {
+        justify-self: start;
+    }
+}
+
+@media (min-width: 1024px) {
+    .profile-page .main-nav {
+        background: var(--dark-blue);
+    }
+
+    .profile-hero {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .profile-page .header-inner {
+        display: grid;
+        grid-template-areas:
+            "logo controls"
+            "title title";
+        grid-template-columns: auto 1fr;
+        row-gap: 6px;
+    }
+
+    .profile-page .profile-header-logo {
+        grid-area: logo;
+        width: 96px;
+    }
+
+    .profile-page .header-title {
+        grid-area: title;
+    }
+
+    .profile-page .header-controls {
+        grid-area: controls;
+        justify-self: end;
+    }
+
+    .profile-hero-actions .btn {
+        width: 100%;
     }
 }
 

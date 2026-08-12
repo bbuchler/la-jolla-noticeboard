@@ -356,28 +356,28 @@
     "thought": {
       "label": { "en": "A Thought", "es": "Un Pensamiento" },
       "text": {
-        "en": "Be forgiving with your past self. What's done is done. No sense in beating yourself up about it. Be strict with your present self. Win the moment in front of you right now. Be flexible with your future self. There are many paths to success. You don't need life to be a certain way to live well.",
-        "es": "Perdona a tu yo del pasado. Lo hecho, hecho esta. No tiene sentido castigarte por eso. Se estricto con tu yo del presente. Gana el momento que tienes enfrente ahora mismo. Se flexible con tu yo del futuro. Hay muchos caminos hacia el exito. No necesitas que la vida sea de una sola manera para vivir bien."
+        "en": "Clarity isn't about knowing what you want to do with your life, it's about knowing what you want to do this week. You don't need to have it all figured out. You just need to know your next step.",
+        "es": "La claridad no se trata de saber que quieres hacer con tu vida. Se trata de saber que quieres hacer esta semana. No necesitas tenerlo todo resuelto. Solo necesitas conocer tu siguiente paso."
       }
     },
     "quote": {
       "label": { "en": "A Quote", "es": "Una Cita" },
       "context": {
-        "en": "Confucius reminds us that every comparison can become a mirror for growth.",
-        "es": "Confucio nos recuerda que cada comparacion puede convertirse en un espejo para crecer."
+        "en": "Film actress and producer Mary Pickford on protecting your mind:",
+        "es": "La actriz y productora de cine Mary Pickford sobre como proteger tu mente:"
       },
       "text": {
-        "en": "When you meet someone better than yourself, turn your thoughts to becoming his equal. When you meet someone not as good as you are, look within and examine your own self.",
-        "es": "Cuando encuentres a alguien mejor que tu, dirige tus pensamientos a llegar a ser su igual. Cuando encuentres a alguien que no sea tan bueno como tu, mira dentro de ti y examinate a ti mismo."
+        "en": "All the water in the world cannot sink a ship unless it gets inside the ship. All the negativity in the world cannot sink a person unless it gets inside the mind.",
+        "es": "Toda el agua del mundo no puede hundir un barco a menos que entre en el barco. Toda la negatividad del mundo no puede hundir a una persona a menos que entre en su mente."
       },
-      "author": "Confucius",
-      "source": "Ancient Chinese philosophy"
+      "author": "Mary Pickford",
+      "source": "Why Not Try God (1934)"
     },
     "question": {
       "label": { "en": "A Question", "es": "Una Pregunta" },
       "text": {
-        "en": "Did you win the day?",
-        "es": "Ganaste el dia?"
+        "en": "Instead of thinking, \"What's wrong and how do I fix it?\"\n\nTry exploring, \"What's right and how do I grow it?\"",
+        "es": "En lugar de pensar, \"Que esta mal y como lo arreglo?\"\n\nIntenta explorar, \"Que esta bien y como puedo hacerlo crecer?\""
       }
     }
   },
@@ -413,6 +413,7 @@
     "programs": { "en": "Programs", "es": "Programas" },
     "opportunities": { "en": "Opportunities", "es": "Oportunidades" },
     "dualEnrollment": { "en": "Dual Enrollment", "es": "Inscripcion Doble" },
+    "meetMrBuchler": { "en": "Meet Mr. Buchler", "es": "Conoce al Sr. Buchler" },
     "motivation": { "en": "Motivation", "es": "Motivacion" },
     "contact": { "en": "Contact", "es": "Contacto" }
   }
