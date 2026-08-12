@@ -22,7 +22,25 @@
     "en": "Your monthly guide to events, programs, and opportunities",
     "es": "Tu guia mensual de eventos, programas y oportunidades"
   },
-  "bulletins": [],
+  "bulletins": [
+    {
+      "title": {
+        "en": "Help Personalize Your Learning",
+        "es": "Ayuda a Personalizar Tu Aprendizaje"
+      },
+      "message": {
+        "en": "Take this five-minute survey about your strengths, hobbies, interests, and future goals. Your answers will help Mr. Buchler personalize examples, readings, and assignments when it makes sense. Every student should complete it as soon as possible.",
+        "es": "Completa esta encuesta de cinco minutos sobre tus fortalezas, pasatiempos, intereses y metas futuras. Tus respuestas ayudaran al Sr. Buchler a personalizar ejemplos, lecturas y tareas cuando sea util. Todos los estudiantes deben completarla lo antes posible."
+      },
+      "action": {
+        "label": {
+          "en": "Take the Survey",
+          "es": "Completar la Encuesta"
+        },
+        "url": "https://forms.cloud.microsoft/r/EUaXrZ6AuZ"
+      }
+    }
+  ],
   "calendarImages": [
     {
       "month": { "en": "August 2026", "es": "Agosto 2026" },
