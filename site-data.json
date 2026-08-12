@@ -392,7 +392,7 @@
       "name": "Mr. Baptiste Buchler",
       "email": "bbuchler@altusschools.net",
       "phone": "858.214.2517",
-      "hours": { "en": "Mon-Thurs 11 AM - 2 PM", "es": "Lun-Jue 11 AM - 2 PM" },
+      "hours": { "en": "Typical availability: Monday-Friday, 10 AM - 6 PM", "es": "Disponibilidad habitual: lunes a viernes, 10 AM - 6 PM" },
       "profileUrl": "get-to-know-mr-buchler.html",
       "profileLabel": { "en": "Learn More About Mr. Buchler", "es": "Conoce Mas al Sr. Buchler" }
     }
@@ -415,7 +415,7 @@
     "programs": { "en": "Programs", "es": "Programas" },
     "opportunities": { "en": "Opportunities", "es": "Oportunidades" },
     "dualEnrollment": { "en": "Dual Enrollment", "es": "Inscripcion Doble" },
-    "meetMrBuchler": { "en": "Meet Mr. Buchler", "es": "Conoce al Sr. Buchler" },
+    "teacherProfile": { "en": "Meet Your Teacher", "es": "Conoce a Tu Maestro" },
     "motivation": { "en": "Motivation", "es": "Motivacion" },
     "contact": { "en": "Contact", "es": "Contacto" }
   }
