@@ -56,7 +56,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20260812-5');
+            const response = await fetch('site-data.json?v=20260812-6');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -105,8 +105,8 @@
             { href: '#programs', key: 'programs' },
             { href: '#opportunities', key: 'opportunities' },
             { href: 'dual-enrollment.html', key: 'dualEnrollment' },
-            { href: 'get-to-know-mr-buchler.html', key: 'meetMrBuchler' },
             { href: '#motivation', key: 'motivation' },
+            { href: 'get-to-know-mr-buchler.html', key: 'teacherProfile' },
             { href: '#contact', key: 'contact' }
         ];
 
