@@ -4,7 +4,7 @@
     var translations = {
         en: {
             pageTitle: 'Get to Know Mr. Buchler | La Jolla Noticeboard',
-            headerTitle: 'Meet Mr. Buchler', noticeboard: 'Noticeboard',
+            headerTitle: 'Meet Mr. Buchler', noticeboard: 'Noticeboard', dualEnrollment: 'Dual Enrollment',
             navAbout: 'About Me', navInterests: 'Outside School', navApproach: 'How I Teach', navTogether: 'Working Together', navStart: 'Start Here', navContact: 'Contact',
             heroKicker: 'Welcome', heroTitle: 'Get to Know Mr. Buchler',
             heroLede: 'I work with students in grades 6–12 at the La Jolla Resource Center. My goal is simple: help you build a school plan that connects to your interests, fits your life, and moves you toward what comes next.',
@@ -24,12 +24,12 @@
             togetherTitle: 'How We Will Work Together', fromYouTitle: 'What I Need From You',
             fromYou1: 'Tell me what is working, what is not, and when you are stuck.', fromYou2: 'Communicate early. Small problems are easier to solve before they become big ones.', fromYou3: 'Set up regular on-site times, usually a couple of days each week.', fromYou4: 'Take ownership of your next step, even when the whole path is not clear yet.',
             fromMeTitle: 'What You Can Expect From Me', fromMe1: 'Clear expectations, honest feedback, and help making a workable plan.', fromMe2: 'An effort to connect schoolwork to your interests and future goals.', fromMe3: 'Help finding classes, programs, tools, and opportunities that fit you.', fromMe4: 'Flexibility around real responsibilities, paired with steady progress and accountability.',
-            startTitle: 'Good Places to Start', surveyTitle: 'Share Your Interests and Goals', surveyText: 'Take the five-minute personalization survey.', scheduleTitle: 'Plan Your On-Site Time', scheduleText: 'Tell me which days and times work best.', exploreTitle: 'Explore Opportunities', exploreText: 'Find programs, college options, and ways to build skills.',
-            contactTitle: 'Contact Mr. Buchler', contactHours: 'Monday through Thursday, 11 AM–2 PM', backButton: 'Back to the Noticeboard'
+            startTitle: 'Good Places to Start', surveyTitle: 'Share Your Interests and Goals', surveyText: 'Take the five-minute personalization survey.', scheduleTitle: 'Plan Your On-Site Time', scheduleText: 'Tell me which days and times work best.', exploreTitle: 'Explore Opportunities', exploreText: 'Find programs, college options, and ways to build skills.', zoomTitle: "Join Mr. Buchler's Zoom", zoomText: 'Open the direct link for virtual check-ins and support.',
+            contactTitle: 'Contact Mr. Buchler', contactHours: 'Monday through Thursday, 11 AM–2 PM', backButton: 'Back to the Noticeboard', dualButton: 'Dual Enrollment Guide'
         },
         es: {
             pageTitle: 'Conoce al Sr. Buchler | Tablero de La Jolla',
-            headerTitle: 'Conoce al Sr. Buchler', noticeboard: 'Tablero',
+            headerTitle: 'Conoce al Sr. Buchler', noticeboard: 'Tablero', dualEnrollment: 'Inscripcion Doble',
             navAbout: 'Sobre Mi', navInterests: 'Fuera de la Escuela', navApproach: 'Como Enseno', navTogether: 'Trabajando Juntos', navStart: 'Empieza Aqui', navContact: 'Contacto',
             heroKicker: 'Bienvenido', heroTitle: 'Conoce al Sr. Buchler',
             heroLede: 'Trabajo con estudiantes de los grados 6–12 en el Centro de Recursos La Jolla. Mi meta es sencilla: ayudarte a crear un plan escolar conectado con tus intereses, que se adapte a tu vida y te acerque a lo que sigue.',
@@ -49,8 +49,8 @@
             togetherTitle: 'Como Trabajaremos Juntos', fromYouTitle: 'Lo Que Necesito de Ti',
             fromYou1: 'Dime que esta funcionando, que no y cuando te sientas estancado.', fromYou2: 'Comunicate temprano. Los problemas pequenos son mas faciles de resolver antes de que crezcan.', fromYou3: 'Establece horarios regulares en el centro, normalmente un par de dias cada semana.', fromYou4: 'Hazte responsable de tu siguiente paso, aunque todo el camino todavia no este claro.',
             fromMeTitle: 'Lo Que Puedes Esperar de Mi', fromMe1: 'Expectativas claras, comentarios honestos y ayuda para crear un plan que funcione.', fromMe2: 'Un esfuerzo por conectar el trabajo escolar con tus intereses y metas futuras.', fromMe3: 'Ayuda para encontrar clases, programas, herramientas y oportunidades que se adapten a ti.', fromMe4: 'Flexibilidad para responsabilidades reales, junto con progreso constante y responsabilidad.',
-            startTitle: 'Buenos Lugares para Comenzar', surveyTitle: 'Comparte Tus Intereses y Metas', surveyText: 'Completa la encuesta de personalizacion de cinco minutos.', scheduleTitle: 'Planea Tu Horario en el Centro', scheduleText: 'Dime que dias y horarios funcionan mejor.', exploreTitle: 'Explora Oportunidades', exploreText: 'Encuentra programas, opciones universitarias y formas de desarrollar habilidades.',
-            contactTitle: 'Contacta al Sr. Buchler', contactHours: 'Lunes a jueves, 11 AM–2 PM', backButton: 'Volver al Tablero'
+            startTitle: 'Buenos Lugares para Comenzar', surveyTitle: 'Comparte Tus Intereses y Metas', surveyText: 'Completa la encuesta de personalizacion de cinco minutos.', scheduleTitle: 'Planea Tu Horario en el Centro', scheduleText: 'Dime que dias y horarios funcionan mejor.', exploreTitle: 'Explora Oportunidades', exploreText: 'Encuentra programas, opciones universitarias y formas de desarrollar habilidades.', zoomTitle: 'Entra al Zoom del Sr. Buchler', zoomText: 'Abre el enlace directo para reuniones virtuales y apoyo.',
+            contactTitle: 'Contacta al Sr. Buchler', contactHours: 'Lunes a jueves, 11 AM–2 PM', backButton: 'Volver al Tablero', dualButton: 'Guia de Inscripcion Doble'
         }
     };
 

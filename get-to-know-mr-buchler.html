@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=20260812-4">
+    <link rel="stylesheet" href="styles.css?v=20260812-5">
 </head>
 <body class="profile-page">
     <header class="site-header" id="top">
@@ -24,6 +24,8 @@
         </div>
         <nav class="main-nav profile-nav" aria-label="Page sections">
             <ul class="nav-list">
+                <li><a href="index.html" data-i18n="noticeboard">Noticeboard</a></li>
+                <li><a href="dual-enrollment.html" data-i18n="dualEnrollment">Dual Enrollment</a></li>
                 <li><a href="#about" data-i18n="navAbout">About Me</a></li>
                 <li><a href="#interests" data-i18n="navInterests">Outside School</a></li>
                 <li><a href="#approach" data-i18n="navApproach">How I Teach</a></li>
@@ -149,6 +151,10 @@
                         <span aria-hidden="true">🚀</span>
                         <div><strong data-i18n="exploreTitle">Explore Opportunities</strong><small data-i18n="exploreText">Find programs, college options, and ways to build skills.</small></div>
                     </a>
+                    <a href="http://bit.ly/buchlerzoom" target="_blank" rel="noopener" class="profile-start-card">
+                        <span aria-hidden="true">💻</span>
+                        <div><strong data-i18n="zoomTitle">Join Mr. Buchler's Zoom</strong><small data-i18n="zoomText">Open the direct link for virtual check-ins and support.</small></div>
+                    </a>
                 </div>
             </div>
         </section>
@@ -163,10 +169,13 @@
                 <p><a href="tel:8582142517">858.214.2517</a></p>
                 <p data-i18n="contactHours">Monday through Thursday, 11 AM–2 PM</p>
             </div>
-            <a href="index.html" class="btn btn-gold" data-i18n="backButton">Back to the Noticeboard</a>
+            <div class="profile-footer-actions">
+                <a href="index.html" class="btn btn-gold" data-i18n="backButton">Back to the Noticeboard</a>
+                <a href="dual-enrollment.html" class="btn btn-outline btn-outline-light" data-i18n="dualButton">Dual Enrollment Guide</a>
+            </div>
         </div>
     </footer>
 
-    <script src="get-to-know-mr-buchler.js?v=20260812-1"></script>
+    <script src="get-to-know-mr-buchler.js?v=20260812-2"></script>
 </body>
 </html>

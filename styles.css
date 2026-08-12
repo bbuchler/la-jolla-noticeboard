@@ -1314,6 +1314,24 @@ h1, h2, h3, h4 {
     color: var(--white);
 }
 
+.contact-card .contact-profile-link {
+    background: var(--gold);
+    border-radius: 50px;
+    color: var(--dark-blue);
+    display: inline-flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.78rem;
+    font-weight: 700;
+    margin-top: 12px;
+    padding: 7px 13px;
+}
+
+.contact-card .contact-profile-link:hover {
+    background: #e5c13a;
+    color: var(--dark-blue);
+    text-decoration: none;
+}
+
 .footer-info {
     text-align: center;
     padding: 20px 0;
@@ -2588,6 +2606,13 @@ h1, h2, h3, h4 {
     color: var(--cyan);
 }
 
+.profile-footer-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
 @media (min-width: 768px) {
     .profile-hero-inner {
         grid-template-columns: minmax(0, 1.5fr) minmax(240px, 0.6fr);
@@ -2598,9 +2623,12 @@ h1, h2, h3, h4 {
     }
 
     .profile-photo-grid,
-    .profile-card-grid,
-    .profile-start-grid {
+    .profile-card-grid {
         grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .profile-start-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .profile-expectations {
@@ -2614,6 +2642,10 @@ h1, h2, h3, h4 {
 
     .profile-footer-logo {
         justify-self: start;
+    }
+
+    .profile-footer-actions {
+        justify-content: flex-end;
     }
 }
 

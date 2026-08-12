@@ -56,7 +56,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20260812-4');
+            const response = await fetch('site-data.json?v=20260812-5');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -488,11 +488,14 @@
     function renderContact() {
         var container = document.getElementById('contactList');
         container.innerHTML = siteData.contacts.map(function (c) {
+            var profileLink = c.profileUrl
+                ? '<a href="' + c.profileUrl + '" class="contact-profile-link">' + t(c.profileLabel) + '</a>'
+                : '';
             return '<div class="contact-card">' +
                 '<h3>' + c.name + '</h3>' +
                 '<p>&#9993; <a href="mailto:' + c.email + '">' + c.email + '</a></p>' +
                 '<p>&#128222; <a href="tel:' + c.phone.replace(/\./g, '') + '">' + c.phone + '</a></p>' +
-                '<p>&#128336; ' + t(c.hours) + '</p></div>';
+                '<p>&#128336; ' + t(c.hours) + '</p>' + profileLink + '</div>';
         }).join('');
 
         document.getElementById('footerAddress').textContent = siteData.school.address;

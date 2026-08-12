@@ -392,7 +392,9 @@
       "name": "Mr. Baptiste Buchler",
       "email": "bbuchler@altusschools.net",
       "phone": "858.214.2517",
-      "hours": { "en": "Mon-Thurs 11 AM - 2 PM", "es": "Lun-Jue 11 AM - 2 PM" }
+      "hours": { "en": "Mon-Thurs 11 AM - 2 PM", "es": "Lun-Jue 11 AM - 2 PM" },
+      "profileUrl": "get-to-know-mr-buchler.html",
+      "profileLabel": { "en": "Learn More About Mr. Buchler", "es": "Conoce Mas al Sr. Buchler" }
     }
   ],
   "sectionHeadings": {
