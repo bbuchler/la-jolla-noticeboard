@@ -195,6 +195,26 @@
   ],
   "educationalOpportunities": [
     {
+      "id": "personalization",
+      "title": { "en": "Personalize Your Schoolwork", "es": "Personaliza Tu Trabajo Escolar" },
+      "content": {
+        "en": "Your interests and goals can help make schoolwork more meaningful. Take this five-minute survey to tell Mr. Buchler about your strengths, hobbies, interests, and future goals. He can use your answers to personalize examples, readings, and assignments when it makes sense.",
+        "es": "Tus intereses y metas pueden ayudar a que el trabajo escolar sea mas significativo. Completa esta encuesta de cinco minutos para contarle al Sr. Buchler sobre tus fortalezas, pasatiempos, intereses y metas futuras. El puede usar tus respuestas para personalizar ejemplos, lecturas y tareas cuando tenga sentido."
+      },
+      "highlights": [
+        { "en": "Share sports, games, hobbies, favorite shows, books, careers, or anything else you enjoy", "es": "Comparte deportes, juegos, pasatiempos, programas favoritos, libros, carreras o cualquier otra cosa que disfrutes" },
+        { "en": "New students should complete the survey after enrolling", "es": "Los estudiantes nuevos deben completar la encuesta despues de inscribirse" }
+      ],
+      "links": [
+        {
+          "label": { "en": "Take the Personalization Survey", "es": "Completar la Encuesta de Personalizacion" },
+          "url": "https://forms.cloud.microsoft/r/EUaXrZ6AuZ"
+        }
+      ],
+      "schedule": null,
+      "location": null
+    },
+    {
       "id": "cld",
       "title": { "en": "Character & Leadership Development (CLD)", "es": "Desarrollo de Caracter y Liderazgo (CLD)" },
       "content": {
