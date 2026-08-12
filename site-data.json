@@ -39,6 +39,18 @@
         },
         "url": "https://forms.cloud.microsoft/r/EUaXrZ6AuZ"
       }
+    },
+    {
+      "title": {
+        "en": "Schedule Your On-Site Time",
+        "es": "Programa Tu Horario en el Centro"
+      },
+      "message": {
+        "en": "The school year is getting into full swing. Tell Mr. Buchler which days and times you prefer to come on-site. Plan to come in a couple of days each week. Your schedule can stay flexible around work, sports, and other responsibilities. We look forward to seeing you in person!",
+        "es": "El ano escolar ya esta en marcha. Dile al Sr. Buchler que dias y horarios prefieres venir al centro. Planea venir un par de dias cada semana. Tu horario puede ser flexible para acomodar el trabajo, los deportes y otras responsabilidades. Esperamos verte en persona!"
+      },
+      "icon": "🏫",
+      "theme": "school"
     }
   ],
   "calendarImages": [

@@ -56,7 +56,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20260812-1');
+            const response = await fetch('site-data.json?v=20260812-2');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -161,12 +161,14 @@
         card.hidden = false;
         card.innerHTML = activeBulletins.map(function (b) {
             var titleHtml = b.title ? '<h3 class="bulletin-title">' + t(b.title) + '</h3>' : '';
+            var themeClass = b.theme ? ' bulletin-card-' + b.theme : '';
+            var icon = b.icon || '&#128226;';
             var actionHtml = b.action && b.action.url
                 ? '<a href="' + b.action.url + '" target="_blank" rel="noopener" class="btn btn-primary bulletin-action">' +
                   t(b.action.label || { en: 'Learn More', es: 'Mas Informacion' }) + '</a>'
                 : '';
-            return '<article class="bulletin-card">' +
-                '<span class="bulletin-icon" aria-hidden="true">&#128226;</span>' +
+            return '<article class="bulletin-card' + themeClass + '">' +
+                '<span class="bulletin-icon" aria-hidden="true">' + icon + '</span>' +
                 '<div class="bulletin-body">' + titleHtml +
                 '<p class="bulletin-message">' + t(b.message) + '</p>' + actionHtml + '</div>' +
                 '</article>';

@@ -384,6 +384,15 @@ h1, h2, h3, h4 {
     box-shadow: var(--shadow);
 }
 
+.bulletin-card-school {
+    background: linear-gradient(135deg, #e8f4fd, #c7e9fa);
+    border-color: var(--cyan);
+}
+
+.bulletin-card-school .bulletin-message {
+    color: #173f5f;
+}
+
 .bulletin-icon {
     font-size: 1.6rem;
     line-height: 1.2;
