@@ -395,6 +395,23 @@
                     }).join('') + '</div>';
             }
 
+            // Altus Arts monthly sessions
+            if (opp.artSessions) {
+                bodyContent += '<div class="art-sessions">' +
+                    '<h4 class="art-sessions-heading">' +
+                    (currentLang === 'es' ? 'Horario y Enlaces de Zoom' : 'Schedule and Zoom Links') + '</h4>' +
+                    opp.artSessions.map(function (session) {
+                        return '<div class="art-session-card">' +
+                            '<div class="art-session-info">' +
+                            '<h4>' + t(session.title) + '</h4>' +
+                            '<p>&#128197; ' + t(session.date) + '</p>' +
+                            '</div>' +
+                            '<a href="' + session.url + '" target="_blank" rel="noopener" class="btn btn-primary art-session-link">' +
+                            (currentLang === 'es' ? 'Unirse por Zoom' : 'Join on Zoom') + '</a>' +
+                            '</div>';
+                    }).join('') + '</div>';
+            }
+
             // Dual enrollment courses
             if (opp.courses) {
                 bodyContent += '<div class="dual-courses">' +

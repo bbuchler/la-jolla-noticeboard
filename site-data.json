@@ -246,6 +246,60 @@
       ]
     },
     {
+      "id": "altus-arts",
+      "title": { "en": "Altus Arts: Monthly Art Sessions", "es": "Altus Arts: Sesiones Mensuales de Arte" },
+      "content": {
+        "en": "Join Altus Arts instructors for monthly, hands-on virtual art lessons. Students participate from their own Resource Center, and all art materials are provided.",
+        "es": "Unete a los instructores de Altus Arts para lecciones virtuales y practicas de arte cada mes. Los estudiantes participan desde su propio Centro de Recursos y se proporcionan todos los materiales de arte."
+      },
+      "schedule": { "en": "Select Thursdays, 1:00 - 2:00 PM (September 2026 - March 2027)", "es": "Jueves seleccionados, 1:00 - 2:00 PM (septiembre 2026 - marzo 2027)" },
+      "location": { "en": "Join virtually from the La Jolla Resource Center", "es": "Participa virtualmente desde el Centro de Recursos La Jolla" },
+      "highlights": [
+        { "en": "All Altus students are welcome", "es": "Todos los estudiantes de Altus son bienvenidos" },
+        { "en": "VAPA instructors lead each hands-on lesson", "es": "Los instructores de VAPA dirigen cada leccion practica" },
+        { "en": "Art materials are provided at the Resource Center", "es": "Los materiales de arte se proporcionan en el Centro de Recursos" },
+        { "en": "Arrive and have your materials ready by 1:00 PM", "es": "Llega y ten tus materiales listos a la 1:00 PM" }
+      ],
+      "links": [
+        {
+          "label": { "en": "View the Full Altus Arts Flyer", "es": "Ver el Folleto Completo de Altus Arts" },
+          "url": "program-resources/Altus-Arts-Monthly-Sessions-2026-27.pdf"
+        }
+      ],
+      "artSessions": [
+        {
+          "title": { "en": "Depth of Space Landscapes", "es": "Paisajes con Profundidad Espacial" },
+          "date": { "en": "Thursday, September 24, 2026: 1:00 - 2:00 PM", "es": "Jueves, 24 de septiembre de 2026: 1:00 - 2:00 PM" },
+          "url": "https://altusschools-net.zoom.us/j/96699204486?from=addon"
+        },
+        {
+          "title": { "en": "Vanitas Skulls", "es": "Calaveras Vanitas" },
+          "date": { "en": "Thursday, October 29, 2026: 1:00 - 2:00 PM", "es": "Jueves, 29 de octubre de 2026: 1:00 - 2:00 PM" },
+          "url": "https://altusschools-net.zoom.us/j/92874682067?from=addon"
+        },
+        {
+          "title": { "en": "Self-Portraits", "es": "Autorretratos" },
+          "date": { "en": "Thursday, December 17, 2026: 1:00 - 2:00 PM", "es": "Jueves, 17 de diciembre de 2026: 1:00 - 2:00 PM" },
+          "url": "https://altusschools-net.zoom.us/j/91096686463?from=addon"
+        },
+        {
+          "title": { "en": "Impossible Cities", "es": "Ciudades Imposibles" },
+          "date": { "en": "Thursday, January 28, 2027: 1:00 - 2:00 PM", "es": "Jueves, 28 de enero de 2027: 1:00 - 2:00 PM" },
+          "url": "https://altusschools-net.zoom.us/j/95946183931?from=addon"
+        },
+        {
+          "title": { "en": "Color Mood Abstractions", "es": "Abstracciones de Color y Estado de Animo" },
+          "date": { "en": "Thursday, February 25, 2027: 1:00 - 2:00 PM", "es": "Jueves, 25 de febrero de 2027: 1:00 - 2:00 PM" },
+          "url": "https://altusschools-net.zoom.us/j/97064512931?from=addon"
+        },
+        {
+          "title": { "en": "Monochromatic Pet Portraits", "es": "Retratos Monocromaticos de Mascotas" },
+          "date": { "en": "Thursday, March 25, 2027: 1:00 - 2:00 PM", "es": "Jueves, 25 de marzo de 2027: 1:00 - 2:00 PM" },
+          "url": "https://altusschools-net.zoom.us/j/96686108555?from=addon"
+        }
+      ]
+    },
+    {
       "id": "cte",
       "title": { "en": "CTE Career Pathways", "es": "Trayectorias Profesionales CTE" },
       "content": {
