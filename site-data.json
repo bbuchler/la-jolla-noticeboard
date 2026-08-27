@@ -459,6 +459,8 @@
     },
     {
       "name": "Mr. Baptiste Buchler",
+      "role": { "en": "Teacher", "es": "Maestro" },
+      "leadershipRole": { "en": "Head of the Social Science Department", "es": "Jefe del Departamento de Ciencias Sociales" },
       "email": "bbuchler@altusschools.net",
       "phone": "858.214.2517",
       "hours": { "en": "Typical availability: Monday-Friday, 10 AM - 6 PM", "es": "Disponibilidad habitual: lunes a viernes, 10 AM - 6 PM" },
