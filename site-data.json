@@ -70,7 +70,13 @@
     {
       "month": { "en": "August 2026", "es": "Agosto 2026" },
       "image": "monthly-calendars/August-Calendar-2026.png?v=20260731-1",
-      "pdf": "monthly-calendars/August-Calendar-2026.pdf"
+      "pdf": "monthly-calendars/August-Calendar-2026.pdf",
+      "visibleUntil": "2026-09-01"
+    },
+    {
+      "month": { "en": "September 2026", "es": "Septiembre 2026" },
+      "image": "monthly-calendars/September-Calendar-2026.png?v=20260827-4",
+      "pdf": "monthly-calendars/September-Calendar-2026.pdf"
     }
   ],
   "learningPeriods": {
@@ -82,7 +88,12 @@
     "periods": [
       {
         "name": "LP2",
-        "dates": { "en": "July 27 - August 21", "es": "27 de julio - 21 de agosto" }
+        "dates": { "en": "July 27 - August 21", "es": "27 de julio - 21 de agosto" },
+        "visibleUntil": "2026-09-01"
+      },
+      {
+        "name": "LP3",
+        "dates": { "en": "August 24 - September 18", "es": "24 de agosto - 18 de septiembre" }
       }
     ]
   },
@@ -91,30 +102,179 @@
       "date": "2026-08-03",
       "title": { "en": "Mr. Buchler Out Today", "es": "El Sr. Buchler No Esta Hoy" },
       "type": "milestone",
-      "badge": null
+      "badge": null,
+      "visibleUntil": "2026-09-01"
     },
     {
       "date": "2026-08-04",
       "title": { "en": "12th Grade Academic Planning with Mr. Sutherland: 10 AM - 2 PM (contact your teacher to schedule)", "es": "Planificacion Academica de 12o Grado con el Sr. Sutherland: 10 AM - 2 PM (contacta a tu maestro para programar una cita)" },
       "type": "activity",
-      "badge": null
+      "badge": null,
+      "visibleUntil": "2026-09-01"
     },
     {
       "date": "2026-08-07",
       "title": { "en": "Mr. Buchler Out Today", "es": "El Sr. Buchler No Esta Hoy" },
       "type": "milestone",
-      "badge": null
+      "badge": null,
+      "visibleUntil": "2026-09-01"
     },
     {
       "date": "2026-08-21",
       "title": { "en": "End of LP2: Credits Due!", "es": "Fin de LP2: Creditos Vencen!" },
       "type": "deadline",
-      "badge": null
+      "badge": null,
+      "visibleUntil": "2026-09-01"
     },
     {
       "date": "2026-08-27",
       "title": { "en": "Altus Symposium: Resource Center Open by Appointment Only, Complete Schoolwork from Home", "es": "Simposio Altus: Centro de Recursos Abierto Solo con Cita, Completa el Trabajo Escolar desde Casa" },
       "type": "milestone",
+      "badge": null,
+      "visibleUntil": "2026-09-01"
+    },
+    {
+      "date": "2026-09-01",
+      "title": { "en": "Mr. Buchler Out All Day", "es": "Sr. Buchler Ausente Todo el Dia" },
+      "type": "milestone",
+      "badge": null
+    },
+    {
+      "date": "2026-09-02",
+      "title": { "en": "Mr. Buchler Out All Day", "es": "Sr. Buchler Ausente Todo el Dia" },
+      "type": "milestone",
+      "badge": null
+    },
+    {
+      "date": "2026-09-02",
+      "title": { "en": "ELD (Zoom): 11 AM - 12 PM", "es": "ELD (Zoom): 11 AM - 12 PM" },
+      "type": "activity",
+      "badge": null
+    },
+    {
+      "date": "2026-09-04",
+      "title": { "en": "Altus Symposium: Resource Center Open by Appointment Only", "es": "Simposio Altus: Centro de Recursos Abierto Solo con Cita" },
+      "type": "milestone",
+      "badge": null
+    },
+    {
+      "date": "2026-09-07",
+      "title": { "en": "Labor Day: School Closed", "es": "Dia del Trabajo: Escuela Cerrada" },
+      "type": "closed",
+      "badge": null
+    },
+    {
+      "date": "2026-09-08",
+      "title": { "en": "Mr. Quinn Out All Day", "es": "Sr. Quinn Ausente Todo el Dia" },
+      "type": "milestone",
+      "badge": null
+    },
+    {
+      "date": "2026-09-08",
+      "title": { "en": "First Day of CLD: 10 AM - 11:30 AM", "es": "Primer Dia de CLD: 10 AM - 11:30 AM" },
+      "type": "activity",
+      "badge": "new"
+    },
+    {
+      "date": "2026-09-08",
+      "title": { "en": "NWEA Fall Testing Window Begins: September 8 - October 16", "es": "Comienza el Periodo de Evaluaciones NWEA de Otono: 8 de septiembre - 16 de octubre" },
+      "type": "testing",
+      "badge": null
+    },
+    {
+      "date": "2026-09-09",
+      "title": { "en": "Mr. Quinn Out All Day", "es": "Sr. Quinn Ausente Todo el Dia" },
+      "type": "milestone",
+      "badge": null
+    },
+    {
+      "date": "2026-09-09",
+      "title": { "en": "ELD (Zoom): 11 AM - 12 PM", "es": "ELD (Zoom): 11 AM - 12 PM" },
+      "type": "activity",
+      "badge": null
+    },
+    {
+      "date": "2026-09-10",
+      "title": { "en": "Family Learning Series: 4-Year College Application Planning, 4 PM - 5 PM", "es": "Serie de Aprendizaje Familiar: Planificacion de Solicitudes Universitarias de Cuatro Anos, 4 PM - 5 PM" },
+      "type": "activity",
+      "badge": null
+    },
+    {
+      "date": "2026-09-11",
+      "title": { "en": "Early College Credit Support: 1 PM - 3 PM", "es": "Apoyo de Credito Universitario Temprano: 1 PM - 3 PM" },
+      "type": "activity",
+      "badge": null
+    },
+    {
+      "date": "2026-09-15",
+      "title": { "en": "CLD: 10 AM - 11:30 AM", "es": "CLD: 10 AM - 11:30 AM" },
+      "type": "activity",
+      "badge": null
+    },
+    {
+      "date": "2026-09-16",
+      "title": { "en": "ELD (Zoom): 11 AM - 12 PM", "es": "ELD (Zoom): 11 AM - 12 PM" },
+      "type": "activity",
+      "badge": null
+    },
+    {
+      "date": "2026-09-17",
+      "title": { "en": "Marine Science Explorers Series: Topic and Time TBD", "es": "Serie Exploradores de Ciencias Marinas: Tema y Hora por Confirmar" },
+      "type": "activity",
+      "badge": null
+    },
+    {
+      "date": "2026-09-18",
+      "title": { "en": "End of LP3: Credits Due!", "es": "Fin de LP3: Creditos Vencen!" },
+      "type": "deadline",
+      "badge": null
+    },
+    {
+      "date": "2026-09-18",
+      "title": { "en": "Math Literacy Summit: Resource Center Open by Appointment Only", "es": "Cumbre de Alfabetizacion Matematica: Centro de Recursos Abierto Solo con Cita" },
+      "type": "milestone",
+      "badge": null
+    },
+    {
+      "date": "2026-09-21",
+      "title": { "en": "Marine Science Explorers Series: Beach Clean-Up, Time TBD", "es": "Serie Exploradores de Ciencias Marinas: Limpieza de Playa, Hora por Confirmar" },
+      "type": "activity",
+      "badge": null
+    },
+    {
+      "date": "2026-09-22",
+      "title": { "en": "All Staff Meeting: Resource Center Open by Appointment Only", "es": "Reunion de Todo el Personal: Centro de Recursos Abierto Solo con Cita" },
+      "type": "milestone",
+      "badge": null
+    },
+    {
+      "date": "2026-09-23",
+      "title": { "en": "ELD (Zoom): 11 AM - 12 PM", "es": "ELD (Zoom): 11 AM - 12 PM" },
+      "type": "activity",
+      "badge": null
+    },
+    {
+      "date": "2026-09-24",
+      "title": { "en": "Altus Arts Session: Depth of Space Landscapes, 1 PM - 2 PM", "es": "Sesion de Arte Altus: Profundidad del Espacio, Paisajes, 1 PM - 2 PM" },
+      "type": "activity",
+      "badge": null
+    },
+    {
+      "date": "2026-09-25",
+      "title": { "en": "Early College Credit Support: 1 PM - 3 PM", "es": "Apoyo de Credito Universitario Temprano: 1 PM - 3 PM" },
+      "type": "activity",
+      "badge": null
+    },
+    {
+      "date": "2026-09-29",
+      "title": { "en": "CLD: 10 AM - 11:30 AM", "es": "CLD: 10 AM - 11:30 AM" },
+      "type": "activity",
+      "badge": null
+    },
+    {
+      "date": "2026-09-30",
+      "title": { "en": "ELD (Zoom): 11 AM - 12 PM", "es": "ELD (Zoom): 11 AM - 12 PM" },
+      "type": "activity",
       "badge": null
     }
   ],
@@ -155,8 +315,8 @@
     }
   ],
   "seasonalNote": {
-    "en": "Learning Period 2 ends August 21, so make sure your course credit is complete. HS ELD continues Wednesdays from 11 AM - 12 PM on Zoom. On August 27, complete schoolwork from home while the Resource Center is open by appointment only for the Altus Symposium.",
-    "es": "El Periodo de Aprendizaje 2 termina el 21 de agosto, asi que asegurate de completar tu credito del curso. ELD de preparatoria continua los miercoles de 11 AM - 12 PM por Zoom. El 27 de agosto, completa el trabajo escolar desde casa mientras el Centro de Recursos esta abierto solo con cita por el Simposio Altus."
+    "en": "Learning Period 3 ends September 18. NWEA fall testing runs September 8 - October 16. Watch for CLD, ELD, Early College Credit support, Marine Science, family learning, and Altus Arts events throughout the month. Some Marine Science times are still TBD and will be updated when confirmed.",
+    "es": "El Periodo de Aprendizaje 3 termina el 18 de septiembre. Las evaluaciones NWEA de otono son del 8 de septiembre al 16 de octubre. Revisa los eventos de CLD, ELD, apoyo de Credito Universitario Temprano, Ciencias Marinas, aprendizaje familiar y Arte Altus durante el mes. Algunos horarios de Ciencias Marinas aun estan por confirmar y se actualizaran cuando esten listos."
   },
   "fieldTrips": [],
   "fieldTripRecap": {
