@@ -62,7 +62,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20260827-5');
+            const response = await fetch('site-data.json?v=20260827-6');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -254,17 +254,33 @@
             }
 
             var label = typeLabels[evt.type] ? t(typeLabels[evt.type]) : evt.type;
-
-            return '<div class="date-card' + (past ? ' past' : '') + '">' +
-                '<div class="date-bubble type-' + evt.type + '">' +
+            var actionHtml = evt.opportunityId
+                ? '<div class="date-card-action">' +
+                  (currentLang === 'es' ? 'Ver detalles y unirse' : 'View details and join') +
+                  ' &#8595;</div>'
+                : '';
+            var cardContent = '<div class="date-bubble type-' + evt.type + '">' +
                 '<span class="date-day">' + parts.day + '</span>' +
                 '<span class="date-month-abbr">' + parts.monthAbbr + '</span>' +
                 '</div>' +
                 '<div class="date-card-content">' +
                 '<div class="date-card-title">' + t(evt.title) + badgeHtml + '</div>' +
                 '<div class="date-card-type type-' + evt.type + '-text">' + label + '</div>' +
-                '</div></div>';
+                actionHtml + '</div>';
+
+            if (evt.opportunityId) {
+                return '<button type="button" class="date-card date-card-link' + (past ? ' past' : '') +
+                    '" data-opportunity-id="' + evt.opportunityId + '">' + cardContent + '</button>';
+            }
+
+            return '<div class="date-card' + (past ? ' past' : '') + '">' + cardContent + '</div>';
         }).join('');
+
+        container.querySelectorAll('.date-card-link').forEach(function (card) {
+            card.addEventListener('click', function () {
+                openOpportunity(this.getAttribute('data-opportunity-id'));
+            });
+        });
     }
 
     // --- Weekly Schedule ---
@@ -471,7 +487,7 @@
                     (currentLang === 'es' ? 'Visitar el Centro' : 'Visit the Hub') + '</a>';
             }
 
-            return '<div class="accordion-item">' +
+            return '<div class="accordion-item" data-opportunity-id="' + opp.id + '">' +
                 '<button class="accordion-header" aria-expanded="false">' +
                 '<span>' + t(opp.title) + '</span>' +
                 '<span class="accordion-chevron">&#9660;</span>' +
@@ -584,6 +600,20 @@
                 }
             });
         });
+    }
+
+    function openOpportunity(opportunityId) {
+        var item = document.querySelector('.accordion-item[data-opportunity-id="' + opportunityId + '"]');
+        if (!item) return;
+
+        var header = item.querySelector('.accordion-header');
+        if (!header.classList.contains('active')) {
+            header.click();
+        }
+
+        window.setTimeout(function () {
+            item.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 50);
     }
 
     // --- Hamburger Menu ---

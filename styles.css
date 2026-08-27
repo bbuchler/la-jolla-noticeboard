@@ -670,6 +670,27 @@ h1, h2, h3, h4 {
     box-shadow: var(--shadow-hover);
 }
 
+.date-card-link {
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+    text-align: left;
+    width: 100%;
+}
+
+.date-card-link:focus-visible {
+    outline: 3px solid var(--primary-blue);
+    outline-offset: 3px;
+}
+
+.date-card-action {
+    color: var(--primary-blue);
+    font-size: 0.78rem;
+    font-weight: 700;
+    margin-top: 6px;
+}
+
 .date-card.past {
     opacity: 0.5;
 }

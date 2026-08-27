@@ -207,7 +207,8 @@
       "date": "2026-09-24",
       "title": { "en": "Altus Arts Session: Depth of Space Landscapes, 1 PM - 2 PM", "es": "Sesion de Arte Altus: Profundidad del Espacio, Paisajes, 1 PM - 2 PM" },
       "type": "activity",
-      "badge": null
+      "badge": null,
+      "opportunityId": "altus-arts"
     }
   ],
   "caaspp": null,
