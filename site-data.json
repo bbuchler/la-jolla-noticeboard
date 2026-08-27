@@ -423,35 +423,36 @@
     "thought": {
       "label": { "en": "A Thought", "es": "Un Pensamiento" },
       "text": {
-        "en": "Clarity isn't about knowing what you want to do with your life, it's about knowing what you want to do this week. You don't need to have it all figured out. You just need to know your next step.",
-        "es": "La claridad no se trata de saber que quieres hacer con tu vida. Se trata de saber que quieres hacer esta semana. No necesitas tenerlo todo resuelto. Solo necesitas conocer tu siguiente paso."
+        "en": "The measure of a life is not what you consume, but what you contribute.\n\nSpend less time owning, consuming, taking. Spend more time giving, creating, making.",
+        "es": "La medida de una vida no esta en lo que consumes, sino en lo que aportas.\n\nDedica menos tiempo a poseer, consumir y tomar. Dedica mas tiempo a dar, crear y hacer."
       }
     },
     "quote": {
       "label": { "en": "A Quote", "es": "Una Cita" },
       "context": {
-        "en": "Film actress and producer Mary Pickford on protecting your mind:",
-        "es": "La actriz y productora de cine Mary Pickford sobre como proteger tu mente:"
+        "en": "Author and speaker Jim Rohn reminds us to continually redirect our attention toward what is helpful and productive:",
+        "es": "El autor y conferencista Jim Rohn nos recuerda que debemos dirigir continuamente nuestra atencion hacia lo util y productivo:"
       },
       "text": {
-        "en": "All the water in the world cannot sink a ship unless it gets inside the ship. All the negativity in the world cannot sink a person unless it gets inside the mind.",
-        "es": "Toda el agua del mundo no puede hundir un barco a menos que entre en el barco. Toda la negatividad del mundo no puede hundir a una persona a menos que entre en su mente."
+        "en": "Much of life is in learning to always remain part of the solution rather than allowing ourselves to become part of the problem.",
+        "es": "Gran parte de la vida consiste en aprender a ser siempre parte de la solucion, en lugar de permitirnos ser parte del problema."
       },
-      "author": "Mary Pickford",
-      "source": "Why Not Try God (1934)"
+      "author": "Jim Rohn",
+      "source": "The Seasons of Life"
     },
     "question": {
       "label": { "en": "A Question", "es": "Una Pregunta" },
       "text": {
-        "en": "Instead of thinking, \"What's wrong and how do I fix it?\"\n\nTry exploring, \"What's right and how do I grow it?\"",
-        "es": "En lugar de pensar, \"Que esta mal y como lo arreglo?\"\n\nIntenta explorar, \"Que esta bien y como puedo hacerlo crecer?\""
+        "en": "Your life is simply your days, accumulated. Did today's habits contribute to the life you want to build?",
+        "es": "Tu vida es simplemente la acumulacion de tus dias. Los habitos de hoy contribuyeron a la vida que quieres construir?"
       }
     }
   },
   "contacts": [
     {
       "name": "Mr. Connor Quinn",
-      "role": { "en": "Teacher and Mathematics Department Head", "es": "Maestro y Jefe del Departamento de Matematicas" },
+      "role": { "en": "Teacher", "es": "Maestro" },
+      "leadershipRole": { "en": "Head of the Math Department", "es": "Jefe del Departamento de Matematicas" },
       "email": "cquinn@altusschools.net",
       "phone": "858.214.2519",
       "hours": { "en": "Monday-Friday, 7 AM - 3 PM", "es": "Lunes a viernes, 7 AM - 3 PM" }
