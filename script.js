@@ -52,11 +52,17 @@
         return today < cutoff;
     }
 
+    /** Keep dated events only until their final day has passed */
+    function isEventCurrentlyVisible(event) {
+        if (!isCurrentlyVisible(event)) return false;
+        return !isPast(event.ends || event.date);
+    }
+
     // --- Data Loading ---
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20260827-4');
+            const response = await fetch('site-data.json?v=20260827-5');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -235,7 +241,7 @@
 
         // Date cards
         var container = document.getElementById('importantDatesList');
-        container.innerHTML = siteData.importantDates.filter(isCurrentlyVisible).map(function (evt) {
+        container.innerHTML = siteData.importantDates.filter(isEventCurrentlyVisible).map(function (evt) {
             var parts = parseDateParts(evt.date);
             var past = isPast(evt.date);
             var badgeHtml = '';
@@ -268,16 +274,17 @@
         container.innerHTML = siteData.recurringEvents.map(function (day) {
             var eventsHtml = '';
             var noteHtml = '';
+            var visibleEvents = day.events.filter(isCurrentlyVisible);
 
             if (day.note) {
                 noteHtml = '<p class="weekly-day-note">' + t(day.note) + '</p>';
             }
 
-            if (day.events.length === 0 && !day.note) {
+            if (visibleEvents.length === 0 && !day.note) {
                 eventsHtml = '<p class="weekly-no-events">' +
                     (currentLang === 'es' ? 'No hay eventos programados' : 'No scheduled events') + '</p>';
             } else {
-                eventsHtml = day.events.map(function (e) {
+                eventsHtml = visibleEvents.map(function (e) {
                     return '<div class="weekly-event">' +
                         '<div class="weekly-event-name">' + t(e.name) + '</div>' +
                         '<div class="weekly-event-details">' + e.time + ' — ' + t(e.location) + '</div>' +

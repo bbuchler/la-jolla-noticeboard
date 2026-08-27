@@ -93,7 +93,8 @@
       },
       {
         "name": "LP3",
-        "dates": { "en": "August 24 - September 18", "es": "24 de agosto - 18 de septiembre" }
+        "dates": { "en": "August 24 - September 18", "es": "24 de agosto - 18 de septiembre" },
+        "visibleUntil": "2026-09-19"
       }
     ]
   },
@@ -135,20 +136,9 @@
     },
     {
       "date": "2026-09-01",
-      "title": { "en": "Mr. Buchler Out All Day", "es": "Sr. Buchler Ausente Todo el Dia" },
+      "ends": "2026-09-02",
+      "title": { "en": "Mr. Buchler Out: September 1-2", "es": "Sr. Buchler Ausente: 1 y 2 de Septiembre" },
       "type": "milestone",
-      "badge": null
-    },
-    {
-      "date": "2026-09-02",
-      "title": { "en": "Mr. Buchler Out All Day", "es": "Sr. Buchler Ausente Todo el Dia" },
-      "type": "milestone",
-      "badge": null
-    },
-    {
-      "date": "2026-09-02",
-      "title": { "en": "ELD (Zoom): 11 AM - 12 PM", "es": "ELD (Zoom): 11 AM - 12 PM" },
-      "type": "activity",
       "badge": null
     },
     {
@@ -165,55 +155,21 @@
     },
     {
       "date": "2026-09-08",
-      "title": { "en": "Mr. Quinn Out All Day", "es": "Sr. Quinn Ausente Todo el Dia" },
+      "ends": "2026-09-09",
+      "title": { "en": "Mr. Quinn Out: September 8-9", "es": "Sr. Quinn Ausente: 8 y 9 de Septiembre" },
       "type": "milestone",
       "badge": null
     },
     {
       "date": "2026-09-08",
-      "title": { "en": "First Day of CLD: 10 AM - 11:30 AM", "es": "Primer Dia de CLD: 10 AM - 11:30 AM" },
-      "type": "activity",
-      "badge": "new"
-    },
-    {
-      "date": "2026-09-08",
-      "title": { "en": "NWEA Fall Testing Window Begins: September 8 - October 16", "es": "Comienza el Periodo de Evaluaciones NWEA de Otono: 8 de septiembre - 16 de octubre" },
+      "ends": "2026-10-16",
+      "title": { "en": "NWEA Fall Testing Window: September 8 - October 16", "es": "Periodo de Evaluaciones NWEA de Otono: 8 de septiembre - 16 de octubre" },
       "type": "testing",
-      "badge": null
-    },
-    {
-      "date": "2026-09-09",
-      "title": { "en": "Mr. Quinn Out All Day", "es": "Sr. Quinn Ausente Todo el Dia" },
-      "type": "milestone",
-      "badge": null
-    },
-    {
-      "date": "2026-09-09",
-      "title": { "en": "ELD (Zoom): 11 AM - 12 PM", "es": "ELD (Zoom): 11 AM - 12 PM" },
-      "type": "activity",
       "badge": null
     },
     {
       "date": "2026-09-10",
       "title": { "en": "Family Learning Series: 4-Year College Application Planning, 4 PM - 5 PM", "es": "Serie de Aprendizaje Familiar: Planificacion de Solicitudes Universitarias de Cuatro Anos, 4 PM - 5 PM" },
-      "type": "activity",
-      "badge": null
-    },
-    {
-      "date": "2026-09-11",
-      "title": { "en": "Early College Credit Support: 1 PM - 3 PM", "es": "Apoyo de Credito Universitario Temprano: 1 PM - 3 PM" },
-      "type": "activity",
-      "badge": null
-    },
-    {
-      "date": "2026-09-15",
-      "title": { "en": "CLD: 10 AM - 11:30 AM", "es": "CLD: 10 AM - 11:30 AM" },
-      "type": "activity",
-      "badge": null
-    },
-    {
-      "date": "2026-09-16",
-      "title": { "en": "ELD (Zoom): 11 AM - 12 PM", "es": "ELD (Zoom): 11 AM - 12 PM" },
       "type": "activity",
       "badge": null
     },
@@ -248,32 +204,8 @@
       "badge": null
     },
     {
-      "date": "2026-09-23",
-      "title": { "en": "ELD (Zoom): 11 AM - 12 PM", "es": "ELD (Zoom): 11 AM - 12 PM" },
-      "type": "activity",
-      "badge": null
-    },
-    {
       "date": "2026-09-24",
       "title": { "en": "Altus Arts Session: Depth of Space Landscapes, 1 PM - 2 PM", "es": "Sesion de Arte Altus: Profundidad del Espacio, Paisajes, 1 PM - 2 PM" },
-      "type": "activity",
-      "badge": null
-    },
-    {
-      "date": "2026-09-25",
-      "title": { "en": "Early College Credit Support: 1 PM - 3 PM", "es": "Apoyo de Credito Universitario Temprano: 1 PM - 3 PM" },
-      "type": "activity",
-      "badge": null
-    },
-    {
-      "date": "2026-09-29",
-      "title": { "en": "CLD: 10 AM - 11:30 AM", "es": "CLD: 10 AM - 11:30 AM" },
-      "type": "activity",
-      "badge": null
-    },
-    {
-      "date": "2026-09-30",
-      "title": { "en": "ELD (Zoom): 11 AM - 12 PM", "es": "ELD (Zoom): 11 AM - 12 PM" },
       "type": "activity",
       "badge": null
     }
@@ -286,7 +218,15 @@
     },
     {
       "day": { "en": "Tuesday", "es": "Martes" },
-      "events": []
+      "events": [
+        {
+          "name": { "en": "CLD (September 8, 15 & 29)", "es": "CLD (8, 15 y 29 de septiembre)" },
+          "time": "10 AM - 11:30 AM",
+          "location": { "en": "La Jolla Resource Center", "es": "Centro de Recursos La Jolla" },
+          "type": "class",
+          "visibleUntil": "2026-09-30"
+        }
+      ]
     },
     {
       "day": { "en": "Wednesday", "es": "Miercoles" },
@@ -305,8 +245,16 @@
     },
     {
       "day": { "en": "Friday", "es": "Viernes" },
-      "events": [],
-      "note": { "en": "Non-student day. Resource Center closed to students. Students still responsible for completing work from home.", "es": "Dia sin estudiantes. Centro de Recursos cerrado para estudiantes. Los estudiantes siguen siendo responsables de completar su trabajo desde casa." }
+      "events": [
+        {
+          "name": { "en": "Early College Credit Support (September 11 & 25)", "es": "Apoyo de Credito Universitario Temprano (11 y 25 de septiembre)" },
+          "time": "1 PM - 3 PM",
+          "location": { "en": "La Jolla Resource Center", "es": "Centro de Recursos La Jolla" },
+          "type": "support",
+          "visibleUntil": "2026-09-26"
+        }
+      ],
+      "note": { "en": "Non-student day. The Resource Center is generally closed except for scheduled support sessions or appointments. Students are still responsible for completing work from home.", "es": "Dia sin estudiantes. El Centro de Recursos generalmente esta cerrado, excepto para sesiones de apoyo o citas programadas. Los estudiantes siguen siendo responsables de completar su trabajo desde casa." }
     },
     {
       "day": { "en": "Weekends & Holidays", "es": "Fines de Semana y Dias Festivos" },
