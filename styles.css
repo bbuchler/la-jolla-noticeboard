@@ -393,6 +393,19 @@ h1, h2, h3, h4 {
     color: #173f5f;
 }
 
+.bulletin-card-alert {
+    background: linear-gradient(135deg, #fff4f4, #ffe2e2);
+    border-color: #d85b5b;
+}
+
+.bulletin-card-alert .bulletin-title {
+    color: #8b1e1e;
+}
+
+.bulletin-card-alert .bulletin-message {
+    color: #5f2525;
+}
+
 .bulletin-icon {
     font-size: 1.6rem;
     line-height: 1.2;
@@ -1335,6 +1348,11 @@ h1, h2, h3, h4 {
     font-size: 1.05rem;
     margin-bottom: 10px;
     color: var(--gold);
+}
+
+.contact-card .contact-role {
+    color: var(--white);
+    font-weight: 600;
 }
 
 .contact-card p {

@@ -56,7 +56,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20260817-1');
+            const response = await fetch('site-data.json?v=20260827-1');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -505,11 +505,12 @@
     function renderContact() {
         var container = document.getElementById('contactList');
         container.innerHTML = siteData.contacts.map(function (c) {
+            var role = c.role ? '<p class="contact-role">' + t(c.role) + '</p>' : '';
             var profileLink = c.profileUrl
                 ? '<a href="' + c.profileUrl + '" class="contact-profile-link">' + t(c.profileLabel) + '</a>'
                 : '';
             return '<div class="contact-card">' +
-                '<h3>' + c.name + '</h3>' +
+                '<h3>' + c.name + '</h3>' + role +
                 '<p>&#9993; <a href="mailto:' + c.email + '">' + c.email + '</a></p>' +
                 '<p>&#128222; <a href="tel:' + c.phone.replace(/\./g, '') + '">' + c.phone + '</a></p>' +
                 '<p>&#128336; ' + t(c.hours) + '</p>' + profileLink + '</div>';
