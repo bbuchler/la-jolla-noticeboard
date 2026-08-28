@@ -62,7 +62,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20260827-6');
+            const response = await fetch('site-data.json?v=20260828-1');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -401,6 +401,13 @@
                 bodyContent += '<ul class="accordion-highlights">' +
                     opp.highlights.map(function (h) { return '<li>' + t(h) + '</li>'; }).join('') +
                     '</ul>';
+            }
+
+            // Program flyer
+            if (opp.flyer) {
+                bodyContent += '<a href="' + opp.flyer.image + '" target="_blank" rel="noopener" class="opportunity-flyer-link">' +
+                    '<img src="' + opp.flyer.image + '" alt="' + t(opp.flyer.alt) + '" class="opportunity-flyer" loading="lazy">' +
+                    '<span>' + t(opp.flyer.caption) + '</span></a>';
             }
 
             // CTE pathways

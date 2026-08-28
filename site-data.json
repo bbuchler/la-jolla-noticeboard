@@ -25,16 +25,16 @@
   "bulletins": [
     {
       "title": {
-        "en": "Mr. Buchler Out September 1-2",
-        "es": "Sr. Buchler Ausente el 1 y 2 de Septiembre"
+        "en": "Important Schedule Changes: September 1-4",
+        "es": "Cambios Importantes de Horario: 1-4 de Septiembre"
       },
       "message": {
-        "en": "Mr. Buchler will be out Tuesday, September 1, and Wednesday, September 2, for minor eye surgery. If all goes as planned, he expects to return Thursday, September 3. Students may work from home those days if they prefer. Mr. Quinn will be at the La Jolla Resource Center for students who need to come on site.",
-        "es": "El Sr. Buchler estara ausente el martes 1 y miercoles 2 de septiembre por una cirugia menor del ojo. Si todo sale segun lo planeado, espera regresar el jueves 3 de septiembre. Los estudiantes pueden trabajar desde casa esos dias si lo prefieren. El Sr. Quinn estara en el Centro de Recursos La Jolla para los estudiantes que necesiten venir en persona."
+        "en": "Mr. Buchler will be out Tuesday, September 1, through Friday, September 4. Students who need to meet with him in person next week should plan to come Monday, August 31. Mr. Quinn will be available at La Jolla September 1-2 for students who need on-site support. The Resource Center is closed Thursday, September 3, for staff training. On Friday, September 4, it is open by appointment only for the Altus Symposium. Students should work from home unless they have confirmed on-site support.",
+        "es": "El Sr. Buchler estara ausente desde el martes 1 hasta el viernes 4 de septiembre. Los estudiantes que necesiten reunirse con el en persona la proxima semana deben planear venir el lunes 31 de agosto. El Sr. Quinn estara disponible en La Jolla el 1 y 2 de septiembre para los estudiantes que necesiten apoyo en persona. El Centro de Recursos esta cerrado el jueves 3 de septiembre por capacitacion del personal. El viernes 4 de septiembre, esta abierto solo con cita por el Simposio Altus. Los estudiantes deben trabajar desde casa a menos que tengan apoyo en persona confirmado."
       },
       "icon": "👁️",
       "theme": "alert",
-      "expires": "2026-09-03"
+      "expires": "2026-09-05"
     },
     {
       "title": {
@@ -75,7 +75,7 @@
     },
     {
       "month": { "en": "September 2026", "es": "Septiembre 2026" },
-      "image": "monthly-calendars/September-Calendar-2026.png?v=20260827-4",
+      "image": "monthly-calendars/September-Calendar-2026.png?v=20260828-1",
       "pdf": "monthly-calendars/September-Calendar-2026.pdf"
     }
   ],
@@ -136,9 +136,15 @@
     },
     {
       "date": "2026-09-01",
-      "ends": "2026-09-02",
-      "title": { "en": "Mr. Buchler Out: September 1-2", "es": "Sr. Buchler Ausente: 1 y 2 de Septiembre" },
+      "ends": "2026-09-04",
+      "title": { "en": "Mr. Buchler Out: September 1-4", "es": "Sr. Buchler Ausente: 1-4 de Septiembre" },
       "type": "milestone",
+      "badge": null
+    },
+    {
+      "date": "2026-09-03",
+      "title": { "en": "Resource Center Closed for Staff Training: Students Work from Home", "es": "Centro de Recursos Cerrado por Capacitacion del Personal: Estudiantes Trabajan desde Casa" },
+      "type": "closed",
       "badge": null
     },
     {
@@ -223,7 +229,7 @@
         {
           "name": { "en": "CLD (September 8, 15 & 29)", "es": "CLD (8, 15 y 29 de septiembre)" },
           "time": "10 AM - 11:30 AM",
-          "location": { "en": "La Jolla Resource Center", "es": "Centro de Recursos La Jolla" },
+          "location": { "en": "Pacific Beach Resource Center", "es": "Centro de Recursos Pacific Beach" },
           "type": "class",
           "visibleUntil": "2026-09-30"
         }
@@ -264,8 +270,8 @@
     }
   ],
   "seasonalNote": {
-    "en": "Learning Period 3 ends September 18. NWEA fall testing runs September 8 - October 16. Watch for CLD, ELD, Early College Credit support, Marine Science, family learning, and Altus Arts events throughout the month. Some Marine Science times are still TBD and will be updated when confirmed.",
-    "es": "El Periodo de Aprendizaje 3 termina el 18 de septiembre. Las evaluaciones NWEA de otono son del 8 de septiembre al 16 de octubre. Revisa los eventos de CLD, ELD, apoyo de Credito Universitario Temprano, Ciencias Marinas, aprendizaje familiar y Arte Altus durante el mes. Algunos horarios de Ciencias Marinas aun estan por confirmar y se actualizaran cuando esten listos."
+    "en": "Mr. Buchler is out September 1-4. The Resource Center is closed September 3 for staff training and open by appointment only September 4 for the Altus Symposium. Students should work from home unless they have confirmed on-site support. CLD begins September 8 and meets on select Tuesdays from 10:00-11:30 AM at the Pacific Beach Resource Center. Learning Period 3 ends September 18.",
+    "es": "El Sr. Buchler esta ausente del 1 al 4 de septiembre. El Centro de Recursos esta cerrado el 3 de septiembre por capacitacion del personal y abierto solo con cita el 4 de septiembre por el Simposio Altus. Los estudiantes deben trabajar desde casa a menos que tengan apoyo en persona confirmado. CLD comienza el 8 de septiembre y se reune algunos martes de 10:00-11:30 AM en el Centro de Recursos Pacific Beach. El Periodo de Aprendizaje 3 termina el 18 de septiembre."
   },
   "fieldTrips": [],
   "fieldTripRecap": {
@@ -340,17 +346,22 @@
       "id": "cld",
       "title": { "en": "Character & Leadership Development (CLD)", "es": "Desarrollo de Caracter y Liderazgo (CLD)" },
       "content": {
-        "en": "A transformative experience designed to empower students to reach their full potential. It's more than just a class: an opportunity to make a real impact in your community, build strong character, and enjoy physical activities that promote teamwork and fitness for all abilities.",
-        "es": "Una experiencia transformadora disenada para empoderar a los estudiantes a alcanzar su maximo potencial. Es mas que una clase: una oportunidad para hacer un impacto real en tu comunidad, construir un caracter fuerte y disfrutar actividades fisicas que promueven el trabajo en equipo y la aptitud fisica para todas las habilidades."
+        "en": "Build leadership, strengthen academic habits, serve the community, and explore new interests. This year's CLD program includes beach cleanups, a chess tournament, and aviation and drone exploration.",
+        "es": "Desarrolla liderazgo, fortalece habitos academicos, sirve a la comunidad y explora nuevos intereses. El programa CLD de este ano incluye limpiezas de playa, un torneo de ajedrez y exploracion de aviacion y drones."
       },
-      "schedule": { "en": "Every Tuesday, 10:00 AM - 11:30 AM", "es": "Cada martes, 10:00 AM - 11:30 AM" },
+      "schedule": { "en": "Select Tuesdays, 10:00 AM - 11:30 AM, starting September 8", "es": "Martes seleccionados, 10:00 AM - 11:30 AM, comenzando el 8 de septiembre" },
       "location": { "en": "Pacific Beach Resource Center, 959 Hornblend St", "es": "Centro de Recursos Pacific Beach, 959 Hornblend St" },
       "highlights": [
         { "en": "Develop leadership skills and confidence", "es": "Desarrolla habilidades de liderazgo y confianza" },
         { "en": "Engage in meaningful community projects", "es": "Participa en proyectos comunitarios significativos" },
         { "en": "Earn 2 lessons per session. Fulfill PE or elective credits.", "es": "Gana 2 lecciones por sesion. Cumple creditos de PE o electivos." },
-        { "en": "After a year, eligible to join the California Cadet Corps Leadership Group", "es": "Despues de un ano, elegible para unirse al Grupo de Liderazgo del Cuerpo de Cadetes de California" }
-      ]
+        { "en": "Explore aviation and drone technology", "es": "Explora tecnologia de aviacion y drones" }
+      ],
+      "flyer": {
+        "image": "program-resources/CLD-2026-Flyer.png",
+        "alt": { "en": "Character and Leadership Development 2026 program flyer", "es": "Volante del programa Desarrollo de Caracter y Liderazgo 2026" },
+        "caption": { "en": "Tap the flyer to open it full size", "es": "Toca el volante para abrirlo en tamano completo" }
+      }
     },
     {
       "id": "vr",

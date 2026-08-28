@@ -1137,6 +1137,35 @@ h1, h2, h3, h4 {
     font-weight: 700;
 }
 
+.opportunity-flyer-link {
+    display: block;
+    max-width: 700px;
+    margin: 18px auto 6px;
+    color: var(--primary-blue);
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.opportunity-flyer-link:hover {
+    text-decoration: none;
+}
+
+.opportunity-flyer {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 2px solid var(--primary-blue);
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow);
+    margin-bottom: 8px;
+}
+
+.opportunity-flyer-link:hover .opportunity-flyer {
+    border-color: var(--gold);
+    box-shadow: var(--shadow-hover);
+}
+
 /* Pathways list */
 .pathways-list {
     display: grid;
