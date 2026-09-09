@@ -62,7 +62,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20260828-1');
+            const response = await fetch('site-data.json?v=20260909-1');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -425,12 +425,13 @@
                     }).join('') + '</div>';
             }
 
-            // Altus Arts monthly sessions
-            if (opp.artSessions) {
+            // Scheduled sessions with direct Zoom links
+            var sessions = opp.artSessions || opp.sessions;
+            if (sessions) {
                 bodyContent += '<div class="art-sessions">' +
                     '<h4 class="art-sessions-heading">' +
                     (currentLang === 'es' ? 'Horario y Enlaces de Zoom' : 'Schedule and Zoom Links') + '</h4>' +
-                    opp.artSessions.map(function (session) {
+                    sessions.map(function (session) {
                         return '<div class="art-session-card">' +
                             '<div class="art-session-info">' +
                             '<h4>' + t(session.title) + '</h4>' +

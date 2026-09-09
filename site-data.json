@@ -13,7 +13,7 @@
     "parentSquareUrl": "https://www.parentsquare.com",
     "websiteUrl": "https://www.altuscssd.com/"
   },
-  "currentMonth": "August 2026",
+  "currentMonth": "September 2026",
   "heroMessage": {
     "en": "Welcome to the La Jolla Noticeboard",
     "es": "Bienvenidos al Tablero de La Jolla"
@@ -25,16 +25,23 @@
   "bulletins": [
     {
       "title": {
-        "en": "Important Schedule Changes: September 1-4",
-        "es": "Cambios Importantes de Horario: 1-4 de Septiembre"
+        "en": "Family Learning Series: College Planning",
+        "es": "Serie de Aprendizaje Familiar: Planificacion Universitaria"
       },
       "message": {
-        "en": "Mr. Buchler will be out Tuesday, September 1, through Friday, September 4. Students who need to meet with him in person next week should plan to come Monday, August 31. Mr. Quinn will be available at La Jolla September 1-2 for students who need on-site support. The Resource Center is closed Thursday, September 3, for staff training. On Friday, September 4, it is open by appointment only for the Altus Symposium. Students should work from home unless they have confirmed on-site support.",
-        "es": "El Sr. Buchler estara ausente desde el martes 1 hasta el viernes 4 de septiembre. Los estudiantes que necesiten reunirse con el en persona la proxima semana deben planear venir el lunes 31 de agosto. El Sr. Quinn estara disponible en La Jolla el 1 y 2 de septiembre para los estudiantes que necesiten apoyo en persona. El Centro de Recursos esta cerrado el jueves 3 de septiembre por capacitacion del personal. El viernes 4 de septiembre, esta abierto solo con cita por el Simposio Altus. Los estudiantes deben trabajar desde casa a menos que tengan apoyo en persona confirmado."
+        "en": "Students and families: join school counselors next Wednesday, September 16, from 4:00-5:00 PM for Senior 4-Year College Application Planning.",
+        "es": "Estudiantes y familias: acompanen a los consejeros escolares el proximo miercoles 16 de septiembre, de 4:00-5:00 PM, para la planificacion de solicitudes universitarias de estudiantes de ultimo ano."
       },
-      "icon": "👁️",
-      "theme": "alert",
-      "expires": "2026-09-05"
+      "icon": "🎓",
+      "theme": "school",
+      "action": {
+        "label": {
+          "en": "Join the Webinar",
+          "es": "Unirse al Seminario Web"
+        },
+        "url": "https://altusschools-net.zoom.us/j/93830219782?from=addon"
+      },
+      "expires": "2026-09-17"
     },
     {
       "title": {
@@ -174,10 +181,11 @@
       "badge": null
     },
     {
-      "date": "2026-09-10",
-      "title": { "en": "Family Learning Series: 4-Year College Application Planning, 4 PM - 5 PM", "es": "Serie de Aprendizaje Familiar: Planificacion de Solicitudes Universitarias de Cuatro Anos, 4 PM - 5 PM" },
+      "date": "2026-09-16",
+      "title": { "en": "Family Learning Series: Senior 4-Year College Application Planning, 4 PM - 5 PM", "es": "Serie de Aprendizaje Familiar: Planificacion de Solicitudes Universitarias para Estudiantes de Ultimo Ano, 4 PM - 5 PM" },
       "type": "activity",
-      "badge": null
+      "badge": null,
+      "opportunityId": "family-learning"
     },
     {
       "date": "2026-09-17",
@@ -341,6 +349,68 @@
       ],
       "schedule": null,
       "location": null
+    },
+    {
+      "id": "family-learning",
+      "title": { "en": "Family Learning Series", "es": "Serie de Aprendizaje Familiar" },
+      "content": {
+        "en": "A yearlong series of virtual sessions for students and families. Topics include college planning, social-emotional support, military advising, technology, Resource Center activities, and state testing success.",
+        "es": "Una serie anual de sesiones virtuales para estudiantes y familias. Los temas incluyen planificacion universitaria, apoyo socioemocional, orientacion militar, tecnologia, actividades del Centro de Recursos y exito en las evaluaciones estatales."
+      },
+      "schedule": { "en": "Select dates, 4:00 PM - 5:00 PM", "es": "Fechas seleccionadas, 4:00 PM - 5:00 PM" },
+      "location": { "en": "Live on Zoom", "es": "En vivo por Zoom" },
+      "highlights": [
+        { "en": "Join the webinar that matches the topic you need", "es": "Unete al seminario web que corresponda al tema que necesitas" },
+        { "en": "Use the direct Zoom buttons below or open the full flyer", "es": "Usa los botones directos de Zoom abajo o abre el volante completo" }
+      ],
+      "links": [
+        {
+          "label": { "en": "View the Full Family Learning Series Flyer", "es": "Ver el Volante Completo de la Serie de Aprendizaje Familiar" },
+          "url": "program-resources/Family-Learning-Series-2026-27.pdf"
+        }
+      ],
+      "sessions": [
+        {
+          "title": { "en": "Senior 4-Year College Application Planning", "es": "Planificacion de Solicitudes Universitarias para Estudiantes de Ultimo Ano" },
+          "date": { "en": "Wednesday, September 16, 2026: 4:00-5:00 PM with School Counselors", "es": "Miercoles, 16 de septiembre de 2026: 4:00-5:00 PM con Consejeros Escolares" },
+          "url": "https://altusschools-net.zoom.us/j/93830219782?from=addon"
+        },
+        {
+          "title": { "en": "Social Emotional Support for Students", "es": "Apoyo Socioemocional para Estudiantes" },
+          "date": { "en": "Wednesday, September 30, 2026: 4:00-5:00 PM with a Healthy Youth Therapist", "es": "Miercoles, 30 de septiembre de 2026: 4:00-5:00 PM con un Terapeuta de Healthy Youth" },
+          "url": "https://altusschools-net.zoom.us/j/95074977535?from=addon"
+        },
+        {
+          "title": { "en": "Military Advising", "es": "Orientacion Militar" },
+          "date": { "en": "Wednesday, October 7, 2026: 4:00-5:00 PM with Military Advisory", "es": "Miercoles, 7 de octubre de 2026: 4:00-5:00 PM con Asesoria Militar" },
+          "url": "https://altusschools-net.zoom.us/j/92247301931?from=addon"
+        },
+        {
+          "title": { "en": "Altus Co-curricular Activities", "es": "Actividades Cocurriculares de Altus" },
+          "date": { "en": "Wednesday, October 21, 2026: 4:00-5:00 PM with Academic Affairs and Department Chairs", "es": "Miercoles, 21 de octubre de 2026: 4:00-5:00 PM con Asuntos Academicos y Lideres de Departamento" },
+          "url": "https://altusschools-net.zoom.us/j/98767117038?from=addon"
+        },
+        {
+          "title": { "en": "Technology: AI, Cybersecurity, and Screentime", "es": "Tecnologia: IA, Ciberseguridad y Tiempo de Pantalla" },
+          "date": { "en": "Tuesday, November 10, 2026: 4:00-5:00 PM with the Technology Integration Coordinator", "es": "Martes, 10 de noviembre de 2026: 4:00-5:00 PM con el Coordinador de Integracion de Tecnologia" },
+          "url": "https://altusschools-net.zoom.us/j/95279722396?from=addon"
+        },
+        {
+          "title": { "en": "Engaging in Resource Center Activities", "es": "Participacion en Actividades del Centro de Recursos" },
+          "date": { "en": "Wednesday, January 13, 2027: 4:00-5:00 PM with School Administrators", "es": "Miercoles, 13 de enero de 2027: 4:00-5:00 PM con Administradores Escolares" },
+          "url": "https://altusschools-net.zoom.us/j/97167310425?from=addon"
+        },
+        {
+          "title": { "en": "College Planning for 4-Year-Bound Students", "es": "Planificacion Universitaria para Estudiantes que Iran a Universidades de Cuatro Anos" },
+          "date": { "en": "Wednesday, March 10, 2027: 4:00-5:00 PM with School Counselors", "es": "Miercoles, 10 de marzo de 2027: 4:00-5:00 PM con Consejeros Escolares" },
+          "url": "https://altusschools-net.zoom.us/j/91331106697?from=addon"
+        },
+        {
+          "title": { "en": "State Testing Success", "es": "Exito en las Evaluaciones Estatales" },
+          "date": { "en": "Wednesday, April 14, 2027: 4:00-5:00 PM with School Coordinators", "es": "Miercoles, 14 de abril de 2027: 4:00-5:00 PM con Coordinadores Escolares" },
+          "url": "https://altusschools-net.zoom.us/j/91297977795?from=addon"
+        }
+      ]
     },
     {
       "id": "cld",
