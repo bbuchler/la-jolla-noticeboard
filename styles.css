@@ -2116,6 +2116,10 @@ h1, h2, h3, h4 {
     margin-top: 18px;
 }
 
+#miracosta .college-course-box {
+    margin-bottom: 24px;
+}
+
 .college-course-box h4,
 .coastline-grid h4,
 .form-checklist h3 {

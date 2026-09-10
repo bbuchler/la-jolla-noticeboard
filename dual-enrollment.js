@@ -169,9 +169,10 @@
         'Download Course List': 'Descargar Lista de Cursos',
         'Before You Submit a Form': 'Antes de Enviar un Formulario',
         'Have this ready': 'Ten esto listo',
-        'College choice: City College, Miramar College, or Coastline College': 'Universidad elegida: City College, Miramar College o Coastline College',
+        'College choice: City College, Miramar College, MiraCosta College, or Coastline College': 'Universidad elegida: City College, Miramar College, MiraCosta College o Coastline College',
         'Term: Fall 2026': 'Periodo: Otono 2026',
-        'Your 10-digit college student ID': 'Tu ID universitario de 10 digitos',
+        'Your college student ID (SURF ID for MiraCosta)': 'Tu ID universitario (ID de SURF para MiraCosta)',
+        'MiraCosta enrollment information': 'Información de inscripción en MiraCosta',
         'Your grade level and high school graduation date': 'Tu grado y fecha de graduacion de preparatoria',
         'How many college classes you plan to take': 'Cuantas clases universitarias planeas tomar',
         'Exact course name, course code, and class number': 'Nombre exacto del curso, codigo del curso y numero de clase',
@@ -201,6 +202,76 @@
     };
 
     var records = [];
+
+    // New course updates live in site-data.json; join the existing language toggle.
+    function renderMiraCosta(data) {
+        function el(tag, text, className, parent) {
+            var node = document.createElement(tag);
+            if (text && typeof text === 'object') {
+                es[text.en] = text.es;
+                node.textContent = text.en;
+            } else if (text) {
+                node.textContent = text;
+            }
+            if (className) node.className = className;
+            if (parent) parent.appendChild(node);
+            return node;
+        }
+        function link(parent, label, url, className) {
+            var node = el('a', label, className, parent);
+            node.href = url;
+            if (/^https:/.test(url)) {
+                node.target = '_blank';
+                node.rel = 'noopener';
+            }
+            return node;
+        }
+        var announcement = document.getElementById('miracosta-announcement');
+        if (new Date() < new Date(data.announcementUntil + 'T00:00:00-07:00')) {
+            var wrap = el('div', null, 'container', announcement);
+            var card = el('div', null, 'dual-alert', wrap);
+            el('h2', data.announcementTitle, null, card);
+            el('p', data.announcementText, null, card);
+            link(card, data.announcementAction, '#miracosta', 'btn btn-primary');
+            announcement.hidden = false;
+        }
+        var section = document.getElementById('miracosta');
+        section.replaceChildren();
+        var container = el('div', null, 'container', section);
+        var header = el('div', null, 'college-section-header', container);
+        el('h2', data.title, null, header);
+        el('p', data.intro, null, header);
+        var layout = el('div', null, 'college-layout', container);
+        var main = el('div', null, 'college-main', layout);
+        el('h3', data.courseTitle, null, main);
+        el('p', data.description, null, main);
+        var box = el('div', null, 'college-course-box', main);
+        var facts = el('ul', null, 'copy-info-list', box);
+        data.facts.forEach(function (fact) { el('li', fact, null, facts); });
+        el('p', data.availability, null, box);
+        el('h3', data.stepsTitle, null, main);
+        var steps = el('ol', null, 'dual-steps', main);
+        data.steps.forEach(function (step) {
+            var item = el('li', null, null, steps);
+            var title = el('strong', step.url ? null : step.title, null, item);
+            if (step.url) link(title, step.title, step.url);
+            el('span', step.text, null, item);
+        });
+        var warning = el('p', null, 'counselor-warning', main);
+        el('strong', data.warning, null, warning);
+        warning.appendChild(document.createTextNode(' '));
+        link(warning, data.contact, 'mailto:' + data.contact);
+        el('p', data.note, null, main);
+        var aside = el('aside', null, 'college-links', layout);
+        el('h3', data.linksTitle, null, aside);
+        data.links.forEach(function (item, index) {
+            link(aside, item.label, item.url, index < 3 ? 'btn btn-primary' : 'btn btn-outline');
+        });
+        collectTextNodes(announcement);
+        collectTextNodes(section);
+        applyLanguage(currentLang);
+        if (window.location.hash === '#miracosta') section.scrollIntoView();
+    }
 
     function splitText(value) {
         var leading = value.match(/^\s*/)[0];
@@ -256,6 +327,16 @@
         var btn = document.getElementById('dualLangToggle');
         collectTextNodes(document.body);
         applyLanguage(currentLang === 'es' ? 'es' : 'en');
+
+        fetch('site-data.json?v=20260910-1')
+            .then(function (response) {
+                if (!response.ok) throw new Error('Course data could not be loaded');
+                return response.json();
+            })
+            .then(function (data) {
+                if (data.miraCosta) renderMiraCosta(data.miraCosta);
+            })
+            .catch(function (error) { console.error(error); });
 
         if (btn) {
             btn.addEventListener('click', function () {

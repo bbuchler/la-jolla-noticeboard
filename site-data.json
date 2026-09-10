@@ -679,5 +679,171 @@
     "teacherProfile": { "en": "Meet Your Teacher", "es": "Conoce a Tu Maestro" },
     "motivation": { "en": "Motivation", "es": "Motivacion" },
     "contact": { "en": "Contact", "es": "Contacto" }
+  },
+  "miraCosta": {
+    "announcementUntil": "2026-10-12",
+    "announcementTitle": {
+      "en": "Missed Personal Growth? Try this MiraCosta option.",
+      "es": "¿No conseguiste lugar en Personal Growth? Conoce esta opción en MiraCosta."
+    },
+    "announcementText": {
+      "en": "Still want a dual enrollment course this fall? Mr. Sutherland shared COUN 100 as a PERG 130 equivalent. Online class 1374 runs October 12-December 12, 2026, and may still have space. Start now: seats can fill while paperwork is processed.",
+      "es": "¿Todavía quieres tomar un curso universitario este otoño? El Sr. Sutherland compartió COUN 100 como equivalente a PERG 130. La clase 1374 es en línea, del 12 de octubre al 12 de diciembre de 2026, y podría tener cupo. Empieza ahora: los lugares pueden llenarse mientras se procesan los formularios."
+    },
+    "announcementAction": {
+      "en": "See MiraCosta Course & Signup Steps",
+      "es": "Ver el Curso y los Pasos de Inscripción"
+    },
+    "title": {
+      "en": "MiraCosta: Another Personal Growth Option",
+      "es": "MiraCosta: Otra Opción de Crecimiento Personal"
+    },
+    "intro": {
+      "en": "If you could not get into Personal Growth at City College or Miramar, ask Mr. Sutherland about this alternative. He identified COUN 100 as a PERG 130 equivalent; confirm how it fits your school plan before enrolling.",
+      "es": "Si no conseguiste lugar en Personal Growth en City College o Miramar, consulta al Sr. Sutherland sobre esta alternativa. Él identificó COUN 100 como equivalente a PERG 130; confirma cómo encaja en tu plan escolar antes de inscribirte."
+    },
+    "courseTitle": {
+      "en": "COUN 100: College and Career Success",
+      "es": "COUN 100: Éxito Universitario y Profesional"
+    },
+    "description": {
+      "en": "Build study habits, manage your time, explore careers, and plan your college goals. Three college units; no prerequisites.",
+      "es": "Desarrolla hábitos de estudio, organiza tu tiempo, explora carreras y planifica tus metas universitarias. Tres unidades universitarias; sin requisitos previos."
+    },
+    "facts": [
+      {
+        "en": "Class number: 1374",
+        "es": "Número de clase: 1374"
+      },
+      {
+        "en": "Instructor: Lise Flocken",
+        "es": "Profesora: Lise Flocken"
+      },
+      {
+        "en": "Dates: October 12-December 12, 2026",
+        "es": "Fechas: 12 de octubre al 12 de diciembre de 2026"
+      },
+      {
+        "en": "Format: Online, late-start 8-week session",
+        "es": "Modalidad: En línea, sesión de inicio tardío de 8 semanas"
+      }
+    ],
+    "availability": {
+      "en": "The counselor highlighted class 1374. Class 1372 with Arti Dua was also listed online for the same dates. Check current seats and meeting requirements in SURF. The shared screenshot is not a live seat count, and applying does not reserve a place.",
+      "es": "El consejero destacó la clase 1374. También aparecía la clase 1372 con Arti Dua, en línea y con las mismas fechas. Revisa el cupo actual y los requisitos de asistencia en SURF. La captura compartida no muestra el cupo en tiempo real, y solicitar admisión no reserva un lugar."
+    },
+    "stepsTitle": {
+      "en": "MiraCosta Signup Steps",
+      "es": "Pasos de Inscripción en MiraCosta"
+    },
+    "steps": [
+      {
+        "title": {
+          "en": "Apply to MiraCosta College",
+          "es": "Solicita Admisión a MiraCosta College"
+        },
+        "url": "https://miracosta.tfaforms.net/217778",
+        "text": {
+          "en": "Submit the college application, then wait for your SURF ID by email. Allow 2-3 business days and activate your SURF account.",
+          "es": "Envía la solicitud universitaria y espera tu ID de SURF por correo electrónico. Calcula de 2 a 3 días hábiles y activa tu cuenta de SURF."
+        }
+      },
+      {
+        "title": {
+          "en": "Request Adobe e-Sign Form",
+          "es": "Solicita el Formulario Adobe e-Sign"
+        },
+        "url": "https://forms.office.com/pages/responsepage.aspx?id=4MdgppJz8UeExrv166nnTyaIR8JWfyBMv-48r8V9pcNUOFhUVktMWlJROFVZTk5WN0JFMVU2VDU2SiQlQCN0PWcu&route=shorturl",
+        "text": {
+          "en": "Once you have your SURF ID, request the Early College Credit Form using this online form.",
+          "es": "Cuando tengas tu ID de SURF, solicita el formulario Early College Credit mediante este formulario en línea."
+        }
+      },
+      {
+        "title": {
+          "en": "Check email and sign",
+          "es": "Revisa tu Correo y Firma"
+        },
+        "text": {
+          "en": "Watch for Adobe Sign emails for the student, parent/guardian, and school approval. Wait for confirmation that the completed form has been processed.",
+          "es": "Revisa los correos de Adobe Sign para las firmas del estudiante, padre o tutor y la aprobación escolar. Espera la confirmación de que se procesó el formulario completo."
+        }
+      },
+      {
+        "title": {
+          "en": "Register in SURF",
+          "es": "Inscríbete en SURF"
+        },
+        "url": "https://surf.miracosta.edu/",
+        "text": {
+          "en": "Complete the required pre-registration survey in your SURF To Do List. Under Manage Classes, choose Fall 2026 and search for COUN 100, class 1374. Finish registration and check your schedule. Mr. Sutherland can help with this step.",
+          "es": "Completa la encuesta obligatoria de preinscripción en tu lista de tareas de SURF. En Manage Classes, elige Fall 2026 y busca COUN 100, clase 1374. Termina la inscripción y revisa tu horario. El Sr. Sutherland puede ayudarte con este paso."
+        }
+      }
+    ],
+    "warning": {
+      "en": "High school counselor/contact: Mr. Sutherland, not your teacher.",
+      "es": "Consejero o contacto de preparatoria: el Sr. Sutherland, no tu maestro."
+    },
+    "contact": "ssutherland@altusschools.net",
+    "note": {
+      "en": "MiraCosta calls this route concurrent enrollment. Tuition is free for eligible high school students; ask Mr. Sutherland about books or materials. This is a shorter session, so plan to keep up with both the college course and your regular schoolwork.",
+      "es": "MiraCosta llama a esta modalidad concurrent enrollment (inscripción concurrente). La matrícula es gratuita para estudiantes de preparatoria elegibles; consulta al Sr. Sutherland sobre libros o materiales. Es una sesión más corta, así que organiza tu tiempo para cumplir con el curso universitario y tu trabajo escolar habitual."
+    },
+    "linksTitle": {
+      "en": "MiraCosta Links",
+      "es": "Enlaces de MiraCosta"
+    },
+    "links": [
+      {
+        "label": {
+          "en": "Apply to MiraCosta",
+          "es": "Solicitar Admisión a MiraCosta"
+        },
+        "url": "https://miracosta.tfaforms.net/217778"
+      },
+      {
+        "label": {
+          "en": "Request Adobe e-Sign Form",
+          "es": "Solicita el Formulario Adobe e-Sign"
+        },
+        "url": "https://forms.office.com/pages/responsepage.aspx?id=4MdgppJz8UeExrv166nnTyaIR8JWfyBMv-48r8V9pcNUOFhUVktMWlJROFVZTk5WN0JFMVU2VDU2SiQlQCN0PWcu&route=shorturl"
+      },
+      {
+        "label": {
+          "en": "Check Classes / Log In to SURF",
+          "es": "Consultar Clases / Entrar a SURF"
+        },
+        "url": "https://surf.miracosta.edu/"
+      },
+      {
+        "label": {
+          "en": "Official Enrollment Instructions",
+          "es": "Instrucciones Oficiales de Inscripción"
+        },
+        "url": "https://miracosta.edu/admissions-and-aid/high-school-students/concurrent-enrollment/index.html"
+      },
+      {
+        "label": {
+          "en": "SURF Registration Guide & Videos",
+          "es": "Guía y Videos de Inscripción en SURF"
+        },
+        "url": "https://miracosta.atlassian.net/wiki/spaces/KB/pages/3158540289/Search+Classes+and+Register+SURF"
+      },
+      {
+        "label": {
+          "en": "Official COUN 100 Description",
+          "es": "Descripción Oficial de COUN 100"
+        },
+        "url": "https://catalog.miracosta.edu/disciplines/counseling/"
+      },
+      {
+        "label": {
+          "en": "Email Mr. Sutherland",
+          "es": "Enviar Correo al Sr. Sutherland"
+        },
+        "url": "mailto:ssutherland@altusschools.net"
+      }
+    ]
   }
 }
