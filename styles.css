@@ -406,6 +406,44 @@ h1, h2, h3, h4 {
     color: #5f2525;
 }
 
+.bulletin-card-testing {
+    background: linear-gradient(135deg, #fff8d9, #ffe6a6);
+    border-color: #e0a100;
+}
+
+.bulletin-card-testing .bulletin-title {
+    color: #5e4300;
+}
+
+.bulletin-card-testing .bulletin-message {
+    color: #493600;
+}
+
+.bulletin-card-featured {
+    padding: 20px;
+}
+
+.bulletin-card-featured .bulletin-icon {
+    font-size: 2rem;
+}
+
+.bulletin-card-compact {
+    padding: 13px 15px;
+}
+
+.bulletin-card-compact .bulletin-icon {
+    font-size: 1.35rem;
+}
+
+.bulletin-card-compact .bulletin-title {
+    font-size: 0.92rem;
+}
+
+.bulletin-card-compact .bulletin-message {
+    font-size: 0.82rem;
+    line-height: 1.4;
+}
+
 .bulletin-icon {
     font-size: 1.6rem;
     line-height: 1.2;
@@ -443,6 +481,14 @@ h1, h2, h3, h4 {
 }
 
 @media (min-width: 768px) {
+    .bulletin-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .bulletin-card:not(.bulletin-card-compact) {
+        grid-column: 1 / -1;
+    }
+
     .bulletin-title {
         font-size: 1.1rem;
     }
@@ -629,6 +675,215 @@ h1, h2, h3, h4 {
 /* ============================================
    IMPORTANT DATES
    ============================================ */
+.nwea-testing {
+    margin-bottom: 28px;
+    overflow: hidden;
+    background: var(--white);
+    border: 2px solid #e0a100;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    scroll-margin-top: 110px;
+}
+
+.nwea-summary {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 20px;
+    background: linear-gradient(135deg, #fff8d9, #ffe6a6);
+    color: #493600;
+    cursor: pointer;
+    list-style: none;
+}
+
+.nwea-summary::-webkit-details-marker {
+    display: none;
+}
+
+.nwea-summary-icon {
+    flex-shrink: 0;
+    font-size: 2rem;
+    line-height: 1.1;
+}
+
+.nwea-summary-copy {
+    display: flex;
+    flex: 1;
+    min-width: 0;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.nwea-eyebrow {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #745300;
+}
+
+.nwea-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 800;
+    line-height: 1.25;
+    color: #5e4300;
+}
+
+.nwea-summary-text {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.nwea-window {
+    width: fit-content;
+    margin-top: 3px;
+    padding: 5px 10px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.72);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #5e4300;
+}
+
+.nwea-chevron {
+    flex-shrink: 0;
+    margin-top: 8px;
+    font-size: 0.8rem;
+    color: #745300;
+    transition: transform var(--transition);
+}
+
+.nwea-testing[open] .nwea-chevron {
+    transform: rotate(180deg);
+}
+
+.nwea-body {
+    padding: 20px;
+}
+
+.nwea-explanation-grid,
+.nwea-details-grid {
+    display: grid;
+    gap: 12px;
+}
+
+.nwea-explanation,
+.nwea-detail-card {
+    padding: 16px;
+    border-radius: var(--radius-sm);
+    background: var(--light-blue);
+}
+
+.nwea-explanation h4,
+.nwea-detail-card h4,
+.nwea-assessments h4,
+.nwea-incentive h4 {
+    margin-bottom: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.92rem;
+    color: var(--dark-blue);
+}
+
+.nwea-explanation p,
+.nwea-detail-card p,
+.nwea-incentive p {
+    margin: 0;
+    font-size: 0.86rem;
+    line-height: 1.5;
+}
+
+.nwea-assessments {
+    margin: 18px 0;
+}
+
+.nwea-assessments ul {
+    display: grid;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nwea-assessments li {
+    padding: 10px 12px;
+    border: 1px solid #efc55c;
+    border-radius: var(--radius-sm);
+    background: #fffaf0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #5e4300;
+    text-align: center;
+}
+
+.nwea-incentive {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-top: 18px;
+    padding: 16px;
+    border: 2px solid var(--gold);
+    border-radius: var(--radius-sm);
+    background: #fff8d9;
+}
+
+.nwea-incentive-icon {
+    flex-shrink: 0;
+    font-size: 1.5rem;
+}
+
+.nwea-reply-prompt {
+    margin: 18px 0 12px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: var(--dark-blue);
+}
+
+.nwea-actions {
+    display: grid;
+    gap: 10px;
+}
+
+.nwea-actions .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .nwea-summary {
+        align-items: center;
+        padding: 24px;
+    }
+
+    .nwea-title {
+        font-size: 1.35rem;
+    }
+
+    .nwea-body {
+        padding: 24px;
+    }
+
+    .nwea-explanation-grid,
+    .nwea-details-grid,
+    .nwea-actions {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .nwea-assessments ul {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .nwea-assessments li:last-child {
+        grid-column: 1 / -1;
+    }
+}
+
 .caaspp-banner {
     background: linear-gradient(135deg, var(--primary-blue), var(--dark-blue));
     color: var(--white);

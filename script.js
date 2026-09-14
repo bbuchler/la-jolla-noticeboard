@@ -62,7 +62,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20260910-2');
+            const response = await fetch('site-data.json?v=20260914-1');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -80,6 +80,7 @@
         renderHero();
         renderBulletin();
         renderCalendar();
+        renderNweaTesting();
         renderImportantDates();
         renderWeeklySchedule();
         renderFieldTrips();
@@ -169,17 +170,34 @@
         card.innerHTML = activeBulletins.map(function (b) {
             var titleHtml = b.title ? '<h3 class="bulletin-title">' + t(b.title) + '</h3>' : '';
             var themeClass = b.theme ? ' bulletin-card-' + b.theme : '';
+            var layoutClass = b.featured ? ' bulletin-card-featured' : (b.compact ? ' bulletin-card-compact' : '');
             var icon = b.icon || '&#128226;';
+            var isInternalAction = b.action && b.action.url && b.action.url.charAt(0) === '#';
+            var actionTarget = isInternalAction ? '' : ' target="_blank" rel="noopener"';
             var actionHtml = b.action && b.action.url
-                ? '<a href="' + b.action.url + '" target="_blank" rel="noopener" class="btn btn-primary bulletin-action">' +
+                ? '<a href="' + b.action.url + '"' + actionTarget + ' class="btn btn-primary bulletin-action">' +
                   t(b.action.label || { en: 'Learn More', es: 'Mas Informacion' }) + '</a>'
                 : '';
-            return '<article class="bulletin-card' + themeClass + '">' +
+            return '<article class="bulletin-card' + themeClass + layoutClass + '">' +
                 '<span class="bulletin-icon" aria-hidden="true">' + icon + '</span>' +
                 '<div class="bulletin-body">' + titleHtml +
                 '<p class="bulletin-message">' + t(b.message) + '</p>' + actionHtml + '</div>' +
                 '</article>';
         }).join('');
+
+        card.querySelectorAll('.bulletin-action[href^="#"]').forEach(function (link) {
+            link.addEventListener('click', function (event) {
+                event.preventDefault();
+                var target = document.querySelector(link.getAttribute('href'));
+                if (!target) {
+                    return;
+                }
+                if (target.tagName === 'DETAILS') {
+                    target.open = true;
+                }
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            });
+        });
     }
 
     // --- Calendar ---
@@ -212,6 +230,57 @@
             lp.periods.filter(isCurrentlyVisible).map(function (p) {
                 return '<span class="lp-pill"><span class="lp-pill-label">' + p.name + '</span> ' + t(p.dates) + '</span>';
             }).join('') + '</div>';
+    }
+
+    // --- NWEA Testing ---
+
+    function renderNweaTesting() {
+        var container = document.getElementById('nweaTestingPanel');
+        var nwea = siteData.nweaTesting;
+
+        if (!nwea || !isCurrentlyVisible(nwea)) {
+            container.hidden = true;
+            container.innerHTML = '';
+            return;
+        }
+
+        var assessmentsHtml = nwea.assessments.map(function (assessment) {
+            return '<li>' + t(assessment) + '</li>';
+        }).join('');
+
+        var detailsHtml = nwea.testingDetails.map(function (detail) {
+            return '<div class="nwea-detail-card">' +
+                '<h4>' + t(detail.heading) + '</h4>' +
+                '<p>' + t(detail.text) + '</p></div>';
+        }).join('');
+
+        var incentiveHtml = nwea.incentive && isCurrentlyVisible(nwea.incentive)
+            ? '<aside class="nwea-incentive"><span class="nwea-incentive-icon" aria-hidden="true">&#11088;</span>' +
+              '<div><h4>' + t(nwea.incentive.heading) + '</h4><p>' + t(nwea.incentive.text) + '</p></div></aside>'
+            : '';
+
+        container.hidden = false;
+        container.innerHTML = '<details class="nwea-testing" id="nwea-testing">' +
+            '<summary class="nwea-summary">' +
+            '<span class="nwea-summary-icon" aria-hidden="true">' + nwea.icon + '</span>' +
+            '<span class="nwea-summary-copy">' +
+            '<span class="nwea-eyebrow">' + t(nwea.eyebrow) + '</span>' +
+            '<span class="nwea-title">' + t(nwea.title) + '</span>' +
+            '<span class="nwea-summary-text">' + t(nwea.summary) + '</span>' +
+            '<span class="nwea-window">' + t(nwea.window) + '</span></span>' +
+            '<span class="nwea-chevron" aria-hidden="true">&#9660;</span></summary>' +
+            '<div class="nwea-body">' +
+            '<div class="nwea-explanation-grid">' +
+            '<div class="nwea-explanation"><h4>' + t(nwea.whatItIs.heading) + '</h4><p>' + t(nwea.whatItIs.text) + '</p></div>' +
+            '<div class="nwea-explanation"><h4>' + t(nwea.reassurance.heading) + '</h4><p>' + t(nwea.reassurance.text) + '</p></div></div>' +
+            '<div class="nwea-assessments"><h4>' + t(nwea.assessmentsHeading) + '</h4><ul>' + assessmentsHtml + '</ul></div>' +
+            '<div class="nwea-details-grid">' + detailsHtml + '</div>' +
+            incentiveHtml +
+            '<p class="nwea-reply-prompt">' + t(nwea.replyPrompt) + '</p>' +
+            '<div class="nwea-actions">' +
+            '<a href="' + nwea.contactAction.url + '" class="btn btn-primary">' + t(nwea.contactAction.label) + '</a>' +
+            '<a href="' + nwea.readinessAction.url + '" target="_blank" rel="noopener" class="btn btn-outline">' + t(nwea.readinessAction.label) + '</a>' +
+            '</div></div></details>';
     }
 
     // --- Important Dates ---
