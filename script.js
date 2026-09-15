@@ -62,7 +62,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20260915-1');
+            const response = await fetch('site-data.json?v=20260915-2');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -457,15 +457,13 @@
 
     function renderPrograms() {
         var container = document.getElementById('programsList');
-        var aboveHtml = '<p class="programs-returning-note">' +
-            (currentLang === 'es' ? 'Estos son programas que ofrecimos el ano pasado y esperamos volver a ofrecer en el otono:' : 'These are programs we offered last year and expect to bring back in the fall:') +
-            '</p>';
+        var aboveHtml = '';
 
         // Put banners above the grid, cards inside the grid
         container.innerHTML = aboveHtml +
             '<div class="programs-cards">' +
             siteData.programs.map(function (prog) {
-            return '<div class="program-card">' +
+            return '<div class="program-card" id="' + prog.id + '">' +
                 '<div class="program-card-header">' +
                 '<span class="program-icon">' + (prog.icon || '') + '</span>' +
                 '<div><h3>' + t(prog.title) + '</h3>' +
@@ -477,7 +475,15 @@
                 '<span><span class="program-meta-icon">&#127891;</span> ' + t(prog.eligibility) + '</span>' +
                 '</div>' +
                 '<p class="program-description">' + t(prog.description) + '</p>' +
+                (prog.details ? '<ul class="program-details">' + prog.details.map(function (detail) {
+                    return '<li>' + t(detail) + '</li>';
+                }).join('') + '</ul>' : '') +
                 '<p class="program-signup">' + t(prog.signup) + '</p>' +
+                (prog.flyer ? '<a href="' + prog.flyer.image + '" target="_blank" rel="noopener" class="opportunity-flyer-link">' +
+                    '<img src="' + prog.flyer.image + '" alt="' + t(prog.flyer.alt) + '" class="opportunity-flyer" loading="lazy">' +
+                    '<span>' + t(prog.flyer.caption) + '</span></a>' +
+                    '<a href="' + prog.flyer.pdf + '" target="_blank" rel="noopener" class="btn btn-outline">' +
+                    (currentLang === 'es' ? 'Descargar volante PDF' : 'Download Flyer PDF') + '</a>' : '') +
                 '</div></div>';
         }).join('') + '</div>';
     }

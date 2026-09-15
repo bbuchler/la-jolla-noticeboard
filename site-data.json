@@ -25,6 +25,27 @@
   "bulletins": [
     {
       "title": {
+        "en": "Marine Science Explorer: Join Us!",
+        "es": "Exploradores de Ciencias Marinas: ¡Únete!"
+      },
+      "message": {
+        "en": "First meeting: Thursday, September 17, at 11 a.m. at the Pacific Beach Resource Center. Then join our beach cleanup Monday, September 21: meet at the center at 11 a.m. or at the beach at 11:15 a.m. Hands-on activities and field trips every month. Contact your teacher to RSVP!",
+        "es": "Primera reunión: jueves 17 de septiembre a las 11 a.m. en el Centro de Recursos Pacific Beach. Después, participa en la limpieza de playa el lunes 21 de septiembre: nos reunimos en el centro a las 11 a.m. o en la playa a las 11:15 a.m. Actividades prácticas y excursiones cada mes. ¡Contacta a tu maestro para confirmar tu asistencia!"
+      },
+      "icon": "🌊",
+      "theme": "school",
+      "featured": true,
+      "action": {
+        "label": {
+          "en": "See Program Details & Flyer",
+          "es": "Ver detalles del programa y volante"
+        },
+        "url": "#marine-science"
+      },
+      "expires": "2026-09-22"
+    },
+    {
+      "title": {
         "en": "NWEA Testing: Schedule Now",
         "es": "Evaluaciones NWEA: Programa Tu Horario"
       },
@@ -317,7 +338,7 @@
     },
     {
       "date": "2026-09-17",
-      "title": { "en": "Marine Science Explorers Series: Topic and Time TBD", "es": "Serie Exploradores de Ciencias Marinas: Tema y Hora por Confirmar" },
+      "title": { "en": "Marine Science Explorer: First Meeting at Pacific Beach RC, 11 AM", "es": "Exploradores de Ciencias Marinas: Primera reunión en Pacific Beach RC, 11 AM" },
       "type": "activity",
       "badge": null
     },
@@ -335,7 +356,7 @@
     },
     {
       "date": "2026-09-21",
-      "title": { "en": "Marine Science Explorers Series: Beach Clean-Up, Time TBD", "es": "Serie Exploradores de Ciencias Marinas: Limpieza de Playa, Hora por Confirmar" },
+      "title": { "en": "Marine Science Explorer: Beach Cleanup, 11 AM at Pacific Beach RC or 11:15 AM at the Beach", "es": "Exploradores de Ciencias Marinas: Limpieza de playa, 11 AM en Pacific Beach RC o 11:15 AM en la playa" },
       "type": "activity",
       "badge": null
     },
@@ -421,23 +442,61 @@
   "programs": [
     {
       "id": "marine-science",
-      "title": { "en": "Marine Science Explorers Series", "es": "Serie Exploradores de Ciencias Marinas" },
-      "subtitle": { "en": "CSSD Explorers: Marine Science Series", "es": "Exploradores CSSD: Serie de Ciencias Marinas" },
+      "title": {
+        "en": "Marine Science Explorer",
+        "es": "Exploradores de Ciencias Marinas"
+      },
+      "subtitle": {
+        "en": "Hands-on adventures all year | 2026-27",
+        "es": "Aventuras prácticas todo el año | 2026-27"
+      },
       "schedule": {
-        "en": "Returning in the fall",
-        "es": "Regresa en el otono"
+        "en": "One classroom activity + one field trip every month",
+        "es": "Una actividad en el aula + una excursión cada mes"
       },
       "location": {
-        "en": "Pacific Beach Resource Center, 959 Hornblend St, Pacific Beach, CA 92109",
-        "es": "Centro de Recursos Pacific Beach, 959 Hornblend St, Pacific Beach, CA 92109"
+        "en": "Pacific Beach Resource Center, 959 Hornblend St., San Diego, CA 92109",
+        "es": "Centro de Recursos Pacific Beach, 959 Hornblend St., San Diego, CA 92109"
       },
       "description": {
-        "en": "Hands-on marine science experiments, field trips to local marine ecosystems, tide pool exploration, marine life observation and study, and interactive learning experiences.",
-        "es": "Experimentos practicos de ciencias marinas, excursiones a ecosistemas marinos locales, exploracion de pozas de marea, observacion y estudio de vida marina, y experiencias de aprendizaje interactivas."
+        "en": "Explore marine life, experiment, and get out along the coast with other students! Field trips this year include SeaWorld, Birch Aquarium, the Maritime Museum, and many more.",
+        "es": "¡Explora la vida marina, experimenta y descubre la costa con otros estudiantes! Las excursiones de este año incluyen SeaWorld, el Acuario Birch, el Museo Marítimo y muchos lugares más."
       },
-      "eligibility": { "en": "All students grades 6-12. No prior science experience needed, just bring your curiosity!", "es": "Todos los estudiantes de grados 6-12. No se necesita experiencia previa en ciencias, solo trae tu curiosidad!" },
-      "signup": { "en": "Email or text your teacher, or stop by the resource center to register.", "es": "Envia un correo o mensaje a tu maestro, o pasa por el centro de recursos para registrarte." },
-      "icon": "🌊"
+      "eligibility": {
+        "en": "All students grades 6-12. No prior science experience needed, just bring your curiosity!",
+        "es": "Todos los estudiantes de grados 6-12. No se necesita experiencia previa en ciencias, solo trae tu curiosidad!"
+      },
+      "signup": {
+        "en": "Interested? Contact your teacher to RSVP. Can't make it this week? It's not too late to join!",
+        "es": "¿Te interesa? Contacta a tu maestro para confirmar tu asistencia. ¿No puedes venir esta semana? ¡Todavía puedes unirte!"
+      },
+      "icon": "🌊",
+      "details": [
+        {
+          "en": "First meeting: Thursday, September 17, 2026, at 11 a.m. at the Pacific Beach Resource Center. Meet the group and prepare for our beach cleanup.",
+          "es": "Primera reunión: jueves 17 de septiembre de 2026 a las 11 a.m. en el Centro de Recursos Pacific Beach. Conoce al grupo y prepárate para nuestra limpieza de playa."
+        },
+        {
+          "en": "Beach cleanup: Monday, September 21, 2026. Meet at the Pacific Beach Resource Center at 11 a.m., or join us at the beach at 11:15 a.m.",
+          "es": "Limpieza de playa: lunes 21 de septiembre de 2026. Reúnete con el grupo en el Centro de Recursos Pacific Beach a las 11 a.m., o en la playa a las 11:15 a.m."
+        },
+        {
+          "en": "Beach meeting location: Ocean Front Walk, San Diego, CA 92109. Ask your teacher for the exact meeting spot.",
+          "es": "Punto de encuentro en la playa: Ocean Front Walk, San Diego, CA 92109. Pregunta a tu maestro por el lugar exacto."
+        }
+      ],
+      "flyer": {
+        "image": "program-resources/Marine-Science-Explorer-2026-27.png",
+        "pdf": "program-resources/Marine-Science-Explorer-2026-27.pdf",
+        "alt": {
+          "en": "Marine Science Explorer 2026-27 flyer: monthly activities, field trips, September 17 meeting and September 21 beach cleanup.",
+          "es": "Volante de Exploradores de Ciencias Marinas 2026-27: actividades mensuales, excursiones, reunión del 17 de septiembre y limpieza de playa del 21 de septiembre."
+        },
+        "caption": {
+          "en": "View the full-size flyer",
+          "es": "Ver el volante en tamaño completo"
+        }
+      }
     },
     {
       "id": "personal-finance",
