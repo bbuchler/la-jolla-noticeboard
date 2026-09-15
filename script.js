@@ -62,7 +62,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20260914-1');
+            const response = await fetch('site-data.json?v=20260915-1');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -323,19 +323,51 @@
             }
 
             var label = typeLabels[evt.type] ? t(typeLabels[evt.type]) : evt.type;
-            var actionHtml = evt.opportunityId
+            var actionHtml = evt.details
+                ? '<div class="date-card-action">' +
+                  (currentLang === 'es' ? 'Ver volante, detalles y enlace' : 'View flyer, details, and link') +
+                  ' &#8595;</div>'
+                : evt.opportunityId
                 ? '<div class="date-card-action">' +
                   (currentLang === 'es' ? 'Ver detalles y unirse' : 'View details and join') +
                   ' &#8595;</div>'
+                : '';
+            var iconHtml = evt.icon
+                ? '<span class="date-card-icon" aria-hidden="true">' + evt.icon + '</span>'
                 : '';
             var cardContent = '<div class="date-bubble type-' + evt.type + '">' +
                 '<span class="date-day">' + parts.day + '</span>' +
                 '<span class="date-month-abbr">' + parts.monthAbbr + '</span>' +
                 '</div>' +
                 '<div class="date-card-content">' +
-                '<div class="date-card-title">' + t(evt.title) + badgeHtml + '</div>' +
+                '<div class="date-card-title">' + iconHtml + t(evt.title) + badgeHtml + '</div>' +
                 '<div class="date-card-type type-' + evt.type + '-text">' + label + '</div>' +
                 actionHtml + '</div>';
+
+            if (evt.details) {
+                var factsHtml = (evt.details.facts || []).map(function (fact) {
+                    return '<div class="date-event-fact"><span>' + t(fact.label) + '</span><strong>' +
+                        t(fact.value) + '</strong></div>';
+                }).join('');
+                var eventActionsHtml = (evt.details.actions || []).map(function (action) {
+                    return '<a href="' + action.url + '" target="_blank" rel="noopener" class="btn ' +
+                        (action.primary ? 'btn-primary' : 'btn-outline') + '">' + t(action.label) + '</a>';
+                }).join('');
+                var eventImageHtml = evt.details.image
+                    ? '<a href="' + evt.details.image + '" target="_blank" rel="noopener" class="date-event-flyer-link">' +
+                      '<img src="' + evt.details.image + '" alt="' + t(evt.details.imageAlt) + '" class="date-event-flyer"></a>'
+                    : '';
+                var eventNoteHtml = evt.details.note
+                    ? '<p class="date-event-note">' + t(evt.details.note) + '</p>'
+                    : '';
+
+                return '<details class="date-event-details">' +
+                    '<summary class="date-card date-card-link' + (past ? ' past' : '') + '">' + cardContent +
+                    '<span class="date-card-chevron" aria-hidden="true">&#9660;</span></summary>' +
+                    '<div class="date-event-body"><p class="date-event-description">' + t(evt.details.description) + '</p>' +
+                    '<div class="date-event-facts">' + factsHtml + '</div>' + eventNoteHtml + eventImageHtml +
+                    '<div class="date-event-actions">' + eventActionsHtml + '</div></div></details>';
+            }
 
             if (evt.opportunityId) {
                 return '<button type="button" class="date-card date-card-link' + (past ? ' past' : '') +

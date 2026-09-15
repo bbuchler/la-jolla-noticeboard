@@ -939,6 +939,123 @@ h1, h2, h3, h4 {
     outline-offset: 3px;
 }
 
+.date-event-details {
+    overflow: hidden;
+    background: var(--white);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.date-event-details > summary {
+    width: 100%;
+    box-shadow: none;
+    list-style: none;
+}
+
+.date-event-details > summary::-webkit-details-marker {
+    display: none;
+}
+
+.date-event-details[open] > summary {
+    border-radius: var(--radius) var(--radius) 0 0;
+    background: #f5fbff;
+}
+
+.date-card-icon {
+    display: inline-block;
+    margin-right: 7px;
+    font-size: 1.1rem;
+    vertical-align: -1px;
+}
+
+.date-card-chevron {
+    flex-shrink: 0;
+    color: var(--primary-blue);
+    font-size: 0.8rem;
+    transition: transform var(--transition);
+}
+
+.date-event-details[open] .date-card-chevron {
+    transform: rotate(180deg);
+}
+
+.date-event-body {
+    padding: 0 20px 20px;
+    border-top: 1px solid #d7e8f5;
+}
+
+.date-event-description {
+    margin: 18px 0 14px;
+    color: var(--dark-text);
+    font-size: 0.9rem;
+    line-height: 1.55;
+}
+
+.date-event-facts {
+    display: grid;
+    gap: 8px;
+}
+
+.date-event-fact {
+    display: grid;
+    gap: 2px;
+    padding: 11px 13px;
+    border-radius: var(--radius-sm);
+    background: var(--light-blue);
+}
+
+.date-event-fact span {
+    color: var(--primary-blue);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.date-event-fact strong {
+    color: var(--dark-blue);
+    font-size: 0.86rem;
+}
+
+.date-event-note {
+    margin: 14px 0;
+    padding: 11px 13px;
+    border-left: 4px solid #27ae60;
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    background: #eefaf2;
+    color: #185f35;
+    font-size: 0.86rem;
+    font-weight: 700;
+    line-height: 1.45;
+}
+
+.date-event-flyer-link {
+    display: block;
+    margin-top: 14px;
+}
+
+.date-event-flyer {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #d7e8f5;
+    border-radius: var(--radius-sm);
+}
+
+.date-event-actions {
+    display: grid;
+    gap: 10px;
+    margin-top: 14px;
+}
+
+.date-event-actions .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .date-card-action {
     color: var(--primary-blue);
     font-size: 0.78rem;
@@ -1024,6 +1141,17 @@ h1, h2, h3, h4 {
 .badge-new {
     background: var(--gold);
     color: var(--dark-blue);
+}
+
+@media (min-width: 768px) {
+    .date-event-facts,
+    .date-event-actions {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .date-event-body {
+        padding: 0 24px 24px;
+    }
 }
 
 /* ============================================

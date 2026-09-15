@@ -274,6 +274,49 @@
     },
     {
       "date": "2026-09-17",
+      "title": { "en": "Virtual Field Trip: Healthy Living Through Basketball, 11 AM - 12 PM", "es": "Excursion Virtual: Vida Saludable a Traves del Baloncesto, 11 AM - 12 PM" },
+      "type": "activity",
+      "icon": "🏀",
+      "badge": null,
+      "details": {
+        "description": {
+          "en": "Join Discovery Education and the NBA to explore how professional basketball players, coaches, and teams promote fitness, nutrition, wellness, and healthy choices on and off the court.",
+          "es": "Acompana a Discovery Education y la NBA para explorar como los jugadores, entrenadores y equipos profesionales promueven el ejercicio, la nutricion, el bienestar y las decisiones saludables dentro y fuera de la cancha."
+        },
+        "facts": [
+          {
+            "label": { "en": "When", "es": "Cuando" },
+            "value": { "en": "Thursday, September 17, 11 AM - 12 PM", "es": "Jueves 17 de septiembre, 11 AM - 12 PM" }
+          },
+          {
+            "label": { "en": "Where", "es": "Donde" },
+            "value": { "en": "Zoom", "es": "Zoom" }
+          }
+        ],
+        "note": {
+          "en": "All students are welcome. Students can earn lesson credit for attending.",
+          "es": "Todos los estudiantes son bienvenidos. Los estudiantes pueden obtener credito de leccion por asistir."
+        },
+        "image": "program-resources/Virtual-Field-Trip-Healthy-Living-Basketball-2026-09-17.png",
+        "imageAlt": {
+          "en": "Healthy Living Through Basketball virtual field trip flyer",
+          "es": "Volante de la excursion virtual Vida Saludable a Traves del Baloncesto"
+        },
+        "actions": [
+          {
+            "label": { "en": "Join on Zoom", "es": "Unirse por Zoom" },
+            "url": "https://altusschools-net.zoom.us/j/93055646064?from=addon",
+            "primary": true
+          },
+          {
+            "label": { "en": "Explore NBA Learning Resources", "es": "Explorar Recursos Educativos de la NBA" },
+            "url": "https://www.discoveryeducation.com/corporate-partnerships/nba/"
+          }
+        ]
+      }
+    },
+    {
+      "date": "2026-09-17",
       "title": { "en": "Marine Science Explorers Series: Topic and Time TBD", "es": "Serie Exploradores de Ciencias Marinas: Tema y Hora por Confirmar" },
       "type": "activity",
       "badge": null
