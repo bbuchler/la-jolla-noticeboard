@@ -29,8 +29,8 @@
         "es": "Corrección del Calendario de Septiembre"
       },
       "message": {
-        "en": "Sept 22: School open; CLD meets 10:00-11:30 AM. Sept 29: La Jolla Resource Center closed for an all-staff meeting. These dates override the older calendar image and PDF below.",
-        "es": "22 de sept.: escuela abierta; CLD se reúne de 10:00 a 11:30 AM. 29 de sept.: Centro de Recursos La Jolla cerrado por una reunión de todo el personal. Estas fechas reemplazan las de la imagen y el PDF anteriores."
+        "en": "Sept 22: School open; CLD meets 10:00-11:30 AM. Sept 29: La Jolla Resource Center closed for an all-staff meeting.",
+        "es": "22 de sept.: escuela abierta; CLD se reúne de 10:00 a 11:30 AM. 29 de sept.: Centro de Recursos La Jolla cerrado por una reunión de todo el personal."
       },
       "icon": "📅",
       "theme": "alert",
