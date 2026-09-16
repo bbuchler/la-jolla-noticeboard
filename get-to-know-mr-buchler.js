@@ -4,7 +4,7 @@
     var translations = {
         en: {
             pageTitle: 'Get to Know Mr. Buchler | La Jolla Noticeboard',
-            headerTitle: 'Meet Mr. Buchler', noticeboard: 'Noticeboard', dualEnrollment: 'Dual Enrollment',
+            chooseTeacher: 'Meet Your Teacher', headerTitle: 'Meet Mr. Buchler', noticeboard: 'Noticeboard', dualEnrollment: 'Dual Enrollment',
             navAbout: 'About Me', navInterests: 'Outside School', navApproach: 'How I Teach', navTogether: 'Working Together', navStart: 'Start Here', navContact: 'Contact',
             heroKicker: 'Welcome', heroTitle: 'Get to Know Mr. Buchler',
             heroLede: 'I work with students in grades 6–12 at the La Jolla Resource Center. My goal is simple: help you build a school plan that connects to your interests, fits your life, and moves you toward what comes next.',
@@ -29,7 +29,7 @@
         },
         es: {
             pageTitle: 'Conoce al Sr. Buchler | Tablero de La Jolla',
-            headerTitle: 'Conoce al Sr. Buchler', noticeboard: 'Tablero', dualEnrollment: 'Inscripcion Doble',
+            chooseTeacher: 'Conoce a tu maestro', headerTitle: 'Conoce al Sr. Buchler', noticeboard: 'Tablero', dualEnrollment: 'Inscripcion Doble',
             navAbout: 'Sobre Mi', navInterests: 'Fuera de la Escuela', navApproach: 'Como Enseno', navTogether: 'Trabajando Juntos', navStart: 'Empieza Aqui', navContact: 'Contacto',
             heroKicker: 'Bienvenido', heroTitle: 'Conoce al Sr. Buchler',
             heroLede: 'Trabajo con estudiantes de los grados 6–12 en el Centro de Recursos La Jolla. Mi meta es sencilla: ayudarte a crear un plan escolar conectado con tus intereses, que se adapte a tu vida y te acerque a lo que sigue.',

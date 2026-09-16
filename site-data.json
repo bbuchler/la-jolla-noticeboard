@@ -857,11 +857,25 @@
   "contacts": [
     {
       "name": "Mr. Connor Quinn",
-      "role": { "en": "Teacher", "es": "Maestro" },
-      "leadershipRole": { "en": "Head of the Math Department", "es": "Jefe del Departamento de Matematicas" },
+      "role": {
+        "en": "Teacher",
+        "es": "Maestro"
+      },
+      "leadershipRole": {
+        "en": "Co-Math Department Chair",
+        "es": "Copresidente del Departamento de Matemáticas"
+      },
       "email": "cquinn@altusschools.net",
       "phone": "858.214.2519",
-      "hours": { "en": "Monday-Friday, 7 AM - 3 PM", "es": "Lunes a viernes, 7 AM - 3 PM" }
+      "hours": {
+        "en": "Typical availability: Monday-Friday, 7 AM - 3 PM",
+        "es": "Disponibilidad habitual: lunes a viernes, 7 AM - 3 PM"
+      },
+      "profileUrl": "get-to-know-mr-quinn.html",
+      "profileLabel": {
+        "en": "Learn More About Mr. Quinn",
+        "es": "Conoce más al Sr. Quinn"
+      }
     },
     {
       "name": "Mr. Baptiste Buchler",
@@ -1054,5 +1068,130 @@
         "url": "https://catalog.miracosta.edu/disciplines/counseling/"
       }
     ]
+  },
+  "teacherSelection": {
+    "title": {
+      "en": "Meet Your Teacher",
+      "es": "Conoce a tu maestro"
+    },
+    "intro": {
+      "en": "Choose your teacher to learn more about their background and approach to teaching.",
+      "es": "Elige a tu maestro para conocer su trayectoria y su forma de enseñar."
+    },
+    "teachers": [
+      {
+        "name": {
+          "en": "Mr. Buchler",
+          "es": "Sr. Buchler"
+        },
+        "role": {
+          "en": "Head of the Social Science Department",
+          "es": "Jefe del Departamento de Ciencias Sociales"
+        },
+        "url": "get-to-know-mr-buchler.html"
+      },
+      {
+        "name": {
+          "en": "Mr. Quinn",
+          "es": "Sr. Quinn"
+        },
+        "role": {
+          "en": "Co-Math Department Chair",
+          "es": "Copresidente del Departamento de Matemáticas"
+        },
+        "url": "get-to-know-mr-quinn.html"
+      }
+    ]
+  },
+  "quinnProfile": {
+    "pageTitle": {
+      "en": "Get to Know Mr. Quinn | La Jolla Noticeboard",
+      "es": "Conoce al Sr. Quinn | Tablero de La Jolla"
+    },
+    "headerTitle": {
+      "en": "Meet Mr. Quinn",
+      "es": "Conoce al Sr. Quinn"
+    },
+    "noticeboard": {
+      "en": "Noticeboard",
+      "es": "Tablero"
+    },
+    "chooseTeacher": {
+      "en": "Meet Your Teacher",
+      "es": "Conoce a tu maestro"
+    },
+    "navAbout": {
+      "en": "About Me",
+      "es": "Sobre mí"
+    },
+    "navApproach": {
+      "en": "How I Teach",
+      "es": "Cómo enseño"
+    },
+    "navContact": {
+      "en": "Contact",
+      "es": "Contacto"
+    },
+    "heroKicker": {
+      "en": "Welcome",
+      "es": "Bienvenido"
+    },
+    "heroTitle": {
+      "en": "Get to Know Mr. Quinn",
+      "es": "Conoce al Sr. Quinn"
+    },
+    "heroLede": {
+      "en": "I am a teacher and Co-Math Department Chair at Altus Schools.",
+      "es": "Soy maestro y copresidente del Departamento de Matemáticas de Altus Schools."
+    },
+    "heroContact": {
+      "en": "Contact Mr. Quinn",
+      "es": "Contacta al Sr. Quinn"
+    },
+    "heroNote": {
+      "en": "Connor Quinn",
+      "es": "Connor Quinn"
+    },
+    "aboutTitle": {
+      "en": "A Little About Me",
+      "es": "Un poco sobre mí"
+    },
+    "aboutP1": {
+      "en": "I earned my bachelor’s degree from West Chester University of Pennsylvania and my master’s degree in Curriculum and Instruction from Point Loma Nazarene University.",
+      "es": "Obtuve mi licenciatura en West Chester University of Pennsylvania y mi maestría en Currículo e Instrucción en Point Loma Nazarene University."
+    },
+    "approachTitle": {
+      "en": "How I Approach Teaching",
+      "es": "Mi forma de enseñar"
+    },
+    "approachP1": {
+      "en": "I believe every student has the ability to succeed, regardless of the skill level they bring when they join Altus. With commitment, hard work, and a growth mindset, students can reach their full potential.",
+      "es": "Creo que cada estudiante tiene la capacidad de tener éxito, sin importar su nivel de habilidades al llegar a Altus. Con compromiso, esfuerzo y una mentalidad de crecimiento, los estudiantes pueden alcanzar su máximo potencial."
+    },
+    "approachP2": {
+      "en": "My goal is to help students become not only strong students, but also dependable, capable, and employable individuals prepared for their future.",
+      "es": "Mi objetivo es ayudar a los estudiantes a desarrollarse tanto en lo académico como en lo personal, para que sean personas responsables y capaces, con habilidades para el empleo y preparadas para su futuro."
+    },
+    "contactTitle": {
+      "en": "Contact Mr. Quinn",
+      "es": "Contacta al Sr. Quinn"
+    },
+    "contactHours": {
+      "en": "Typical availability: Monday-Friday, 7 AM - 3 PM",
+      "es": "Disponibilidad habitual: lunes a viernes, 7 AM - 3 PM"
+    },
+    "backButton": {
+      "en": "Back to the Noticeboard",
+      "es": "Volver al tablero"
+    },
+    "dualButton": {
+      "en": "Dual Enrollment Guide",
+      "es": "Guía de inscripción doble"
+    },
+    "portrait": null,
+    "portraitAlt": {
+      "en": "Mr. Connor Quinn",
+      "es": "Sr. Connor Quinn"
+    }
   }
 }

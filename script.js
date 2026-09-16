@@ -62,7 +62,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20260916-4');
+            const response = await fetch('site-data.json?v=20260916-5');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -87,9 +87,21 @@
         renderPrograms();
         renderOpportunities();
         renderMotivation();
+        renderTeachers();
         renderContact();
         renderSectionHeadings();
         updateLangButton();
+    }
+
+    function renderTeachers() {
+        var selection = siteData.teacherSelection;
+        document.getElementById('teachersTitle').textContent = t(selection.title);
+        document.getElementById('teachersIntro').textContent = t(selection.intro);
+        document.getElementById('teacherChoices').innerHTML = selection.teachers.map(function (teacher) {
+            return '<a class="profile-start-card teacher-choice" href="' + teacher.url + '">' +
+                '<div><strong>' + t(teacher.name) + '</strong><small>' + t(teacher.role) + '</small></div>' +
+                '<span aria-hidden="true">→</span></a>';
+        }).join('');
     }
 
     // --- Header ---
@@ -113,7 +125,7 @@
             { href: '#opportunities', key: 'opportunities' },
             { href: 'dual-enrollment.html', key: 'dualEnrollment' },
             { href: '#motivation', key: 'motivation' },
-            { href: 'get-to-know-mr-buchler.html', key: 'teacherProfile' },
+            { href: '#teachers', key: 'teacherProfile' },
             { href: '#contact', key: 'contact' }
         ];
 
