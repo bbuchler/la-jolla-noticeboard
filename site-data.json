@@ -25,6 +25,20 @@
   "bulletins": [
     {
       "title": {
+        "en": "September Calendar Correction",
+        "es": "Corrección del Calendario de Septiembre"
+      },
+      "message": {
+        "en": "Tuesday, September 22: school is open and CLD meets from 10:00-11:30 AM. Tuesday, September 29: the La Jolla Resource Center is closed for an all-staff meeting. Please adjust your on-site plans. These corrected dates supersede the older calendar image and PDF below.",
+        "es": "Martes 22 de septiembre: la escuela está abierta y CLD se reúne de 10:00 a 11:30 AM. Martes 29 de septiembre: el Centro de Recursos La Jolla está cerrado por una reunión de todo el personal. Ajusta tus planes para asistir en persona. Estas fechas corregidas reemplazan las de la imagen y el PDF anteriores que aparecen abajo."
+      },
+      "icon": "📅",
+      "theme": "alert",
+      "featured": true,
+      "expires": "2026-09-30"
+    },
+    {
+      "title": {
         "en": "Marine Science Explorer: Join Us!",
         "es": "Exploradores de Ciencias Marinas: ¡Únete!"
       },
@@ -127,7 +141,11 @@
     {
       "month": { "en": "September 2026", "es": "Septiembre 2026" },
       "image": "monthly-calendars/September-Calendar-2026.png?v=20260828-1",
-      "pdf": "monthly-calendars/September-Calendar-2026.pdf"
+      "pdf": "monthly-calendars/September-Calendar-2026.pdf",
+      "correction": {
+        "en": "Calendar correction: September 22 is open with CLD, 10:00-11:30 AM. The La Jolla Resource Center is closed September 29 for an all-staff meeting. Follow these dates if the image or PDF says otherwise.",
+        "es": "Corrección del calendario: el 22 de septiembre la escuela está abierta y CLD se reúne de 10:00 a 11:30 AM. El Centro de Recursos La Jolla está cerrado el 29 de septiembre por una reunión de todo el personal. Sigue estas fechas si la imagen o el PDF indican algo diferente."
+      }
     }
   ],
   "learningPeriods": {
@@ -362,8 +380,8 @@
     },
     {
       "date": "2026-09-22",
-      "title": { "en": "All Staff Meeting: Resource Center Open by Appointment Only", "es": "Reunion de Todo el Personal: Centro de Recursos Abierto Solo con Cita" },
-      "type": "milestone",
+      "title": { "en": "School Open: CLD, 10:00-11:30 AM", "es": "Escuela Abierta: CLD, 10:00-11:30 AM" },
+      "type": "activity",
       "badge": null
     },
     {
@@ -372,6 +390,12 @@
       "type": "activity",
       "badge": null,
       "opportunityId": "altus-arts"
+    },
+    {
+      "date": "2026-09-29",
+      "title": { "en": "La Jolla Resource Center Closed: All-Staff Meeting", "es": "Centro de Recursos La Jolla Cerrado: Reunión de Todo el Personal" },
+      "type": "closed",
+      "badge": null
     }
   ],
   "caaspp": null,
@@ -384,11 +408,11 @@
       "day": { "en": "Tuesday", "es": "Martes" },
       "events": [
         {
-          "name": { "en": "CLD (September 8, 15 & 29)", "es": "CLD (8, 15 y 29 de septiembre)" },
+          "name": { "en": "CLD (September 8, 15 & 22)", "es": "CLD (8, 15 y 22 de septiembre)" },
           "time": "10 AM - 11:30 AM",
           "location": { "en": "Pacific Beach Resource Center", "es": "Centro de Recursos Pacific Beach" },
           "type": "class",
-          "visibleUntil": "2026-09-30"
+          "visibleUntil": "2026-09-23"
         }
       ]
     },

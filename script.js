@@ -62,7 +62,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20260915-2');
+            const response = await fetch('site-data.json?v=20260916-1');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -214,9 +214,14 @@
                   (currentLang === 'es' ? 'Abrir PDF' : 'Open PDF') + '</a>'
                 : '';
 
+            var correctionHtml = cal.correction
+                ? '<p class="calendar-correction">' + t(cal.correction) + '</p>'
+                : '';
+
             return '<div class="calendar-card">' +
                 '<div class="calendar-card-header">' + t(cal.month) + '</div>' +
                 '<div class="calendar-card-body">' +
+                correctionHtml +
                 imageHtml +
                 '<p class="calendar-tap-hint">' + (currentLang === 'es' ? 'Toca la imagen para ampliar' : 'Tap image to enlarge') + '</p>' +
                 pdfBtn +
