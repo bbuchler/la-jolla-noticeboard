@@ -144,6 +144,7 @@
     function renderBulletin() {
         var section = document.getElementById('bulletin');
         var card = document.getElementById('bulletinCard');
+        var isNarrow = window.matchMedia('(max-width: 767px)').matches;
         var bulletins = Array.isArray(siteData.bulletins) ? siteData.bulletins : (siteData.bulletin ? [siteData.bulletin] : []);
         var today = new Date();
         today.setHours(0, 0, 0, 0);
@@ -175,9 +176,20 @@
             var isInternalAction = b.action && b.action.url && b.action.url.charAt(0) === '#';
             var actionTarget = isInternalAction ? '' : ' target="_blank" rel="noopener"';
             var actionHtml = b.action && b.action.url
-                ? '<a href="' + b.action.url + '"' + actionTarget + ' class="btn btn-primary bulletin-action">' +
-                  t(b.action.label || { en: 'Learn More', es: 'Mas Informacion' }) + '</a>'
+                ? '<a href="' + b.action.url + '"' + actionTarget + ' class="bulletin-action">' +
+                  t(b.action.label || { en: 'Learn More', es: 'Mas Informacion' }) +
+                  '<span aria-hidden="true"> &#8594;</span></a>'
                 : '';
+            if (isNarrow && b.theme !== 'alert') {
+                return '<details class="bulletin-card bulletin-card-disclosure' + themeClass + layoutClass + '">' +
+                    '<summary class="bulletin-summary">' +
+                    '<span class="bulletin-icon" aria-hidden="true">' + icon + '</span>' +
+                    '<span class="bulletin-summary-copy">' + titleHtml +
+                    '<span class="bulletin-teaser">' + t(b.teaser || b.message) + '</span></span>' +
+                    '<span class="bulletin-chevron" aria-hidden="true">&#9660;</span></summary>' +
+                    '<div class="bulletin-body"><p class="bulletin-message">' + t(b.message) + '</p>' +
+                    actionHtml + '</div></details>';
+            }
             return '<article class="bulletin-card' + themeClass + layoutClass + '">' +
                 '<span class="bulletin-icon" aria-hidden="true">' + icon + '</span>' +
                 '<div class="bulletin-body">' + titleHtml +
@@ -199,6 +211,10 @@
             });
         });
     }
+
+    window.matchMedia('(max-width: 767px)').addEventListener('change', function () {
+        if (siteData) renderBulletin();
+    });
 
     // --- Calendar ---
 

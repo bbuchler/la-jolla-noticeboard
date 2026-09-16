@@ -29,8 +29,8 @@
         "es": "Corrección del Calendario de Septiembre"
       },
       "message": {
-        "en": "Tuesday, September 22: school is open and CLD meets from 10:00-11:30 AM. Tuesday, September 29: the La Jolla Resource Center is closed for an all-staff meeting. Please adjust your on-site plans. These corrected dates supersede the older calendar image and PDF below.",
-        "es": "Martes 22 de septiembre: la escuela está abierta y CLD se reúne de 10:00 a 11:30 AM. Martes 29 de septiembre: el Centro de Recursos La Jolla está cerrado por una reunión de todo el personal. Ajusta tus planes para asistir en persona. Estas fechas corregidas reemplazan las de la imagen y el PDF anteriores que aparecen abajo."
+        "en": "Sept 22: School open; CLD meets 10:00-11:30 AM. Sept 29: La Jolla Resource Center closed for an all-staff meeting. These dates override the older calendar image and PDF below.",
+        "es": "22 de sept.: escuela abierta; CLD se reúne de 10:00 a 11:30 AM. 29 de sept.: Centro de Recursos La Jolla cerrado por una reunión de todo el personal. Estas fechas reemplazan las de la imagen y el PDF anteriores."
       },
       "icon": "📅",
       "theme": "alert",
@@ -43,12 +43,13 @@
         "es": "Exploradores de Ciencias Marinas: ¡Únete!"
       },
       "message": {
-        "en": "First meeting: Thursday, September 17, at 11 a.m. at the Pacific Beach Resource Center. Then join our beach cleanup Monday, September 21: meet at the center at 11 a.m. or at the beach at 11:15 a.m. Hands-on activities and field trips every month. Contact your teacher to RSVP!",
-        "es": "Primera reunión: jueves 17 de septiembre a las 11 a.m. en el Centro de Recursos Pacific Beach. Después, participa en la limpieza de playa el lunes 21 de septiembre: nos reunimos en el centro a las 11 a.m. o en la playa a las 11:15 a.m. Actividades prácticas y excursiones cada mes. ¡Contacta a tu maestro para confirmar tu asistencia!"
+        "en": "Sept 17: first meeting at Pacific Beach, 11 AM. Sept 21: cleanup at the center, 11 AM, or beach, 11:15 AM. RSVP with your teacher.",
+        "es": "17 de sept.: primera reunión en Pacific Beach, 11 AM. 21 de sept.: limpieza en el centro, 11 AM, o en la playa, 11:15 AM. Confirma con tu maestro."
       },
       "icon": "🌊",
       "theme": "school",
       "featured": true,
+      "teaser": { "en": "Sept 17 meeting · Sept 21 cleanup", "es": "Reunión 17 sept. · limpieza 21 sept." },
       "action": {
         "label": {
           "en": "See Program Details & Flyer",
@@ -64,12 +65,13 @@
         "es": "Evaluaciones NWEA: Programa Tu Horario"
       },
       "message": {
-        "en": "Students in grades 6-11 need to complete Reading, Mathematics, and Language Usage assessments. In-person testing at La Jolla is strongly preferred. Contact Mr. Buchler now with the dates and times that work for you.",
-        "es": "Los estudiantes de los grados 6-11 deben completar las evaluaciones de Lectura, Matematicas y Uso del Lenguaje. Se prefiere que las evaluaciones se hagan en persona en La Jolla. Contacta al Sr. Buchler ahora con las fechas y horarios que te funcionen."
+        "en": "Grades 6-11: Contact Mr. Buchler to schedule your three MAP Growth tests by Oct 16. On-site preferred.",
+        "es": "Grados 6-11: contacta al Sr. Buchler para programar tus tres pruebas MAP Growth antes del 16 de oct. Se prefiere en persona."
       },
       "icon": "🎯",
       "theme": "testing",
       "featured": true,
+      "teaser": { "en": "Grades 6-11 · Schedule by Oct 16", "es": "Grados 6-11 · Programa antes del 16 oct." },
       "action": {
         "label": {
           "en": "Testing Details & Scheduling",
@@ -85,11 +87,12 @@
         "es": "Serie de Aprendizaje Familiar: Planificacion Universitaria"
       },
       "message": {
-        "en": "Students and families: join school counselors next Wednesday, September 16, from 4:00-5:00 PM for Senior 4-Year College Application Planning.",
-        "es": "Estudiantes y familias: acompanen a los consejeros escolares el proximo miercoles 16 de septiembre, de 4:00-5:00 PM, para la planificacion de solicitudes universitarias de estudiantes de ultimo ano."
+        "en": "Sept 16, 4-5 PM: Senior four-year college application planning with counselors.",
+        "es": "16 de sept., 4-5 PM: planificación de solicitudes universitarias para estudiantes de último año con consejeros."
       },
       "icon": "🎓",
       "theme": "school",
+      "teaser": { "en": "Sept 16 · 4-5 PM", "es": "16 sept. · 4-5 PM" },
       "action": {
         "label": {
           "en": "Join the Webinar",
@@ -105,8 +108,8 @@
         "es": "Ayuda a Personalizar Tu Aprendizaje"
       },
       "message": {
-        "en": "Take this five-minute survey about your strengths, hobbies, interests, and future goals. Your answers will help Mr. Buchler personalize examples, readings, and assignments when it makes sense. Every student should complete it as soon as possible.",
-        "es": "Completa esta encuesta de cinco minutos sobre tus fortalezas, pasatiempos, intereses y metas futuras. Tus respuestas ayudaran al Sr. Buchler a personalizar ejemplos, lecturas y tareas cuando sea util. Todos los estudiantes deben completarla lo antes posible."
+        "en": "Share your interests and goals in a five-minute survey to help tailor your schoolwork.",
+        "es": "Comparte tus intereses y metas en una encuesta de cinco minutos para adaptar tu trabajo escolar."
       },
       "action": {
         "label": {
@@ -115,6 +118,7 @@
         },
         "url": "https://forms.cloud.microsoft/r/EUaXrZ6AuZ"
       },
+      "teaser": { "en": "Five-minute interests survey", "es": "Encuesta de intereses de cinco minutos" },
       "compact": true
     },
     {
@@ -123,11 +127,12 @@
         "es": "Programa Tu Horario en el Centro"
       },
       "message": {
-        "en": "The school year is getting into full swing. Tell Mr. Buchler which days and times you prefer to come on-site. Plan to come in a couple of days each week. Your schedule can stay flexible around work, sports, and other responsibilities. We look forward to seeing you in person!",
-        "es": "El ano escolar ya esta en marcha. Dile al Sr. Buchler que dias y horarios prefieres venir al centro. Planea venir un par de dias cada semana. Tu horario puede ser flexible para acomodar el trabajo, los deportes y otras responsabilidades. Esperamos verte en persona!"
+        "en": "Tell Mr. Buchler your preferred days and times to come on-site. Aim for a couple of days each week.",
+        "es": "Dile al Sr. Buchler qué días y horarios prefieres para venir al centro. Planea venir un par de días por semana."
       },
       "icon": "🏫",
       "theme": "school",
+      "teaser": { "en": "Share your preferred days and times", "es": "Comparte los días y horarios que prefieres" },
       "compact": true
     }
   ],
