@@ -62,7 +62,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20260916-5');
+            const response = await fetch('site-data.json?v=20260925-1');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -162,6 +162,9 @@
         today.setHours(0, 0, 0, 0);
         var activeBulletins = bulletins.filter(function (b) {
             if (!b || !b.message) {
+                return false;
+            }
+            if (b.starts && today < new Date(b.starts + 'T00:00:00')) {
                 return false;
             }
             if (!b.expires) {
@@ -452,9 +455,10 @@
 
     function renderFieldTrips() {
         var container = document.getElementById('fieldTripsList');
+        var upcomingTrips = (siteData.fieldTrips || []).filter(isEventCurrentlyVisible);
 
         // Show recap if no upcoming trips
-        if (!siteData.fieldTrips || siteData.fieldTrips.length === 0) {
+        if (upcomingTrips.length === 0) {
             var recap = siteData.fieldTripRecap
                 ? '<div class="field-trip-recap"><p>' + t(siteData.fieldTripRecap) + '</p>' +
                   (siteData.fieldTripLookAhead ? '<p class="field-trip-lookahead">' + t(siteData.fieldTripLookAhead) + '</p>' : '') +
@@ -464,7 +468,7 @@
             return;
         }
 
-        container.innerHTML = siteData.fieldTrips.map(function (trip) {
+        container.innerHTML = upcomingTrips.map(function (trip) {
             var remindersHtml = trip.reminders ? '<div class="field-trip-reminders">' +
                 '<h4>' + (currentLang === 'es' ? 'Recordatorios' : 'Reminders') + '</h4>' +
                 '<ul>' + trip.reminders.map(function (r) { return '<li>' + t(r) + '</li>'; }).join('') + '</ul></div>'

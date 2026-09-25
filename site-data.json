@@ -13,7 +13,7 @@
     "parentSquareUrl": "https://www.parentsquare.com",
     "websiteUrl": "https://www.altuscssd.com/"
   },
-  "currentMonth": "September 2026",
+  "currentMonth": "October 2026",
   "heroMessage": {
     "en": "Welcome to the La Jolla Noticeboard",
     "es": "Bienvenidos al Tablero de La Jolla"
@@ -25,39 +25,31 @@
   "bulletins": [
     {
       "title": {
-        "en": "September Calendar Correction",
-        "es": "Corrección del Calendario de Septiembre"
+        "en": "Closed Tuesday, Sept 29",
+        "es": "Cerrado el Martes 29 de Sept."
       },
       "message": {
-        "en": "Sept 22: School open; CLD meets 10:00-11:30 AM. Sept 29: La Jolla Resource Center closed for an all-staff meeting.",
-        "es": "22 de sept.: escuela abierta; CLD se reúne de 10:00 a 11:30 AM. 29 de sept.: Centro de Recursos La Jolla cerrado por una reunión de todo el personal."
+        "en": "The La Jolla Resource Center is closed Tuesday, September 29 for an all-staff meeting. Work on your courses from home that day.",
+        "es": "El Centro de Recursos La Jolla estará cerrado el martes 29 de septiembre por una reunión de todo el personal. Ese día, trabaja en tus cursos desde casa."
       },
-      "icon": "📅",
+      "icon": "🔒",
       "theme": "alert",
       "featured": true,
       "expires": "2026-09-30"
     },
     {
       "title": {
-        "en": "Marine Science Explorer: Join Us!",
-        "es": "Exploradores de Ciencias Marinas: ¡Únete!"
+        "en": "Mr. Buchler Out: October 19-23",
+        "es": "Sr. Buchler Ausente: 19-23 de Octubre"
       },
       "message": {
-        "en": "Sept 17: first meeting at Pacific Beach, 11 AM. Sept 21: cleanup at the center, 11 AM, or beach, 11:15 AM. RSVP with your teacher.",
-        "es": "17 de sept.: primera reunión en Pacific Beach, 11 AM. 21 de sept.: limpieza en el centro, 11 AM, o en la playa, 11:15 AM. Confirma con tu maestro."
+        "en": "Mr. Buchler is out October 19-23. Personal Finance does not meet that week, but other classes and activities continue as scheduled. Finish your LP4 credits by October 16 and reach out before then if you need help.",
+        "es": "El Sr. Buchler estará ausente del 19 al 23 de octubre. Finanzas Personales no se reúne esa semana, pero las demás clases y actividades continúan según lo programado. Termina tus créditos del LP4 antes del 16 de octubre y comunícate con él antes de esa fecha si necesitas ayuda."
       },
-      "icon": "🌊",
-      "theme": "school",
+      "icon": "📌",
+      "theme": "alert",
       "featured": true,
-      "teaser": { "en": "Sept 17 meeting · Sept 21 cleanup", "es": "Reunión 17 sept. · limpieza 21 sept." },
-      "action": {
-        "label": {
-          "en": "See Program Details & Flyer",
-          "es": "Ver detalles del programa y volante"
-        },
-        "url": "#marine-science"
-      },
-      "expires": "2026-09-22"
+      "expires": "2026-10-24"
     },
     {
       "title": {
@@ -83,24 +75,40 @@
     },
     {
       "title": {
-        "en": "Family Learning Series: College Planning",
-        "es": "Serie de Aprendizaje Familiar: Planificacion Universitaria"
+        "en": "Marine Science: SeaWorld Field Trip!",
+        "es": "Ciencias Marinas: ¡Excursión a SeaWorld!"
       },
       "message": {
-        "en": "Sept 16, 4-5 PM: Senior four-year college application planning with counselors.",
-        "es": "16 de sept., 4-5 PM: planificación de solicitudes universitarias para estudiantes de último año con consejeros."
+        "en": "Oct 22, 11 AM - 12 PM: Animal Rescue activity. Oct 29, 10:30 AM - 2:30 PM: SeaWorld field trip. RSVP with your teacher.",
+        "es": "22 de oct., 11 AM - 12 PM: actividad de rescate de animales. 29 de oct., 10:30 AM - 2:30 PM: excursión a SeaWorld. Confirma con tu maestro."
       },
-      "icon": "🎓",
+      "icon": "🐋",
       "theme": "school",
-      "teaser": { "en": "Sept 16 · 4-5 PM", "es": "16 sept. · 4-5 PM" },
+      "featured": true,
+      "teaser": { "en": "Oct 22 Animal Rescue · Oct 29 SeaWorld", "es": "22 oct. rescate de animales · 29 oct. SeaWorld" },
       "action": {
         "label": {
-          "en": "Join the Webinar",
-          "es": "Unirse al Seminario Web"
+          "en": "See Program Details",
+          "es": "Ver detalles del programa"
         },
-        "url": "https://altusschools-net.zoom.us/j/93830219782?from=addon"
+        "url": "#marine-science"
       },
-      "expires": "2026-09-17"
+      "expires": "2026-10-30"
+    },
+    {
+      "title": {
+        "en": "Open House: Tuesday, Oct 6",
+        "es": "Casa Abierta: Martes 6 de Oct."
+      },
+      "message": {
+        "en": "Join us for Open House on Tuesday, October 6 at 5 PM. Families are welcome!",
+        "es": "Te esperamos en la Casa Abierta el martes 6 de octubre a las 5 PM. ¡Las familias son bienvenidas!"
+      },
+      "icon": "🎉",
+      "theme": "school",
+      "teaser": { "en": "Tue, Oct 6 · 5 PM", "es": "Martes 6 oct. · 5 PM" },
+      "starts": "2026-09-30",
+      "expires": "2026-10-07"
     },
     {
       "title": {
@@ -150,6 +158,16 @@
       "correction": {
         "en": "Calendar correction: September 22 is open with CLD, 10:00-11:30 AM. The La Jolla Resource Center is closed September 29 for an all-staff meeting. Follow these dates if the image or PDF says otherwise.",
         "es": "Corrección del calendario: el 22 de septiembre la escuela está abierta y CLD se reúne de 10:00 a 11:30 AM. El Centro de Recursos La Jolla está cerrado el 29 de septiembre por una reunión de todo el personal. Sigue estas fechas si la imagen o el PDF indican algo diferente."
+      },
+      "visibleUntil": "2026-10-01"
+    },
+    {
+      "month": { "en": "October 2026", "es": "Octubre 2026" },
+      "image": "monthly-calendars/October-Calendar-2026.png?v=20260925-1",
+      "pdf": "monthly-calendars/October-Calendar-2026.pdf",
+      "correction": {
+        "en": "Calendar note: September 21 - October 16 is Learning Period 4 (LP4). LP4 credits are due Friday, October 16.",
+        "es": "Nota del calendario: del 21 de septiembre al 16 de octubre es el Periodo de Aprendizaje 4 (LP4). Los créditos del LP4 vencen el viernes 16 de octubre."
       }
     }
   ],
@@ -169,6 +187,16 @@
         "name": "LP3",
         "dates": { "en": "August 24 - September 18", "es": "24 de agosto - 18 de septiembre" },
         "visibleUntil": "2026-09-19"
+      },
+      {
+        "name": "LP4",
+        "dates": { "en": "September 21 - October 16", "es": "21 de septiembre - 16 de octubre" },
+        "visibleUntil": "2026-10-17"
+      },
+      {
+        "name": "LP5",
+        "dates": { "en": "October 19 - November 13", "es": "19 de octubre - 13 de noviembre" },
+        "visibleUntil": "2026-11-14"
       }
     ]
   },
@@ -398,32 +426,121 @@
     },
     {
       "date": "2026-09-29",
-      "title": { "en": "La Jolla Resource Center Closed: All-Staff Meeting", "es": "Centro de Recursos La Jolla Cerrado: Reunión de Todo el Personal" },
+      "title": { "en": "La Jolla Resource Center Closed for All-Staff Meeting: Students Work from Home", "es": "Centro de Recursos La Jolla Cerrado por Reunión de Todo el Personal: Estudiantes Trabajan desde Casa" },
       "type": "closed",
       "badge": null
+    },
+    {
+      "date": "2026-09-30",
+      "title": { "en": "Family Learning Series: Social Emotional Support for Students, 4 PM - 5 PM", "es": "Serie de Aprendizaje Familiar: Apoyo Socioemocional para Estudiantes, 4 PM - 5 PM" },
+      "type": "activity",
+      "badge": null,
+      "opportunityId": "family-learning"
+    },
+    {
+      "date": "2026-10-06",
+      "title": { "en": "Open House: Join Us at 5 PM", "es": "Casa Abierta: Te Esperamos a las 5 PM" },
+      "type": "activity",
+      "icon": "🎉",
+      "badge": null
+    },
+    {
+      "date": "2026-10-07",
+      "title": { "en": "Family Learning Series: Military Advising, 4 PM - 5 PM", "es": "Serie de Aprendizaje Familiar: Orientación Militar, 4 PM - 5 PM" },
+      "type": "activity",
+      "badge": null,
+      "opportunityId": "family-learning"
+    },
+    {
+      "date": "2026-10-09",
+      "ends": "2026-10-12",
+      "title": { "en": "Mr. Quinn Out: October 9 and 12", "es": "Sr. Quinn Ausente: 9 y 12 de Octubre" },
+      "type": "milestone",
+      "badge": null
+    },
+    {
+      "date": "2026-10-16",
+      "title": { "en": "End of LP4: Credits Due!", "es": "Fin de LP4: ¡Créditos Vencen!" },
+      "type": "deadline",
+      "badge": null
+    },
+    {
+      "date": "2026-10-19",
+      "ends": "2026-10-23",
+      "title": { "en": "Mr. Buchler Out: October 19-23", "es": "Sr. Buchler Ausente: 19-23 de Octubre" },
+      "type": "milestone",
+      "badge": null
+    },
+    {
+      "date": "2026-10-21",
+      "title": { "en": "Family Learning Series: Altus Co-Curricular Activities, 4 PM - 5 PM", "es": "Serie de Aprendizaje Familiar: Actividades Co-Curriculares de Altus, 4 PM - 5 PM" },
+      "type": "activity",
+      "badge": null,
+      "opportunityId": "family-learning"
+    },
+    {
+      "date": "2026-10-22",
+      "title": { "en": "Marine Science Explorer: Animal Rescue, 11 AM - 12 PM", "es": "Exploradores de Ciencias Marinas: Rescate de Animales, 11 AM - 12 PM" },
+      "type": "activity",
+      "badge": null
+    },
+    {
+      "date": "2026-10-23",
+      "title": { "en": "Instructional Meeting: Resource Center Open by Appointment Only", "es": "Reunión Instructiva: Centro de Recursos Abierto Solo con Cita" },
+      "type": "milestone",
+      "badge": null
+    },
+    {
+      "date": "2026-10-29",
+      "title": { "en": "Marine Science Field Trip: SeaWorld, 10:30 AM - 2:30 PM", "es": "Excursión de Ciencias Marinas: SeaWorld, 10:30 AM - 2:30 PM" },
+      "type": "activity",
+      "icon": "🐋",
+      "badge": null
+    },
+    {
+      "date": "2026-10-29",
+      "title": { "en": "Altus Arts Session: Vanitas Skulls, 1 PM - 2 PM", "es": "Sesión de Arte Altus: Calaveras Vanitas, 1 PM - 2 PM" },
+      "type": "activity",
+      "badge": null,
+      "opportunityId": "altus-arts"
     }
   ],
   "caaspp": null,
   "recurringEvents": [
     {
       "day": { "en": "Monday", "es": "Lunes" },
-      "events": []
+      "events": [
+        {
+          "name": { "en": "ELA (October 5, 12, 19 & 26)", "es": "ELA (5, 12, 19 y 26 de octubre)" },
+          "time": "11 AM - 12 PM",
+          "location": { "en": "Ask your teacher for details", "es": "Pregunta a tu maestro por los detalles" },
+          "type": "class",
+          "visibleUntil": "2026-10-27"
+        }
+      ]
     },
     {
       "day": { "en": "Tuesday", "es": "Martes" },
       "events": [
         {
-          "name": { "en": "CLD (September 8, 15 & 22)", "es": "CLD (8, 15 y 22 de septiembre)" },
+          "name": { "en": "CLD (October 6, 13, 20 & 27)", "es": "CLD (6, 13, 20 y 27 de octubre)" },
           "time": "10 AM - 11:30 AM",
           "location": { "en": "Pacific Beach Resource Center", "es": "Centro de Recursos Pacific Beach" },
           "type": "class",
-          "visibleUntil": "2026-09-23"
+          "visibleUntil": "2026-10-28"
         }
       ]
     },
     {
       "day": { "en": "Wednesday", "es": "Miercoles" },
       "events": [
+        {
+          "name": { "en": "Math Lab (October 7, 14, 21 & 28)", "es": "Laboratorio de Matemáticas (7, 14, 21 y 28 de octubre)" },
+          "time": "10 AM - 11 AM",
+          "location": { "en": "Ask your teacher for details", "es": "Pregunta a tu maestro por los detalles" },
+          "type": "class",
+          "visibleUntil": "2026-10-29"
+        },
         {
           "name": { "en": "HS ELD (Zoom)", "es": "ELD Preparatoria (Zoom)" },
           "time": "11 AM - 12 PM",
@@ -434,7 +551,15 @@
     },
     {
       "day": { "en": "Thursday", "es": "Jueves" },
-      "events": []
+      "events": [
+        {
+          "name": { "en": "Personal Finance (October 8 & 15)", "es": "Finanzas Personales (8 y 15 de octubre)" },
+          "time": "11 AM - 12 PM",
+          "location": { "en": "La Jolla Resource Center", "es": "Centro de Recursos La Jolla" },
+          "type": "class",
+          "visibleUntil": "2026-10-16"
+        }
+      ]
     },
     {
       "day": { "en": "Friday", "es": "Viernes" },
@@ -445,6 +570,13 @@
           "location": { "en": "La Jolla Resource Center", "es": "Centro de Recursos La Jolla" },
           "type": "support",
           "visibleUntil": "2026-09-26"
+        },
+        {
+          "name": { "en": "Early College Credit Support (October 2, 9, 16, 23 & 30)", "es": "Apoyo de Crédito Universitario Temprano (2, 9, 16, 23 y 30 de octubre)" },
+          "time": "1 PM - 3 PM",
+          "location": { "en": "La Jolla Resource Center", "es": "Centro de Recursos La Jolla" },
+          "type": "support",
+          "visibleUntil": "2026-10-31"
         }
       ],
       "note": { "en": "Non-student day. The Resource Center is generally closed except for scheduled support sessions or appointments. Students are still responsible for completing work from home.", "es": "Dia sin estudiantes. El Centro de Recursos generalmente esta cerrado, excepto para sesiones de apoyo o citas programadas. Los estudiantes siguen siendo responsables de completar su trabajo desde casa." }
@@ -456,17 +588,30 @@
     }
   ],
   "seasonalNote": {
-    "en": "Mr. Buchler is out September 1-4. The Resource Center is closed September 3 for staff training and open by appointment only September 4 for the Altus Symposium. Students should work from home unless they have confirmed on-site support. CLD begins September 8 and meets on select Tuesdays from 10:00-11:30 AM at the Pacific Beach Resource Center. Learning Period 3 ends September 18.",
-    "es": "El Sr. Buchler esta ausente del 1 al 4 de septiembre. El Centro de Recursos esta cerrado el 3 de septiembre por capacitacion del personal y abierto solo con cita el 4 de septiembre por el Simposio Altus. Los estudiantes deben trabajar desde casa a menos que tengan apoyo en persona confirmado. CLD comienza el 8 de septiembre y se reune algunos martes de 10:00-11:30 AM en el Centro de Recursos Pacific Beach. El Periodo de Aprendizaje 3 termina el 18 de septiembre."
+    "en": "The La Jolla Resource Center is closed Tuesday, September 29 for an all-staff meeting. Learning Period 4 ends October 16, the same day the Fall NWEA testing window closes. Mr. Buchler is out October 19-23, and the Resource Center is open by appointment only on October 23 for an instructional meeting. Marine Science Explorer visits SeaWorld on October 29.",
+    "es": "El Centro de Recursos La Jolla estará cerrado el martes 29 de septiembre por una reunión de todo el personal. El Periodo de Aprendizaje 4 termina el 16 de octubre, el mismo día que cierra el periodo de evaluaciones NWEA de otoño. El Sr. Buchler estará ausente del 19 al 23 de octubre, y el Centro de Recursos estará abierto solo con cita el 23 de octubre por una reunión instructiva. Exploradores de Ciencias Marinas visitará SeaWorld el 29 de octubre."
   },
-  "fieldTrips": [],
+  "fieldTrips": [
+    {
+      "date": "2026-10-29",
+      "title": { "en": "Marine Science Explorer: SeaWorld San Diego", "es": "Exploradores de Ciencias Marinas: SeaWorld San Diego" },
+      "address": "SeaWorld San Diego, 500 Sea World Dr, San Diego, CA 92109",
+      "time": { "en": "Thursday, October 29, 10:30 AM - 2:30 PM", "es": "Jueves 29 de octubre, 10:30 AM - 2:30 PM" },
+      "description": { "en": "Explore marine life up close with the Marine Science Explorer group. All students in grades 6-12 are welcome.", "es": "Explora la vida marina de cerca con el grupo de Exploradores de Ciencias Marinas. Todos los estudiantes de grados 6-12 son bienvenidos." },
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=SeaWorld+San+Diego",
+      "reminders": [
+        { "en": "RSVP with your teacher.", "es": "Confirma tu asistencia con tu maestro." },
+        { "en": "Ask your teacher about the meeting spot, transportation, and permission slip.", "es": "Pregunta a tu maestro sobre el punto de encuentro, el transporte y el permiso." }
+      ]
+    }
+  ],
   "fieldTripRecap": {
     "en": "We had an awesome 2025-26 school year full of incredible field trips! Students explored college campuses, SeaWorld, the Birch Aquarium, Cabrillo National Monument, the San Diego Courthouse, the Museum of Contemporary Art, Mesa College, In-N-Out Burger, and many more.",
     "es": "Tuvimos un increible ano escolar 2025-26 lleno de excursiones increibles! Los estudiantes exploraron campus universitarios, SeaWorld, el Acuario Birch, el Monumento Nacional Cabrillo, el Tribunal de San Diego, el Museo de Arte Contemporaneo, Mesa College, In-N-Out Burger, y mucho mas."
   },
   "fieldTripLookAhead": {
-    "en": "We're looking forward to an even more robust field trip schedule next year. Stay tuned for details in the fall!",
-    "es": "Esperamos tener un programa de excursiones aun mas completo el proximo ano. Mantente atento para detalles en el otono!"
+    "en": "More Marine Science Explorer field trips are planned this year. Check back each month for details!",
+    "es": "Hay más excursiones de Exploradores de Ciencias Marinas planeadas para este año. ¡Revisa cada mes para ver los detalles!"
   },
   "programs": [
     {
@@ -502,16 +647,12 @@
       "icon": "🌊",
       "details": [
         {
-          "en": "First meeting: Thursday, September 17, 2026, at 11 a.m. at the Pacific Beach Resource Center. Meet the group and prepare for our beach cleanup.",
-          "es": "Primera reunión: jueves 17 de septiembre de 2026 a las 11 a.m. en el Centro de Recursos Pacific Beach. Conoce al grupo y prepárate para nuestra limpieza de playa."
+          "en": "Animal Rescue activity: Thursday, October 22, 2026, 11 a.m. - 12 p.m.",
+          "es": "Actividad de rescate de animales: jueves 22 de octubre de 2026, 11 a.m. - 12 p.m."
         },
         {
-          "en": "Beach cleanup: Monday, September 21, 2026. Meet at the Pacific Beach Resource Center at 11 a.m., or join us at the beach at 11:15 a.m.",
-          "es": "Limpieza de playa: lunes 21 de septiembre de 2026. Reúnete con el grupo en el Centro de Recursos Pacific Beach a las 11 a.m., o en la playa a las 11:15 a.m."
-        },
-        {
-          "en": "Beach meeting location: Ocean Front Walk, San Diego, CA 92109. Ask your teacher for the exact meeting spot.",
-          "es": "Punto de encuentro en la playa: Ocean Front Walk, San Diego, CA 92109. Pregunta a tu maestro por el lugar exacto."
+          "en": "SeaWorld field trip: Thursday, October 29, 2026, 10:30 a.m. - 2:30 p.m. Ask your teacher for the meeting spot and permission slip.",
+          "es": "Excursión a SeaWorld: jueves 29 de octubre de 2026, 10:30 a.m. - 2:30 p.m. Pregunta a tu maestro por el punto de encuentro y el permiso."
         }
       ],
       "flyer": {
@@ -531,7 +672,7 @@
       "id": "personal-finance",
       "title": { "en": "Personal Finance & Entrepreneurship", "es": "Finanzas Personales y Emprendimiento" },
       "subtitle": { "en": "20-Week Comprehensive Course", "es": "Curso Completo de 20 Semanas" },
-      "schedule": { "en": "Returning in the fall", "es": "Regresa en el otono" },
+      "schedule": { "en": "Thursdays, 11 AM - 12 PM (October 8 & 15)", "es": "Jueves, 11 AM - 12 PM (8 y 15 de octubre)" },
       "location": {
         "en": "La Jolla Resource Center, 7456 Girard Ave, La Jolla, CA 92037",
         "es": "Centro de Recursos La Jolla, 7456 Girard Ave, La Jolla, CA 92037"
