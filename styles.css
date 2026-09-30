@@ -430,6 +430,64 @@ h1, h2, h3, h4 {
     font-size: 1.4rem;
 }
 
+.bulletin-card-banner {
+    order: -10;
+    flex: 1 1 100% !important;
+    align-items: center;
+    padding: 20px 22px;
+    background: linear-gradient(120deg, #e8f5ff 0%, #ffffff 62%, #fff4bd 100%);
+    border: 2px solid var(--primary-blue);
+    border-left: 8px solid var(--gold);
+    box-shadow: 0 8px 24px rgba(0, 74, 140, 0.15);
+}
+
+.bulletin-card-banner .bulletin-icon {
+    font-size: 2rem;
+}
+
+.bulletin-card-banner .bulletin-title {
+    font-size: 1.25rem;
+}
+
+.bulletin-card-banner .bulletin-message {
+    max-width: 980px;
+    color: #173f5f;
+    font-size: 0.94rem;
+}
+
+.bulletin-card-banner .bulletin-action {
+    margin-top: 10px;
+    padding: 7px 13px;
+    color: #ffffff;
+    background: var(--primary-blue);
+    border: 0;
+    border-radius: 999px;
+}
+
+.bulletin-card-banner .bulletin-action:hover {
+    color: #ffffff;
+    background: var(--dark-blue);
+}
+
+@media (max-width: 767px) {
+    .bulletin-card-banner {
+        align-items: flex-start;
+        padding: 16px;
+    }
+
+    .bulletin-card-banner .bulletin-icon {
+        font-size: 1.6rem;
+    }
+
+    .bulletin-card-banner .bulletin-title {
+        font-size: 1.05rem;
+    }
+
+    .bulletin-card-banner .bulletin-message {
+        font-size: 0.86rem;
+    }
+}
+
 .bulletin-card-compact {
     background: #f7fafc;
     padding: 12px 14px;

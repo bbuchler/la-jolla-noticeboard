@@ -62,7 +62,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20260925-1');
+            const response = await fetch('site-data.json?v=20260930-1');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -186,7 +186,7 @@
         card.innerHTML = activeBulletins.map(function (b) {
             var titleHtml = b.title ? '<h3 class="bulletin-title">' + t(b.title) + '</h3>' : '';
             var themeClass = b.theme ? ' bulletin-card-' + b.theme : '';
-            var layoutClass = b.featured ? ' bulletin-card-featured' : (b.compact ? ' bulletin-card-compact' : '');
+            var layoutClass = b.banner ? ' bulletin-card-banner' : (b.featured ? ' bulletin-card-featured' : (b.compact ? ' bulletin-card-compact' : ''));
             var icon = b.icon || '&#128226;';
             var isInternalAction = b.action && b.action.url && b.action.url.charAt(0) === '#';
             var actionTarget = isInternalAction ? '' : ' target="_blank" rel="noopener"';
@@ -195,7 +195,7 @@
                   t(b.action.label || { en: 'Learn More', es: 'Mas Informacion' }) +
                   '<span aria-hidden="true"> &#8594;</span></a>'
                 : '';
-            if (isNarrow && b.theme !== 'alert') {
+            if (isNarrow && b.theme !== 'alert' && !b.banner) {
                 return '<details class="bulletin-card bulletin-card-disclosure' + themeClass + layoutClass + '">' +
                     '<summary class="bulletin-summary">' +
                     '<span class="bulletin-icon" aria-hidden="true">' + icon + '</span>' +
@@ -519,8 +519,8 @@
                 (prog.flyer ? '<a href="' + prog.flyer.image + '" target="_blank" rel="noopener" class="opportunity-flyer-link">' +
                     '<img src="' + prog.flyer.image + '" alt="' + t(prog.flyer.alt) + '" class="opportunity-flyer" loading="lazy">' +
                     '<span>' + t(prog.flyer.caption) + '</span></a>' +
-                    '<a href="' + prog.flyer.pdf + '" target="_blank" rel="noopener" class="btn btn-outline">' +
-                    (currentLang === 'es' ? 'Descargar volante PDF' : 'Download Flyer PDF') + '</a>' : '') +
+                    (prog.flyer.pdf ? '<a href="' + prog.flyer.pdf + '" target="_blank" rel="noopener" class="btn btn-outline">' +
+                    (currentLang === 'es' ? 'Descargar volante PDF' : 'Download Flyer PDF') + '</a>' : '') : '') +
                 '</div></div>';
         }).join('') + '</div>';
     }

@@ -101,12 +101,18 @@
         "es": "Casa Abierta: Martes 6 de Oct."
       },
       "message": {
-        "en": "Join us for Open House on Tuesday, October 6 at 5 PM. Families are welcome!",
-        "es": "Te esperamos en la Casa Abierta el martes 6 de octubre a las 5 PM. ¡Las familias son bienvenidas!"
+        "en": "Join us Tuesday, October 6, from 5-6 PM at 7456 Girard Ave. Meet our staff and school counselor, learn about courses, college planning, and upcoming opportunities, and enjoy food and drinks. Please RSVP to Mr. Buchler with the number attending so we can plan refreshments.",
+        "es": "Acompáñanos el martes 6 de octubre, de 5-6 PM, en 7456 Girard Ave. Conoce al personal y al consejero escolar, aprende sobre cursos, planificación universitaria y próximas oportunidades, y disfruta de comida y bebidas. Confirma con el Sr. Buchler e indica cuántas personas asistirán para que podamos planear los refrigerios."
       },
       "icon": "🎉",
       "theme": "school",
-      "teaser": { "en": "Tue, Oct 6 · 5 PM", "es": "Martes 6 oct. · 5 PM" },
+      "featured": true,
+      "banner": true,
+      "teaser": { "en": "Tue, Oct 6 · 5-6 PM · Food, planning, and opportunities", "es": "Martes 6 oct. · 5-6 PM · Comida, planificación y oportunidades" },
+      "action": {
+        "label": { "en": "View the Open House Flyer", "es": "Ver el Volante de la Casa Abierta" },
+        "url": "program-resources/La-Jolla-Open-House-2026-10-06.png"
+      },
       "starts": "2026-09-30",
       "expires": "2026-10-07"
     },
@@ -442,7 +448,43 @@
       "title": { "en": "Open House: Join Us at 5 PM", "es": "Casa Abierta: Te Esperamos a las 5 PM" },
       "type": "activity",
       "icon": "🎉",
-      "badge": null
+      "badge": null,
+      "details": {
+        "description": {
+          "en": "Meet our teachers and school counselor, learn about the program and upcoming opportunities, and get help with course and college planning. Food and drinks will be provided, and we hope to have prizes.",
+          "es": "Conoce a los maestros y al consejero escolar, aprende sobre el programa y las próximas oportunidades, y recibe ayuda con la planificación de cursos y universidad. Habrá comida y bebidas, y esperamos tener premios."
+        },
+        "facts": [
+          {
+            "label": { "en": "Time", "es": "Hora" },
+            "value": { "en": "Tuesday, October 6, 5:00-6:00 PM", "es": "Martes 6 de octubre, 5:00-6:00 PM" }
+          },
+          {
+            "label": { "en": "Location", "es": "Lugar" },
+            "value": { "en": "La Jolla Resource Center, 7456 Girard Ave.", "es": "Centro de Recursos La Jolla, 7456 Girard Ave." }
+          },
+          {
+            "label": { "en": "RSVP", "es": "Confirmación" },
+            "value": { "en": "Tell Mr. Buchler whether you can attend and how many people are coming", "es": "Dile al Sr. Buchler si puedes asistir y cuántas personas vendrán" }
+          }
+        ],
+        "note": {
+          "en": "Please RSVP with your group size so we can provide enough food and drinks.",
+          "es": "Confirma cuántas personas asistirán para que podamos proporcionar suficiente comida y bebidas."
+        },
+        "image": "program-resources/La-Jolla-Open-House-2026-10-06.png",
+        "imageAlt": {
+          "en": "La Jolla Open House flyer for Tuesday, October 6, 2026, from 5:00-6:00 PM.",
+          "es": "Volante de la Casa Abierta de La Jolla para el martes 6 de octubre de 2026, de 5:00-6:00 PM."
+        },
+        "actions": [
+          {
+            "label": { "en": "RSVP by Email", "es": "Confirmar por Correo" },
+            "url": "mailto:bbuchler@altusschools.net?subject=La%20Jolla%20Open%20House%20RSVP&body=Student%20name%3A%0AWe%20can%20attend%3A%20Yes%20or%20No%0ANumber%20attending%3A",
+            "primary": true
+          }
+        ]
+      }
     },
     {
       "date": "2026-10-07",
@@ -670,20 +712,34 @@
     },
     {
       "id": "personal-finance",
-      "title": { "en": "Personal Finance & Entrepreneurship", "es": "Finanzas Personales y Emprendimiento" },
-      "subtitle": { "en": "20-Week Comprehensive Course", "es": "Curso Completo de 20 Semanas" },
-      "schedule": { "en": "Thursdays, 11 AM - 12 PM (October 8 & 15)", "es": "Jueves, 11 AM - 12 PM (8 y 15 de octubre)" },
+      "title": { "en": "Personal Finance Workshop", "es": "Taller de Finanzas Personales" },
+      "subtitle": { "en": "Your Money. Your Future.", "es": "Tu Dinero. Tu Futuro." },
+      "schedule": { "en": "Starts Thursday, October 8, 11 AM - 12 PM; meets most Thursdays", "es": "Comienza el jueves 8 de octubre, 11 AM - 12 PM; se reúne la mayoría de los jueves" },
       "location": {
         "en": "La Jolla Resource Center, 7456 Girard Ave, La Jolla, CA 92037",
         "es": "Centro de Recursos La Jolla, 7456 Girard Ave, La Jolla, CA 92037"
       },
       "description": {
-        "en": "Money management, investing basics, budgeting, credit and debt management, entrepreneurship concepts, and essential math concepts. Earn a course credit upon completion!",
-        "es": "Gestion del dinero, conceptos basicos de inversion, presupuestos, manejo de credito y deuda, conceptos de emprendimiento y conceptos esenciales de matematicas. Obtiene un credito de curso al completar!"
+        "en": "Learn to build wealth, make smart money choices, and afford the life you want. Sessions use hands-on challenges, games, and real-life decisions. Students may earn course credit for participating.",
+        "es": "Aprende a crear riqueza, tomar decisiones inteligentes con tu dinero y alcanzar la vida que deseas. Las sesiones usan retos prácticos, juegos y decisiones de la vida real. Los estudiantes pueden obtener crédito de curso por participar."
       },
-      "eligibility": { "en": "All students in grades 6-12", "es": "Todos los estudiantes de grados 6-12" },
-      "signup": { "en": "Contact Mr. Buchler (bbuchler@altusschools.net) to reserve your spot!", "es": "Contacta al Sr. Buchler (bbuchler@altusschools.net) para reservar tu lugar!" },
-      "icon": "💰"
+      "details": [
+        { "en": "Investing and building wealth", "es": "Inversión y creación de riqueza" },
+        { "en": "Banking, saving, and money systems", "es": "Banca, ahorro y sistemas de dinero" },
+        { "en": "Money mindset and habits", "es": "Mentalidad y hábitos financieros" },
+        { "en": "Paychecks, taxes, and planning for your first car", "es": "Cheques de pago, impuestos y planificación para tu primer automóvil" }
+      ],
+      "eligibility": { "en": "Middle and high school students", "es": "Estudiantes de secundaria y preparatoria" },
+      "signup": { "en": "RSVP as soon as possible. Email the student's name and grade to bbuchler@altusschools.net so we can plan for the group.", "es": "Confirma lo antes posible. Envía el nombre y grado del estudiante a bbuchler@altusschools.net para que podamos planificar el grupo." },
+      "icon": "💰",
+      "flyer": {
+        "image": "program-resources/Personal-Finance-Workshop-2026.png",
+        "alt": {
+          "en": "Personal Finance Workshop flyer: Your Money, Your Future. Starts October 8, 2026, at the La Jolla Resource Center.",
+          "es": "Volante del Taller de Finanzas Personales: Tu Dinero, Tu Futuro. Comienza el 8 de octubre de 2026 en el Centro de Recursos La Jolla."
+        },
+        "caption": { "en": "View the full-size Personal Finance flyer", "es": "Ver el volante de Finanzas Personales en tamaño completo" }
+      }
     }
   ],
   "educationalOpportunities": [
