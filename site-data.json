@@ -736,6 +736,7 @@
     },
     {
       "id": "personal-finance",
+      "courseAccess": {"url": "https://bit.ly/altuspf", "qr": "program-resources/altuspf-qr.png", "label": {"en": "Sign in to Personal Finance", "es": "Entrar a Finanzas Personales"}, "help": {"en": "Type bit.ly/altuspf or scan the QR code. Use the username and password your teacher provides.", "es": "Escribe bit.ly/altuspf o escanea el código QR. Usa el nombre de usuario y la contraseña que te da tu maestro."}},
       "title": { "en": "Personal Finance Workshop", "es": "Taller de Finanzas Personales" },
       "subtitle": { "en": "Your Money. Your Future.", "es": "Tu Dinero. Tu Futuro." },
       "schedule": { "en": "Starts Thursday, October 8, 11 AM - 12 PM; meets most Thursdays", "es": "Comienza el jueves 8 de octubre, 11 AM - 12 PM; se reúne la mayoría de los jueves" },

@@ -394,7 +394,7 @@
         collectTextNodes(document.body);
         applyLanguage(currentLang === 'es' ? 'es' : 'en');
 
-        fetch('site-data.json?v=20261007-2')
+        fetch('site-data.json?v=20261007-3')
             .then(function (response) {
                 if (!response.ok) throw new Error('Course data could not be loaded');
                 return response.json();

@@ -62,7 +62,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20261007-2');
+            const response = await fetch('site-data.json?v=20261007-3');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -516,6 +516,7 @@
                     return '<li>' + t(detail) + '</li>';
                 }).join('') + '</ul>' : '') +
                 '<p class="program-signup">' + t(prog.signup) + '</p>' +
+                (prog.courseAccess ? '<div class="program-course-access"><a class="btn btn-primary" href="' + prog.courseAccess.url + '" target="_blank" rel="noopener">' + t(prog.courseAccess.label) + '</a><p>' + t(prog.courseAccess.help) + '</p><a href="' + prog.courseAccess.url + '" target="_blank" rel="noopener"><img src="' + prog.courseAccess.qr + '" alt="QR: bit.ly/altuspf" width="180" height="180" style="max-width:100%;height:auto" loading="lazy"></a></div>' : '') +
                 (prog.flyer ? '<a href="' + prog.flyer.image + '" target="_blank" rel="noopener" class="opportunity-flyer-link">' +
                     '<img src="' + prog.flyer.image + '" alt="' + t(prog.flyer.alt) + '" class="opportunity-flyer" loading="lazy">' +
                     '<span>' + t(prog.flyer.caption) + '</span></a>' +
