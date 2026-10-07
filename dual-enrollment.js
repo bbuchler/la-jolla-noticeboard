@@ -201,6 +201,72 @@
         '© 2026 Altus Schools Charter School of San Diego. All rights reserved.': '© 2026 Altus Schools Charter School of San Diego. Todos los derechos reservados.'
     };
 
+    Object.assign(es, {
+    "Altus Dual Enrollment Spring 2027": "Inscripción Doble Altus Primavera 2027",
+    "Spring 2027": "Primavera 2027",
+    "Plan your Spring 2027 college class. Explore Miramar Personal Growth or English, follow the new CCCStart steps, and get help from Amanda before you submit.": "Planea tu clase universitaria de primavera de 2027. Explora Crecimiento Personal o Inglés en Miramar, sigue los nuevos pasos CCCStart y recibe ayuda de Amanda antes de enviar tu solicitud.",
+    "Approved courses can satisfy more than one high school requirement. The spring flyer lists English as a full year of high school English and Personal Growth as Pathway Exhibition plus an elective/CTE credit.": "Los cursos aprobados pueden cumplir más de un requisito de preparatoria. El volante de primavera indica que Inglés equivale a un año de inglés de preparatoria y Crecimiento Personal a Pathway Exhibition más un crédito electivo/CTE.",
+    "These Miramar courses are listed in the Altus Spring 2027 flyer. Start with your teacher now: popular classes can fill quickly. Applying does not reserve a seat.": "Estos cursos de Miramar aparecen en el volante de Altus de primavera de 2027. Empieza con tu maestro ahora: los cursos populares pueden llenarse rápido. Solicitar ingreso no reserva un lugar.",
+    "Course": "Curso",
+    "PERG 130": "PERG 130",
+    "Class number": "Número de clase",
+    "55165": "55165",
+    "College units": "Unidades universitarias",
+    "3": "3",
+    "Dates": "Fechas",
+    "February 8-May 8, 2027": "8 de febrero-8 de mayo de 2027",
+    "High school credit equivalency": "Equivalencia de crédito de preparatoria",
+    "Pathway Exhibition + 1 Elective/CTE": "Pathway Exhibition + 1 electivo/CTE",
+    "Personal Growth Career & Life Planning": "Crecimiento Personal: Planificación Profesional y de Vida",
+    "Recommended first college course: explore your interests, career choices, goals, and time-management habits.": "Primer curso universitario recomendado: explora tus intereses, opciones profesionales, metas y hábitos de organización.",
+    "Start Signup Steps": "Ver Pasos de Inscripción",
+    "ENGL C1000": "ENGL C1000",
+    "53809": "53809",
+    "February 1-May 29, 2027": "1 de febrero-29 de mayo de 2027",
+    "Full year of high school English (2 semesters)": "Un año completo de inglés de preparatoria (2 semestres)",
+    "Academic Reading & Writing": "Lectura y Escritura Académica",
+    "Includes essays, research, and at least 6,000 graded words of writing. Talk with your teacher about readiness and any placement requirements.": "Incluye ensayos, investigación y al menos 6,000 palabras de escritura evaluada. Habla con tu maestro sobre tu preparación y los requisitos de colocación.",
+    "Spring 2027: Choose Your Course": "Primavera 2027: Escoge Tu Curso",
+    "Meeting times and online/in-person format are not listed in the flyer. Confirm these details and current availability with your teacher or Amanda before committing.": "El volante no indica horarios ni si las clases son en línea o presenciales. Confirma estos detalles y la disponibilidad con tu maestro o Amanda antes de comprometerte.",
+    "Check the SDCCD Class Schedule": "Consultar el Horario de SDCCD",
+    "Want something different?": "¿Quieres algo diferente?",
+    "Other eligible courses may fit your interests or graduation plan. Ask your teacher to confirm the course, workload, and credit before applying. City, Mesa, MiraCosta, and Coastline follow their own course schedules.": "Otros cursos elegibles pueden coincidir con tus intereses o plan de graduación. Pide a tu maestro que confirme el curso, la carga de trabajo y el crédito antes de solicitarlo. City, Mesa, MiraCosta y Coastline tienen sus propios horarios.",
+    "New SDCCD Signup Steps: City, Mesa & Miramar": "Nuevos Pasos de SDCCD: City, Mesa y Miramar",
+    "Already have an SDCCD student ID?": "¿Ya tienes un número de estudiante SDCCD?",
+    "If you applied or enrolled at City, Mesa, or Miramar less than a year ago and have your 10-digit ID, the updated Altus guide says you only need a new Supplemental Application. Skip to that step. If it was longer ago or you are unsure, check with Amanda or admissions before starting another application.": "Si solicitaste ingreso o te inscribiste en City, Mesa o Miramar hace menos de un año y tienes tu número de 10 dígitos, la guía de Altus indica que solo necesitas una nueva solicitud suplementaria. Ve directamente a ese paso. Si fue hace más tiempo o no estás seguro, consulta con Amanda o admisiones antes de comenzar otra solicitud.",
+    "Start at SDCCD: choose your college": "Empieza en SDCCD: elige tu universidad",
+    "Use the new CCCStart application through the SDCCD Start page. Sign in with your existing OpenCCC/CCCApply account if you have one; otherwise create an account.": "Usa la nueva solicitud CCCStart en la página de inicio de SDCCD. Inicia sesión con tu cuenta OpenCCC/CCCApply existente si tienes una; si no, crea una.",
+    "Complete identity verification": "Completa la verificación de identidad",
+    "SDCCD now requires identity verification through ID.me or CA DMV Wallet. Follow the official setup tutorial. If you cannot complete verification, ask Amanda or college admissions for help.": "SDCCD ahora exige verificar la identidad mediante ID.me o CA DMV Wallet. Sigue el tutorial oficial. Si no puedes completar la verificación, pide ayuda a Amanda o a admisiones.",
+    "Choose the high school journey and Spring 2027": "Elige la ruta de preparatoria y primavera de 2027",
+    "Select that you are currently in K-12, your grade when the class begins, and the goal of taking college classes while in high school. Choose the correct term/program and complete your personal information and academic history, including your actual school and expected graduation date.": "Indica que actualmente estudias en K-12, tu grado cuando comience el curso y la meta de tomar clases universitarias durante la preparatoria. Elige el período/programa correcto y completa tu información personal e historial académico, con tu escuela y fecha prevista de graduación correctas.",
+    "Review carefully, then submit": "Revisa con cuidado y envía",
+    "Check your email address, school, grade, graduation date, and term before submitting. Corrections after submission must go through the college. Save your confirmation and CCCID; the CCCID is different from your 10-digit SDCCD student ID.": "Revisa tu correo, escuela, grado, fecha de graduación y período antes de enviar. Las correcciones posteriores deben hacerse a través de la universidad. Guarda tu confirmación y CCCID; el CCCID es diferente del número SDCCD de 10 dígitos.",
+    "Get your 10-digit SDCCD student ID": "Obtén tu número SDCCD de 10 dígitos",
+    "Allow one business day for processing, according to the updated guide. Search your inbox and spam for SDCCD or Welcome to mySDCCD. If nothing arrives within a couple of days, tell your teacher. Follow the welcome email to activate mySDCCD.": "La guía actualizada indica un día hábil de procesamiento. Busca SDCCD o Welcome to mySDCCD en tu bandeja de entrada y spam. Si no recibes nada en un par de días, avisa a tu maestro. Sigue el correo de bienvenida para activar mySDCCD.",
+    "Submit a new Supplemental Application for Spring 2027": "Envía una nueva solicitud suplementaria para primavera de 2027",
+    "Use your 10-digit student ID and the exact course title, code, and five-digit class number above. List Steven Sutherland as your high school counselor/contact, not your teacher: ssutherland@altusschools.net.": "Usa tu número de estudiante de 10 dígitos y el título, código y número de clase de cinco dígitos indicados arriba. Escribe a Steven Sutherland como consejero/contacto de preparatoria, no a tu maestro: ssutherland@altusschools.net.",
+    "Watch for enrollment confirmation": "Espera la confirmación de inscripción",
+    "College staff enroll high school students after the supplemental form is accepted. Check email and mySDCCD for your confirmed class. An application alone is not enrollment; tell your teacher if the class is full or you need help.": "El personal universitario inscribe a los estudiantes después de aceptar el formulario suplementario. Revisa tu correo y mySDCCD para confirmar tu clase. La solicitud por sí sola no es inscripción; avisa a tu maestro si el curso está lleno o necesitas ayuda.",
+    "Current Application Links": "Enlaces de Solicitud Actualizados",
+    "Start the CCCStart Application": "Comenzar la Solicitud CCCStart",
+    "Account & Identity Tutorial": "Tutorial de Cuenta e Identidad",
+    "High School Application Tutorial": "Tutorial de Solicitud de Preparatoria",
+    "SDCCD Supplemental Application": "Solicitud Suplementaria SDCCD",
+    "mySDCCD Account": "Cuenta mySDCCD",
+    "Download Updated SDCCD Guide": "Descargar Guía SDCCD Actualizada",
+    "Download Spring 2027 Course Flyer": "Descargar Volante de Primavera 2027",
+    "Get Help Before Submitting": "Recibir Ayuda Antes de Enviar",
+    "City College & Mesa College": "City College y Mesa College",
+    "City, Mesa, and Miramar share the SDCCD process below. The current Spring 2027 Altus flyer lists Miramar courses only. For City or Mesa, confirm the Spring 2027 class number with your teacher and the current college schedule.": "City, Mesa y Miramar comparten el proceso SDCCD de abajo. El volante de primavera de 2027 solo incluye cursos de Miramar. Para City o Mesa, confirma el número de clase con tu maestro y el horario universitario actual.",
+    "Use the Updated SDCCD Steps": "Ver los Pasos Actualizados de SDCCD",
+    "Term: Spring 2027 (for the Miramar courses above)": "Período: primavera de 2027 (para los cursos de Miramar indicados arriba)",
+    "Current Guides and Flyers": "Guías y Volantes Actualizados",
+    "SDCCD Application Guide: City, Mesa & Miramar": "Guía de Solicitud SDCCD: City, Mesa y Miramar",
+    "Miramar Spring 2027 Course Flyer": "Volante de Cursos de Miramar Primavera 2027",
+    "Early College Credit Support Sessions": "Sesiones de Apoyo de Crédito Universitario Temprano"
+});
+
     var records = [];
 
     // New course updates live in site-data.json; join the existing language toggle.
@@ -310,7 +376,7 @@
         currentLang = lang;
         localStorage.setItem(storageKey, currentLang);
         document.documentElement.lang = currentLang;
-        document.title = currentLang === 'es' ? es['Altus Dual Enrollment Fall 2026'] : 'Altus Dual Enrollment Fall 2026';
+        document.title = currentLang === 'es' ? es['Altus Dual Enrollment Spring 2027'] : 'Altus Dual Enrollment Spring 2027';
 
         records.forEach(function (record) {
             var text = currentLang === 'es' ? (es[record.en] || record.en) : record.en;
@@ -328,7 +394,7 @@
         collectTextNodes(document.body);
         applyLanguage(currentLang === 'es' ? 'es' : 'en');
 
-        fetch('site-data.json?v=20260930-1')
+        fetch('site-data.json?v=20261007-1')
             .then(function (response) {
                 if (!response.ok) throw new Error('Course data could not be loaded');
                 return response.json();

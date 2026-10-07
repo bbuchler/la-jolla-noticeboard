@@ -3442,3 +3442,9 @@ h1, h2, h3, h4 {
 @media (max-width: 599px) {
     .teacher-selection-grid { grid-template-columns: 1fr; }
 }
+
+/* Spring 2027 has two featured courses. */
+@media (min-width: 768px) {
+    .spring-course-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+.spring-course-grid + .dual-alert { margin-top: 20px; }

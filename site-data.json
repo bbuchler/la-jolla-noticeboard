@@ -25,6 +25,30 @@
   "bulletins": [
     {
       "title": {
+        "en": "Spring 2027 College Classes",
+        "es": "Clases Universitarias: Primavera 2027"
+      },
+      "message": {
+        "en": "Miramar Personal Growth and English are listed for spring. Start planning now: classes can fill quickly. New CCCStart instructions and Friday 1-3 PM signup help are in the guide.",
+        "es": "Miramar ofrece Crecimiento Personal e Inglés para primavera. Planea ahora: los cursos pueden llenarse rápido. La guía incluye los nuevos pasos CCCStart y ayuda los viernes de 1-3 PM."
+      },
+      "icon": "🎓",
+      "theme": "school",
+      "teaser": {
+        "en": "Spring courses + new application steps",
+        "es": "Cursos de primavera + nuevos pasos"
+      },
+      "action": {
+        "label": {
+          "en": "Spring Courses & Signup Help",
+          "es": "Cursos de Primavera y Ayuda"
+        },
+        "url": "dual-enrollment.html"
+      },
+      "expires": "2027-02-09"
+    },
+    {
+      "title": {
         "en": "Closed Tuesday, Sept 29",
         "es": "Cerrado el Martes 29 de Sept."
       },
@@ -616,7 +640,7 @@
         {
           "name": { "en": "Early College Credit Support (October 2, 9, 16, 23 & 30)", "es": "Apoyo de Crédito Universitario Temprano (2, 9, 16, 23 y 30 de octubre)" },
           "time": "1 PM - 3 PM",
-          "location": { "en": "La Jolla Resource Center", "es": "Centro de Recursos La Jolla" },
+          "location": {"en": "Zoom with Amanda: use the Dual Enrollment guide below", "es": "Zoom con Amanda: usa la guía de Inscripción Doble de abajo"},
           "type": "support",
           "visibleUntil": "2026-10-31"
         }
@@ -956,20 +980,56 @@
     },
     {
       "id": "dual-enrollment",
-      "title": { "en": "Dual Enrollment", "es": "Inscripcion Doble" },
+      "title": {
+        "en": "Dual Enrollment: Spring 2027",
+        "es": "Inscripción Doble: Primavera 2027"
+      },
       "content": {
-        "en": "Dual enrollment lets students take real college classes while still enrolled at Charter School of San Diego. Courses are free, earn college credit when passed, are weighted on a 5-point GPA scale, and can sometimes count double for high school credit. The full guide includes recommended courses, application steps, one-on-one signup help, weekly office hours, videos, and downloadable PDFs.",
-        "es": "La inscripcion doble permite que los estudiantes tomen clases universitarias reales mientras siguen inscritos en Charter School of San Diego. Los cursos son gratuitos, dan credito universitario al aprobar, se ponderan en una escala GPA de 5 puntos y a veces pueden contar doble para credito de preparatoria. La guia completa incluye cursos recomendados, pasos de solicitud, ayuda individual para inscribirse, horas de oficina semanales, videos y PDFs descargables."
+        "en": "Earn college credit while attending CSSD. Miramar lists PERG 130 (February 8-May 8, class 55165) and ENGL C1000 (February 1-May 29, class 53809) for Spring 2027. Use the updated CCCStart guide and review your application before submitting. Meeting times, format, and seats must be confirmed.",
+        "es": "Obtén crédito universitario mientras asistes a CSSD. Miramar ofrece PERG 130 (8 de febrero-8 de mayo, clase 55165) y ENGL C1000 (1 de febrero-29 de mayo, clase 53809) para primavera de 2027. Usa la guía CCCStart actualizada y revisa tu solicitud antes de enviarla. Confirma horarios, modalidad y lugares disponibles."
       },
       "links": [
-        { "label": { "en": "Open Dual Enrollment Guide", "es": "Abrir Guia de Inscripcion Doble" }, "url": "dual-enrollment.html" }
+        {
+          "label": {
+            "en": "Open Dual Enrollment Guide",
+            "es": "Abrir Guia de Inscripcion Doble"
+          },
+          "url": "dual-enrollment.html"
+        },
+        {
+          "label": {
+            "en": "Friday Zoom: 1-3 PM",
+            "es": "Zoom del Viernes: 1-3 PM"
+          },
+          "url": "https://altusschools-net.zoom.us/j/92408707377"
+        },
+        {
+          "label": {
+            "en": "Book Application Help",
+            "es": "Programar Ayuda con la Solicitud"
+          },
+          "url": "https://calendly.com/arondinelli-altusschools/college-enrollment"
+        }
       ],
       "schedule": null,
       "location": null,
       "highlights": [
-        { "en": "Recommended first course: Personal Growth at City College or Miramar", "es": "Primer curso recomendado: Crecimiento Personal en City College o Miramar" },
-        { "en": "Courses fill quickly, so start the signup process ASAP", "es": "Los cursos se llenan rapido, asi que empieza el proceso lo antes posible" },
-        { "en": "Plan for one college class per semester unless special approval is given", "es": "Planea tomar una clase universitaria por semestre a menos que haya aprobacion especial" }
+        {
+          "en": "Recommended first course: Miramar Personal Growth (PERG 130)",
+          "es": "Primer curso recomendado: Crecimiento Personal en Miramar (PERG 130)"
+        },
+        {
+          "en": "Start early: applying does not reserve a seat",
+          "es": "Empieza pronto: solicitar ingreso no reserva un lugar"
+        },
+        {
+          "en": "Amanda: Friday Zoom 1-3 PM; appointments Tuesday 9-11 AM or Wednesday 1-3 PM",
+          "es": "Amanda: Zoom los viernes de 1-3 PM; citas los martes de 9-11 AM o miércoles de 1-3 PM"
+        },
+        {
+          "en": "Plan for one college class per semester unless special approval is given",
+          "es": "Planea tomar una clase universitaria por semestre a menos que haya aprobacion especial"
+        }
       ]
     },
     {
@@ -1122,8 +1182,8 @@
       "es": "Ver el Curso y los Pasos de Inscripción"
     },
     "title": {
-      "en": "MiraCosta: Another Personal Growth Option",
-      "es": "MiraCosta: Otra Opción de Crecimiento Personal"
+      "en": "Fall 2026: MiraCosta Personal Growth",
+      "es": "Otoño 2026: Crecimiento Personal en MiraCosta"
     },
     "intro": {
       "en": "COUN 100 is a new option for students who missed Personal Growth at City College or Miramar. It is a PERG 130 equivalent focused on college and career success. Interested? Talk to your teacher first so you can plan the next steps together.",

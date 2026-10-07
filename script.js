@@ -62,7 +62,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20260930-1');
+            const response = await fetch('site-data.json?v=20261007-1');
             siteData = await response.json();
             renderAll();
         } catch (err) {
