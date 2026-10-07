@@ -227,7 +227,7 @@
     "Academic Reading & Writing": "Lectura y Escritura Académica",
     "Includes essays, research, and at least 6,000 graded words of writing. Talk with your teacher about readiness and any placement requirements.": "Incluye ensayos, investigación y al menos 6,000 palabras de escritura evaluada. Habla con tu maestro sobre tu preparación y los requisitos de colocación.",
     "Spring 2027: Choose Your Course": "Primavera 2027: Escoge Tu Curso",
-    "Meeting times and online/in-person format are not listed in the flyer. Confirm these details and current availability with your teacher or Amanda before committing.": "El volante no indica horarios ni si las clases son en línea o presenciales. Confirma estos detalles y la disponibilidad con tu maestro o Amanda antes de comprometerte.",
+    "These classes are online. Confirm any required live meeting times and current availability with your teacher or Amanda before enrolling.": "Estas clases son en línea. Confirma los horarios de reuniones en vivo que se requieran y la disponibilidad con tu maestro o Amanda antes de inscribirte.",
     "Check the SDCCD Class Schedule": "Consultar el Horario de SDCCD",
     "Want something different?": "¿Quieres algo diferente?",
     "Other eligible courses may fit your interests or graduation plan. Ask your teacher to confirm the course, workload, and credit before applying. City, Mesa, MiraCosta, and Coastline follow their own course schedules.": "Otros cursos elegibles pueden coincidir con tus intereses o plan de graduación. Pide a tu maestro que confirme el curso, la carga de trabajo y el crédito antes de solicitarlo. City, Mesa, MiraCosta y Coastline tienen sus propios horarios.",
@@ -394,7 +394,7 @@
         collectTextNodes(document.body);
         applyLanguage(currentLang === 'es' ? 'es' : 'en');
 
-        fetch('site-data.json?v=20261007-1')
+        fetch('site-data.json?v=20261007-2')
             .then(function (response) {
                 if (!response.ok) throw new Error('Course data could not be loaded');
                 return response.json();
