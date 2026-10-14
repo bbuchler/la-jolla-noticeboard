@@ -45,18 +45,18 @@
   "bulletins": [
     {
       "title": {
-        "en": "Spring 2027 College Classes",
-        "es": "Clases Universitarias: Primavera 2027"
+        "en": "Missed Personal Growth? Sign Up for Spring",
+        "es": "¿Te Faltó Crecimiento Personal? Inscríbete para Primavera"
       },
       "message": {
-        "en": "Miramar Personal Growth and English are listed for spring. Start planning now: classes can fill quickly. New CCCStart instructions and Friday 1-3 PM signup help are in the guide.",
-        "es": "Miramar ofrece Crecimiento Personal e Inglés para primavera. Planea ahora: los cursos pueden llenarse rápido. La guía incluye los nuevos pasos CCCStart y ayuda los viernes de 1-3 PM."
+        "en": "Get in early: City College Personal Growth starts February 1. Online English starts February 8 and counts for a full year of high school English. Start the signup steps now; Amanda can help.",
+        "es": "Empieza pronto: Crecimiento Personal en City College comienza el 1 de febrero. Inglés en línea comienza el 8 de febrero y cuenta como un año completo de inglés de preparatoria. Inicia la inscripción ahora; Amanda puede ayudarte."
       },
       "icon": "🎓",
       "theme": "school",
       "teaser": {
-        "en": "Spring courses + new application steps",
-        "es": "Cursos de primavera + nuevos pasos"
+        "en": "City College online courses · Start signup now",
+        "es": "Cursos en línea de City College · Inscríbete ahora"
       },
       "action": {
         "label": {
@@ -65,7 +65,7 @@
         },
         "url": "dual-enrollment.html"
       },
-      "expires": "2027-02-09"
+      "expires": "2027-02-01"
     },
     {
       "title": {
@@ -967,8 +967,8 @@
         "es": "Inscripción Doble: Primavera 2027"
       },
       "content": {
-        "en": "Earn college credit while attending CSSD. Miramar lists PERG 130 (February 8-May 8, class 55165) and ENGL C1000 (February 1-May 29, class 53809) for Spring 2027. Use the updated CCCStart guide and review your application before submitting. These classes are online; required meeting times and seats must be confirmed.",
-        "es": "Obtén crédito universitario mientras asistes a CSSD. Miramar ofrece PERG 130 (8 de febrero-8 de mayo, clase 55165) y ENGL C1000 (1 de febrero-29 de mayo, clase 53809) para primavera de 2027. Usa la guía CCCStart actualizada y revisa tu solicitud antes de enviarla. Estas clases son en línea; confirma los horarios requeridos y lugares disponibles."
+        "en": "Get in early for online Spring 2027 classes. City College is our main option: Personal Growth (PERG 130), February 1-March 27, classes 52916 or 52917; English (ENGL C1000), February 8-May 8, class 52947, counts for a full year of high school English. POLI 121 and Miramar options are in the guide.",
+        "es": "Empieza pronto para las clases en línea de primavera de 2027. City College es nuestra opción principal: Crecimiento Personal (PERG 130), del 1 de febrero al 27 de marzo, clases 52916 o 52917; Inglés (ENGL C1000), del 8 de febrero al 8 de mayo, clase 52947, cuenta como un año completo de inglés de preparatoria. La guía incluye POLI 121 y opciones de Miramar."
       },
       "links": [
         {
@@ -997,8 +997,8 @@
       "location": null,
       "highlights": [
         {
-          "en": "Recommended first course: Miramar Personal Growth (PERG 130)",
-          "es": "Primer curso recomendado: Crecimiento Personal en Miramar (PERG 130)"
+          "en": "First recommendation: City Personal Growth. Missed fall? Start signing up ASAP.",
+          "es": "Primera recomendación: Crecimiento Personal en City. ¿No pudiste en otoño? Inicia la inscripción cuanto antes."
         },
         {
           "en": "Start early: applying does not reserve a seat",

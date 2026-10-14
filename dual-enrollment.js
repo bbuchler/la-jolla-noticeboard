@@ -269,6 +269,44 @@
     "Early College Credit Support Sessions": "Sesiones de Apoyo de Crédito Universitario Temprano"
 });
 
+    Object.assign(es, {
+    "Missed Personal Growth this fall? Get in early for spring. Start with City College Personal Growth, or earn a full year of high school English through the listed college English course. Begin the signup steps now.": "¿No pudiste tomar Crecimiento Personal este otoño? Empieza pronto para primavera. Comienza con Crecimiento Personal en City College, o completa un año de inglés de preparatoria con el curso universitario indicado. Inicia los pasos de inscripción ahora.",
+    "City College is our main starting point. If you missed Personal Growth this fall, start signing up now. These online Spring 2027 courses come from the Altus flyers and counselor schedule. Applying does not reserve a seat.": "City College es nuestra opción principal para empezar. Si no pudiste tomar Crecimiento Personal este otoño, inicia la inscripción ahora. Estos cursos en línea de primavera de 2027 provienen de los volantes de Altus y el horario del consejero. Solicitar ingreso no reserva un lugar.",
+    "Course": "Curso",
+    "PERG 130": "PERG 130",
+    "Class number": "Número de clase",
+    "52916 or 52917": "52916 o 52917",
+    "Dates": "Fechas",
+    "February 1-March 27, 2027": "1 de febrero-27 de marzo de 2027",
+    "Format": "Modalidad",
+    "Online": "En línea",
+    "High school credit equivalency": "Equivalencia de crédito de preparatoria",
+    "Pathway Exhibition + 1 Elective/CTE": "Pathway Exhibition + 1 electivo/CTE",
+    "Personal Growth Career & Life Planning": "Crecimiento Personal: Planificación Profesional y de Vida",
+    "Our first recommendation. If you missed Personal Growth this fall, start the signup process ASAP. Choose one section, 52916 or 52917, with your teacher.": "Nuestra primera recomendación. Si no pudiste tomar Crecimiento Personal este otoño, inicia la inscripción cuanto antes. Elige una sección, 52916 o 52917, con tu maestro.",
+    "Start Signup Steps": "Ver Pasos de Inscripción",
+    "ENGL C1000": "ENGL C1000",
+    "52947": "52947",
+    "February 8-May 8, 2027": "8 de febrero-8 de mayo de 2027",
+    "Full year of high school English (2 semesters)": "Un año completo de inglés de preparatoria (2 semestres)",
+    "Reading & Composition": "Lectura y Composición",
+    "One 12-week online course counts for a full year of high school English. Includes at least 6,000 graded words of writing; discuss readiness with your teacher.": "Un curso en línea de 12 semanas cuenta como un año completo de inglés de preparatoria. Incluye al menos 6,000 palabras de escritura evaluada; consulta con tu maestro sobre tu preparación.",
+    "POLI 121": "POLI 121",
+    "52951": "52951",
+    "Economics + 1 Elective": "Economía + 1 electivo",
+    "American Political Development": "Desarrollo Político Estadounidense",
+    "For students who have successfully completed POLS C1000 (Government), as directed by the Altus flyer. Ask your teacher first so the counselor can coordinate the limited Altus allocation.": "Para estudiantes que hayan aprobado POLS C1000 (Gobierno), según el volante de Altus. Consulta primero con tu maestro para que el consejero coordine los lugares limitados de Altus.",
+    "City College: Recommended Starting Point": "City College: Opción Recomendada para Empezar",
+    "Miramar: Additional Online Options": "Miramar: Otras Opciones en Línea",
+    "City College: How to Sign Up": "City College: Cómo Inscribirte",
+    "Choose City College and Spring 2027 in the application. Use PERG 130 class 52916 or 52917, ENGL C1000 class 52947, or teacher-approved POLI 121 class 52951 on the supplemental form. The district steps below also apply to Mesa and Miramar.": "Elige City College y primavera de 2027 en la solicitud. Usa PERG 130 clase 52916 o 52917, ENGL C1000 clase 52947, o POLI 121 clase 52951 con aprobación del maestro en el formulario suplementario. Los pasos del distrito también se aplican a Mesa y Miramar.",
+    "Check your identity-verification requirements": "Revisa los requisitos de verificación de identidad",
+    "Requirements depend on your age and application. The statewide CCCStart FAQ says under-18 applications may reach the college without ID.me/DMV verification, but flagged applications still need review. Adults generally must verify. Follow your actual prompts; ask Amanda or admissions if you are held up.": "Los requisitos dependen de tu edad y solicitud. Las preguntas frecuentes estatales de CCCStart indican que las solicitudes de menores de 18 años pueden llegar a la universidad sin verificación ID.me/DMV, pero las solicitudes marcadas necesitan revisión. Los adultos generalmente deben verificar su identidad. Sigue las indicaciones de tu cuenta; pide ayuda a Amanda o admisiones si hay una demora.",
+    "Official Identity Verification FAQ": "Preguntas Frecuentes Oficiales sobre Verificación de Identidad",
+    "Term: Spring 2027 (for the City and Miramar courses above)": "Período: primavera de 2027 (para los cursos de City y Miramar indicados arriba)",
+    "City College Spring 2027 Course Flyer": "Volante de Cursos de City College Primavera 2027"
+});
+
     var records = [];
 
     // New course updates live in site-data.json; join the existing language toggle.
@@ -400,7 +438,7 @@
         collectTextNodes(document.body);
         applyLanguage(currentLang === 'es' ? 'es' : 'en');
 
-        fetch('site-data.json?v=20261014-5')
+        fetch('site-data.json?v=20261014-6')
             .then(function (response) {
                 if (!response.ok) throw new Error('Course data could not be loaded');
                 return response.json();
