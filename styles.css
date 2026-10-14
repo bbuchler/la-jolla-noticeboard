@@ -3486,3 +3486,37 @@ h1, h2, h3, h4 {
 .spring-course-grid .course-card { display: flex; flex-direction: column; }
 .spring-course-grid .course-card dl { margin-bottom: 14px; }
 .spring-course-grid .course-actions { margin-top: auto; padding-top: 18px; }
+
+/* Restore reading rhythm after the global reset, including dynamic login content. */
+.dual-page .college-main > * + h3 { margin-top: 28px; }
+.dual-page .college-main > p + p,
+.dual-page .form-checklist p + p { margin-top: 12px; }
+.dual-page .college-main > ul:not(.dual-steps) {
+    padding-left: 24px;
+    margin-block: 14px;
+}
+.dual-page .college-main > ul:not(.dual-steps) > li + li { margin-top: 10px; }
+.dual-page .college-main > ul + p { margin-top: 18px; }
+.dual-page .container > p + .btn,
+.dual-page .dual-alert > p + .btn { margin-top: 18px; }
+.dual-page .dual-alert + .college-layout,
+#courseAccessBody > p + .college-layout { margin-top: 24px; }
+.dual-page .dual-steps { gap: 22px; }
+.dual-page .dual-steps > li > strong { margin-bottom: 6px; }
+.dual-page .college-links { gap: 12px; }
+.dual-page .college-links > h3 { margin-bottom: 4px; }
+.dual-page .dual-more-options > p:last-child { margin-bottom: 0; }
+.dual-page .btn {
+    white-space: normal;
+    text-align: center;
+    max-width: 100%;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.dual-page .college-main,
+.dual-page .college-links,
+.dual-page .course-card,
+.dual-page .ecc-support-services,
+.dual-page .ecc-support-option { min-width: 0; overflow-wrap: anywhere; }
