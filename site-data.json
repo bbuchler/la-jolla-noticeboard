@@ -49,53 +49,58 @@
     },
     {
       "title": {
-        "en": "Closed Tuesday, Sept 29",
-        "es": "Cerrado el Martes 29 de Sept."
+        "en": "Mr. Buchler Out Next Week: October 19-23",
+        "es": "Sr. Buchler Ausente la Próxima Semana: 19-23 de Octubre"
       },
       "message": {
-        "en": "The La Jolla Resource Center is closed Tuesday, September 29 for an all-staff meeting. Work on your courses from home that day.",
-        "es": "El Centro de Recursos La Jolla estará cerrado el martes 29 de septiembre por una reunión de todo el personal. Ese día, trabaja en tus cursos desde casa."
-      },
-      "icon": "🔒",
-      "theme": "alert",
-      "featured": true,
-      "expires": "2026-09-30"
-    },
-    {
-      "title": {
-        "en": "Mr. Buchler Out: October 19-23",
-        "es": "Sr. Buchler Ausente: 19-23 de Octubre"
-      },
-      "message": {
-        "en": "Mr. Buchler is out October 19-23. Personal Finance does not meet that week, but other classes and activities continue as scheduled. Finish your LP4 credits by October 16 and reach out before then if you need help.",
-        "es": "El Sr. Buchler estará ausente del 19 al 23 de octubre. Finanzas Personales no se reúne esa semana, pero las demás clases y actividades continúan según lo programado. Termina tus créditos del LP4 antes del 16 de octubre y comunícate con él antes de esa fecha si necesitas ayuda."
+        "en": "Mr. Buchler will be out Monday, October 19 through Friday, October 23. Check in with him as soon as possible if you need a new course, a course change, or other help before he leaves. Courses remain open, and students may work on site with Mr. Quinn or work from home. Other scheduled activities continue, but Personal Finance will not meet that week.",
+        "es": "El Sr. Buchler estará ausente desde el lunes 19 hasta el viernes 23 de octubre. Comunícate con él lo antes posible si necesitas un curso nuevo, un cambio de curso u otra ayuda antes de que se vaya. Los cursos permanecerán abiertos, y los estudiantes pueden trabajar en el centro con el Sr. Quinn o desde casa. Las demás actividades programadas continúan, pero Finanzas Personales no se reunirá esa semana."
       },
       "icon": "📌",
       "theme": "alert",
       "featured": true,
+      "banner": true,
+      "action": {
+        "label": {
+          "en": "Mr. Quinn's Contact Information",
+          "es": "Información de Contacto del Sr. Quinn"
+        },
+        "url": "#contact"
+      },
       "expires": "2026-10-24"
     },
     {
       "title": {
-        "en": "NWEA Testing: Schedule Now",
-        "es": "Evaluaciones NWEA: Programa Tu Horario"
+        "en": "LCAP Surveys: We Need Your Feedback",
+        "es": "Encuestas LCAP: Necesitamos Tu Opinión"
       },
       "message": {
-        "en": "Grades 6-11: Contact Mr. Buchler to schedule your three MAP Growth tests by Oct 16. On-site preferred.",
-        "es": "Grados 6-11: contacta al Sr. Buchler para programar tus tres pruebas MAP Growth antes del 16 de oct. Se prefiere en persona."
+        "en": "Students and parents or guardians should each complete their own short survey. Tell us what is going well and what CSSD can improve. Please select Baptiste Buchler as your teacher when asked.",
+        "es": "Los estudiantes y los padres o tutores deben completar su propia encuesta breve. Dinos qué está funcionando bien y qué puede mejorar CSSD. Selecciona a Baptiste Buchler como tu maestro cuando se te pregunte."
       },
-      "icon": "🎯",
-      "theme": "testing",
-      "featured": true,
-      "teaser": { "en": "Grades 6-11 · Schedule by Oct 16", "es": "Grados 6-11 · Programa antes del 16 oct." },
-      "action": {
-        "label": {
-          "en": "Testing Details & Scheduling",
-          "es": "Detalles y Programacion"
+      "icon": "📊",
+      "theme": "school",
+      "teaser": {
+        "en": "Students and families: complete your survey today",
+        "es": "Estudiantes y familias: completen su encuesta hoy"
+      },
+      "actions": [
+        {
+          "label": {
+            "en": "Student Survey",
+            "es": "Encuesta para Estudiantes"
+          },
+          "url": "https://www.surveymonkey.com/r/ZDR55CY"
         },
-        "url": "#nwea-testing"
-      },
-      "expires": "2026-10-17"
+        {
+          "label": {
+            "en": "Parent/Guardian Survey",
+            "es": "Encuesta para Padres/Tutores"
+          },
+          "url": "https://www.surveymonkey.com/r/ZW8X2CT"
+        }
+      ],
+      "compact": true
     },
     {
       "title": {
@@ -118,27 +123,6 @@
         "url": "#marine-science"
       },
       "expires": "2026-10-30"
-    },
-    {
-      "title": {
-        "en": "Open House: Tuesday, Oct 6",
-        "es": "Casa Abierta: Martes 6 de Oct."
-      },
-      "message": {
-        "en": "Join us Tuesday, October 6, from 5-6 PM at 7456 Girard Ave. Meet our staff and school counselor, learn about courses, college planning, and upcoming opportunities, and enjoy food and drinks. Please RSVP to Mr. Buchler with the number attending so we can plan refreshments.",
-        "es": "Acompáñanos el martes 6 de octubre, de 5-6 PM, en 7456 Girard Ave. Conoce al personal y al consejero escolar, aprende sobre cursos, planificación universitaria y próximas oportunidades, y disfruta de comida y bebidas. Confirma con el Sr. Buchler e indica cuántas personas asistirán para que podamos planear los refrigerios."
-      },
-      "icon": "🎉",
-      "theme": "school",
-      "featured": true,
-      "banner": true,
-      "teaser": { "en": "Tue, Oct 6 · 5-6 PM · Food, planning, and opportunities", "es": "Martes 6 oct. · 5-6 PM · Comida, planificación y oportunidades" },
-      "action": {
-        "label": { "en": "View the Open House Flyer", "es": "Ver el Volante de la Casa Abierta" },
-        "url": "program-resources/La-Jolla-Open-House-2026-10-06.png"
-      },
-      "starts": "2026-09-30",
-      "expires": "2026-10-07"
     },
     {
       "title": {

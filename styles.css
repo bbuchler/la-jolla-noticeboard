@@ -549,6 +549,12 @@ h1, h2, h3, h4 {
     text-decoration: none;
 }
 
+.bulletin-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+}
+
 .bulletin-action:hover {
     color: var(--primary-blue);
     border-bottom-width: 2px;

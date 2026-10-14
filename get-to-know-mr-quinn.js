@@ -27,7 +27,7 @@
         var toggle = document.getElementById('profileLangToggle');
         toggle.disabled = true;
         try {
-            var response = await fetch('site-data.json?v=20261007-3');
+            var response = await fetch('site-data.json?v=20261014-1');
             if (!response.ok) throw new Error('Profile data unavailable');
             profile = (await response.json()).quinnProfile;
             render();

@@ -62,7 +62,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20261007-3');
+            const response = await fetch('site-data.json?v=20261014-1');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -188,12 +188,16 @@
             var themeClass = b.theme ? ' bulletin-card-' + b.theme : '';
             var layoutClass = b.banner ? ' bulletin-card-banner' : (b.featured ? ' bulletin-card-featured' : (b.compact ? ' bulletin-card-compact' : ''));
             var icon = b.icon || '&#128226;';
-            var isInternalAction = b.action && b.action.url && b.action.url.charAt(0) === '#';
-            var actionTarget = isInternalAction ? '' : ' target="_blank" rel="noopener"';
-            var actionHtml = b.action && b.action.url
-                ? '<a href="' + b.action.url + '"' + actionTarget + ' class="bulletin-action">' +
-                  t(b.action.label || { en: 'Learn More', es: 'Mas Informacion' }) +
-                  '<span aria-hidden="true"> &#8594;</span></a>'
+            var bulletinActions = Array.isArray(b.actions) ? b.actions : (b.action ? [b.action] : []);
+            var actionHtml = bulletinActions.length
+                ? '<div class="bulletin-actions">' + bulletinActions.map(function (action) {
+                    if (!action || !action.url) return '';
+                    var isInternalAction = action.url.charAt(0) === '#';
+                    var actionTarget = isInternalAction ? '' : ' target="_blank" rel="noopener"';
+                    return '<a href="' + action.url + '"' + actionTarget + ' class="bulletin-action">' +
+                        t(action.label || { en: 'Learn More', es: 'Mas Informacion' }) +
+                        '<span aria-hidden="true"> &#8594;</span></a>';
+                  }).join('') + '</div>'
                 : '';
             if (isNarrow && b.theme !== 'alert' && !b.banner) {
                 return '<details class="bulletin-card bulletin-card-disclosure' + themeClass + layoutClass + '">' +
