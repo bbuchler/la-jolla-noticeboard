@@ -3,8 +3,10 @@
 
     var storageKey = 'noticeboard-lang';
     var currentLang = localStorage.getItem(storageKey) || 'en';
+    var courseAccess = null;
 
     var es = {
+        'Access Your Course': 'Accede a tu curso',
         'Altus Dual Enrollment Fall 2026': 'Inscripcion Doble Altus Otono 2026',
         'Noticeboard': 'Tablero',
         'Courses': 'Cursos',
@@ -376,6 +378,10 @@
         currentLang = lang;
         localStorage.setItem(storageKey, currentLang);
         document.documentElement.lang = currentLang;
+        if (courseAccess) {
+            document.getElementById('courseAccessTitle').textContent = courseAccess.title[currentLang];
+            document.getElementById('courseAccessBody').innerHTML = courseAccess.body[currentLang];
+        }
         document.title = currentLang === 'es' ? es['Altus Dual Enrollment Spring 2027'] : 'Altus Dual Enrollment Spring 2027';
 
         records.forEach(function (record) {
@@ -394,13 +400,16 @@
         collectTextNodes(document.body);
         applyLanguage(currentLang === 'es' ? 'es' : 'en');
 
-        fetch('site-data.json?v=20261014-4')
+        fetch('site-data.json?v=20261014-5')
             .then(function (response) {
                 if (!response.ok) throw new Error('Course data could not be loaded');
                 return response.json();
             })
             .then(function (data) {
+                courseAccess = data.collegeCourseAccess;
+                applyLanguage(currentLang);
                 if (data.miraCosta) renderMiraCosta(data.miraCosta);
+                if (window.location.hash === '#course-access') document.getElementById('course-access').scrollIntoView();
             })
             .catch(function (error) { console.error(error); });
 
