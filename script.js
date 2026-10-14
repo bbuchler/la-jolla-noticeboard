@@ -62,7 +62,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20261014-3');
+            const response = await fetch('site-data.json?v=20261014-4');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -495,6 +495,9 @@
                 (trip.mapsUrl ? '<a href="' + trip.mapsUrl + '" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:12px;">' +
                     (currentLang === 'es' ? 'Ver en Google Maps' : 'View on Google Maps') + '</a>' : '') +
                 remindersHtml +
+                (trip.flyer ? '<a href="' + trip.flyer.image + '" target="_blank" rel="noopener" class="opportunity-flyer-link">' +
+                    '<img src="' + trip.flyer.image + '" alt="' + t(trip.flyer.alt) + '" class="opportunity-flyer" loading="lazy">' +
+                    '<span>' + t(trip.flyer.caption) + '</span></a>' : '') +
                 '</div></div>';
         }).join('');
     }

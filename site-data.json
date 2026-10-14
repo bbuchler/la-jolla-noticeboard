@@ -629,7 +629,18 @@
       "reminders": [
         { "en": "RSVP with your teacher.", "es": "Confirma tu asistencia con tu maestro." },
         { "en": "Ask your teacher about the meeting spot, transportation, and permission slip.", "es": "Pregunta a tu maestro sobre el punto de encuentro, el transporte y el permiso." }
-      ]
+      ],
+      "flyer": {
+        "image": "program-resources/Field-Trips-Learning-Expeditions-2026-27.png",
+        "alt": {
+          "en": "2026-27 Field Trips and Learning Expeditions flyer featuring Halloween at SeaWorld on October 29 and upcoming trips through March.",
+          "es": "Volante de Excursiones y Expediciones de Aprendizaje 2026-27 con Halloween en SeaWorld el 29 de octubre y próximas excursiones hasta marzo."
+        },
+        "caption": {
+          "en": "View the full 2026-27 field-trip flyer",
+          "es": "Ver el volante completo de excursiones 2026-27"
+        }
+      }
     }
   ],
   "fieldTripRecap": {
@@ -683,15 +694,14 @@
         }
       ],
       "flyer": {
-        "image": "program-resources/Marine-Science-Explorer-2026-27.png",
-        "pdf": "program-resources/Marine-Science-Explorer-2026-27.pdf",
+        "image": "program-resources/Field-Trips-Learning-Expeditions-2026-27.png",
         "alt": {
-          "en": "Marine Science Explorer 2026-27 flyer: monthly activities, field trips, September 17 meeting and September 21 beach cleanup.",
-          "es": "Volante de Exploradores de Ciencias Marinas 2026-27: actividades mensuales, excursiones, reunión del 17 de septiembre y limpieza de playa del 21 de septiembre."
+          "en": "2026-27 Field Trips and Learning Expeditions flyer featuring Halloween at SeaWorld and upcoming Marine Science trips.",
+          "es": "Volante de Excursiones y Expediciones de Aprendizaje 2026-27 con Halloween en SeaWorld y próximas excursiones de Ciencias Marinas."
         },
         "caption": {
-          "en": "View the full-size flyer",
-          "es": "Ver el volante en tamaño completo"
+          "en": "View the full 2026-27 field-trip flyer",
+          "es": "Ver el volante completo de excursiones 2026-27"
         }
       }
     },
