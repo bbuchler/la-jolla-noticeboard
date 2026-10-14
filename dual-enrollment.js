@@ -307,6 +307,8 @@
     "City College Spring 2027 Course Flyer": "Volante de Cursos de City College Primavera 2027"
 });
 
+    Object.assign(es, {"City College: Online Courses": "City College: Cursos en Línea", "Miramar College: Online Courses": "Miramar College: Cursos en Línea", "Personal Growth at either City College or Miramar is a good first choice. Choose the college and dates that work for you. If you missed Personal Growth this fall, start signing up now. These online Spring 2027 courses come from the Altus flyers and counselor schedule. Applying does not reserve a seat.": "Crecimiento Personal en City College o Miramar es una buena primera opción. Elige la universidad y las fechas que te convengan. Si no pudiste tomarlo este otoño, inicia la inscripción ahora. Estos cursos en línea de primavera de 2027 provienen de los volantes de Altus y el horario del consejero. Solicitar ingreso no reserva un lugar."});
+
     var records = [];
 
     // New course updates live in site-data.json; join the existing language toggle.

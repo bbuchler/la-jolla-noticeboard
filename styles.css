@@ -3474,3 +3474,15 @@ h1, h2, h3, h4 {
     .spring-course-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 .spring-course-grid + .dual-alert { margin-top: 20px; }
+
+/* Separate college groups and keep course actions aligned. */
+.college-course-heading {
+    margin: 28px 0 18px;
+    color: var(--dark-blue);
+    font-size: clamp(1.2rem, 2vw, 1.45rem);
+    line-height: 1.35;
+}
+.spring-course-grid + .college-course-heading { margin-top: 44px; }
+.spring-course-grid .course-card { display: flex; flex-direction: column; }
+.spring-course-grid .course-card dl { margin-bottom: 14px; }
+.spring-course-grid .course-actions { margin-top: auto; padding-top: 18px; }
