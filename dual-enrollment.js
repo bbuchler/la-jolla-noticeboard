@@ -227,7 +227,7 @@
     "February 1-May 29, 2027": "1 de febrero-29 de mayo de 2027",
     "Full year of high school English (2 semesters)": "Un año completo de inglés de preparatoria (2 semestres)",
     "Academic Reading & Writing": "Lectura y Escritura Académica",
-    "Includes essays, research, and at least 6,000 graded words of writing. Talk with your teacher about readiness and any placement requirements.": "Incluye ensayos, investigación y al menos 6,000 palabras de escritura evaluada. Habla con tu maestro sobre tu preparación y los requisitos de colocación.",
+    "This online course counts for a full year of high school English (both semesters).": "Este curso en línea cuenta como un año completo de inglés de preparatoria (ambos semestres).",
     "Spring 2027: Choose Your Course": "Primavera 2027: Escoge Tu Curso",
     "These classes are online. Confirm any required live meeting times and current availability with your teacher or Amanda before enrolling.": "Estas clases son en línea. Confirma los horarios de reuniones en vivo que se requieran y la disponibilidad con tu maestro o Amanda antes de inscribirte.",
     "Check the SDCCD Class Schedule": "Consultar el Horario de SDCCD",
@@ -290,7 +290,7 @@
     "February 8-May 8, 2027": "8 de febrero-8 de mayo de 2027",
     "Full year of high school English (2 semesters)": "Un año completo de inglés de preparatoria (2 semestres)",
     "Reading & Composition": "Lectura y Composición",
-    "One 12-week online course counts for a full year of high school English. Includes at least 6,000 graded words of writing; discuss readiness with your teacher.": "Un curso en línea de 12 semanas cuenta como un año completo de inglés de preparatoria. Incluye al menos 6,000 palabras de escritura evaluada; consulta con tu maestro sobre tu preparación.",
+    "One 12-week online course counts for a full year of high school English (both semesters).": "Un curso en línea de 12 semanas cuenta como un año completo de inglés de preparatoria (ambos semestres).",
     "POLI 121": "POLI 121",
     "52951": "52951",
     "Economics + 1 Elective": "Economía + 1 electivo",
@@ -440,7 +440,7 @@
         collectTextNodes(document.body);
         applyLanguage(currentLang === 'es' ? 'es' : 'en');
 
-        fetch('site-data.json?v=20261014-7')
+        fetch('site-data.json?v=20261014-9')
             .then(function (response) {
                 if (!response.ok) throw new Error('Course data could not be loaded');
                 return response.json();
