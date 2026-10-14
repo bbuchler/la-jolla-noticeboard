@@ -22,6 +22,16 @@
     "en": "Your monthly guide to events, programs, and opportunities",
     "es": "Tu guia mensual de eventos, programas y oportunidades"
   },
+  "bulletinHeader": {
+    "title": {
+      "en": "Start Here: Important Reminders",
+      "es": "Comienza Aquí: Recordatorios Importantes"
+    },
+    "subtitle": {
+      "en": "These are the most important updates right now. More dates, programs, and resources are below.",
+      "es": "Estas son las actualizaciones más importantes en este momento. Hay más fechas, programas y recursos abajo."
+    }
+  },
   "bulletins": [
     {
       "title": {
@@ -123,39 +133,6 @@
         "url": "#marine-science"
       },
       "expires": "2026-10-30"
-    },
-    {
-      "title": {
-        "en": "Help Personalize Your Learning",
-        "es": "Ayuda a Personalizar Tu Aprendizaje"
-      },
-      "message": {
-        "en": "Share your interests and goals in a five-minute survey to help tailor your schoolwork.",
-        "es": "Comparte tus intereses y metas en una encuesta de cinco minutos para adaptar tu trabajo escolar."
-      },
-      "action": {
-        "label": {
-          "en": "Take the Survey",
-          "es": "Completar la Encuesta"
-        },
-        "url": "https://forms.cloud.microsoft/r/EUaXrZ6AuZ"
-      },
-      "teaser": { "en": "Five-minute interests survey", "es": "Encuesta de intereses de cinco minutos" },
-      "compact": true
-    },
-    {
-      "title": {
-        "en": "Schedule Your On-Site Time",
-        "es": "Programa Tu Horario en el Centro"
-      },
-      "message": {
-        "en": "Tell Mr. Buchler your preferred days and times to come on-site. Aim for a couple of days each week.",
-        "es": "Dile al Sr. Buchler qué días y horarios prefieres para venir al centro. Planea venir un par de días por semana."
-      },
-      "icon": "🏫",
-      "theme": "school",
-      "teaser": { "en": "Share your preferred days and times", "es": "Comparte los días y horarios que prefieres" },
-      "compact": true
     }
   ],
   "calendarImages": [

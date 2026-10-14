@@ -364,7 +364,27 @@ h1, h2, h3, h4 {
    BULLETIN / ANNOUNCEMENT
    ============================================ */
 .bulletin-section {
-    padding: 12px 0 24px;
+    padding: 24px 0;
+}
+
+.bulletin-heading-group {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.bulletin-heading {
+    margin: 0;
+    color: var(--dark-blue);
+    font-size: 1.45rem;
+    font-weight: 800;
+}
+
+.bulletin-intro {
+    max-width: 720px;
+    margin: 6px auto 0;
+    color: #536779;
+    font-size: 0.9rem;
+    line-height: 1.45;
 }
 
 .bulletin-list {

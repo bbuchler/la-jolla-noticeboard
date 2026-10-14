@@ -62,7 +62,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20261014-1');
+            const response = await fetch('site-data.json?v=20261014-2');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -155,6 +155,7 @@
 
     function renderBulletin() {
         var section = document.getElementById('bulletin');
+        var header = document.getElementById('bulletinHeader');
         var card = document.getElementById('bulletinCard');
         var isNarrow = window.matchMedia('(max-width: 767px)').matches;
         var bulletins = Array.isArray(siteData.bulletins) ? siteData.bulletins : (siteData.bulletin ? [siteData.bulletin] : []);
@@ -176,12 +177,16 @@
 
         if (!activeBulletins.length) {
             section.hidden = true;
+            header.hidden = true;
             card.hidden = true;
             card.innerHTML = '';
             return;
         }
 
         section.hidden = false;
+        header.hidden = false;
+        document.getElementById('bulletinHeading').textContent = t(siteData.bulletinHeader.title);
+        document.getElementById('bulletinIntro').textContent = t(siteData.bulletinHeader.subtitle);
         card.hidden = false;
         card.innerHTML = activeBulletins.map(function (b) {
             var titleHtml = b.title ? '<h3 class="bulletin-title">' + t(b.title) + '</h3>' : '';
