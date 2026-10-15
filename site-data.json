@@ -1069,28 +1069,28 @@
     "thought": {
       "label": { "en": "A Thought", "es": "Un Pensamiento" },
       "text": {
-        "en": "The measure of a life is not what you consume, but what you contribute.\n\nSpend less time owning, consuming, taking. Spend more time giving, creating, making.",
-        "es": "La medida de una vida no esta en lo que consumes, sino en lo que aportas.\n\nDedica menos tiempo a poseer, consumir y tomar. Dedica mas tiempo a dar, crear y hacer."
+        "en": "Your mind will follow whatever you feed it.\nWant better thoughts? Consume better things.",
+        "es": "Tu mente seguirá aquello con lo que la alimentes.\n¿Quieres mejores pensamientos? Consume mejores cosas."
       }
     },
     "quote": {
       "label": { "en": "A Quote", "es": "Una Cita" },
       "context": {
-        "en": "Author and speaker Jim Rohn reminds us to continually redirect our attention toward what is helpful and productive:",
-        "es": "El autor y conferencista Jim Rohn nos recuerda que debemos dirigir continuamente nuestra atencion hacia lo util y productivo:"
+        "en": "Roman emperor Marcus Aurelius on refusing to give up:",
+        "es": "El emperador romano Marco Aurelio sobre negarse a rendirse:"
       },
       "text": {
-        "en": "Much of life is in learning to always remain part of the solution rather than allowing ourselves to become part of the problem.",
-        "es": "Gran parte de la vida consiste en aprender a ser siempre parte de la solucion, en lugar de permitirnos ser parte del problema."
+        "en": "Until death, all defeat is psychological.",
+        "es": "Hasta la muerte, toda derrota es psicológica."
       },
-      "author": "Jim Rohn",
-      "source": "The Seasons of Life"
+      "author": { "en": "Marcus Aurelius", "es": "Marco Aurelio" },
+      "source": null
     },
     "question": {
       "label": { "en": "A Question", "es": "Una Pregunta" },
       "text": {
-        "en": "Your life is simply your days, accumulated. Did today's habits contribute to the life you want to build?",
-        "es": "Tu vida es simplemente la acumulacion de tus dias. Los habitos de hoy contribuyeron a la vida que quieres construir?"
+        "en": "Energy seems to magically appear when there is genuine interest.\nWhat are you excited to learn?",
+        "es": "La energía parece aparecer mágicamente cuando existe un interés genuino.\n¿Qué te entusiasma aprender?"
       }
     }
   },

@@ -62,7 +62,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20261014-10');
+            const response = await fetch('site-data.json?v=20261015-1');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -682,7 +682,7 @@
             '<div class="motivation-label">' + t(m.quote.label) + '</div>' +
             (m.quote.context ? '<div class="motivation-context">' + t(m.quote.context) + '</div>' : '') +
             '<div class="motivation-quote-text">"' + t(m.quote.text) + '"</div>' +
-            '<div class="motivation-quote-author">' + m.quote.author + (m.quote.source ? ', <em>' + m.quote.source + '</em>' : '') + '</div></div>' +
+            '<div class="motivation-quote-author">' + t(m.quote.author) + (m.quote.source ? ', <em>' + m.quote.source + '</em>' : '') + '</div></div>' +
             '<div class="motivation-section">' +
             '<div class="motivation-label">' + t(m.question.label) + '</div>' +
             '<div class="motivation-question-text">' + t(m.question.text) + '</div></div>';
