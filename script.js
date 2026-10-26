@@ -45,9 +45,14 @@
 
     /** Check whether time-limited content should still be shown */
     function isCurrentlyVisible(item) {
-        if (!item || !item.visibleUntil) return true;
+        if (!item) return false;
         var today = new Date();
         today.setHours(0, 0, 0, 0);
+        if (item.starts) {
+            var start = new Date(item.starts + 'T00:00:00');
+            if (today < start) return false;
+        }
+        if (!item.visibleUntil) return true;
         var cutoff = new Date(item.visibleUntil + 'T00:00:00');
         return today < cutoff;
     }
@@ -62,7 +67,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20261015-1');
+            const response = await fetch('site-data.json?v=20261026-1');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -482,6 +487,16 @@
                 '<h4>' + (currentLang === 'es' ? 'Recordatorios' : 'Reminders') + '</h4>' +
                 '<ul>' + trip.reminders.map(function (r) { return '<li>' + t(r) + '</li>'; }).join('') + '</ul></div>'
                 : '';
+            var tripActions = [];
+            if (trip.mapsUrl) {
+                tripActions.push('<a href="' + trip.mapsUrl + '" target="_blank" rel="noopener" class="btn btn-outline">' +
+                    (currentLang === 'es' ? 'Ver en Google Maps' : 'View on Google Maps') + '</a>');
+            }
+            if (trip.permissionSlip) {
+                tripActions.push('<a href="' + trip.permissionSlip.url + '" target="_blank" rel="noopener" class="btn btn-primary">' +
+                    t(trip.permissionSlip.label) + '</a>');
+            }
+            var tripActionsHtml = tripActions.length ? '<div class="field-trip-actions">' + tripActions.join('') + '</div>' : '';
 
             return '<div class="field-trip-card">' +
                 '<div class="field-trip-header">' +
@@ -492,8 +507,7 @@
                 '<div class="field-trip-detail"><span class="field-trip-detail-icon">&#128205;</span><span>' + trip.address + '</span></div>' +
                 '<div class="field-trip-detail"><span class="field-trip-detail-icon">&#128336;</span><span>' + t(trip.time) + '</span></div>' +
                 '<div class="field-trip-detail"><span class="field-trip-detail-icon">&#128196;</span><span>' + t(trip.description) + '</span></div>' +
-                (trip.mapsUrl ? '<a href="' + trip.mapsUrl + '" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:12px;">' +
-                    (currentLang === 'es' ? 'Ver en Google Maps' : 'View on Google Maps') + '</a>' : '') +
+                tripActionsHtml +
                 remindersHtml +
                 (trip.flyer ? '<a href="' + trip.flyer.image + '" target="_blank" rel="noopener" class="opportunity-flyer-link">' +
                     '<img src="' + trip.flyer.image + '" alt="' + t(trip.flyer.alt) + '" class="opportunity-flyer" loading="lazy">' +

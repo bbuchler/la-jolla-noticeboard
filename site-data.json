@@ -23,7 +23,7 @@
     "parentSquareUrl": "https://www.parentsquare.com",
     "websiteUrl": "https://www.altuscssd.com/"
   },
-  "currentMonth": "October 2026",
+  "currentMonth": "November 2026",
   "heroMessage": {
     "en": "Welcome to the La Jolla Noticeboard",
     "es": "Bienvenidos al Tablero de La Jolla"
@@ -128,20 +128,29 @@
         "es": "Ciencias Marinas: ¡Excursión a SeaWorld!"
       },
       "message": {
-        "en": "Oct 22, 11 AM - 12 PM: Animal Rescue activity. Oct 29, 10:30 AM - 2:30 PM: SeaWorld field trip. RSVP with your teacher.",
-        "es": "22 de oct., 11 AM - 12 PM: actividad de rescate de animales. 29 de oct., 10:30 AM - 2:30 PM: excursión a SeaWorld. Confirma con tu maestro."
+        "en": "The SeaWorld field trip is Thursday, October 29, from 10:30 AM to 2:30 PM. A signed permission slip is required. Open the PDF, complete the lower portion, and return it to your teacher as soon as possible.",
+        "es": "La excursión a SeaWorld es el jueves 29 de octubre, de 10:30 AM a 2:30 PM. Se requiere un permiso firmado. Abre el PDF, completa la parte inferior y entrégasela a tu maestro lo antes posible."
       },
       "icon": "🐋",
       "theme": "school",
       "featured": true,
-      "teaser": { "en": "Oct 22 Animal Rescue · Oct 29 SeaWorld", "es": "22 oct. rescate de animales · 29 oct. SeaWorld" },
-      "action": {
-        "label": {
-          "en": "See Program Details",
-          "es": "Ver detalles del programa"
+      "teaser": { "en": "Oct 29 SeaWorld · Permission slip required", "es": "29 oct. SeaWorld · Se requiere permiso" },
+      "actions": [
+        {
+          "label": {
+            "en": "Open Permission Slip PDF",
+            "es": "Abrir PDF del Permiso"
+          },
+          "url": "program-resources/SeaWorld-Permission-Slip-2026-10-29.pdf"
         },
-        "url": "#marine-science"
-      },
+        {
+          "label": {
+            "en": "See Program Details",
+            "es": "Ver detalles del programa"
+          },
+          "url": "#marine-science"
+        }
+      ],
       "expires": "2026-10-30"
     }
   ],
@@ -169,7 +178,13 @@
       "correction": {
         "en": "Calendar note: September 21 - October 16 is Learning Period 4 (LP4). LP4 credits are due Friday, October 16.",
         "es": "Nota del calendario: del 21 de septiembre al 16 de octubre es el Periodo de Aprendizaje 4 (LP4). Los créditos del LP4 vencen el viernes 16 de octubre."
-      }
+      },
+      "visibleUntil": "2026-11-01"
+    },
+    {
+      "month": { "en": "November 2026", "es": "Noviembre 2026" },
+      "image": "monthly-calendars/November-Calendar-2026.png?v=20261026-1",
+      "pdf": "monthly-calendars/November-Calendar-2026.pdf"
     }
   ],
   "learningPeriods": {
@@ -198,6 +213,11 @@
         "name": "LP5",
         "dates": { "en": "October 19 - November 13", "es": "19 de octubre - 13 de noviembre" },
         "visibleUntil": "2026-11-14"
+      },
+      {
+        "name": "LP6",
+        "dates": { "en": "November 16 - December 11", "es": "16 de noviembre - 11 de diciembre" },
+        "visibleUntil": "2026-12-12"
       }
     ]
   },
@@ -540,6 +560,50 @@
       "type": "activity",
       "badge": null,
       "opportunityId": "altus-arts"
+    },
+    {
+      "date": "2026-11-10",
+      "title": { "en": "School Closed: Non-Instructional Day", "es": "Escuela Cerrada: Día No Instructivo" },
+      "type": "closed",
+      "badge": null
+    },
+    {
+      "date": "2026-11-10",
+      "title": { "en": "Family Learning Series: AI & Cybersecurity, 4 PM - 5 PM", "es": "Serie de Aprendizaje Familiar: IA y Ciberseguridad, 4 PM - 5 PM" },
+      "type": "activity",
+      "badge": null,
+      "opportunityId": "family-learning"
+    },
+    {
+      "date": "2026-11-11",
+      "title": { "en": "School Closed: Veterans Day", "es": "Escuela Cerrada: Día de los Veteranos" },
+      "type": "closed",
+      "badge": null
+    },
+    {
+      "date": "2026-11-13",
+      "title": { "en": "End of LP5: Credits Due!", "es": "Fin de LP5: ¡Créditos Vencen!" },
+      "type": "deadline",
+      "badge": null
+    },
+    {
+      "date": "2026-11-16",
+      "title": { "en": "Start of Learning Period 6", "es": "Inicio del Periodo de Aprendizaje 6" },
+      "type": "milestone",
+      "badge": null
+    },
+    {
+      "date": "2026-11-18",
+      "title": { "en": "RISE Session: Anxiety & Depression, 11 AM - 12 PM on Zoom", "es": "Sesión RISE: Ansiedad y Depresión, 11 AM - 12 PM por Zoom" },
+      "type": "activity",
+      "badge": null
+    },
+    {
+      "date": "2026-11-23",
+      "ends": "2026-11-27",
+      "title": { "en": "School Closed: Thanksgiving Break, November 23-27", "es": "Escuela Cerrada: Vacaciones de Acción de Gracias, 23-27 de noviembre" },
+      "type": "closed",
+      "badge": null
     }
   ],
   "caaspp": null,
@@ -579,10 +643,27 @@
           "visibleUntil": "2026-10-29"
         },
         {
-          "name": { "en": "HS ELD (Zoom)", "es": "ELD Preparatoria (Zoom)" },
+          "name": { "en": "HS ELD (Zoom, October)", "es": "ELD Preparatoria (Zoom, octubre)" },
           "time": "11 AM - 12 PM",
           "location": { "en": "Zoom", "es": "Zoom" },
-          "type": "class"
+          "type": "class",
+          "visibleUntil": "2026-10-29"
+        },
+        {
+          "name": { "en": "Math Lab (November 4 & 18)", "es": "Laboratorio de Matemáticas (4 y 18 de noviembre)" },
+          "time": "10 AM - 11 AM",
+          "location": { "en": "Ask your teacher for details", "es": "Pregunta a tu maestro por los detalles" },
+          "type": "class",
+          "starts": "2026-11-01",
+          "visibleUntil": "2026-11-19"
+        },
+        {
+          "name": { "en": "HS ELD (Zoom, November 4 & 18)", "es": "ELD Preparatoria (Zoom, 4 y 18 de noviembre)" },
+          "time": "11 AM - 12 PM",
+          "location": { "en": "Zoom", "es": "Zoom" },
+          "type": "class",
+          "starts": "2026-11-01",
+          "visibleUntil": "2026-11-19"
         }
       ]
     },
@@ -595,6 +676,14 @@
           "location": { "en": "La Jolla Resource Center", "es": "Centro de Recursos La Jolla" },
           "type": "class",
           "visibleUntil": "2026-10-16"
+        },
+        {
+          "name": { "en": "Personal Finance (November 5, 12 & 19)", "es": "Finanzas Personales (5, 12 y 19 de noviembre)" },
+          "time": "11 AM - 12 PM",
+          "location": { "en": "La Jolla Resource Center", "es": "Centro de Recursos La Jolla" },
+          "type": "class",
+          "starts": "2026-11-01",
+          "visibleUntil": "2026-11-20"
         }
       ]
     },
@@ -614,6 +703,14 @@
           "location": {"en": "Zoom with Amanda: use the Dual Enrollment guide below", "es": "Zoom con Amanda: usa la guía de Inscripción Doble de abajo"},
           "type": "support",
           "visibleUntil": "2026-10-31"
+        },
+        {
+          "name": { "en": "Early College Credit Support (November 6, 13 & 20)", "es": "Apoyo de Crédito Universitario Temprano (6, 13 y 20 de noviembre)" },
+          "time": "1 PM - 3 PM",
+          "location": { "en": "Zoom with Amanda: use the Dual Enrollment guide below", "es": "Zoom con Amanda: usa la guía de Inscripción Doble de abajo" },
+          "type": "support",
+          "starts": "2026-11-01",
+          "visibleUntil": "2026-11-21"
         }
       ],
       "note": { "en": "Non-student day. The Resource Center is generally closed except for scheduled support sessions or appointments. Students are still responsible for completing work from home.", "es": "Dia sin estudiantes. El Centro de Recursos generalmente esta cerrado, excepto para sesiones de apoyo o citas programadas. Los estudiantes siguen siendo responsables de completar su trabajo desde casa." }
@@ -625,8 +722,8 @@
     }
   ],
   "seasonalNote": {
-    "en": "The La Jolla Resource Center is closed Tuesday, September 29 for an all-staff meeting. Learning Period 4 ends October 16, the same day the Fall NWEA testing window closes. Mr. Buchler is out October 19-23, and the Resource Center is open by appointment only on October 23 for an instructional meeting. Marine Science Explorer visits SeaWorld on October 29.",
-    "es": "El Centro de Recursos La Jolla estará cerrado el martes 29 de septiembre por una reunión de todo el personal. El Periodo de Aprendizaje 4 termina el 16 de octubre, el mismo día que cierra el periodo de evaluaciones NWEA de otoño. El Sr. Buchler estará ausente del 19 al 23 de octubre, y el Centro de Recursos estará abierto solo con cita el 23 de octubre por una reunión instructiva. Exploradores de Ciencias Marinas visitará SeaWorld el 29 de octubre."
+    "en": "Learning Period 5 ends November 13, and Learning Period 6 begins November 16. School is closed November 10 for a non-instructional day, November 11 for Veterans Day, and November 23-27 for Thanksgiving break.",
+    "es": "El Periodo de Aprendizaje 5 termina el 13 de noviembre y el Periodo de Aprendizaje 6 comienza el 16 de noviembre. La escuela está cerrada el 10 de noviembre por un día no instructivo, el 11 de noviembre por el Día de los Veteranos y del 23 al 27 de noviembre por las vacaciones de Acción de Gracias."
   },
   "fieldTrips": [
     {
@@ -636,9 +733,14 @@
       "time": { "en": "Thursday, October 29, 10:30 AM - 2:30 PM", "es": "Jueves 29 de octubre, 10:30 AM - 2:30 PM" },
       "description": { "en": "Explore marine life up close with the Marine Science Explorer group. All students in grades 6-12 are welcome.", "es": "Explora la vida marina de cerca con el grupo de Exploradores de Ciencias Marinas. Todos los estudiantes de grados 6-12 son bienvenidos." },
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=SeaWorld+San+Diego",
+      "permissionSlip": {
+        "url": "program-resources/SeaWorld-Permission-Slip-2026-10-29.pdf",
+        "label": { "en": "Open SeaWorld Permission Slip (PDF)", "es": "Abrir Permiso de SeaWorld (PDF)" }
+      },
       "reminders": [
         { "en": "RSVP with your teacher.", "es": "Confirma tu asistencia con tu maestro." },
-        { "en": "Ask your teacher about the meeting spot, transportation, and permission slip.", "es": "Pregunta a tu maestro sobre el punto de encuentro, el transporte y el permiso." }
+        { "en": "A signed permission slip is required. Complete the lower portion and return it to your teacher as soon as possible.", "es": "Se requiere un permiso firmado. Completa la parte inferior y entrégasela a tu maestro lo antes posible." },
+        { "en": "Ask your teacher about the meeting spot and transportation.", "es": "Pregunta a tu maestro sobre el punto de encuentro y el transporte." }
       ],
       "flyer": {
         "image": "program-resources/Field-Trips-Learning-Expeditions-2026-27.png",
