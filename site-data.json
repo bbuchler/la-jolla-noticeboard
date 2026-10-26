@@ -175,10 +175,6 @@
       "month": { "en": "October 2026", "es": "Octubre 2026" },
       "image": "monthly-calendars/October-Calendar-2026.png?v=20260925-1",
       "pdf": "monthly-calendars/October-Calendar-2026.pdf",
-      "correction": {
-        "en": "Calendar note: September 21 - October 16 is Learning Period 4 (LP4). LP4 credits are due Friday, October 16.",
-        "es": "Nota del calendario: del 21 de septiembre al 16 de octubre es el Periodo de Aprendizaje 4 (LP4). Los créditos del LP4 vencen el viernes 16 de octubre."
-      },
       "visibleUntil": "2026-11-01"
     },
     {
