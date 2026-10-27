@@ -128,13 +128,13 @@
         "es": "Ciencias Marinas: ¡Excursión a SeaWorld!"
       },
       "message": {
-        "en": "The SeaWorld field trip is Thursday, October 29, from 10:30 AM to 2:30 PM. A signed permission slip is required. Open the PDF, complete the lower portion, and return it to your teacher as soon as possible.",
-        "es": "La excursión a SeaWorld es el jueves 29 de octubre, de 10:30 AM a 2:30 PM. Se requiere un permiso firmado. Abre el PDF, completa la parte inferior y entrégasela a tu maestro lo antes posible."
+        "en": "The SeaWorld field trip is Thursday, October 29. Drop off your student by 10:00 AM and pick them up at 2:00 PM. A signed permission slip is required. Download the map and parking pass before the trip.",
+        "es": "La excursión a SeaWorld es el jueves 29 de octubre. Deja a tu estudiante antes de las 10:00 AM y recógelo a las 2:00 PM. Se requiere un permiso firmado. Descarga el mapa y el pase de estacionamiento antes de la excursión."
       },
       "icon": "🐋",
       "theme": "school",
       "featured": true,
-      "teaser": { "en": "Oct 29 SeaWorld · Permission slip required", "es": "29 oct. SeaWorld · Se requiere permiso" },
+      "teaser": { "en": "Oct 29 SeaWorld · Drop-off by 10 AM", "es": "29 oct. SeaWorld · Llegada antes de las 10 AM" },
       "actions": [
         {
           "label": {
@@ -142,6 +142,13 @@
             "es": "Abrir PDF del Permiso"
           },
           "url": "program-resources/SeaWorld-Permission-Slip-2026-10-29.pdf"
+        },
+        {
+          "label": {
+            "en": "Open Map & Parking Pass PDF",
+            "es": "Abrir Mapa y Pase de Estacionamiento"
+          },
+          "url": "program-resources/SeaWorld-Map-and-Parking-Pass-2026-10-29.pdf"
         },
         {
           "label": {
@@ -545,7 +552,7 @@
     },
     {
       "date": "2026-10-29",
-      "title": { "en": "Marine Science Field Trip: SeaWorld, 10:30 AM - 2:30 PM", "es": "Excursión de Ciencias Marinas: SeaWorld, 10:30 AM - 2:30 PM" },
+      "title": { "en": "Marine Science Field Trip: SeaWorld, Drop-off by 10 AM; Pickup at 2 PM", "es": "Excursión de Ciencias Marinas: SeaWorld, llegada antes de las 10 AM; recogida a las 2 PM" },
       "type": "activity",
       "icon": "🐋",
       "badge": null
@@ -726,17 +733,24 @@
       "date": "2026-10-29",
       "title": { "en": "Marine Science Explorer: SeaWorld San Diego", "es": "Exploradores de Ciencias Marinas: SeaWorld San Diego" },
       "address": "SeaWorld San Diego, 500 Sea World Dr, San Diego, CA 92109",
-      "time": { "en": "Thursday, October 29, 10:30 AM - 2:30 PM", "es": "Jueves 29 de octubre, 10:30 AM - 2:30 PM" },
+      "time": { "en": "Thursday, October 29: Student drop-off by 10:00 AM; pickup at 2:00 PM", "es": "Jueves 29 de octubre: llegada de estudiantes antes de las 10:00 AM; recogida a las 2:00 PM" },
       "description": { "en": "Explore marine life up close with the Marine Science Explorer group. All students in grades 6-12 are welcome.", "es": "Explora la vida marina de cerca con el grupo de Exploradores de Ciencias Marinas. Todos los estudiantes de grados 6-12 son bienvenidos." },
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=SeaWorld+San+Diego",
       "permissionSlip": {
         "url": "program-resources/SeaWorld-Permission-Slip-2026-10-29.pdf",
         "label": { "en": "Open SeaWorld Permission Slip (PDF)", "es": "Abrir Permiso de SeaWorld (PDF)" }
       },
+      "documents": [
+        {
+          "url": "program-resources/SeaWorld-Map-and-Parking-Pass-2026-10-29.pdf",
+          "label": { "en": "Open Map and Parking Pass (PDF)", "es": "Abrir Mapa y Pase de Estacionamiento (PDF)" }
+        }
+      ],
       "reminders": [
         { "en": "RSVP with your teacher.", "es": "Confirma tu asistencia con tu maestro." },
+        { "en": "Drop off your student by 10:00 AM. Pickup is at 2:00 PM.", "es": "Deja a tu estudiante antes de las 10:00 AM. La recogida es a las 2:00 PM." },
         { "en": "A signed permission slip is required. Complete the lower portion and return it to your teacher as soon as possible.", "es": "Se requiere un permiso firmado. Completa la parte inferior y entrégasela a tu maestro lo antes posible." },
-        { "en": "Ask your teacher about the meeting spot and transportation.", "es": "Pregunta a tu maestro sobre el punto de encuentro y el transporte." }
+        { "en": "Download the map and parking pass before arriving.", "es": "Descarga el mapa y el pase de estacionamiento antes de llegar." }
       ],
       "flyer": {
         "image": "program-resources/Field-Trips-Learning-Expeditions-2026-27.png",
@@ -797,8 +811,8 @@
           "es": "Actividad de rescate de animales: jueves 22 de octubre de 2026, 11 a.m. - 12 p.m."
         },
         {
-          "en": "SeaWorld field trip: Thursday, October 29, 2026, 10:30 a.m. - 2:30 p.m. Ask your teacher for the meeting spot and permission slip.",
-          "es": "Excursión a SeaWorld: jueves 29 de octubre de 2026, 10:30 a.m. - 2:30 p.m. Pregunta a tu maestro por el punto de encuentro y el permiso."
+          "en": "SeaWorld field trip: Thursday, October 29, 2026. Drop off your student by 10:00 a.m. and pick them up at 2:00 p.m. A signed permission slip is required.",
+          "es": "Excursión a SeaWorld: jueves 29 de octubre de 2026. Deja a tu estudiante antes de las 10:00 a.m. y recógelo a las 2:00 p.m. Se requiere un permiso firmado."
         }
       ],
       "flyer": {

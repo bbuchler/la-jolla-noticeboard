@@ -67,7 +67,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20261026-2');
+            const response = await fetch('site-data.json?v=20261027-1');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -495,6 +495,12 @@
             if (trip.permissionSlip) {
                 tripActions.push('<a href="' + trip.permissionSlip.url + '" target="_blank" rel="noopener" class="btn btn-primary">' +
                     t(trip.permissionSlip.label) + '</a>');
+            }
+            if (trip.documents) {
+                trip.documents.forEach(function (documentLink) {
+                    tripActions.push('<a href="' + documentLink.url + '" target="_blank" rel="noopener" class="btn btn-outline">' +
+                        t(documentLink.label) + '</a>');
+                });
             }
             var tripActionsHtml = tripActions.length ? '<div class="field-trip-actions">' + tripActions.join('') + '</div>' : '';
 
