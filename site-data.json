@@ -1129,21 +1129,22 @@
     },
     {
       "id": "articulation",
-      "title": { "en": "Course Articulation", "es": "Articulacion de Cursos" },
+      "title": { "en": "Course Articulation: 2026-27 Applications Open", "es": "Articulación de Cursos: Solicitudes 2026-27 Abiertas" },
       "content": {
-        "en": "With articulation, students take courses with their Altus teacher as part of their regular coursework. If they earn an A or B, they can apply for college credit through partner colleges like MiraCosta or Southwestern. It's a great way to earn college credit without leaving the Altus classroom.",
-        "es": "Con la articulacion, los estudiantes toman cursos con su maestro de Altus como parte de su trabajo regular. Si obtienen una A o B, pueden solicitar credito universitario a traves de universidades asociadas como MiraCosta o Southwestern. Es una excelente manera de obtener credito universitario sin salir del aula de Altus."
+        "en": "Applications are open for all 11 articulated courses for 2026-27. Complete eligible Altus coursework with your teacher and apply for college credit through MiraCosta, Southwestern, or Victor Valley College. Start now so your college application and required forms are ready before the deadlines.",
+        "es": "Las solicitudes están abiertas para los 11 cursos articulados de 2026-27. Completa cursos elegibles de Altus con tu maestro y solicita crédito universitario en MiraCosta, Southwestern o Victor Valley College. Empieza ahora para entregar tu solicitud y formularios antes de las fechas límite."
       },
       "articulatedCourses": [
         "Design Careers 1, 2",
-        "Hospitality, Tourism & Recreation 3, 4",
+        "Hospitality Management 1, 2",
         "Information & Communication Technology 1, 2",
         "Environmental Sustainability 1, 2",
         "Health Science Concepts 1, 2",
         "Child Development 1, 2",
         "Entrepreneurship 1, 2",
-        "Retail, Sales & Management 1, 2",
-        "Teacher Education",
+        "Retail, Sales & Marketing 1, 2",
+        "Teacher Education 1, 2",
+        "Veterinary Science 1, 2",
         "Photography 1, 2"
       ],
       "articulatedNote": {
@@ -1151,9 +1152,55 @@
         "es": "Cursos elegibles para credito de articulacion (se requiere calificacion A o B):"
       },
       "articulationNote2": {
-        "en": "Detailed step-by-step guides for each course articulation process coming soon. Ask your teacher for help getting started!",
-        "es": "Guias detalladas paso a paso para el proceso de articulacion de cada curso proximamente. Pregunta a tu maestro para comenzar!"
+        "en": "Start with your teacher to confirm your course and college. Complete the student steps below and share your college student ID with your teacher so they can record your information and final grades. College credit requires the application and articulation steps, not just finishing the high school course. Need help? Book Amanda's ECC appointments on Tuesdays, 9-11 AM, or Wednesdays, 1-3 PM, or join Friday Zoom support, 1-3 PM.",
+        "es": "Consulta primero con tu maestro para confirmar el curso y la universidad. Completa los pasos siguientes y comparte tu número de estudiante universitario con tu maestro para que registre tu información y calificaciones finales. Para obtener crédito universitario debes completar la solicitud y los pasos de articulación, además del curso de preparatoria. ¿Necesitas ayuda? Reserva una cita ECC con Amanda los martes de 9-11 AM o miércoles de 1-3 PM, o únete al apoyo por Zoom los viernes de 1-3 PM."
       },
+      "articulationPaths": [
+        {
+          "title": { "en": "MiraCosta College: Nine Courses", "es": "MiraCosta College: Nueve Cursos" },
+          "description": { "en": "All courses listed above except Photography and Veterinary Science.", "es": "Todos los cursos anteriores excepto Photography y Veterinary Science." },
+          "steps": [
+            { "en": "By April 2, 2027: complete the Spring application and have your teacher add you to the articulation roster.", "es": "Antes del 2 de abril de 2027: completa la solicitud de primavera y pide a tu maestro que te agregue a la lista de articulación." },
+            { "en": "Watch for your SURF student ID email and activate your SURF account.", "es": "Busca el correo con tu número de estudiante SURF y activa tu cuenta SURF." },
+            { "en": "By June 25, 2027: your teacher records your final grades. Once your final grade is confirmed, submit the Petition for Credit form by the same deadline.", "es": "Antes del 25 de junio de 2027: tu maestro registra tus calificaciones finales. Cuando se confirme tu calificación final, envía el formulario Petition for Credit antes de esa misma fecha." }
+          ],
+          "links": [
+            { "label": { "en": "MiraCosta Articulation & Application", "es": "Articulación y Solicitud de MiraCosta" }, "url": "https://www.miracosta.edu/admissions-and-aid/high-school-students/cte-high-school/" },
+            { "label": { "en": "Petition for Credit", "es": "Petición de Crédito" }, "url": "https://miracosta.tfaforms.net/217778" }
+          ]
+        },
+        {
+          "title": { "en": "Southwestern College: Photography 1, 2", "es": "Southwestern College: Photography 1, 2" },
+          "description": { "en": "Photography follows its own application and roster process.", "es": "Photography tiene su propio proceso de solicitud y registro." },
+          "steps": [
+            { "en": "By April 2, 2027: complete the Spring application, then complete the SWC-Altus Student Roster form.", "es": "Antes del 2 de abril de 2027: completa la solicitud de primavera y después el formulario SWC-Altus Student Roster." },
+            { "en": "By May 28, 2027: your teacher adds your information and final Photography grades to the articulation roster.", "es": "Antes del 28 de mayo de 2027: tu maestro agrega tu información y calificaciones finales de Photography a la lista de articulación." },
+            { "en": "Finishing Photography in late May or June? The flyer provides a Summer application route through June 25, 2027. Coordinate with your teacher and Amanda Rondinelli before using this route.", "es": "¿Terminarás Photography a finales de mayo o en junio? El volante ofrece una opción de solicitud de verano hasta el 25 de junio de 2027. Coordina con tu maestro y Amanda Rondinelli antes de usar esta opción." }
+          ],
+          "links": [
+            { "label": { "en": "Apply to Southwestern", "es": "Solicitar Ingreso a Southwestern" }, "url": "https://www.opencccapply.net/gateway/apply?cccMisCode=091" },
+            { "label": { "en": "SWC-Altus Student Roster Form", "es": "Formulario SWC-Altus Student Roster" }, "url": "https://docs.google.com/forms/d/1bpcWX-MEr2fLr2F71s2mHy4cfInHfu7IvT1WEgaAmbw/viewform" }
+          ]
+        },
+        {
+          "title": { "en": "Victor Valley College: Veterinary Science 1, 2", "es": "Victor Valley College: Veterinary Science 1, 2" },
+          "description": { "en": "Veterinary Science articulates with Victor Valley College.", "es": "Veterinary Science se articula con Victor Valley College." },
+          "steps": [
+            { "en": "By April 2, 2027: complete the Spring application and share your college student ID with your teacher.", "es": "Antes del 2 de abril de 2027: completa la solicitud de primavera y comparte tu número de estudiante universitario con tu maestro." },
+            { "en": "By June 25, 2027: your teacher adds your information and final Veterinary Science grades to the articulation roster.", "es": "Antes del 25 de junio de 2027: tu maestro agrega tu información y calificaciones finales de Veterinary Science a la lista de articulación." }
+          ],
+          "links": [
+            { "label": { "en": "Apply to Victor Valley", "es": "Solicitar Ingreso a Victor Valley" }, "url": "https://www.opencccapply.net/gateway/apply?cccMisCode=991" }
+          ]
+        }
+      ],
+      "links": [
+        { "label": { "en": "2026-27 Steps & Deadlines (PDF)", "es": "Pasos y Fechas Límite 2026-27 (PDF)" }, "url": "program-resources/Articulation-Steps-Deadlines-2026-27.pdf" },
+        { "label": { "en": "All 11 Courses & Materials (PDF)", "es": "Los 11 Cursos y Materiales (PDF)" }, "url": "program-resources/Articulated-Courses-2026-27.pdf" },
+        { "label": { "en": "Book ECC Application Help", "es": "Reservar Ayuda con la Solicitud" }, "url": "https://calendly.com/arondinelli-altusschools/college-enrollment" },
+        { "label": { "en": "Friday ECC Zoom: 1-3 PM", "es": "Zoom ECC del Viernes: 1-3 PM" }, "url": "https://altusschools-net.zoom.us/j/92408707377" },
+        { "label": { "en": "ECC Support Flyer (PDF)", "es": "Volante de Apoyo ECC (PDF)" }, "url": "program-resources/ECC-Support-Sessions-2026-27.pdf" }
+      ],
       "schedule": null,
       "location": null,
       "highlights": []

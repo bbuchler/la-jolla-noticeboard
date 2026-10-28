@@ -67,7 +67,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20261027-1');
+            const response = await fetch('site-data.json?v=20261028-1');
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -664,6 +664,17 @@
                 if (opp.articulationNote2) {
                     bodyContent += '<p style="margin-top:12px;font-size:0.85rem;font-style:italic;">' + t(opp.articulationNote2) + '</p>';
                 }
+            }
+
+            if (opp.articulationPaths) {
+                bodyContent += opp.articulationPaths.map(function (path) {
+                    return '<section class="articulation-path"><h4>' + t(path.title) + '</h4>' +
+                        '<p>' + t(path.description) + '</p><ol class="registration-steps">' +
+                        path.steps.map(function (step) { return '<li>' + t(step) + '</li>'; }).join('') +
+                        '</ol><div class="accordion-links">' + path.links.map(function (link) {
+                            return '<a href="' + link.url + '" target="_blank" rel="noopener" class="btn btn-outline">' + t(link.label) + '</a>';
+                        }).join('') + '</div></section>';
+                }).join('');
             }
 
             // Mental health link

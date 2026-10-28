@@ -810,6 +810,10 @@ h1, h2, h3, h4 {
     box-shadow: var(--shadow);
 }
 
+.articulation-path { margin-top: 24px; }
+.articulation-path h4 { margin-bottom: 8px; color: #004A8C; }
+.articulation-path .accordion-links { margin-top: 12px; }
+
 /* Learning Period Pills */
 .lp-pills {
     display: flex;
