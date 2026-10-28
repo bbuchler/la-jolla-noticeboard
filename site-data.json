@@ -1128,6 +1128,38 @@
       ]
     },
     {
+      "id": "ap-courses",
+      "title": { "en": "AP Courses & Exam Registration: 2026-27", "es": "Cursos AP e Inscripción a Exámenes: 2026-27" },
+      "content": {
+        "en": "Interested in an AP course or exam? Talk with your teacher about the courses below. AP exam registration is open to currently enrolled Altus students only. For current students, register by Friday, October 30, 2026, to avoid the $40 late fee. Registration remains available after that date with the applicable fee.",
+        "es": "¿Te interesa un curso o examen AP? Habla con tu maestro sobre los cursos siguientes. La inscripción a exámenes AP está abierta solo a estudiantes actualmente inscritos en Altus. Los estudiantes actuales deben inscribirse antes del viernes 30 de octubre de 2026 para evitar el recargo de $40. Después de esa fecha se puede seguir solicitando la inscripción con el cargo correspondiente."
+      },
+      "highlights": [
+        { "en": "Exam cost: $99 per exam, or $53 per exam with an approved College Board fee reduction. Eligibility may depend on National School Lunch Program (NSLP) status. Ask your teacher to confirm eligibility before paying.", "es": "Costo: $99 por examen, o $53 con una reducción de tarifa aprobada de College Board. La elegibilidad puede depender del Programa Nacional de Almuerzos Escolares (NSLP). Pide a tu maestro que confirme tu elegibilidad antes de pagar." },
+        { "en": "Late registration: current students registering after October 30 pay an additional $40. Students who enroll with Altus after October 30 are exempt from this late fee.", "es": "Inscripción tardía: los estudiantes actuales que se inscriban después del 30 de octubre pagan $40 adicionales. Los estudiantes que ingresen a Altus después del 30 de octubre están exentos de este recargo." },
+        { "en": "Cancellations carry a $40 non-refundable fee.", "es": "Las cancelaciones tienen un cargo no reembolsable de $40." },
+        { "en": "To register: download the AP Exam Order Form, select your exams, complete the fee-waiver question and required acknowledgments, and return it with payment to your teacher. Use the Assessment Payment Form with your teacher. Payment may be cash, check, or money order; ask your teacher for the correct check payee and keep your receipt.", "es": "Para inscribirte: descarga el formulario AP Exam Order Form, selecciona tus exámenes, completa la pregunta sobre reducción de tarifa y las declaraciones requeridas, y entrégalo con el pago a tu maestro. Completa el formulario de pago con tu maestro. Se acepta efectivo, cheque o giro postal; confirma con tu maestro a nombre de quién hacer el cheque y guarda tu recibo." },
+        { "en": "Your teacher sends the completed order form and proof of payment to the counselor, then delivers the original form and payment to Finance.", "es": "Tu maestro envía el formulario completo y el comprobante de pago al consejero y entrega el formulario original y el pago al departamento de Finanzas." },
+        { "en": "After payment, Cathryn Rambo issues your join code. Use that code to confirm your AP exam registration and check with your teacher that all steps are complete.", "es": "Después del pago, Cathryn Rambo proporciona tu código de inscripción. Úsalo para confirmar la inscripción al examen AP y verifica con tu maestro que todos los pasos estén completos." },
+        { "en": "Want an exam that is not listed? Use the AP Exam Request space on the order form. Additional exams require approval.", "es": "¿Quieres un examen que no aparece en la lista? Usa el espacio AP Exam Request del formulario. Los exámenes adicionales requieren aprobación." }
+      ],
+      "pathways": [
+        "AP Human Geography",
+        "AP U.S. Government",
+        "AP English Literature and Composition",
+        "AP World History: Modern",
+        "AP United States History",
+        "AP Calculus AB",
+        "AP English Language and Composition",
+        "AP Environmental Science",
+        "AP Psychology"
+      ],
+      "links": [
+        { "label": { "en": "Download AP Exam Order Form (Word)", "es": "Descargar Formulario de Exámenes AP (Word)" }, "url": "program-resources/AP-Exam-Order-Form-2026-27.docx" },
+        { "label": { "en": "Open Assessment Payment Form (PDF)", "es": "Abrir Formulario de Pago (PDF)" }, "url": "program-resources/Assessment-Payment-Form.pdf" }
+      ]
+    },
+    {
       "id": "articulation",
       "title": { "en": "Course Articulation: 2026-27 Applications Open", "es": "Articulación de Cursos: Solicitudes 2026-27 Abiertas" },
       "content": {
