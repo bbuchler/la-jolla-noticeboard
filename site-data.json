@@ -69,6 +69,30 @@
     },
     {
       "title": {
+        "en": "Set Up Your School Microsoft 365 Login",
+        "es": "Configura tu Acceso Escolar de Microsoft 365"
+      },
+      "message": {
+        "en": "Your school login now opens Clever, IXL, your learning apps, and school testing. Log in with the temporary password your teacher sent you, create your own password, and save it. Questions? Contact your teacher.",
+        "es": "Tu acceso escolar ahora abre Clever, IXL, tus aplicaciones de aprendizaje y las pruebas escolares. Inicia sesión con la contraseña temporal que te envió tu maestro, crea tu propia contraseña y guárdala. ¿Preguntas? Comunícate con tu maestro."
+      },
+      "icon": "🔑",
+      "theme": "school",
+      "teaser": {
+        "en": "Log in and set your password this week",
+        "es": "Inicia sesión y crea tu contraseña esta semana"
+      },
+      "action": {
+        "label": {
+          "en": "Step-by-Step Login Guide",
+          "es": "Guía de Acceso Paso a Paso"
+        },
+        "url": "student-accounts.html"
+      },
+      "expires": "2026-12-01"
+    },
+    {
+      "title": {
         "en": "Mr. Buchler Out Next Week: October 19-23",
         "es": "Sr. Buchler Ausente la Próxima Semana: 19-23 de Octubre"
       },
@@ -1067,6 +1091,24 @@
       "links": [
         { "label": { "en": "What is AVID?", "es": "Que es AVID?" }, "url": "https://www.avid.org/what-avid-is" },
         { "label": { "en": "AVID at Charter School of San Diego", "es": "AVID en Charter School of San Diego" }, "url": "https://sway.office.com/P2PdghahpH2PEGUi?ref=Link&loc=play" }
+      ],
+      "schedule": null,
+      "location": null,
+      "highlights": []
+    },
+    {
+      "id": "student-accounts",
+      "title": {
+        "en": "Student Microsoft 365 Accounts and Login Help",
+        "es": "Cuentas Estudiantiles de Microsoft 365 y Ayuda de Acceso"
+      },
+      "content": {
+        "en": "Your school Microsoft 365 account is your one login for Clever, IXL, learning apps, and school testing. It also includes Word, Excel, PowerPoint, OneNote, Teams, OneDrive, and Outlook for grades 6-12. Forgot your password? Contact your teacher for a reset.",
+        "es": "Tu cuenta escolar de Microsoft 365 es tu único acceso para Clever, IXL, aplicaciones de aprendizaje y pruebas escolares. También incluye Word, Excel, PowerPoint, OneNote, Teams, OneDrive y Outlook para los grados 6 a 12. ¿Olvidaste tu contraseña? Pide a tu maestro que la restablezca."
+      },
+      "links": [
+        { "label": { "en": "Open the Login Guide", "es": "Abrir la Guía de Acceso" }, "url": "student-accounts.html" },
+        { "label": { "en": "AltusGO Student Portal", "es": "Portal Estudiantil AltusGO" }, "url": "https://altusgo.com" }
       ],
       "schedule": null,
       "location": null,
