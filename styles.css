@@ -508,6 +508,16 @@ h1, h2, h3, h4 {
     }
 }
 
+.bulletin-card-christmas {
+    background: linear-gradient(120deg, #edf8ef 0%, #fff9f0 100%);
+    border-color: #b7d9bd;
+    border-left-color: #b52c3b;
+}
+
+.bulletin-card-christmas .bulletin-title {
+    color: #23643a;
+}
+
 .bulletin-card-compact {
     background: #f7fafc;
     padding: 12px 14px;

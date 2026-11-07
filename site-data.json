@@ -44,6 +44,21 @@
   },
   "bulletins": [
     {
+      "title": { "en": "Classrooms Closed: November 10 & 11", "es": "Salones Cerrados: 10 y 11 de Noviembre" },
+      "message": { "en": "The La Jolla classrooms will be closed Tuesday, November 10 (non-instructional day), and Wednesday, November 11 (Veterans Day). Please plan your on-site visits around these closures.", "es": "Los salones de La Jolla estarán cerrados el martes 10 de noviembre (día no instructivo) y el miércoles 11 de noviembre (Día de los Veteranos). Organiza tus visitas al centro teniendo en cuenta estos cierres." },
+      "icon": "📅",
+      "theme": "alert",
+      "expires": "2026-11-12"
+    },
+    {
+      "title": { "en": "Toys for Tots: Christmas Toy Collection", "es": "Toys for Tots: Colecta Navideña de Juguetes" },
+      "message": { "en": "We're collecting toys for Toys for Tots this Christmas! Bring toy donations to the La Jolla classroom. Thank you for helping make a child's holiday brighter.", "es": "¡Esta Navidad estamos recolectando juguetes para Toys for Tots! Trae tus donaciones de juguetes al salón de La Jolla. Gracias por ayudar a alegrar las fiestas de un niño." },
+      "teaser": { "en": "Bring toy donations to the classroom 🎄", "es": "Trae juguetes para donar al salón 🎄" },
+      "icon": "🎁",
+      "theme": "christmas",
+      "expires": "2026-12-26"
+    },
+    {
       "title": {
         "en": "Spring Dual Enrollment Is Open: Sign Up ASAP",
         "es": "Inscripción Doble de Primavera Abierta: Inscríbete Ya"
