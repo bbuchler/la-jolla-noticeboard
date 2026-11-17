@@ -49,11 +49,11 @@
         "es": "7.º y 11.º Grado: Pruebas de Práctica Antes del 3 de Diciembre"
       },
       "message": {
-        "en": "Every 7th and 11th grader takes two practice tests in Mastery Connect, one in Math and one in ELA. They're a preview of the spring state test and help us plan your prep. You can take them from home. Try to finish at least one before Thanksgiving break.",
-        "es": "Todos los estudiantes de 7.º y 11.º grado toman dos pruebas de práctica en Mastery Connect, una de Matemáticas y una de Inglés. Son un adelanto de la prueba estatal de primavera y nos ayudan a planear tu preparación. Puedes tomarlas desde casa. Intenta terminar al menos una antes de las vacaciones de Acción de Gracias."
+        "en": "Every 7th and 11th grader takes two practice tests in Mastery Connect, one in Math and one in ELA. FIRST: set up your school Microsoft 365 login if you haven't yet. The tests won't open without it. You can test from home. Try to finish at least one before Thanksgiving break.",
+        "es": "Todos los estudiantes de 7.º y 11.º grado toman dos pruebas de práctica en Mastery Connect, una de Matemáticas y una de Inglés. PRIMERO: configura tu acceso escolar de Microsoft 365 si aún no lo has hecho. Las pruebas no se abrirán sin él. Puedes tomarlas desde casa. Intenta terminar al menos una antes de las vacaciones de Acción de Gracias."
       },
       "icon": "📝",
-      "theme": "school",
+      "theme": "alert",
       "teaser": {
         "en": "Math + ELA in Mastery Connect · Due Dec. 3",
         "es": "Matemáticas + Inglés en Mastery Connect · 3 de dic."

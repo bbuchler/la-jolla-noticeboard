@@ -15,6 +15,22 @@
             en: 'Every 7th and 11th grader takes two practice tests in Mastery Connect: one in Math and one in English Language Arts (ELA). You can take them from home. Plan to finish at least one before Thanksgiving break (November 23-27).',
             es: 'Todos los estudiantes de 7.º y 11.º grado toman dos pruebas de práctica en Mastery Connect: una de Matemáticas y una de Artes del Lenguaje en Inglés (ELA). Puedes tomarlas desde casa. Planea terminar al menos una antes de las vacaciones de Acción de Gracias (23 al 27 de noviembre).'
         },
+        loginFirstTitle: { en: '⚠️ Step 1: Set Up Your School Login First', es: '⚠️ Paso 1: Primero Configura tu Acceso Escolar' },
+        loginFirstBody1: {
+            en: "<b>Most students haven't logged in to their new school Microsoft 365 account yet. You can't open the tests until you do.</b>",
+            es: '<b>La mayoría de los estudiantes todavía no han iniciado sesión en su nueva cuenta escolar de Microsoft 365. No podrás abrir las pruebas hasta que lo hagas.</b>'
+        },
+        loginFirstBody2: {
+            en: 'It takes about 5 minutes. Use the username and temporary password your teacher emailed you, create your own password, then come back to this page.',
+            es: 'Toma unos 5 minutos. Usa el nombre de usuario y la contraseña temporal que te envió tu maestro por correo, crea tu propia contraseña y luego regresa a esta página.'
+        },
+        loginFirstBtn: { en: 'Set Up My School Login', es: 'Configurar mi Acceso Escolar' },
+        loginFirstHelp: { en: 'Lost Your Password?', es: '¿Perdiste tu Contraseña?' },
+        step0Title: { en: 'Set up your school login (first time only)', es: 'Configura tu acceso escolar (solo la primera vez)' },
+        step0Body: {
+            en: 'If you\'ve never logged in to your <b>@stu.altusschools.net</b> account, do that first with the <a href="student-accounts.html#first-login">Student Account Login Guide</a>. The tests won\'t open without it.',
+            es: 'Si nunca has iniciado sesión en tu cuenta <b>@stu.altusschools.net</b>, hazlo primero con la <a href="student-accounts.html#first-login">Guía de Acceso para Estudiantes</a>. Las pruebas no se abrirán sin ella.'
+        },
         heroLogin: { en: 'Open the Student Portal', es: 'Abrir el Student Portal' },
         heroSteps: { en: 'Step-by-Step', es: 'Paso a Paso' },
         heroHelp: { en: "Can't Log In?", es: '¿No Puedes Entrar?' },
