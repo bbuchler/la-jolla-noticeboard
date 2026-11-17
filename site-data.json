@@ -44,6 +44,30 @@
   },
   "bulletins": [
     {
+      "title": {
+        "en": "7th & 11th Graders: Practice Tests Due December 3",
+        "es": "7.º y 11.º Grado: Pruebas de Práctica Antes del 3 de Diciembre"
+      },
+      "message": {
+        "en": "Every 7th and 11th grader takes two practice tests in Mastery Connect, one in Math and one in ELA. They're a preview of the spring state test and help us plan your prep. You can take them from home. Try to finish at least one before Thanksgiving break.",
+        "es": "Todos los estudiantes de 7.º y 11.º grado toman dos pruebas de práctica en Mastery Connect, una de Matemáticas y una de Inglés. Son un adelanto de la prueba estatal de primavera y nos ayudan a planear tu preparación. Puedes tomarlas desde casa. Intenta terminar al menos una antes de las vacaciones de Acción de Gracias."
+      },
+      "icon": "📝",
+      "theme": "school",
+      "teaser": {
+        "en": "Math + ELA in Mastery Connect · Due Dec. 3",
+        "es": "Matemáticas + Inglés en Mastery Connect · 3 de dic."
+      },
+      "action": {
+        "label": {
+          "en": "How to Log In and Take the Tests",
+          "es": "Cómo Entrar y Tomar las Pruebas"
+        },
+        "url": "practice-tests.html"
+      },
+      "expires": "2026-12-04"
+    },
+    {
       "title": { "en": "Classrooms Closed: November 10 & 11", "es": "Salones Cerrados: 10 y 11 de Noviembre" },
       "message": { "en": "The La Jolla classrooms will be closed Tuesday, November 10 (non-instructional day), and Wednesday, November 11 (Veterans Day). Please plan your on-site visits around these closures.", "es": "Los salones de La Jolla estarán cerrados el martes 10 de noviembre (día no instructivo) y el miércoles 11 de noviembre (Día de los Veteranos). Organiza tus visitas al centro teniendo en cuenta estos cierres." },
       "icon": "📅",
