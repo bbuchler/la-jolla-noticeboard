@@ -65,7 +65,7 @@
         },
         step2Body: { en: 'AltusGO is the starting page for all of your school accounts.', es: 'AltusGO es la página de inicio para todas tus cuentas escolares.' },
         step3Title: { en: 'Click Microsoft 365 and sign in', es: 'Haz clic en Microsoft 365 e inicia sesión' },
-        step3Body: { en: 'Enter your school email and your temporary password.', es: 'Escribe tu correo escolar y tu contraseña temporal.' },
+        step3Body: { en: 'Enter your school email and your temporary password. You can also sign in at <a href="https://www.office.com" target="_blank" rel="noopener">office.com</a>.', es: 'Escribe tu correo escolar y tu contraseña temporal. También puedes iniciar sesión en <a href="https://www.office.com" target="_blank" rel="noopener">office.com</a>.' },
         step4Title: { en: 'Create your new password', es: 'Crea tu nueva contraseña' },
         step4Body: {
             en: 'Microsoft asks you to change your password the first time you log in. Choose one you will remember and save it somewhere safe. Do not share it with anyone.',

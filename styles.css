@@ -3541,3 +3541,15 @@ h1, h2, h3, h4 {
 .dual-page .course-card,
 .dual-page .ecc-support-services,
 .dual-page .ecc-support-option { min-width: 0; overflow-wrap: anywhere; }
+
+/* Walkthrough screenshots inside step lists */
+.dual-steps .step-shot {
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    margin-top: 10px;
+    border: 1px solid #d5dde8;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}

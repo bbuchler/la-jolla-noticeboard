@@ -79,8 +79,8 @@
         step4Body: { en: "You'll find it with your other learning apps in Clever.", es: 'Lo encontrarás con tus otras aplicaciones de aprendizaje en Clever.' },
         step5Title: { en: 'Choose the test for YOUR grade', es: 'Elige la prueba de TU grado' },
         step5Body: {
-            en: "You'll see tests for other grades too. Pick carefully using the list in <b>Pick Your Test</b> below, then click <b>Start Assessment</b>.",
-            es: 'También verás pruebas de otros grados. Elige con cuidado usando la lista de <b>Elige tu Prueba</b> más abajo y luego haz clic en <b>Start Assessment</b>.'
+            en: "You'll see tests for other grades too. Go by the <b>test name</b> at the top of each box (the \"Class\" line under it may not match your grade). Pick carefully using the list in <b>Pick Your Test</b> below, then click <b>Start Assessment</b>. This example shows the two 11th grade tests.",
+            es: 'También verás pruebas de otros grados. Guíate por el <b>nombre de la prueba</b> en la parte de arriba de cada cuadro (la línea "Class" debajo puede no coincidir con tu grado). Elige con cuidado usando la lista de <b>Elige tu Prueba</b> más abajo y luego haz clic en <b>Start Assessment</b>. Este ejemplo muestra las dos pruebas de 11.º grado.'
         },
         step6Title: { en: "Submit when you're done", es: 'Entrega cuando termines' },
         step6Body: {
