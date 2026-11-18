@@ -105,8 +105,8 @@
         },
         listenTitle: { en: '7th Graders: ELA Listening Section', es: '7.º Grado: Sección de Comprensión Auditiva en Inglés' },
         listenBody: {
-            en: 'The 7th grade ELA test starts with a short listening section that your teacher gives live. Set up a time with your teacher (in person or Zoom) for that part. You can do the rest on your own.',
-            es: 'La prueba de Inglés de 7.º grado empieza con una sección corta de comprensión auditiva que tu maestro da en vivo. Programa una hora con tu maestro (en persona o por Zoom) para esa parte. El resto lo puedes hacer por tu cuenta.'
+            en: 'The 7th grade ELA test starts with a short listening section. Before you begin, open the recording in another tab: <a href="https://drive.google.com/file/d/1cnguKPfemmGJB8I_uWx6ypmAdM-_CR75/view?usp=sharing" target="_blank" rel="noopener"><b>Gr 7 LA Listening Passages (audio)</b></a>. When the test reaches the listening questions, play the passage it asks about. You can pause and replay it as many times as you need. Headphones help.',
+            es: 'La prueba de Inglés de 7.º grado empieza con una sección corta de comprensión auditiva. Antes de empezar, abre la grabación en otra pestaña: <a href="https://drive.google.com/file/d/1cnguKPfemmGJB8I_uWx6ypmAdM-_CR75/view?usp=sharing" target="_blank" rel="noopener"><b>Gr 7 LA Listening Passages (audio)</b></a>. Cuando la prueba llegue a las preguntas de comprensión auditiva, reproduce el pasaje que te pide. Puedes pausarlo y repetirlo las veces que necesites. Los audífonos ayudan.'
         },
         tipsTitle: { en: 'Test Tips', es: 'Consejos para la Prueba' },
         tip1Title: { en: 'Read every direction', es: 'Lee todas las instrucciones' },
