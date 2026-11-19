@@ -923,18 +923,7 @@
           "en": "Interested in the December trip? Contact your teacher for participation, permission, and transportation details as they become available.",
           "es": "¿Te interesa la excursión de diciembre? Contacta a tu maestro para conocer los detalles de participación, permisos y transporte cuando estén disponibles."
         }
-      ],
-      "flyer": {
-        "image": "program-resources/Field-Trips-Learning-Expeditions-2026-27.png",
-        "alt": {
-          "en": "2026-27 Field Trips and Learning Expeditions flyer featuring Halloween at SeaWorld and upcoming Marine Science trips.",
-          "es": "Volante de Excursiones y Expediciones de Aprendizaje 2026-27 con Halloween en SeaWorld y próximas excursiones de Ciencias Marinas."
-        },
-        "caption": {
-          "en": "View the full 2026-27 field-trip flyer",
-          "es": "Ver el volante completo de excursiones 2026-27"
-        }
-      }
+      ]
     },
     {
       "id": "personal-finance",
