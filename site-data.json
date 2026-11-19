@@ -45,8 +45,8 @@
   "bulletins": [
     {
       "title": {"en": "December Field Trips: SDSU & Maritime Museum", "es": "Excursiones de Diciembre: SDSU y Museo Marítimo"},
-      "message": {"en": "Interested in a four-year university? High school students can ask their teacher about the SDSU campus tour on Friday, December 11 at 10:30 AM. Spaces are limited and participation must be confirmed. Also coming in December: Maritime Museum + Harbor Experience with Marine Science. Date and time to come. Tell your teacher if you would like to go!", "es": "¿Te interesa una universidad de cuatro años? Los estudiantes de preparatoria pueden preguntar a su maestro por el recorrido de SDSU el viernes 11 de diciembre a las 10:30 AM. Los cupos son limitados y la participación debe confirmarse. También en diciembre: Museo Marítimo y experiencia en el puerto con Ciencias Marinas. Fecha y hora por confirmar. ¡Dile a tu maestro si te gustaría ir!"},
-      "teaser": {"en": "SDSU Dec. 11 · Maritime Museum in December", "es": "SDSU: 11 dic. · Museo Marítimo en diciembre"},
+      "message": {"en":"SDSU tour: December 11 at 10:30 AM for interested high school students, with limited spaces. Maritime Museum + boat tour: December 18, boat at 11 AM and museum approximately noon-1:30 PM. Maritime is completely free for the first 15 students who sign up. Contact your teacher!","es":"SDSU: 11 de diciembre a las 10:30 AM para estudiantes de preparatoria, con cupos limitados. Museo Marítimo y barco: 18 de diciembre, barco a las 11 AM y museo aproximadamente de 12:00 a 1:30 PM. La excursión marítima es gratuita para los primeros 15 estudiantes que se inscriban. ¡Contacta a tu maestro!"},
+      "teaser": {"en": "SDSU Dec. 11 · Maritime Dec. 18: first 15", "es": "SDSU: 11 dic. · Museo: 18 dic., primeros 15"},
       "icon": "🎓",
       "theme": "school",
       "actions": [
@@ -56,13 +56,13 @@
       "expires": "2026-12-12"
     },
     {
-      "title": {"en": "December: Maritime Museum + Harbor Experience", "es": "Diciembre: Museo Marítimo y Experiencia en el Puerto"},
-      "message": {"en": "Our December Marine Science field trip is coming up! Let your teacher know if you would like to join the Maritime Museum + Harbor Experience. The exact date, time, and permission details are still to come.", "es": "¡Se acerca nuestra excursión de Ciencias Marinas de diciembre! Dile a tu maestro si quieres participar en la visita al Museo Marítimo y la experiencia en el puerto. La fecha exacta, la hora y los detalles del permiso se anunciarán más adelante."},
+      "title": {"en":"Maritime Museum + Boat Tour: December 18","es":"Museo Marítimo y Paseo en Barco: 18 de Diciembre"},
+      "message": {"en":"Friday, December 18: boat tour at 11:00 AM, followed by the Maritime Museum from approximately noon to 1:30 PM. This special museum and boating experience is completely free for students, but only open to the first 15 who sign up. Contact your teacher to sign up and get permission and transportation details.","es":"Viernes 18 de diciembre: paseo en barco a las 11:00 AM, seguido del Museo Marítimo aproximadamente de 12:00 a 1:30 PM. Esta experiencia especial es totalmente gratuita para los estudiantes, pero solo está abierta a los primeros 15 que se inscriban. Contacta a tu maestro para inscribirte y recibir detalles de permisos y transporte."},
       "teaser": {"en": "Interested? Contact your teacher", "es": "¿Te interesa? Contacta a tu maestro"},
       "icon": "⛵",
       "theme": "school",
       "starts": "2026-12-12",
-      "expires": "2027-01-01",
+      "expires": "2026-12-19",
       "action": {"label": {"en": "Marine Science Details", "es": "Detalles de Ciencias Marinas"}, "url": "#marine-science"}
     },
     {
@@ -379,6 +379,7 @@
     }
   },
   "importantDates": [
+    {"date":"2026-12-18","title":{"en":"Maritime Museum + Boat Tour: December 18","es":"Museo Marítimo y Paseo en Barco: 18 de Diciembre"},"type":"activity","badge":"new","icon":"⛵","details":{"description":{"en":"Friday, December 18: boat tour at 11:00 AM, followed by the Maritime Museum from approximately noon to 1:30 PM. This special museum and boating experience is completely free for students, but only open to the first 15 who sign up. Contact your teacher to sign up and get permission and transportation details.","es":"Viernes 18 de diciembre: paseo en barco a las 11:00 AM, seguido del Museo Marítimo aproximadamente de 12:00 a 1:30 PM. Esta experiencia especial es totalmente gratuita para los estudiantes, pero solo está abierta a los primeros 15 que se inscriban. Contacta a tu maestro para inscribirte y recibir detalles de permisos y transporte."}}},
     {
       "date": "2026-08-03",
       "title": { "en": "Mr. Buchler Out Today", "es": "El Sr. Buchler No Esta Hoy" },
@@ -826,6 +827,7 @@
     "es": "El Periodo de Aprendizaje 5 termina el 13 de noviembre y el Periodo de Aprendizaje 6 comienza el 16 de noviembre. La escuela está cerrada el 10 de noviembre por un día no instructivo, el 11 de noviembre por el Día de los Veteranos y del 23 al 27 de noviembre por las vacaciones de Acción de Gracias."
   },
   "fieldTrips": [
+    {"date":"2026-12-18","title":{"en":"Maritime Museum + Boat Tour: December 18","es":"Museo Marítimo y Paseo en Barco: 18 de Diciembre"},"address":"Maritime Museum of San Diego","time":{"en":"December 18: Boat tour 11 AM; museum approximately noon-1:30 PM","es":"18 de diciembre: barco 11 AM; museo aproximadamente 12:00-1:30 PM"},"description":{"en":"Friday, December 18: boat tour at 11:00 AM, followed by the Maritime Museum from approximately noon to 1:30 PM. This special museum and boating experience is completely free for students, but only open to the first 15 who sign up. Contact your teacher to sign up and get permission and transportation details.","es":"Viernes 18 de diciembre: paseo en barco a las 11:00 AM, seguido del Museo Marítimo aproximadamente de 12:00 a 1:30 PM. Esta experiencia especial es totalmente gratuita para los estudiantes, pero solo está abierta a los primeros 15 que se inscriban. Contacta a tu maestro para inscribirte y recibir detalles de permisos y transporte."},"reminders":[{"en":"Confirm permission, meeting point, transportation, and pickup arrangements with your teacher.","es":"Confirma permisos, punto de encuentro, transporte y recogida con tu maestro."}]},
     {
       "date": "2026-12-11",
       "title": {"en": "SDSU Campus Tour", "es": "Recorrido del Campus de SDSU"},
@@ -916,8 +918,8 @@
       "icon": "🌊",
       "details": [
         {
-          "en": "Coming in December: Maritime Museum + Harbor Experience. The exact date and time are still to come.",
-          "es": "En diciembre: Museo Marítimo y experiencia en el puerto. La fecha exacta y la hora se anunciarán más adelante."
+          "en": "Friday, December 18: boat tour at 11:00 AM, followed by the Maritime Museum from approximately noon to 1:30 PM. This special museum and boating experience is completely free for students, but only open to the first 15 who sign up. Contact your teacher to sign up and get permission and transportation details.",
+          "es": "Viernes 18 de diciembre: paseo en barco a las 11:00 AM, seguido del Museo Marítimo aproximadamente de 12:00 a 1:30 PM. Esta experiencia especial es totalmente gratuita para los estudiantes, pero solo está abierta a los primeros 15 que se inscriban. Contacta a tu maestro para inscribirte y recibir detalles de permisos y transporte."
         },
         {
           "en": "Interested in the December trip? Contact your teacher for participation, permission, and transportation details as they become available.",
