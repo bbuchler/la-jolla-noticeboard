@@ -44,35 +44,13 @@
   },
   "bulletins": [
     {
-      "title": {"en": "December Field Trips: SDSU & Maritime Museum", "es": "Excursiones de Diciembre: SDSU y Museo Marítimo"},
-      "message": {"en":"SDSU tour: December 11 at 10:30 AM for interested high school students, with limited spaces. Maritime Museum + boat tour: December 18, boat at 11 AM and museum approximately noon-1:30 PM. Maritime is completely free for the first 15 students who sign up. Contact your teacher!","es":"SDSU: 11 de diciembre a las 10:30 AM para estudiantes de preparatoria, con cupos limitados. Museo Marítimo y barco: 18 de diciembre, barco a las 11 AM y museo aproximadamente de 12:00 a 1:30 PM. La excursión marítima es gratuita para los primeros 15 estudiantes que se inscriban. ¡Contacta a tu maestro!"},
-      "teaser": {"en": "SDSU Dec. 11 · Maritime Dec. 18: first 15", "es": "SDSU: 11 dic. · Museo: 18 dic., primeros 15"},
-      "icon": "🎓",
-      "theme": "school",
-      "actions": [
-        {"label": {"en": "SDSU Tour Details", "es": "Detalles del Recorrido SDSU"}, "url": "#trips"},
-        {"label": {"en": "Maritime Museum Reminder", "es": "Recordatorio del Museo Marítimo"}, "url": "#marine-science"}
-      ],
-      "expires": "2026-12-12"
-    },
-    {
-      "title": {"en":"Maritime Museum + Boat Tour: December 18","es":"Museo Marítimo y Paseo en Barco: 18 de Diciembre"},
-      "message": {"en":"Friday, December 18: boat tour at 11:00 AM, followed by the Maritime Museum from approximately noon to 1:30 PM. This special museum and boating experience is completely free for students, but only open to the first 15 who sign up. Contact your teacher to sign up and get permission and transportation details.","es":"Viernes 18 de diciembre: paseo en barco a las 11:00 AM, seguido del Museo Marítimo aproximadamente de 12:00 a 1:30 PM. Esta experiencia especial es totalmente gratuita para los estudiantes, pero solo está abierta a los primeros 15 que se inscriban. Contacta a tu maestro para inscribirte y recibir detalles de permisos y transporte."},
-      "teaser": {"en": "Interested? Contact your teacher", "es": "¿Te interesa? Contacta a tu maestro"},
-      "icon": "⛵",
-      "theme": "school",
-      "starts": "2026-12-12",
-      "expires": "2026-12-19",
-      "action": {"label": {"en": "Marine Science Details", "es": "Detalles de Ciencias Marinas"}, "url": "#marine-science"}
-    },
-    {
       "title": {
         "en": "7th & 11th Graders: Practice Tests Due December 3",
         "es": "7.º y 11.º Grado: Pruebas de Práctica Antes del 3 de Diciembre"
       },
       "message": {
-        "en": "Every 7th and 11th grader takes two practice tests in Mastery Connect, one in Math and one in ELA. FIRST: set up your school Microsoft 365 login if you haven't yet. The tests won't open without it. You can test from home. Try to finish at least one before Thanksgiving break.",
-        "es": "Todos los estudiantes de 7.º y 11.º grado toman dos pruebas de práctica en Mastery Connect, una de Matemáticas y una de Inglés. PRIMERO: configura tu acceso escolar de Microsoft 365 si aún no lo has hecho. Las pruebas no se abrirán sin él. Puedes tomarlas desde casa. Intenta terminar al menos una antes de las vacaciones de Acción de Gracias."
+        "en": "Math + ELA practice tests are due December 3 for grades 7 and 11. Set up your school Microsoft 365 login first. You can test from home.",
+        "es": "Pruebas de práctica de Matemáticas e Inglés para grados 7 y 11: fecha límite 3 de diciembre. Configura primero tu acceso escolar de Microsoft 365. Puedes hacerlas desde casa."
       },
       "icon": "📝",
       "theme": "alert",
@@ -90,55 +68,107 @@
       "expires": "2026-12-04"
     },
     {
-      "title": { "en": "Classrooms Closed: November 10 & 11", "es": "Salones Cerrados: 10 y 11 de Noviembre" },
-      "message": { "en": "The La Jolla classrooms will be closed Tuesday, November 10 (non-instructional day), and Wednesday, November 11 (Veterans Day). Please plan your on-site visits around these closures.", "es": "Los salones de La Jolla estarán cerrados el martes 10 de noviembre (día no instructivo) y el miércoles 11 de noviembre (Día de los Veteranos). Organiza tus visitas al centro teniendo en cuenta estos cierres." },
+      "title": {
+        "en": "December Field Trips: SDSU & Maritime Museum",
+        "es": "Excursiones de Diciembre: SDSU y Museo Marítimo"
+      },
+      "message": {
+        "en": "SDSU: Dec. 11, 10:30 AM. Maritime Museum + boat tour: Dec. 18, 11 AM to about 1:30 PM. Maritime is free for the first 15 signups. Ask your teacher to join.",
+        "es": "SDSU: 11 dic., 10:30 AM. Museo Marítimo y barco: 18 dic., 11 AM a aprox. 1:30 PM. Museo gratis para los primeros 15 inscritos. Contacta a tu maestro."
+      },
+      "teaser": {
+        "en": "SDSU Dec. 11 · Maritime Dec. 18: first 15",
+        "es": "SDSU: 11 dic. · Museo: 18 dic., primeros 15"
+      },
+      "icon": "🎓",
+      "theme": "trips",
+      "actions": [
+        {
+          "label": {
+            "en": "SDSU Tour Details",
+            "es": "Detalles del Recorrido SDSU"
+          },
+          "url": "#trips"
+        },
+        {
+          "label": {
+            "en": "Maritime Museum Reminder",
+            "es": "Recordatorio del Museo Marítimo"
+          },
+          "url": "#marine-science"
+        }
+      ],
+      "expires": "2026-12-12",
+      "compact": true
+    },
+    {
+      "title": {
+        "en": "Maritime Museum + Boat Tour: December 18",
+        "es": "Museo Marítimo y Paseo en Barco: 18 de Diciembre"
+      },
+      "message": {
+        "en": "Friday, December 18: boat tour at 11:00 AM, followed by the Maritime Museum from approximately noon to 1:30 PM. This special museum and boating experience is completely free for students, but only open to the first 15 who sign up. Contact your teacher to sign up and get permission and transportation details.",
+        "es": "Viernes 18 de diciembre: paseo en barco a las 11:00 AM, seguido del Museo Marítimo aproximadamente de 12:00 a 1:30 PM. Esta experiencia especial es totalmente gratuita para los estudiantes, pero solo está abierta a los primeros 15 que se inscriban. Contacta a tu maestro para inscribirte y recibir detalles de permisos y transporte."
+      },
+      "teaser": {
+        "en": "Interested? Contact your teacher",
+        "es": "¿Te interesa? Contacta a tu maestro"
+      },
+      "icon": "⛵",
+      "theme": "trips",
+      "starts": "2026-12-12",
+      "expires": "2026-12-19",
+      "action": {
+        "label": {
+          "en": "Marine Science Details",
+          "es": "Detalles de Ciencias Marinas"
+        },
+        "url": "#marine-science"
+      },
+      "compact": true
+    },
+    {
+      "title": {
+        "en": "Classrooms Closed: November 10 & 11",
+        "es": "Salones Cerrados: 10 y 11 de Noviembre"
+      },
+      "message": {
+        "en": "The La Jolla classrooms will be closed Tuesday, November 10 (non-instructional day), and Wednesday, November 11 (Veterans Day). Please plan your on-site visits around these closures.",
+        "es": "Los salones de La Jolla estarán cerrados el martes 10 de noviembre (día no instructivo) y el miércoles 11 de noviembre (Día de los Veteranos). Organiza tus visitas al centro teniendo en cuenta estos cierres."
+      },
       "icon": "📅",
       "theme": "alert",
       "expires": "2026-11-12"
     },
     {
-      "title": { "en": "Toys for Tots: Christmas Toy Collection", "es": "Toys for Tots: Colecta Navideña de Juguetes" },
-      "message": { "en": "We're collecting toys for Toys for Tots this Christmas! Bring toy donations to the La Jolla classroom. Thank you for helping make a child's holiday brighter.", "es": "¡Esta Navidad estamos recolectando juguetes para Toys for Tots! Trae tus donaciones de juguetes al salón de La Jolla. Gracias por ayudar a alegrar las fiestas de un niño." },
-      "teaser": { "en": "Bring toy donations to the classroom 🎄", "es": "Trae juguetes para donar al salón 🎄" },
+      "title": {
+        "en": "Toys for Tots: Christmas Toy Collection",
+        "es": "Toys for Tots: Colecta Navideña de Juguetes"
+      },
+      "message": {
+        "en": "Bring toy donations to the La Jolla classroom for Toys for Tots. Thank you for helping brighten a child's Christmas!",
+        "es": "Trae juguetes al salón de La Jolla para Toys for Tots. ¡Gracias por alegrar la Navidad de un niño!"
+      },
+      "teaser": {
+        "en": "Bring toy donations to the classroom 🎄",
+        "es": "Trae juguetes para donar al salón 🎄"
+      },
       "icon": "🎁",
       "theme": "christmas",
-      "expires": "2026-12-26"
+      "expires": "2026-12-26",
+      "compact": true
     },
     {
       "title": {
-        "en": "Spring Dual Enrollment Is Open: Sign Up ASAP",
-        "es": "Inscripción Doble de Primavera Abierta: Inscríbete Ya"
+        "en": "School Login: Need Help?",
+        "es": "Acceso Escolar: ¿Necesitas Ayuda?"
       },
       "message": {
-        "en": "The Spring 2027 signup window is open. Sign up ASAP, especially if you missed out this fall. Choose online courses at City or Miramar. Personal Growth is our first recommendation; English counts for a full high school year.",
-        "es": "La inscripción para primavera de 2027 está abierta. Inscríbete cuanto antes, especialmente si no pudiste este otoño. Elige cursos en línea en City o Miramar. Recomendamos primero Crecimiento Personal; Inglés cuenta como un año completo de preparatoria."
-      },
-      "icon": "🎓",
-      "theme": "school",
-      "teaser": {
-        "en": "City College online courses · Start signup now",
-        "es": "Cursos en línea de City College · Inscríbete ahora"
-      },
-      "action": {
-        "label": {
-          "en": "Spring Courses & Signup Help",
-          "es": "Cursos de Primavera y Ayuda"
-        },
-        "url": "dual-enrollment.html"
-      },
-      "expires": "2027-02-01"
-    },
-    {
-      "title": {
-        "en": "Set Up Your School Microsoft 365 Login",
-        "es": "Configura tu Acceso Escolar de Microsoft 365"
-      },
-      "message": {
-        "en": "Your school login now opens Clever, IXL, your learning apps, and school testing. Log in with the temporary password your teacher sent you, create your own password, and save it. Questions? Contact your teacher.",
-        "es": "Tu acceso escolar ahora abre Clever, IXL, tus aplicaciones de aprendizaje y las pruebas escolares. Inicia sesión con la contraseña temporal que te envió tu maestro, crea tu propia contraseña y guárdala. ¿Preguntas? Comunícate con tu maestro."
+        "en": "Set up your Microsoft 365 password to access school apps and testing.",
+        "es": "Configura tu contraseña de Microsoft 365 para acceder a las aplicaciones y pruebas escolares."
       },
       "icon": "🔑",
-      "theme": "school",
+      "theme": "login",
       "teaser": {
         "en": "Log in and set your password this week",
         "es": "Inicia sesión y crea tu contraseña esta semana"
@@ -150,7 +180,8 @@
         },
         "url": "student-accounts.html"
       },
-      "expires": "2026-12-01"
+      "expires": "2026-12-01",
+      "compact": true
     },
     {
       "title": {
@@ -176,39 +207,6 @@
     },
     {
       "title": {
-        "en": "LCAP Surveys: We Need Your Feedback",
-        "es": "Encuestas LCAP: Necesitamos Tu Opinión"
-      },
-      "message": {
-        "en": "Students and parents or guardians should each complete their own short survey. Tell us what is going well and what CSSD can improve. Please select Baptiste Buchler as your teacher when asked.",
-        "es": "Los estudiantes y los padres o tutores deben completar su propia encuesta breve. Dinos qué está funcionando bien y qué puede mejorar CSSD. Selecciona a Baptiste Buchler como tu maestro cuando se te pregunte."
-      },
-      "icon": "📊",
-      "theme": "school",
-      "teaser": {
-        "en": "Students and families: complete your survey today",
-        "es": "Estudiantes y familias: completen su encuesta hoy"
-      },
-      "actions": [
-        {
-          "label": {
-            "en": "Student Survey",
-            "es": "Encuesta para Estudiantes"
-          },
-          "url": "https://www.surveymonkey.com/r/ZDR55CY"
-        },
-        {
-          "label": {
-            "en": "Parent/Guardian Survey",
-            "es": "Encuesta para Padres/Tutores"
-          },
-          "url": "https://www.surveymonkey.com/r/ZW8X2CT"
-        }
-      ],
-      "compact": true
-    },
-    {
-      "title": {
         "en": "Marine Science: SeaWorld Field Trip!",
         "es": "Ciencias Marinas: ¡Excursión a SeaWorld!"
       },
@@ -219,7 +217,10 @@
       "icon": "🐋",
       "theme": "school",
       "featured": true,
-      "teaser": { "en": "Oct 29 SeaWorld · Drop-off by 10 AM", "es": "29 oct. SeaWorld · Llegada antes de las 10 AM" },
+      "teaser": {
+        "en": "Oct 29 SeaWorld · Drop-off by 10 AM",
+        "es": "29 oct. SeaWorld · Llegada antes de las 10 AM"
+      },
       "actions": [
         {
           "label": {

@@ -67,7 +67,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20261119-5', { cache: 'no-cache' });
+            const response = await fetch('site-data.json?v=20261119-6', { cache: 'no-cache' });
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -193,6 +193,7 @@
         document.getElementById('bulletinHeading').textContent = t(siteData.bulletinHeader.title);
         document.getElementById('bulletinIntro').textContent = t(siteData.bulletinHeader.subtitle);
         card.hidden = false;
+        card.classList.toggle('bulletin-list-four', activeBulletins.length === 4);
         card.innerHTML = activeBulletins.map(function (b) {
             var titleHtml = b.title ? '<h3 class="bulletin-title">' + t(b.title) + '</h3>' : '';
             var themeClass = b.theme ? ' bulletin-card-' + b.theme : '';

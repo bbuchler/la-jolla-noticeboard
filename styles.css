@@ -519,9 +519,24 @@ h1, h2, h3, h4 {
 }
 
 .bulletin-card-compact {
-    background: #f7fafc;
     padding: 12px 14px;
 }
+
+.bulletin-card-trips {
+    background: #fff7e8;
+    border-color: #eed7a8;
+    border-left-color: #d79a17;
+}
+
+.bulletin-card-trips .bulletin-title { color: #77500a; }
+
+.bulletin-card-login {
+    background: #f5f0ff;
+    border-color: #d9caee;
+    border-left-color: #8b65b3;
+}
+
+.bulletin-card-login .bulletin-title { color: #62418a; }
 
 .bulletin-card-compact .bulletin-icon {
     font-size: 1.25rem;
@@ -662,6 +677,10 @@ h1, h2, h3, h4 {
 }
 
 @media (min-width: 1100px) {
+    .bulletin-list-four .bulletin-card {
+        flex-basis: calc(50% - 5px);
+    }
+
     .bulletin-card {
         flex-basis: calc(33.333% - 7px);
     }
