@@ -67,7 +67,7 @@
 
     async function loadData() {
         try {
-            const response = await fetch('site-data.json?v=20261119-4');
+            const response = await fetch('site-data.json?v=20261119-5', { cache: 'no-cache' });
             siteData = await response.json();
             renderAll();
         } catch (err) {
@@ -360,7 +360,9 @@
 
         // Date cards
         var container = document.getElementById('importantDatesList');
-        container.innerHTML = siteData.importantDates.filter(isEventCurrentlyVisible).map(function (evt) {
+        container.innerHTML = siteData.importantDates.filter(isEventCurrentlyVisible).sort(function (a, b) {
+            return a.date.localeCompare(b.date);
+        }).map(function (evt) {
             var parts = parseDateParts(evt.date);
             var past = isPast(evt.date);
             var badgeHtml = '';
@@ -469,7 +471,9 @@
 
     function renderFieldTrips() {
         var container = document.getElementById('fieldTripsList');
-        var upcomingTrips = (siteData.fieldTrips || []).filter(isEventCurrentlyVisible);
+        var upcomingTrips = (siteData.fieldTrips || []).filter(isEventCurrentlyVisible).sort(function (a, b) {
+            return a.date.localeCompare(b.date);
+        });
 
         // Show recap if no upcoming trips
         if (upcomingTrips.length === 0) {
@@ -507,11 +511,11 @@
             return '<div class="field-trip-card">' +
                 '<div class="field-trip-header">' +
                 '<h3>' + t(trip.title) + '</h3>' +
-                '<div class="field-trip-date">' + formatDate(trip.date) + '</div>' +
+                '<div class="field-trip-date"><strong>' + formatDate(trip.date) + '</strong></div>' +
                 '</div>' +
                 '<div class="field-trip-body">' +
                 '<div class="field-trip-detail"><span class="field-trip-detail-icon">&#128205;</span><span>' + trip.address + '</span></div>' +
-                '<div class="field-trip-detail"><span class="field-trip-detail-icon">&#128336;</span><span>' + t(trip.time) + '</span></div>' +
+                '<div class="field-trip-detail"><span class="field-trip-detail-icon">&#128336;</span><strong>' + t(trip.time) + '</strong></div>' +
                 '<div class="field-trip-detail"><span class="field-trip-detail-icon">&#128196;</span><span>' + t(trip.description) + '</span></div>' +
                 tripActionsHtml +
                 remindersHtml +
