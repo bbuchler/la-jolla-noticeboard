@@ -44,6 +44,28 @@
   },
   "bulletins": [
     {
+      "title": {"en": "December Field Trips: SDSU & Maritime Museum", "es": "Excursiones de Diciembre: SDSU y Museo Marítimo"},
+      "message": {"en": "Interested in a four-year university? High school students can ask their teacher about the SDSU campus tour on Friday, December 11 at 10:30 AM. Spaces are limited and participation must be confirmed. Also coming in December: Maritime Museum + Harbor Experience with Marine Science. Date and time to come. Tell your teacher if you would like to go!", "es": "¿Te interesa una universidad de cuatro años? Los estudiantes de preparatoria pueden preguntar a su maestro por el recorrido de SDSU el viernes 11 de diciembre a las 10:30 AM. Los cupos son limitados y la participación debe confirmarse. También en diciembre: Museo Marítimo y experiencia en el puerto con Ciencias Marinas. Fecha y hora por confirmar. ¡Dile a tu maestro si te gustaría ir!"},
+      "teaser": {"en": "SDSU Dec. 11 · Maritime Museum in December", "es": "SDSU: 11 dic. · Museo Marítimo en diciembre"},
+      "icon": "🎓",
+      "theme": "school",
+      "actions": [
+        {"label": {"en": "SDSU Tour Details", "es": "Detalles del Recorrido SDSU"}, "url": "#trips"},
+        {"label": {"en": "Maritime Museum Reminder", "es": "Recordatorio del Museo Marítimo"}, "url": "#marine-science"}
+      ],
+      "expires": "2026-12-12"
+    },
+    {
+      "title": {"en": "December: Maritime Museum + Harbor Experience", "es": "Diciembre: Museo Marítimo y Experiencia en el Puerto"},
+      "message": {"en": "Our December Marine Science field trip is coming up! Let your teacher know if you would like to join the Maritime Museum + Harbor Experience. The exact date, time, and permission details are still to come.", "es": "¡Se acerca nuestra excursión de Ciencias Marinas de diciembre! Dile a tu maestro si quieres participar en la visita al Museo Marítimo y la experiencia en el puerto. La fecha exacta, la hora y los detalles del permiso se anunciarán más adelante."},
+      "teaser": {"en": "Interested? Contact your teacher", "es": "¿Te interesa? Contacta a tu maestro"},
+      "icon": "⛵",
+      "theme": "school",
+      "starts": "2026-12-12",
+      "expires": "2027-01-01",
+      "action": {"label": {"en": "Marine Science Details", "es": "Detalles de Ciencias Marinas"}, "url": "#marine-science"}
+    },
+    {
       "title": {
         "en": "7th & 11th Graders: Practice Tests Due December 3",
         "es": "7.º y 11.º Grado: Pruebas de Práctica Antes del 3 de Diciembre"
@@ -670,6 +692,18 @@
       "title": { "en": "School Closed: Thanksgiving Break, November 23-27", "es": "Escuela Cerrada: Vacaciones de Acción de Gracias, 23-27 de noviembre" },
       "type": "closed",
       "badge": null
+    },
+    {
+      "date": "2026-12-11",
+      "title": {"en": "SDSU Campus Tour: 10:30 AM", "es": "Recorrido del Campus de SDSU: 10:30 AM"},
+      "type": "activity",
+      "badge": "new",
+      "icon": "🎓",
+      "details": {
+        "description": {"en": "High school students interested in a four-year university: ask your teacher about joining this 45-minute guided SDSU tour. Spaces are limited and your teacher must confirm participation and provide a permission slip.", "es": "Estudiantes de preparatoria interesados en una universidad de cuatro años: pregunten a su maestro por este recorrido guiado de SDSU de 45 minutos. Los cupos son limitados y su maestro debe confirmar la participación y proporcionar un permiso."},
+        "facts": [{"label": {"en": "Check-in", "es": "Registro"}, "value": {"en": "Arrive 5-10 minutes before 10:30 AM at the Prospective Student Center, at the base of the clock tower.", "es": "Llega 5-10 minutos antes de las 10:30 AM al Prospective Student Center, al pie de la torre del reloj."}}],
+        "note": {"en": "Contact your teacher for transportation, pickup, and permission details. Signing up is subject to available space.", "es": "Contacta a tu maestro para detalles de transporte, recogida y permisos. La inscripción está sujeta a disponibilidad."}
+      }
     }
   ],
   "caaspp": null,
@@ -793,6 +827,18 @@
   },
   "fieldTrips": [
     {
+      "date": "2026-12-11",
+      "title": {"en": "SDSU Campus Tour", "es": "Recorrido del Campus de SDSU"},
+      "address": "San Diego State University: Prospective Student Center, Student Services West (clock tower)",
+      "time": {"en": "Friday, December 11: 10:30 AM guided tour (45 minutes). Arrive 5-10 minutes early for check-in.", "es": "Viernes 11 de diciembre: recorrido guiado a las 10:30 AM (45 minutos). Llega 5-10 minutos antes para registrarte."},
+      "description": {"en": "Explore SDSU with other West Region students. This tour is for high school students interested in attending a four-year university. Contact your teacher if you would like to go. Spaces are limited, and expressing interest does not guarantee a spot.", "es": "Explora SDSU con otros estudiantes de la Región Oeste. Este recorrido es para estudiantes de preparatoria interesados en asistir a una universidad de cuatro años. Contacta a tu maestro si quieres ir. Los cupos son limitados y expresar interés no garantiza un lugar."},
+      "reminders": [
+        {"en": "Ask your teacher to confirm your spot and provide the permission slip before making plans to attend.", "es": "Pide a tu maestro que confirme tu lugar y te proporcione el permiso antes de hacer planes para asistir."},
+        {"en": "Confirm transportation and pickup arrangements with your teacher. The 10:30 AM time is the campus tour start, not a Resource Center departure time.", "es": "Confirma el transporte y la recogida con tu maestro. Las 10:30 AM es la hora de inicio del recorrido, no la hora de salida del centro."},
+        {"en": "SDSU's designated passenger drop-off/pickup zone is across from the Gateway Center: 5245 Campanile Mall Dr, San Diego, CA 92115. Check in at the Prospective Student Center at the base of the clock tower.", "es": "La zona designada para dejar y recoger pasajeros está frente al Gateway Center: 5245 Campanile Mall Dr, San Diego, CA 92115. Regístrate en el Prospective Student Center, al pie de la torre del reloj."}
+      ]
+    },
+    {
       "date": "2026-10-29",
       "title": { "en": "Marine Science Explorer: SeaWorld San Diego", "es": "Exploradores de Ciencias Marinas: SeaWorld San Diego" },
       "address": "SeaWorld San Diego, 500 Sea World Dr, San Diego, CA 92109",
@@ -870,12 +916,12 @@
       "icon": "🌊",
       "details": [
         {
-          "en": "Animal Rescue activity: Thursday, October 22, 2026, 11 a.m. - 12 p.m.",
-          "es": "Actividad de rescate de animales: jueves 22 de octubre de 2026, 11 a.m. - 12 p.m."
+          "en": "Coming in December: Maritime Museum + Harbor Experience. The exact date and time are still to come.",
+          "es": "En diciembre: Museo Marítimo y experiencia en el puerto. La fecha exacta y la hora se anunciarán más adelante."
         },
         {
-          "en": "SeaWorld field trip: Thursday, October 29, 2026. Drop off your student by 10:00 a.m. and pick them up at 2:00 p.m. A signed permission slip is required.",
-          "es": "Excursión a SeaWorld: jueves 29 de octubre de 2026. Deja a tu estudiante antes de las 10:00 a.m. y recógelo a las 2:00 p.m. Se requiere un permiso firmado."
+          "en": "Interested in the December trip? Contact your teacher for participation, permission, and transportation details as they become available.",
+          "es": "¿Te interesa la excursión de diciembre? Contacta a tu maestro para conocer los detalles de participación, permisos y transporte cuando estén disponibles."
         }
       ],
       "flyer": {
