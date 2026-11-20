@@ -874,6 +874,7 @@
           "en": "Contact your teacher for transportation, pickup, and permission details. Signing up is subject to available space.",
           "es": "Contacta a tu maestro para detalles de transporte, recogida y permisos. La inscripción está sujeta a disponibilidad."
         },
+        "actions": [{"label": {"en": "Open SDSU Permission Slip", "es": "Abrir Permiso para SDSU"}, "url": "https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:e37d58c0-eb13-4787-9405-f92b6e7c6982", "primary": true}],
         "image": "program-resources/SDSU-Campus-Tour-2026-12-11.png",
         "imageAlt": {
           "en": "SDSU campus tour, December 11 at 10:30 AM. Limited spaces for high school students. Contact your teacher to sign up.",
@@ -1091,6 +1092,7 @@
         "en": "SDSU Campus Tour",
         "es": "Recorrido del Campus de SDSU"
       },
+      "permissionSlip": {"label": {"en": "Open SDSU Permission Slip", "es": "Abrir Permiso para SDSU"}, "url": "https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:e37d58c0-eb13-4787-9405-f92b6e7c6982"},
       "address": "San Diego State University: Prospective Student Center, Student Services West (clock tower)",
       "time": {
         "en": "Friday, December 11: 10:30 AM guided tour (45 minutes). Arrive 5-10 minutes early for check-in.",
