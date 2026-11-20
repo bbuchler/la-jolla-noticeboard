@@ -896,6 +896,7 @@
           "en": "Friday, December 18: boat tour at 11:00 AM, followed by the Maritime Museum from approximately noon to 1:30 PM. This special museum and boating experience is completely free for students, but only open to the first 15 who sign up. Contact your teacher to sign up and get permission and transportation details.",
           "es": "Viernes 18 de diciembre: paseo en barco a las 11:00 AM, seguido del Museo Marítimo aproximadamente de 12:00 a 1:30 PM. Esta experiencia especial es totalmente gratuita para los estudiantes, pero solo está abierta a los primeros 15 que se inscriban. Contacta a tu maestro para inscribirte y recibir detalles de permisos y transporte."
         },
+        "actions": [{"label": {"en": "Open Maritime Museum Permission Slip", "es": "Abrir Permiso del Museo Marítimo"}, "url": "https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:e7aa3574-344e-499f-8f2d-cb6c57bf0922", "primary": true}],
         "image": "program-resources/Maritime-Museum-2026-12-18.png",
         "imageAlt": {
           "en": "Maritime Museum and boat tour, December 18: boat at 11 AM, museum approximately noon to 1:30 PM. Free for the first 15 students who sign up.",
@@ -1134,6 +1135,7 @@
         "en": "Maritime Museum + Boat Tour: December 18",
         "es": "Museo Marítimo y Paseo en Barco: 18 de Diciembre"
       },
+      "permissionSlip": {"label": {"en": "Open Maritime Museum Permission Slip", "es": "Abrir Permiso del Museo Marítimo"}, "url": "https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:e7aa3574-344e-499f-8f2d-cb6c57bf0922"},
       "address": "Maritime Museum of San Diego",
       "time": {
         "en": "December 18: Boat tour 11 AM; museum approximately noon-1:30 PM",
